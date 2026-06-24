@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-24T18:27:17.247400+00:00",
+  "updated_at": "2026-06-24T20:27:45.779562+00:00",
   "data": [
     {
       "tx_id": 18661.0,
@@ -178,8 +178,8 @@
       "maturity_date": "2026-05-26",
       "jours_retard": 29.0,
       "statut": "PENDING",
-      "montant_paye": 25000.0,
-      "montant_restant": 25000.0,
+      "montant_paye": 35000.0,
+      "montant_restant": 15000.0,
       "latitude": 5.2826197,
       "longitude": -3.9480851,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/5ad73057fac0fdc3e24165b5909331c7.jpg",
@@ -1184,57 +1184,6 @@
       ]
     },
     {
-      "tx_id": 19623.0,
-      "merchant_id": 2404.0,
-      "merchant_name": "KOUAKOU AMAH MIREILLE",
-      "district": "Port-Bouët",
-      "phone": "+2250141070820",
-      "supplier_name": "Dépôt ELLE ANANI",
-      "montant": 110000.0,
-      "date_achat": "2026-05-29",
-      "maturity_date": "2026-06-05",
-      "jours_retard": 19.0,
-      "statut": "PENDING",
-      "montant_paye": 34000.0,
-      "montant_restant": 76000.0,
-      "latitude": 5.2460772,
-      "longitude": -3.8965586,
-      "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/b9eaeb89906cde4f1ebe766290c54c60.jpg",
-      "nb_tx_historique": 5.0,
-      "comments": [
-        {
-          "date": "2026-06-23",
-          "type": "GENERIC_COMMENT",
-          "content": "Elle va faire le paiement au plus tard demain 24/06/26",
-          "author": "Yannick"
-        },
-        {
-          "date": "2026-06-22",
-          "type": "COURIER",
-          "content": "Date affichée : 2026-06-22 | Commune : Port-Bouët | Lieu : Gonzague terre rouge,Carrefour Caroline, hotel porto | Montant total : 92750 | Avance : 110000 | Frais transaction : 4500 | Frais retard : 12250 | Montant payé : 34000",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-17",
-          "type": "COURIER",
-          "content": "Date affichée : 2026-06-17 | Commune : Port-Bouët | Lieu : Gonzague terre rouge,Carrefour Caroline, hotel porto | Montant total : 91350 | Avance : 110000 | Frais transaction : 4500 | Frais retard : 10850 | Montant payé : 34000",
-          "author": "KoneMasse"
-        },
-        {
-          "date": "2026-06-15",
-          "type": "COURIER",
-          "content": "Date affichée : 2026-06-15 | Commune : Port-Bouët | Lieu : Gonzague terre rouge,Carrefour Caroline, hotel porto | Montant total : 89950 | Avance : 110000 | Frais transaction : 4500 | Frais retard : 9450 | Montant payé : 34000",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-08",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : je vais faire un versement",
-          "author": "evinne"
-        }
-      ]
-    },
-    {
       "tx_id": 19732.0,
       "merchant_id": 2494.0,
       "merchant_name": "ALLANGBA ORIANNE CHARLY",
@@ -1581,51 +1530,6 @@
           "date": "2026-06-11",
           "type": "GENERIC_COMMENT",
           "content": "Appel (Sortant) : il raccroche mes appels et me laisse un message disant qu'il est occupée et qu'il me rappelle",
-          "author": "KoneMasse"
-        }
-      ]
-    },
-    {
-      "tx_id": 19940.0,
-      "merchant_id": 2574.0,
-      "merchant_name": "KRA AFFOUA CHARLOTTE",
-      "district": "Koumassi",
-      "phone": "+2250749215438",
-      "supplier_name": "Sd sayore Sowetho ",
-      "montant": 50000.0,
-      "date_achat": "2026-06-03",
-      "maturity_date": "2026-06-10",
-      "jours_retard": 14.0,
-      "statut": "PENDING",
-      "montant_paye": 40000.0,
-      "montant_restant": 10000.0,
-      "latitude": 5.2822148,
-      "longitude": -3.9464037,
-      "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/72dee01a3273a7ab4c12f59f976419c4.jpg",
-      "nb_tx_historique": 5.0,
-      "comments": [
-        {
-          "date": "2026-06-22",
-          "type": "COURIER",
-          "content": "Date affichée : 2026-06-22 | Commune : Koumassi | Lieu : Soweto, carrefour chien | Montant total : 15700 | Avance : 50000 | Frais transaction : 1500 | Frais retard : 4200 | Montant payé : 40000",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-18",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : a fait un versement aujourdhui",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-12",
-          "type": "GENERIC_COMMENT",
-          "content": "Message (Entrant) [Recouvrement] : commercial:Elle dit de l'excuser qu'elle va payer d'ici dimanche",
-          "author": "KoneMasse"
-        },
-        {
-          "date": "2026-06-11",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) : elle fera le paiement ce soir",
           "author": "KoneMasse"
         }
       ]
@@ -2034,8 +1938,8 @@
       "statut": "PENDING",
       "montant_paye": 30000.0,
       "montant_restant": 62350.0,
-      "latitude": 5.2804938,
-      "longitude": -3.9471634,
+      "latitude": 5.2804491,
+      "longitude": -3.9469509,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/07694c7c9afa90392a4d9e3b7aeec68e.jpg",
       "nb_tx_historique": 5.0,
       "comments": [

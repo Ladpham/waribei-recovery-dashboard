@@ -5,7 +5,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <title>Waribei Recouvrement</title>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/npm/bcryptjs@2.4.3/dist/bcrypt.min.js"></script>
 <style>
 * { box-sizing: border-box; margin: 0; padding: 0; }
 :root {
@@ -147,7 +146,9 @@ async function login() {
     const found = cfg.agents.find(a => a.username === username);
     if (!found) { showErr('Identifiant inconnu.'); return; }
 
-    const ok = await bcrypt.compare(password, found.hash);
+    const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(password));
+    const hex = Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2,'0')).join('');
+    const ok = hex === found.hash;
     if (!ok) { showErr('Mot de passe incorrect.'); return; }
 
     sessionStorage.setItem('wr_agent', JSON.stringify({ id: found.id, display: found.display, username: found.username }));

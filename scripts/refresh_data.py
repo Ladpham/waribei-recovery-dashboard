@@ -36,8 +36,9 @@ def main():
     conn = psycopg2.connect(**DB)
 
     # ── 1. Config auth ────────────────────────────────────────────────────
-    # Mot de passe partagé "waribei2026!" — hash bcrypt généré côté script
-    SHARED_HASH = "$2b$12$1QPOgddVZG1Rh/KdJnmwIuM6Vr1Un4zQKtrfIKoapYDhwH9zeGTlK"
+    # Mot de passe partagé "waribei2026!" — SHA-256 (Web Crypto natif, pas de CDN)
+    import hashlib
+    SHARED_HASH = hashlib.sha256(b"waribei2026!").hexdigest()
     agents = q(conn, """
         SELECT id, name, "displayName"
         FROM "Client"

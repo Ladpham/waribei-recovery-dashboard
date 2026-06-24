@@ -148,7 +148,6 @@
       });
 
       const payload = {
-        channel: '#general',
         blocks: [
           {
             type: 'section',

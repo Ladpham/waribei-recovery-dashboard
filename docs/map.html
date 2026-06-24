@@ -84,7 +84,7 @@ const agent = JSON.parse(sessionStorage.getItem('wr_agent') || 'null');
 if (!agent) { window.location.href = 'index.html'; }
 function logout() { sessionStorage.removeItem('wr_agent'); window.location.href = 'index.html'; }
 
-const WARIPORTAIL_URL = id => `https://wariportail.waribei.com/merchant/${id}`;
+const WARIPORTAIL_URL = txId => `https://wariportal.waribei.africa/transactions/${txId}`;
 const fmt = n => new Intl.NumberFormat('fr-FR').format(Math.round(n || 0));
 
 function colorByDelay(days) {
@@ -136,7 +136,7 @@ async function load() {
       <div class="popup-row">Retard : <b style="color:${color}">J+${tx.jours_retard}</b></div>
       <div class="popup-btns">
         <a href="${gpsHref}" target="_blank" class="popup-btn popup-btn-nav">🗺️ Y aller</a>
-        <a href="${WARIPORTAIL_URL(tx.merchant_id)}" target="_blank" class="popup-btn popup-btn-port">🔗 Portail</a>
+        <a href="${WARIPORTAIL_URL(tx.tx_id)}" target="_blank" class="popup-btn popup-btn-port">🔗 Portail</a>
       </div>`;
 
     L.marker([tx.latitude, tx.longitude], { icon: circleIcon(color) })

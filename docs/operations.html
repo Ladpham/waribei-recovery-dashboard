@@ -138,9 +138,8 @@ function logout() {
 }
 
 // ── Wariportail deep-link (remplace ce template par le vrai lien) ───────
-const WARIPORTAIL_URL = (merchantId) =>
-  `https://wariportail.waribei.com/merchant/${merchantId}`;
-// TODO: remplacer par le vrai pattern de lien dynamique quand vous l'aurez
+const WARIPORTAIL_URL = (txId) =>
+  `https://wariportal.waribei.africa/transactions/${txId}`;
 
 // ── Helpers ────────────────────────────────────────────────────────────
 const fmt = n => new Intl.NumberFormat('fr-FR').format(Math.round(n || 0));
@@ -184,7 +183,7 @@ function renderCard(tx) {
       </div>
     </div>
     <div class="card-actions">
-      <a href="${WARIPORTAIL_URL(tx.merchant_id)}" target="_blank" class="btn btn-primary">
+      <a href="${WARIPORTAIL_URL(tx.tx_id)}" target="_blank" class="btn btn-primary">
         🔗 Wariportail
       </a>
       ${gpsHref

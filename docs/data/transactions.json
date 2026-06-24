@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-24T20:27:45.779562+00:00",
+  "updated_at": "2026-06-24T22:07:47.430299+00:00",
   "data": [
     {
       "tx_id": 18661.0,
@@ -585,8 +585,8 @@
       "statut": "PENDING",
       "montant_paye": 145400.0,
       "montant_restant": 54600.0,
-      "latitude": 5.3454205,
-      "longitude": -4.1122976,
+      "latitude": 5.3454092,
+      "longitude": -4.1122905,
       "photo_url": null,
       "nb_tx_historique": 55.0,
       "comments": [
@@ -765,11 +765,17 @@
       "statut": "PENDING",
       "montant_paye": 59000.0,
       "montant_restant": 99250.0,
-      "latitude": 5.303701,
-      "longitude": -3.9984593,
+      "latitude": 5.3035546,
+      "longitude": -3.9984069,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/c3ac1ede1616603f1680f940594ebce8.jpg",
       "nb_tx_historique": 3.0,
       "comments": [
+        {
+          "date": "2026-06-24",
+          "type": "COURIER",
+          "content": "Date affichée : 2026-06-24 | Commune : Treichville | Lieu : Radio Jam | Montant total : 110200 | Avance : 150000 | Frais transaction : 4500 | Frais retard : 14700 | Montant payé : 59000",
+          "author": "KoneMasse"
+        },
         {
           "date": "2026-06-23",
           "type": "GENERIC_COMMENT",

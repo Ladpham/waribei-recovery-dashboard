@@ -67,7 +67,28 @@ def main():
 
     # ── 2. Transactions PAR 8-30 ──────────────────────────────────────────
     rows = q(conn, """
-        WITH photo AS (
+        WITH comments_agg AS (
+            SELECT
+                c."transactionId",
+                JSON_AGG(
+                    JSON_BUILD_OBJECT(
+                        'date', c."createdAt"::date,
+                        'type', c.type,
+                        'content', c.content,
+                        'author', COALESCE(a."displayName", a.name)
+                    ) ORDER BY c."createdAt" DESC
+                ) FILTER (WHERE c.deleted = false) AS comments
+            FROM "Comment" c
+            LEFT JOIN "Client" a ON c."clientId" = a.id
+            WHERE c.deleted = false
+            GROUP BY c."transactionId"
+        ),
+        paid_agg AS (
+            SELECT "transactionId", COALESCE(SUM(amount), 0) AS paid
+            FROM "ReconciledTransaction"
+            GROUP BY "transactionId"
+        ),
+        photo AS (
             SELECT DISTINCT ON (ud."clientId")
                 ud."clientId",
                 d."awsUrl"
@@ -99,19 +120,25 @@ def main():
             m."e164"                           AS phone,
             COALESCE(s."displayName", s.name)  AS supplier_name,
             t."totalPrice"                     AS montant,
+            t."createdAt"::date                AS date_achat,
             t."maturitydDate"::date            AS maturity_date,
             (CURRENT_DATE - t."maturitydDate"::date) AS jours_retard,
             t.type                             AS statut,
+            COALESCE(p.paid, 0)                AS montant_paye,
+            (t."totalPrice" - COALESCE(p.paid, 0)) AS montant_restant,
             gps.latitude,
             gps.longitude,
             photo."awsUrl"                     AS photo_url,
-            COALESCE(tc.nb_tx, 0)              AS nb_tx_historique
+            COALESCE(tc.nb_tx, 0)              AS nb_tx_historique,
+            COALESCE(ca.comments, '[]'::json)  AS comments
         FROM "Transaction" t
         JOIN "Client" m ON t."merchantId" = m.id
         JOIN "Client" s ON t."supplierId" = s.id
-        LEFT JOIN photo   ON photo."clientId" = m.id
-        LEFT JOIN gps     ON gps."clientId" = m.id
+        LEFT JOIN photo       ON photo."clientId" = m.id
+        LEFT JOIN gps         ON gps."clientId" = m.id
         LEFT JOIN tx_count tc ON tc."merchantId" = m.id
+        LEFT JOIN paid_agg p  ON p."transactionId" = t.id
+        LEFT JOIN comments_agg ca ON ca."transactionId" = t.id
         WHERE t.deleted = false
           AND t.type NOT IN ('CLOSE', 'OVERPAID')
           AND t."maturitydDate" IS NOT NULL
@@ -122,6 +149,8 @@ def main():
     def serial(v):
         if hasattr(v, "isoformat"):
             return v.isoformat()
+        if hasattr(v, '__float__'):
+            return float(v)
         return v
 
     transactions = [
@@ -151,6 +180,21 @@ def main():
               AND t."maturitydDate" IS NOT NULL
               AND (t."maturitydDate"::date + INTERVAL '8 days') >= CURRENT_DATE - INTERVAL '12 weeks'
               AND (t."maturitydDate"::date + INTERVAL '8 days') <= CURRENT_DATE
+        ),
+        cmt_stats AS (
+            SELECT
+                c."transactionId",
+                COUNT(*) FILTER (
+                    WHERE c.type IN ('COURIER','LETTER_GIVEN_TO_AGENT','RECOVERY_LETTER_DELIVERED_TO_CLIENT','AVIS_AR')
+                ) AS nb_lettres,
+                COUNT(*) FILTER (
+                    WHERE c.type = 'AGENT_VISITED_CLIENT'
+                       OR (c.type = 'GENERIC_COMMENT' AND c.content ILIKE '%visite%')
+                       OR c.type = 'LETTER_GIVEN_TO_AGENT'
+                ) AS nb_visites
+            FROM "Comment" c
+            WHERE c.deleted = false
+            GROUP BY c."transactionId"
         )
         SELECT
             semaine,
@@ -158,47 +202,11 @@ def main():
             SUM(montant)                          AS valeur_totale,
             COUNT(*) FILTER (WHERE statut IN ('CLOSE','OVERPAID'))  AS nb_solds,
             SUM(montant) FILTER (WHERE statut IN ('CLOSE','OVERPAID')) AS montant_recouvre,
-            COUNT(*) FILTER (
-                WHERE statut IN ('CLOSE','OVERPAID')
-                  AND closed_date <= par8_date
-            )                                     AS recup_j0_nb,
-            SUM(montant) FILTER (
-                WHERE statut IN ('CLOSE','OVERPAID')
-                  AND closed_date <= par8_date
-            )                                     AS recup_j0_cfa,
-            COUNT(*) FILTER (
-                WHERE statut IN ('CLOSE','OVERPAID')
-                  AND closed_date <= par8_date + 3
-            )                                     AS recup_j3_nb,
-            SUM(montant) FILTER (
-                WHERE statut IN ('CLOSE','OVERPAID')
-                  AND closed_date <= par8_date + 3
-            )                                     AS recup_j3_cfa,
-            COUNT(*) FILTER (
-                WHERE statut IN ('CLOSE','OVERPAID')
-                  AND closed_date <= par8_date + 7
-            )                                     AS recup_j7_nb,
-            SUM(montant) FILTER (
-                WHERE statut IN ('CLOSE','OVERPAID')
-                  AND closed_date <= par8_date + 7
-            )                                     AS recup_j7_cfa,
-            COUNT(*) FILTER (
-                WHERE statut IN ('CLOSE','OVERPAID')
-                  AND closed_date <= par8_date + 15
-            )                                     AS recup_j15_nb,
-            SUM(montant) FILTER (
-                WHERE statut IN ('CLOSE','OVERPAID')
-                  AND closed_date <= par8_date + 15
-            )                                     AS recup_j15_cfa,
-            COUNT(*) FILTER (
-                WHERE statut IN ('CLOSE','OVERPAID')
-                  AND closed_date <= par8_date + 30
-            )                                     AS recup_j30_nb,
-            SUM(montant) FILTER (
-                WHERE statut IN ('CLOSE','OVERPAID')
-                  AND closed_date <= par8_date + 30
-            )                                     AS recup_j30_cfa
+            SUM(COALESCE(cs.nb_lettres, 0))       AS nb_lettres,
+            SUM(COALESCE(cs.nb_visites, 0))       AS nb_visites,
+            COUNT(*) FILTER (WHERE COALESCE(cs.nb_lettres,0) > 0 OR COALESCE(cs.nb_visites,0) > 0) AS nb_clients_contactes
         FROM cohort
+        LEFT JOIN cmt_stats cs ON cs."transactionId" = cohort.tx_id
         GROUP BY semaine
         ORDER BY semaine DESC
         LIMIT 12

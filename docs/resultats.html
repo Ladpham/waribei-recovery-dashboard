@@ -202,6 +202,10 @@ function renderWeeks(data) {
     const cls = rateClass(pct);
     const reste = (w.valeur_totale || 0) - (w.montant_recouvre || 0);
 
+    const lettres  = w.nb_lettres || 0;
+    const visites  = w.nb_visites || 0;
+    const contactes = w.nb_clients_contactes || 0;
+
     return `<div class="week-card">
       <div class="week-card-header">
         <div class="week-label">
@@ -215,17 +219,23 @@ function renderWeeks(data) {
       </div>
       <div class="week-nums">
         <div class="wn-cell">
+          <div class="wn-label">Récupéré</div>
+          <div class="wn-val" style="color:#4ADE80">${fmtM(w.montant_recouvre)} <span style="font-size:10px;opacity:.7">/ ${fmtM(w.valeur_totale)}</span></div>
+        </div>
+        <div class="wn-cell">
           <div class="wn-label">Soldés</div>
           <div class="wn-val">${w.nb_solds || 0} / ${w.nb_clients}</div>
         </div>
         <div class="wn-cell">
-          <div class="wn-label">Récupéré</div>
-          <div class="wn-val" style="color:#4ADE80">${fmtM(w.montant_recouvre)}</div>
+          <div class="wn-label">Terrain</div>
+          <div class="wn-val" style="color:var(--sky)">
+            ${contactes}/${w.nb_clients} contactés
+          </div>
         </div>
-        <div class="wn-cell">
-          <div class="wn-label">Reste</div>
-          <div class="wn-val" style="color:#F87171">${fmtM(reste)}</div>
-        </div>
+      </div>
+      <div style="padding:8px 12px 10px; border-top:1px solid var(--border); display:flex; gap:12px; font-size:12px; color:var(--muted)">
+        <span>📋 <b style="color:var(--text)">${lettres}</b> lettre${lettres > 1 ? 's' : ''} déposée${lettres > 1 ? 's' : ''}</span>
+        <span>🚶 <b style="color:var(--text)">${visites}</b> visite${visites > 1 ? 's' : ''}</span>
       </div>
     </div>`;
   }).join('');

@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-06-24T14:33:47.719792+00:00",
+  "updated_at": "2026-06-24T14:53:32.182937+00:00",
   "data": [
     {
-      "tx_id": 18661,
-      "merchant_id": 1628,
+      "tx_id": 18661.0,
+      "merchant_id": 1628.0,
       "merchant_name": "KOUTE KOUNAYWOLO PARFAIT",
       "district": null,
       "phone": "0585617632",
@@ -11,14 +11,14 @@
       "montant": 658300.0,
       "date_achat": "2026-05-11",
       "maturity_date": "2026-05-25",
-      "jours_retard": 30,
+      "jours_retard": 30.0,
       "statut": "PENDING",
       "montant_paye": 0.0,
       "montant_restant": 658300.0,
       "latitude": 5.3059962,
       "longitude": -3.9718351,
       "photo_url": null,
-      "nb_tx_historique": 12,
+      "nb_tx_historique": 12.0,
       "comments": [
         {
           "date": "2026-06-08",
@@ -59,8 +59,8 @@
       ]
     },
     {
-      "tx_id": 19042,
-      "merchant_id": 2207,
+      "tx_id": 19042.0,
+      "merchant_id": 2207.0,
       "merchant_name": "KOUADIO Kouame Jean Paul",
       "district": "Yopougon",
       "phone": "+2250709825611",
@@ -68,14 +68,14 @@
       "montant": 850000.0,
       "date_achat": "2026-05-19",
       "maturity_date": "2026-05-26",
-      "jours_retard": 29,
+      "jours_retard": 29.0,
       "statut": "PENDING",
       "montant_paye": 350000.0,
       "montant_restant": 500000.0,
       "latitude": 5.3176227,
       "longitude": -4.0390803,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/98a0b4a50f504e91519d108025682439.jpg",
-      "nb_tx_historique": 15,
+      "nb_tx_historique": 15.0,
       "comments": [
         {
           "date": "2026-06-17",
@@ -116,8 +116,8 @@
       ]
     },
     {
-      "tx_id": 19083,
-      "merchant_id": 2141,
+      "tx_id": 19083.0,
+      "merchant_id": 2141.0,
       "merchant_name": "MADI ISABELLE AMENAL",
       "district": null,
       "phone": "+2250554505313",
@@ -125,14 +125,14 @@
       "montant": 81100.0,
       "date_achat": "2026-05-19",
       "maturity_date": "2026-05-26",
-      "jours_retard": 29,
+      "jours_retard": 29.0,
       "statut": "PENDING",
       "montant_paye": 0.0,
       "montant_restant": 81100.0,
       "latitude": 5.2603543,
       "longitude": -3.960027,
       "photo_url": null,
-      "nb_tx_historique": 5,
+      "nb_tx_historique": 5.0,
       "comments": [
         {
           "date": "2026-06-17",
@@ -167,8 +167,8 @@
       ]
     },
     {
-      "tx_id": 19068,
-      "merchant_id": 2710,
+      "tx_id": 19068.0,
+      "merchant_id": 2710.0,
       "merchant_name": "DIABATE LASSINA",
       "district": "Port-Bouët",
       "phone": "+2250788280631",
@@ -176,14 +176,14 @@
       "montant": 50000.0,
       "date_achat": "2026-05-19",
       "maturity_date": "2026-05-26",
-      "jours_retard": 29,
+      "jours_retard": 29.0,
       "statut": "PENDING",
       "montant_paye": 25000.0,
       "montant_restant": 25000.0,
       "latitude": 5.2826197,
       "longitude": -3.9480851,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/5ad73057fac0fdc3e24165b5909331c7.jpg",
-      "nb_tx_historique": 1,
+      "nb_tx_historique": 1.0,
       "comments": [
         {
           "date": "2026-06-19",
@@ -236,8 +236,8 @@
       ]
     },
     {
-      "tx_id": 19202,
-      "merchant_id": 2506,
+      "tx_id": 19202.0,
+      "merchant_id": 2506.0,
       "merchant_name": "GUIAGUI SERY WILFRED",
       "district": "Port-Bouët",
       "phone": "+2250777108124",
@@ -245,14 +245,14 @@
       "montant": 225200.0,
       "date_achat": "2026-05-21",
       "maturity_date": "2026-05-28",
-      "jours_retard": 27,
+      "jours_retard": 27.0,
       "statut": "PENDING",
       "montant_paye": 80500.0,
       "montant_restant": 144700.0,
       "latitude": 5.2482423,
       "longitude": -3.9088062,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/00b20c51fc88cd7a4750aafa31db668f.jpg",
-      "nb_tx_historique": 4,
+      "nb_tx_historique": 4.0,
       "comments": [
         {
           "date": "2026-06-22",
@@ -299,8 +299,8 @@
       ]
     },
     {
-      "tx_id": 18871,
-      "merchant_id": 1117,
+      "tx_id": 18871.0,
+      "merchant_id": 1117.0,
       "merchant_name": "BEUGRE AGOUA DANIELLE LARISSA",
       "district": null,
       "phone": "+2250758637769",
@@ -308,14 +308,14 @@
       "montant": 657950.0,
       "date_achat": "2026-05-15",
       "maturity_date": "2026-05-29",
-      "jours_retard": 26,
+      "jours_retard": 26.0,
       "statut": "PENDING",
       "montant_paye": 490100.0,
       "montant_restant": 167850.0,
       "latitude": 5.3102021,
       "longitude": -3.9700283,
       "photo_url": null,
-      "nb_tx_historique": 11,
+      "nb_tx_historique": 11.0,
       "comments": [
         {
           "date": "2026-06-22",
@@ -368,8 +368,8 @@
       ]
     },
     {
-      "tx_id": 19228,
-      "merchant_id": 1289,
+      "tx_id": 19228.0,
+      "merchant_id": 1289.0,
       "merchant_name": "DANZO MAMI HERMANCE",
       "district": "Cocody",
       "phone": "+2250709462399",
@@ -377,14 +377,14 @@
       "montant": 200000.0,
       "date_achat": "2026-05-22",
       "maturity_date": "2026-05-29",
-      "jours_retard": 26,
+      "jours_retard": 26.0,
       "statut": "PENDING",
       "montant_paye": 59000.0,
       "montant_restant": 141000.0,
       "latitude": 5.3746951,
       "longitude": -3.9742912,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/8f353781cc1638e550f52b114eae3193.jpg",
-      "nb_tx_historique": 13,
+      "nb_tx_historique": 13.0,
       "comments": [
         {
           "date": "2026-06-17",
@@ -413,8 +413,8 @@
       ]
     },
     {
-      "tx_id": 19232,
-      "merchant_id": 2712,
+      "tx_id": 19232.0,
+      "merchant_id": 2712.0,
       "merchant_name": "GBAMA TANGUY PRINCE JUNIOR",
       "district": "Cocody",
       "phone": "+2250749694425",
@@ -422,14 +422,14 @@
       "montant": 53150.0,
       "date_achat": "2026-05-22",
       "maturity_date": "2026-05-29",
-      "jours_retard": 26,
+      "jours_retard": 26.0,
       "statut": "PENDING",
       "montant_paye": 40000.0,
       "montant_restant": 13150.0,
       "latitude": 5.4008255,
       "longitude": -3.9377463,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/0dd2437417246cabf050625777979c98.jpg",
-      "nb_tx_historique": 1,
+      "nb_tx_historique": 1.0,
       "comments": [
         {
           "date": "2026-06-22",
@@ -452,8 +452,8 @@
       ]
     },
     {
-      "tx_id": 19237,
-      "merchant_id": 2018,
+      "tx_id": 19237.0,
+      "merchant_id": 2018.0,
       "merchant_name": "AMISSAH AMA SOPHIE IRELLE",
       "district": null,
       "phone": "+2250779729440",
@@ -461,14 +461,14 @@
       "montant": 50000.0,
       "date_achat": "2026-05-22",
       "maturity_date": "2026-05-29",
-      "jours_retard": 26,
+      "jours_retard": 26.0,
       "statut": "PENDING",
       "montant_paye": 29600.0,
       "montant_restant": 20400.0,
       "latitude": 5.464815,
       "longitude": -3.2098813,
       "photo_url": null,
-      "nb_tx_historique": 15,
+      "nb_tx_historique": 15.0,
       "comments": [
         {
           "date": "2026-06-22",
@@ -521,8 +521,8 @@
       ]
     },
     {
-      "tx_id": 19260,
-      "merchant_id": 2683,
+      "tx_id": 19260.0,
+      "merchant_id": 2683.0,
       "merchant_name": "DJESSAN BILOPOA MARTIAL",
       "district": "Yopougon",
       "phone": "2250702082679",
@@ -530,14 +530,14 @@
       "montant": 471650.0,
       "date_achat": "2026-05-23",
       "maturity_date": "2026-05-30",
-      "jours_retard": 25,
+      "jours_retard": 25.0,
       "statut": "PENDING",
       "montant_paye": 100000.0,
       "montant_restant": 371650.0,
       "latitude": 5.3315492,
       "longitude": -4.0769954,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/ab61988dab2481ec731f3401d6d0f913.jpg",
-      "nb_tx_historique": 2,
+      "nb_tx_historique": 2.0,
       "comments": [
         {
           "date": "2026-06-22",
@@ -572,8 +572,8 @@
       ]
     },
     {
-      "tx_id": 19269,
-      "merchant_id": 945,
+      "tx_id": 19269.0,
+      "merchant_id": 945.0,
       "merchant_name": "Sylvie Rosette KOUAME",
       "district": null,
       "phone": "+2250779581035",
@@ -581,14 +581,14 @@
       "montant": 200000.0,
       "date_achat": "2026-05-23",
       "maturity_date": "2026-05-30",
-      "jours_retard": 25,
+      "jours_retard": 25.0,
       "statut": "PENDING",
       "montant_paye": 145400.0,
       "montant_restant": 54600.0,
       "latitude": 5.3454205,
       "longitude": -4.1122976,
       "photo_url": null,
-      "nb_tx_historique": 55,
+      "nb_tx_historique": 55.0,
       "comments": [
         {
           "date": "2026-06-22",
@@ -623,8 +623,8 @@
       ]
     },
     {
-      "tx_id": 19262,
-      "merchant_id": 2178,
+      "tx_id": 19262.0,
+      "merchant_id": 2178.0,
       "merchant_name": "N'KAYO MANDJI LAURE ELIANE",
       "district": null,
       "phone": "+2250141646434",
@@ -632,14 +632,14 @@
       "montant": 120000.0,
       "date_achat": "2026-05-23",
       "maturity_date": "2026-05-30",
-      "jours_retard": 25,
+      "jours_retard": 25.0,
       "statut": "PENDING",
       "montant_paye": 120000.0,
       "montant_restant": 0.0,
       "latitude": 5.4375013,
       "longitude": -4.0449159,
       "photo_url": null,
-      "nb_tx_historique": 15,
+      "nb_tx_historique": 15.0,
       "comments": [
         {
           "date": "2026-06-22",
@@ -662,8 +662,8 @@
       ]
     },
     {
-      "tx_id": 19270,
-      "merchant_id": 2515,
+      "tx_id": 19270.0,
+      "merchant_id": 2515.0,
       "merchant_name": "BEUGRE LEGA STEPHANIE COLOMBE",
       "district": "Yopougon",
       "phone": "002250152471412",
@@ -671,14 +671,14 @@
       "montant": 99000.0,
       "date_achat": "2026-05-23",
       "maturity_date": "2026-05-30",
-      "jours_retard": 25,
+      "jours_retard": 25.0,
       "statut": "PENDING",
       "montant_paye": 0.0,
       "montant_restant": 99000.0,
       "latitude": 5.3131273,
       "longitude": -4.0443644,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/b9bdd28e4a022b0feb648f473312676d.jpg",
-      "nb_tx_historique": 6,
+      "nb_tx_historique": 6.0,
       "comments": [
         {
           "date": "2026-06-22",
@@ -713,8 +713,8 @@
       ]
     },
     {
-      "tx_id": 19312,
-      "merchant_id": 116,
+      "tx_id": 19312.0,
+      "merchant_id": 116.0,
       "merchant_name": "Gondy Minkapet Stephane DETI",
       "district": null,
       "phone": "2250759753851",
@@ -722,14 +722,14 @@
       "montant": 97500.0,
       "date_achat": "2026-05-23",
       "maturity_date": "2026-05-30",
-      "jours_retard": 25,
+      "jours_retard": 25.0,
       "statut": "PENDING",
       "montant_paye": 0.0,
       "montant_restant": 97500.0,
       "latitude": 5.3883509,
       "longitude": -4.0002468,
       "photo_url": null,
-      "nb_tx_historique": 55,
+      "nb_tx_historique": 55.0,
       "comments": [
         {
           "date": "2026-06-22",
@@ -752,8 +752,8 @@
       ]
     },
     {
-      "tx_id": 19363,
-      "merchant_id": 2629,
+      "tx_id": 19363.0,
+      "merchant_id": 2629.0,
       "merchant_name": "DIETH JEAN FERNAND SHILTON",
       "district": "Treichville",
       "phone": "+2250101137226",
@@ -761,14 +761,14 @@
       "montant": 158250.0,
       "date_achat": "2026-05-24",
       "maturity_date": "2026-05-31",
-      "jours_retard": 24,
+      "jours_retard": 24.0,
       "statut": "PENDING",
       "montant_paye": 59000.0,
       "montant_restant": 99250.0,
       "latitude": 5.303701,
       "longitude": -3.9984593,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/c3ac1ede1616603f1680f940594ebce8.jpg",
-      "nb_tx_historique": 3,
+      "nb_tx_historique": 3.0,
       "comments": [
         {
           "date": "2026-06-23",
@@ -809,8 +809,8 @@
       ]
     },
     {
-      "tx_id": 19368,
-      "merchant_id": 2122,
+      "tx_id": 19368.0,
+      "merchant_id": 2122.0,
       "merchant_name": "EHOUE DANIEL CHABOREL",
       "district": "Yopougon",
       "phone": "+2250708337447",
@@ -818,14 +818,14 @@
       "montant": 150000.0,
       "date_achat": "2026-05-24",
       "maturity_date": "2026-05-31",
-      "jours_retard": 24,
+      "jours_retard": 24.0,
       "statut": "PENDING",
       "montant_paye": 0.0,
       "montant_restant": 150000.0,
       "latitude": 5.3545823,
       "longitude": -4.0747206,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/c8c296c9d242a33f04ed2673ec1be8f1.jpg",
-      "nb_tx_historique": 2,
+      "nb_tx_historique": 2.0,
       "comments": [
         {
           "date": "2026-06-22",
@@ -848,8 +848,8 @@
       ]
     },
     {
-      "tx_id": 19424,
-      "merchant_id": 2641,
+      "tx_id": 19424.0,
+      "merchant_id": 2641.0,
       "merchant_name": "EDOUKOU KOUAKOU MICHAEL",
       "district": "Abobo",
       "phone": "2250778340433",
@@ -857,14 +857,14 @@
       "montant": 305100.0,
       "date_achat": "2026-05-25",
       "maturity_date": "2026-06-01",
-      "jours_retard": 23,
+      "jours_retard": 23.0,
       "statut": "PENDING",
       "montant_paye": 200000.0,
       "montant_restant": 105100.0,
       "latitude": 5.434663,
       "longitude": -4.0084768,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/0923013351880284bcefa10317f597da.jpg",
-      "nb_tx_historique": 3,
+      "nb_tx_historique": 3.0,
       "comments": [
         {
           "date": "2026-06-16",
@@ -893,8 +893,8 @@
       ]
     },
     {
-      "tx_id": 19415,
-      "merchant_id": 2582,
+      "tx_id": 19415.0,
+      "merchant_id": 2582.0,
       "merchant_name": "GOUSSEBOTIN GAEL RODRIGUE",
       "district": "Yopougon",
       "phone": "+2250747936742",
@@ -902,14 +902,14 @@
       "montant": 101925.0,
       "date_achat": "2026-05-25",
       "maturity_date": "2026-06-01",
-      "jours_retard": 23,
+      "jours_retard": 23.0,
       "statut": "PENDING",
       "montant_paye": 0.0,
       "montant_restant": 101925.0,
       "latitude": 5.3235922,
       "longitude": -4.0628157,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/90c5e85757def072b4a57fe6ad13bcf4.jpg",
-      "nb_tx_historique": 3,
+      "nb_tx_historique": 3.0,
       "comments": [
         {
           "date": "2026-06-17",
@@ -944,8 +944,8 @@
       ]
     },
     {
-      "tx_id": 19072,
-      "merchant_id": 2286,
+      "tx_id": 19072.0,
+      "merchant_id": 2286.0,
       "merchant_name": "ANGBOH RODRIGUE",
       "district": "Yopougon",
       "phone": "+2250758805121",
@@ -953,14 +953,14 @@
       "montant": 663650.0,
       "date_achat": "2026-05-19",
       "maturity_date": "2026-06-02",
-      "jours_retard": 22,
+      "jours_retard": 22.0,
       "statut": "PENDING",
       "montant_paye": 319800.0,
       "montant_restant": 343850.0,
       "latitude": 5.3150432,
       "longitude": -4.0944473,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/b797f03bd896235afa1e932a2325d84c.jpg",
-      "nb_tx_historique": 5,
+      "nb_tx_historique": 5.0,
       "comments": [
         {
           "date": "2026-06-22",
@@ -1001,8 +1001,8 @@
       ]
     },
     {
-      "tx_id": 19539,
-      "merchant_id": 1928,
+      "tx_id": 19539.0,
+      "merchant_id": 1928.0,
       "merchant_name": "ADOUKO ASSOHOUN APPOLINAIRE",
       "district": null,
       "phone": "+2250707983993",
@@ -1010,14 +1010,14 @@
       "montant": 133450.0,
       "date_achat": "2026-05-27",
       "maturity_date": "2026-06-03",
-      "jours_retard": 21,
+      "jours_retard": 21.0,
       "statut": "PENDING",
       "montant_paye": 90000.0,
       "montant_restant": 43450.0,
       "latitude": 5.4383331,
       "longitude": -4.0196637,
       "photo_url": null,
-      "nb_tx_historique": 23,
+      "nb_tx_historique": 23.0,
       "comments": [
         {
           "date": "2026-06-22",
@@ -1058,8 +1058,8 @@
       ]
     },
     {
-      "tx_id": 19598,
-      "merchant_id": 2063,
+      "tx_id": 19598.0,
+      "merchant_id": 2063.0,
       "merchant_name": "KOFFI EUGENIE",
       "district": null,
       "phone": "+2250777544657",
@@ -1067,14 +1067,14 @@
       "montant": 170000.0,
       "date_achat": "2026-05-28",
       "maturity_date": "2026-06-04",
-      "jours_retard": 20,
+      "jours_retard": 20.0,
       "statut": "PENDING",
       "montant_paye": 100000.0,
       "montant_restant": 70000.0,
       "latitude": 5.4535062,
       "longitude": -4.0093729,
       "photo_url": null,
-      "nb_tx_historique": 14,
+      "nb_tx_historique": 14.0,
       "comments": [
         {
           "date": "2026-06-22",
@@ -1121,8 +1121,8 @@
       ]
     },
     {
-      "tx_id": 19632,
-      "merchant_id": 2445,
+      "tx_id": 19632.0,
+      "merchant_id": 2445.0,
       "merchant_name": "KOHIRIME SOKO LEA",
       "district": "Adjamé",
       "phone": "+2250747665988",
@@ -1130,14 +1130,14 @@
       "montant": 114050.0,
       "date_achat": "2026-05-29",
       "maturity_date": "2026-06-05",
-      "jours_retard": 19,
+      "jours_retard": 19.0,
       "statut": "PENDING",
       "montant_paye": 56000.0,
       "montant_restant": 58050.0,
       "latitude": 5.3682569,
       "longitude": -4.026649,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/2440df4c02841bc8da7dc40d40eee302.jpg",
-      "nb_tx_historique": 7,
+      "nb_tx_historique": 7.0,
       "comments": [
         {
           "date": "2026-06-24",
@@ -1184,8 +1184,8 @@
       ]
     },
     {
-      "tx_id": 19623,
-      "merchant_id": 2404,
+      "tx_id": 19623.0,
+      "merchant_id": 2404.0,
       "merchant_name": "KOUAKOU AMAH MIREILLE",
       "district": "Port-Bouët",
       "phone": "+2250141070820",
@@ -1193,14 +1193,14 @@
       "montant": 110000.0,
       "date_achat": "2026-05-29",
       "maturity_date": "2026-06-05",
-      "jours_retard": 19,
+      "jours_retard": 19.0,
       "statut": "PENDING",
       "montant_paye": 34000.0,
       "montant_restant": 76000.0,
       "latitude": 5.2460772,
       "longitude": -3.8965586,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/b9eaeb89906cde4f1ebe766290c54c60.jpg",
-      "nb_tx_historique": 5,
+      "nb_tx_historique": 5.0,
       "comments": [
         {
           "date": "2026-06-23",
@@ -1235,8 +1235,8 @@
       ]
     },
     {
-      "tx_id": 19732,
-      "merchant_id": 2494,
+      "tx_id": 19732.0,
+      "merchant_id": 2494.0,
       "merchant_name": "ALLANGBA ORIANNE CHARLY",
       "district": "Yopougon",
       "phone": "+2250759736200",
@@ -1244,14 +1244,14 @@
       "montant": 80000.0,
       "date_achat": "2026-05-30",
       "maturity_date": "2026-06-06",
-      "jours_retard": 18,
+      "jours_retard": 18.0,
       "statut": "PENDING",
       "montant_paye": 30000.0,
       "montant_restant": 50000.0,
       "latitude": 5.3186414,
       "longitude": -4.0478408,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/acaa56b5985a232c0981d74f9c53119a.jpg",
-      "nb_tx_historique": 5,
+      "nb_tx_historique": 5.0,
       "comments": [
         {
           "date": "2026-06-22",
@@ -1274,8 +1274,8 @@
       ]
     },
     {
-      "tx_id": 19741,
-      "merchant_id": 1123,
+      "tx_id": 19741.0,
+      "merchant_id": 1123.0,
       "merchant_name": "DOUBY BI TAH AURELIEN",
       "district": null,
       "phone": "+2250707949442",
@@ -1283,14 +1283,14 @@
       "montant": 100000.0,
       "date_achat": "2026-05-31",
       "maturity_date": "2026-06-07",
-      "jours_retard": 17,
+      "jours_retard": 17.0,
       "statut": "PENDING",
       "montant_paye": 0.0,
       "montant_restant": 100000.0,
       "latitude": 5.2997296,
       "longitude": -3.969406,
       "photo_url": null,
-      "nb_tx_historique": 51,
+      "nb_tx_historique": 51.0,
       "comments": [
         {
           "date": "2026-06-22",
@@ -1313,8 +1313,8 @@
       ]
     },
     {
-      "tx_id": 19764,
-      "merchant_id": 523,
+      "tx_id": 19764.0,
+      "merchant_id": 523.0,
       "merchant_name": "Zikida Armelle edith Dasse",
       "district": null,
       "phone": "+2250748467998",
@@ -1322,14 +1322,14 @@
       "montant": 74250.0,
       "date_achat": "2026-05-31",
       "maturity_date": "2026-06-07",
-      "jours_retard": 17,
+      "jours_retard": 17.0,
       "statut": "PENDING",
       "montant_paye": 0.0,
       "montant_restant": 74250.0,
       "latitude": null,
       "longitude": null,
       "photo_url": null,
-      "nb_tx_historique": 6,
+      "nb_tx_historique": 6.0,
       "comments": [
         {
           "date": "2026-06-22",
@@ -1358,8 +1358,8 @@
       ]
     },
     {
-      "tx_id": 19768,
-      "merchant_id": 1139,
+      "tx_id": 19768.0,
+      "merchant_id": 1139.0,
       "merchant_name": "DAINGUI EUNICE FENICIA",
       "district": null,
       "phone": "+2250709690697",
@@ -1367,14 +1367,14 @@
       "montant": 150000.0,
       "date_achat": "2026-06-01",
       "maturity_date": "2026-06-08",
-      "jours_retard": 16,
+      "jours_retard": 16.0,
       "statut": "PENDING",
       "montant_paye": 100000.0,
       "montant_restant": 50000.0,
       "latitude": 5.3036478,
       "longitude": -3.9555593,
       "photo_url": null,
-      "nb_tx_historique": 22,
+      "nb_tx_historique": 22.0,
       "comments": [
         {
           "date": "2026-06-22",
@@ -1403,8 +1403,8 @@
       ]
     },
     {
-      "tx_id": 19785,
-      "merchant_id": 2371,
+      "tx_id": 19785.0,
+      "merchant_id": 2371.0,
       "merchant_name": "GANSAGNE MAHAMOUDOU",
       "district": "Abobo",
       "phone": "+2250708178003",
@@ -1412,14 +1412,14 @@
       "montant": 100000.0,
       "date_achat": "2026-06-01",
       "maturity_date": "2026-06-08",
-      "jours_retard": 16,
+      "jours_retard": 16.0,
       "statut": "PENDING",
       "montant_paye": 0.0,
       "montant_restant": 100000.0,
       "latitude": 5.3784531,
       "longitude": -3.9995519,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/42525d2783c474f15a05455d4f46c5ea.jpg",
-      "nb_tx_historique": 11,
+      "nb_tx_historique": 11.0,
       "comments": [
         {
           "date": "2026-06-22",
@@ -1448,8 +1448,8 @@
       ]
     },
     {
-      "tx_id": 19853,
-      "merchant_id": 1414,
+      "tx_id": 19853.0,
+      "merchant_id": 1414.0,
       "merchant_name": "KIPRE MARIE LUCIE",
       "district": null,
       "phone": "+2250749822589",
@@ -1457,14 +1457,14 @@
       "montant": 62850.0,
       "date_achat": "2026-06-02",
       "maturity_date": "2026-06-09",
-      "jours_retard": 15,
+      "jours_retard": 15.0,
       "statut": "PENDING",
       "montant_paye": 0.0,
       "montant_restant": 62850.0,
       "latitude": 5.2976551,
       "longitude": -3.9758609,
       "photo_url": null,
-      "nb_tx_historique": 16,
+      "nb_tx_historique": 16.0,
       "comments": [
         {
           "date": "2026-06-22",
@@ -1487,8 +1487,8 @@
       ]
     },
     {
-      "tx_id": 19937,
-      "merchant_id": 2723,
+      "tx_id": 19937.0,
+      "merchant_id": 2723.0,
       "merchant_name": "Karim Ouattara",
       "district": "Yopougon",
       "phone": "2250709150004",
@@ -1496,14 +1496,14 @@
       "montant": 165700.0,
       "date_achat": "2026-06-03",
       "maturity_date": "2026-06-10",
-      "jours_retard": 14,
+      "jours_retard": 14.0,
       "statut": "PENDING",
       "montant_paye": 55000.0,
       "montant_restant": 110700.0,
       "latitude": 5.3141808,
       "longitude": -4.0850159,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/85841b44734662d80dd7f17970b611b6.jpg",
-      "nb_tx_historique": 2,
+      "nb_tx_historique": 2.0,
       "comments": [
         {
           "date": "2026-06-22",
@@ -1520,8 +1520,8 @@
       ]
     },
     {
-      "tx_id": 19927,
-      "merchant_id": 1847,
+      "tx_id": 19927.0,
+      "merchant_id": 1847.0,
       "merchant_name": "DASSOUNDIAL GAYE SAIDOU FRANCIS",
       "district": null,
       "phone": "+2250101499335",
@@ -1529,14 +1529,14 @@
       "montant": 100000.0,
       "date_achat": "2026-06-03",
       "maturity_date": "2026-06-10",
-      "jours_retard": 14,
+      "jours_retard": 14.0,
       "statut": "PENDING",
       "montant_paye": 88700.0,
       "montant_restant": 11300.0,
       "latitude": 5.2474986,
       "longitude": -3.9188698,
       "photo_url": null,
-      "nb_tx_historique": 23,
+      "nb_tx_historique": 23.0,
       "comments": [
         {
           "date": "2026-06-22",
@@ -1553,8 +1553,8 @@
       ]
     },
     {
-      "tx_id": 19890,
-      "merchant_id": 2368,
+      "tx_id": 19890.0,
+      "merchant_id": 2368.0,
       "merchant_name": "ETIEN KOUAKOU ETIENNE",
       "district": "Yopougon",
       "phone": "+2250708037090",
@@ -1562,14 +1562,14 @@
       "montant": 80349.0,
       "date_achat": "2026-06-03",
       "maturity_date": "2026-06-10",
-      "jours_retard": 14,
+      "jours_retard": 14.0,
       "statut": "PENDING",
       "montant_paye": 0.0,
       "montant_restant": 80349.0,
       "latitude": 5.3196798,
       "longitude": -4.1008379,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/bf942b9c72ae2de981f718a177b9a286.jpg",
-      "nb_tx_historique": 6,
+      "nb_tx_historique": 6.0,
       "comments": [
         {
           "date": "2026-06-22",
@@ -1586,8 +1586,8 @@
       ]
     },
     {
-      "tx_id": 19940,
-      "merchant_id": 2574,
+      "tx_id": 19940.0,
+      "merchant_id": 2574.0,
       "merchant_name": "KRA AFFOUA CHARLOTTE",
       "district": "Koumassi",
       "phone": "+2250749215438",
@@ -1595,14 +1595,14 @@
       "montant": 50000.0,
       "date_achat": "2026-06-03",
       "maturity_date": "2026-06-10",
-      "jours_retard": 14,
+      "jours_retard": 14.0,
       "statut": "PENDING",
       "montant_paye": 40000.0,
       "montant_restant": 10000.0,
       "latitude": 5.2815924,
       "longitude": -3.9471989,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/72dee01a3273a7ab4c12f59f976419c4.jpg",
-      "nb_tx_historique": 5,
+      "nb_tx_historique": 5.0,
       "comments": [
         {
           "date": "2026-06-22",
@@ -1631,8 +1631,8 @@
       ]
     },
     {
-      "tx_id": 20215,
-      "merchant_id": 2617,
+      "tx_id": 20215.0,
+      "merchant_id": 2617.0,
       "merchant_name": "GBEULY GUIHOUNOU GUY ARMAND",
       "district": "Cocody",
       "phone": "2250757096137",
@@ -1640,14 +1640,14 @@
       "montant": 67300.0,
       "date_achat": "2026-06-04",
       "maturity_date": "2026-06-11",
-      "jours_retard": 13,
+      "jours_retard": 13.0,
       "statut": "PENDING",
       "montant_paye": 0.0,
       "montant_restant": 67300.0,
       "latitude": 5.3742716,
       "longitude": -3.9270721,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/216a39ad48ea052470163eefcd59e954.jpg",
-      "nb_tx_historique": 4,
+      "nb_tx_historique": 4.0,
       "comments": [
         {
           "date": "2026-06-22",
@@ -1670,8 +1670,8 @@
       ]
     },
     {
-      "tx_id": 19996,
-      "merchant_id": 2823,
+      "tx_id": 19996.0,
+      "merchant_id": 2823.0,
       "merchant_name": "augustin Zougrana",
       "district": "Abobo",
       "phone": "2250584554289",
@@ -1679,14 +1679,14 @@
       "montant": 137400.0,
       "date_achat": "2026-06-05",
       "maturity_date": "2026-06-12",
-      "jours_retard": 12,
+      "jours_retard": 12.0,
       "statut": "PENDING",
       "montant_paye": 0.0,
       "montant_restant": 137400.0,
       "latitude": 5.4305424,
       "longitude": -3.9876565,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/b461d10621dffdf1c837da4ae48f3b2c.jpg",
-      "nb_tx_historique": 1,
+      "nb_tx_historique": 1.0,
       "comments": [
         {
           "date": "2026-06-22",
@@ -1703,8 +1703,8 @@
       ]
     },
     {
-      "tx_id": 19607,
-      "merchant_id": 1852,
+      "tx_id": 19607.0,
+      "merchant_id": 1852.0,
       "merchant_name": "ZAPO FLAVIE",
       "district": null,
       "phone": "+2250565241626",
@@ -1712,14 +1712,14 @@
       "montant": 400000.0,
       "date_achat": "2026-05-30",
       "maturity_date": "2026-06-13",
-      "jours_retard": 11,
+      "jours_retard": 11.0,
       "statut": "PENDING",
       "montant_paye": 0.0,
       "montant_restant": 400000.0,
       "latitude": 5.3411763,
       "longitude": -4.1553737,
       "photo_url": null,
-      "nb_tx_historique": 14,
+      "nb_tx_historique": 14.0,
       "comments": [
         {
           "date": "2026-06-23",
@@ -1754,8 +1754,8 @@
       ]
     },
     {
-      "tx_id": 20110,
-      "merchant_id": 2606,
+      "tx_id": 20110.0,
+      "merchant_id": 2606.0,
       "merchant_name": "TIZIE LOU NENENAN ALBERTINE",
       "district": "Port-Bouët",
       "phone": "2250788505184",
@@ -1763,14 +1763,14 @@
       "montant": 239800.0,
       "date_achat": "2026-06-06",
       "maturity_date": "2026-06-13",
-      "jours_retard": 11,
+      "jours_retard": 11.0,
       "statut": "PENDING",
       "montant_paye": 90000.0,
       "montant_restant": 149800.0,
       "latitude": 5.239640143786549,
       "longitude": -3.889686898917204,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/52bf5ac6ebf552724945434e12f0b13f.jpg",
-      "nb_tx_historique": 5,
+      "nb_tx_historique": 5.0,
       "comments": [
         {
           "date": "2026-06-22",
@@ -1793,8 +1793,8 @@
       ]
     },
     {
-      "tx_id": 20102,
-      "merchant_id": 2364,
+      "tx_id": 20102.0,
+      "merchant_id": 2364.0,
       "merchant_name": "BROU PIEKA ANNIE MARLENE",
       "district": "Cocody",
       "phone": "+2250707095530",
@@ -1802,14 +1802,14 @@
       "montant": 135000.0,
       "date_achat": "2026-06-06",
       "maturity_date": "2026-06-13",
-      "jours_retard": 11,
+      "jours_retard": 11.0,
       "statut": "PENDING",
       "montant_paye": 0.0,
       "montant_restant": 135000.0,
       "latitude": 5.395776238863882,
       "longitude": -3.940689261433941,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/fd30f3b25b0c7880631e6b913921d111.jpg",
-      "nb_tx_historique": 15,
+      "nb_tx_historique": 15.0,
       "comments": [
         {
           "date": "2026-06-22",
@@ -1832,8 +1832,8 @@
       ]
     },
     {
-      "tx_id": 19738,
-      "merchant_id": 1779,
+      "tx_id": 19738.0,
+      "merchant_id": 1779.0,
       "merchant_name": "KOULAI ALEX-PACOME",
       "district": null,
       "phone": "+2250707340205",
@@ -1841,14 +1841,14 @@
       "montant": 828500.0,
       "date_achat": "2026-05-31",
       "maturity_date": "2026-06-14",
-      "jours_retard": 10,
+      "jours_retard": 10.0,
       "statut": "PENDING",
       "montant_paye": 0.0,
       "montant_restant": 828500.0,
       "latitude": 5.3748083,
       "longitude": -4.0907898,
       "photo_url": null,
-      "nb_tx_historique": 22,
+      "nb_tx_historique": 22.0,
       "comments": [
         {
           "date": "2026-06-23",
@@ -1901,8 +1901,8 @@
       ]
     },
     {
-      "tx_id": 20193,
-      "merchant_id": 289,
+      "tx_id": 20193.0,
+      "merchant_id": 289.0,
       "merchant_name": "Akouba Jeanne marie Kouman",
       "district": null,
       "phone": "+2250545873061",
@@ -1910,14 +1910,14 @@
       "montant": 539500.0,
       "date_achat": "2026-06-08",
       "maturity_date": "2026-06-15",
-      "jours_retard": 9,
+      "jours_retard": 9.0,
       "statut": "PENDING",
       "montant_paye": 305000.0,
       "montant_restant": 234500.0,
       "latitude": 5.3076868,
       "longitude": -3.9498955,
       "photo_url": null,
-      "nb_tx_historique": 11,
+      "nb_tx_historique": 11.0,
       "comments": [
         {
           "date": "2026-06-22",
@@ -1946,8 +1946,8 @@
       ]
     },
     {
-      "tx_id": 19798,
-      "merchant_id": 1860,
+      "tx_id": 19798.0,
+      "merchant_id": 1860.0,
       "merchant_name": "YAPO API GWLADYS",
       "district": null,
       "phone": "+2250788465072",
@@ -1955,14 +1955,14 @@
       "montant": 300000.0,
       "date_achat": "2026-06-01",
       "maturity_date": "2026-06-15",
-      "jours_retard": 9,
+      "jours_retard": 9.0,
       "statut": "PENDING",
       "montant_paye": 0.0,
       "montant_restant": 300000.0,
       "latitude": 5.3340551,
       "longitude": -4.093384,
       "photo_url": null,
-      "nb_tx_historique": 14,
+      "nb_tx_historique": 14.0,
       "comments": [
         {
           "date": "2026-06-23",
@@ -2021,8 +2021,8 @@
       ]
     },
     {
-      "tx_id": 20199,
-      "merchant_id": 2537,
+      "tx_id": 20199.0,
+      "merchant_id": 2537.0,
       "merchant_name": "YAO LOUKOU JACQUES",
       "district": "Koumassi",
       "phone": "2250504242852",
@@ -2030,14 +2030,14 @@
       "montant": 92350.0,
       "date_achat": "2026-06-08",
       "maturity_date": "2026-06-15",
-      "jours_retard": 9,
+      "jours_retard": 9.0,
       "statut": "PENDING",
       "montant_paye": 30000.0,
       "montant_restant": 62350.0,
       "latitude": 5.2804938,
       "longitude": -3.9471634,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/07694c7c9afa90392a4d9e3b7aeec68e.jpg",
-      "nb_tx_historique": 5,
+      "nb_tx_historique": 5.0,
       "comments": [
         {
           "date": "2026-06-23",
@@ -2084,8 +2084,8 @@
       ]
     },
     {
-      "tx_id": 20235,
-      "merchant_id": 2671,
+      "tx_id": 20235.0,
+      "merchant_id": 2671.0,
       "merchant_name": "Gloria Ahounou",
       "district": "Bingerville",
       "phone": "2250564478055",
@@ -2093,14 +2093,14 @@
       "montant": 50350.0,
       "date_achat": "2026-06-08",
       "maturity_date": "2026-06-15",
-      "jours_retard": 9,
+      "jours_retard": 9.0,
       "statut": "PENDING",
       "montant_paye": 0.0,
       "montant_restant": 50350.0,
       "latitude": 5.3498889,
       "longitude": -3.8779249,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/f77bce5d70c6fdfe13c7c46625435cc5.jpg",
-      "nb_tx_historique": 3,
+      "nb_tx_historique": 3.0,
       "comments": [
         {
           "date": "2026-06-22",
@@ -2123,8 +2123,8 @@
       ]
     },
     {
-      "tx_id": 20177,
-      "merchant_id": 2462,
+      "tx_id": 20177.0,
+      "merchant_id": 2462.0,
       "merchant_name": "MONGUEHI EDWIGE",
       "district": "Adjamé",
       "phone": "+2250787292519",
@@ -2132,14 +2132,14 @@
       "montant": 40000.0,
       "date_achat": "2026-06-08",
       "maturity_date": "2026-06-15",
-      "jours_retard": 9,
+      "jours_retard": 9.0,
       "statut": "PENDING",
       "montant_paye": 0.0,
       "montant_restant": 40000.0,
       "latitude": 5.3679731,
       "longitude": -4.0236309,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/8ebbf3095e73b1db2585cb92387e695f.jpg",
-      "nb_tx_historique": 8,
+      "nb_tx_historique": 8.0,
       "comments": [
         {
           "date": "2026-06-22",
@@ -2174,8 +2174,8 @@
       ]
     },
     {
-      "tx_id": 19839,
-      "merchant_id": 1096,
+      "tx_id": 19839.0,
+      "merchant_id": 1096.0,
       "merchant_name": "LEBE DJEZA VIVIANNE",
       "district": null,
       "phone": "+2250556140718",
@@ -2183,14 +2183,14 @@
       "montant": 400000.0,
       "date_achat": "2026-06-02",
       "maturity_date": "2026-06-16",
-      "jours_retard": 8,
+      "jours_retard": 8.0,
       "statut": "PENDING",
       "montant_paye": 0.0,
       "montant_restant": 400000.0,
       "latitude": 5.2984345,
       "longitude": -3.969757,
       "photo_url": null,
-      "nb_tx_historique": 19,
+      "nb_tx_historique": 19.0,
       "comments": [
         {
           "date": "2026-06-22",
@@ -2213,8 +2213,8 @@
       ]
     },
     {
-      "tx_id": 19846,
-      "merchant_id": 15,
+      "tx_id": 19846.0,
+      "merchant_id": 15.0,
       "merchant_name": "Rachel Nadege Djei",
       "district": null,
       "phone": "2250757041712",
@@ -2222,14 +2222,14 @@
       "montant": 399500.0,
       "date_achat": "2026-05-26",
       "maturity_date": "2026-06-16",
-      "jours_retard": 8,
+      "jours_retard": 8.0,
       "statut": "PENDING",
       "montant_paye": 202400.0,
       "montant_restant": 197100.0,
       "latitude": null,
       "longitude": null,
       "photo_url": null,
-      "nb_tx_historique": 49,
+      "nb_tx_historique": 49.0,
       "comments": [
         {
           "date": "2026-06-22",
@@ -2246,8 +2246,8 @@
       ]
     },
     {
-      "tx_id": 20241,
-      "merchant_id": 1375,
+      "tx_id": 20241.0,
+      "merchant_id": 1375.0,
       "merchant_name": "YOHOU TAPE MICHEL",
       "district": null,
       "phone": "+2250707011949",
@@ -2255,14 +2255,14 @@
       "montant": 168000.0,
       "date_achat": "2026-06-09",
       "maturity_date": "2026-06-16",
-      "jours_retard": 8,
+      "jours_retard": 8.0,
       "statut": "PENDING",
       "montant_paye": 125000.0,
       "montant_restant": 43000.0,
       "latitude": 5.4010177,
       "longitude": -3.9864639,
       "photo_url": null,
-      "nb_tx_historique": 79,
+      "nb_tx_historique": 79.0,
       "comments": [
         {
           "date": "2026-06-22",
@@ -2285,8 +2285,8 @@
       ]
     },
     {
-      "tx_id": 20244,
-      "merchant_id": 2563,
+      "tx_id": 20244.0,
+      "merchant_id": 2563.0,
       "merchant_name": "GOGOUA EMMANUELLA SUZANNE",
       "district": "Yopougon",
       "phone": "2250748185313",
@@ -2294,14 +2294,14 @@
       "montant": 62450.0,
       "date_achat": "2026-06-09",
       "maturity_date": "2026-06-16",
-      "jours_retard": 8,
+      "jours_retard": 8.0,
       "statut": "PENDING",
       "montant_paye": 28600.0,
       "montant_restant": 33850.0,
       "latitude": null,
       "longitude": null,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/46eebe0ce8fd32727c78d2900608c729.jpg",
-      "nb_tx_historique": 1,
+      "nb_tx_historique": 1.0,
       "comments": [
         {
           "date": "2026-06-22",

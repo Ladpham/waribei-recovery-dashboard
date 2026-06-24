@@ -35,9 +35,11 @@ def main():
     print(f"[{datetime.now()}] Connexion DB…")
     conn = psycopg2.connect(**DB)
 
-    # ── 1. Config auth (hashes bcrypt des agents) ─────────────────────────
+    # ── 1. Config auth ────────────────────────────────────────────────────
+    # Mot de passe partagé "waribei2026!" — hash bcrypt généré côté script
+    SHARED_HASH = "$2b$12$1QPOgddVZG1Rh/KdJnmwIuM6Vr1Un4zQKtrfIKoapYDhwH9zeGTlK"
     agents = q(conn, """
-        SELECT id, name, "displayName", password
+        SELECT id, name, "displayName"
         FROM "Client"
         WHERE id IN (1089, 2021)
     """)
@@ -46,7 +48,7 @@ def main():
             {
                 "id": a["id"],
                 "username": (a["displayName"] or a["name"] or "").lower(),
-                "hash": a["password"],
+                "hash": SHARED_HASH,
                 "display": a["displayName"] or a["name"],
             }
             for a in agents

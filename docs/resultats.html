@@ -3,218 +3,279 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<title>Résultats – Recouvrement</title>
+<title>Stats – Recouvrement</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
 * { box-sizing: border-box; margin: 0; padding: 0; }
-:root { --bg: #0f172a; --surface: #1e293b; --border: #334155; --text: #f1f5f9; --muted: #94a3b8; --accent: #f59e0b; --red: #ef4444; --green: #22c55e; }
-body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: var(--bg); color: var(--text); min-height: 100vh; }
+:root {
+  --red:    #F83131;
+  --navy:   #064C72;
+  --sky:    #8ECAE6;
+  --green:  #1B5A43;
+  --yellow: #FFC444;
+  --peach:  #FFDBCC;
+  --ice:    #D8ECFE;
+  --bg:     #04212F;
+  --surface:#07384F;
+  --border: #0D536E;
+  --text:   #F0F9FF;
+  --muted:  #8ECAE6;
+}
+body { font-family: 'DM Sans', sans-serif; background: var(--bg); color: var(--text); min-height: 100vh; padding-bottom: 40px; }
 
+/* ── NAV ── */
 nav {
   background: var(--surface); border-bottom: 1px solid var(--border);
   display: flex; align-items: center; justify-content: space-between;
-  padding: 12px 16px; position: sticky; top: 0; z-index: 100;
+  padding: 0 16px; height: 56px;
+  position: sticky; top: 0; z-index: 100;
 }
-.nav-title { font-size: 15px; font-weight: 700; color: var(--accent); }
-.nav-links { display: flex; gap: 4px; }
-.nav-links a {
-  padding: 8px 12px; border-radius: 8px; font-size: 13px; font-weight: 600;
+.nav-brand { font-size: 16px; font-weight: 800; color: var(--red); letter-spacing: -.2px; }
+.nav-tabs { display: flex; gap: 2px; }
+.nav-tabs a {
+  padding: 7px 11px; border-radius: 9px; font-size: 13px; font-weight: 600;
   color: var(--muted); text-decoration: none; transition: all .15s;
 }
-.nav-links a.active, .nav-links a:hover { background: var(--accent); color: #0f172a; }
-.logout { color: var(--muted); font-size: 12px; cursor: pointer; background: none; border: none; padding: 0; }
-.logout:hover { color: var(--red); }
+.nav-tabs a.active { background: var(--red); color: white; }
+.nav-tabs a:hover:not(.active) { background: var(--border); color: var(--text); }
+.btn-logout {
+  background: none; border: none; color: var(--muted); font-family: 'DM Sans', sans-serif;
+  font-size: 12px; cursor: pointer; padding: 4px 8px; border-radius: 6px;
+}
+.btn-logout:hover { color: var(--red); }
 
-.header { padding: 16px; border-bottom: 1px solid var(--border); }
-.header h2 { font-size: 18px; }
-.refresh-time { font-size: 11px; color: var(--muted); margin-top: 4px; }
+/* ── PAGE ── */
+.page-header { padding: 16px 16px 10px; border-bottom: 1px solid var(--border); }
+.page-header h2 { font-size: 20px; font-weight: 800; letter-spacing: -.3px; }
+.updated { font-size: 11px; color: var(--muted); opacity: .7; margin-top: 4px; }
 
 /* ── KPI STRIP ── */
-.kpi-strip {
+.kpi-grid {
   display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;
   padding: 14px;
 }
 .kpi {
-  background: var(--surface); border: 1px solid var(--border); border-radius: 12px;
+  background: var(--surface); border: 1px solid var(--border); border-radius: 14px;
   padding: 14px 12px; text-align: center;
 }
-.kpi-val { font-size: 22px; font-weight: 800; color: var(--accent); }
-.kpi-lbl { font-size: 10px; color: var(--muted); margin-top: 4px; text-transform: uppercase; letter-spacing: .05em; }
+.kpi-val { font-size: 24px; font-weight: 800; color: var(--yellow); }
+.kpi-lbl { font-size: 10px; font-weight: 600; color: var(--muted); margin-top: 4px; text-transform: uppercase; letter-spacing: .06em; }
 
-/* ── TABLE CONTAINER ── */
-.table-wrap {
-  overflow-x: auto;
-  padding: 0 14px 80px;
-}
-.section-title {
-  font-size: 13px; font-weight: 700; color: var(--muted);
+/* ── SECTION LABEL ── */
+.section-label {
+  font-size: 11px; font-weight: 700; color: var(--muted);
   text-transform: uppercase; letter-spacing: .08em;
-  margin: 16px 0 10px;
+  padding: 0 16px 8px;
 }
 
-table {
-  width: 100%; border-collapse: collapse; font-size: 12px;
-  min-width: 540px;
-}
+/* ── TABLE ── */
+.table-wrap { overflow-x: auto; padding: 0 12px; }
+table { width: 100%; border-collapse: collapse; font-size: 12px; min-width: 560px; }
 thead th {
-  background: var(--surface); color: var(--muted);
-  padding: 8px 10px; text-align: right; font-weight: 600;
-  border-bottom: 2px solid var(--border);
-  white-space: nowrap;
+  background: var(--surface); color: var(--muted); font-weight: 700;
+  padding: 9px 10px; text-align: right;
+  border-bottom: 2px solid var(--border); white-space: nowrap;
+  font-size: 11px; text-transform: uppercase; letter-spacing: .05em;
 }
-thead th:first-child { text-align: left; }
+thead th:first-child { text-align: left; border-radius: 8px 0 0 0; }
+thead th:last-child  { border-radius: 0 8px 0 0; }
 tbody tr { border-bottom: 1px solid var(--border); }
-tbody tr:hover { background: #1e293b88; }
-tbody td {
-  padding: 10px 10px; text-align: right; vertical-align: middle;
-  white-space: nowrap;
+tbody tr:hover { background: #062840; }
+tbody td { padding: 10px 10px; text-align: right; vertical-align: middle; white-space: nowrap; }
+tbody td:first-child { text-align: left; font-weight: 700; font-size: 13px; }
+
+.rate-pill {
+  display: inline-block; padding: 4px 9px; border-radius: 7px;
+  font-size: 12px; font-weight: 800;
 }
-tbody td:first-child { text-align: left; font-weight: 600; }
+.rate-green  { background: #0D3B1E; color: #4ADE80; }
+.rate-yellow { background: #3A2A00; color: var(--yellow); }
+.rate-red    { background: #2D0A0A; color: var(--red); }
 
-.pill {
-  display: inline-block; padding: 3px 8px; border-radius: 6px;
-  font-size: 11px; font-weight: 700;
+.pct-val { font-size: 12px; font-weight: 700; }
+.pct-green  { color: #4ADE80; }
+.pct-yellow { color: var(--yellow); }
+.pct-red    { color: var(--red); }
+.pct-muted  { color: var(--muted); }
+.sub { display: block; font-size: 10px; color: var(--muted); font-weight: 500; margin-top: 2px; }
+
+/* ── LOGS ── */
+.logs-section { padding: 16px; }
+.logs-section h3 { font-size: 16px; font-weight: 800; margin-bottom: 12px; }
+.log-entry {
+  background: var(--surface); border: 1px solid var(--border); border-radius: 12px;
+  padding: 12px 14px; margin-bottom: 8px;
+  display: flex; align-items: center; gap: 12px;
 }
-.pill-green { background: #14532d; color: var(--green); }
-.pill-yellow { background: #422006; color: #fbbf24; }
-.pill-red { background: #450a0a; color: var(--red); }
+.log-avatar {
+  width: 36px; height: 36px; border-radius: 10px;
+  background: var(--navy); border: 1px solid var(--border);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 14px; font-weight: 800; color: var(--sky); flex-shrink: 0;
+}
+.log-info { flex: 1; min-width: 0; }
+.log-name { font-size: 14px; font-weight: 700; }
+.log-time { font-size: 12px; color: var(--muted); margin-top: 2px; }
+.log-ua   { font-size: 10px; color: var(--muted); opacity: .6; margin-top: 1px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 
-.pct { color: var(--muted); font-size: 11px; }
-.pct.good { color: var(--green); }
-.pct.mid  { color: #fbbf24; }
-.pct.bad  { color: var(--red); }
-
-.center { display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 300px; gap: 12px; color: var(--muted); }
-.spinner { width: 36px; height: 36px; border: 3px solid var(--border); border-top-color: var(--accent); border-radius: 50%; animation: spin .7s linear infinite; }
+/* ── STATES ── */
+.state-center {
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  min-height: 280px; gap: 14px; color: var(--muted); font-size: 14px;
+}
+.spinner {
+  width: 36px; height: 36px; border: 3px solid var(--border); border-top-color: var(--sky);
+  border-radius: 50%; animation: spin .7s linear infinite;
+}
 @keyframes spin { to { transform: rotate(360deg); } }
+
+/* ── DIVIDER ── */
+.divider { height: 1px; background: var(--border); margin: 20px 0; }
 </style>
 </head>
 <body>
 
 <nav>
-  <span class="nav-title">Recouvrement</span>
-  <div class="nav-links">
+  <span class="nav-brand">Recouvrement</span>
+  <div class="nav-tabs">
     <a href="operations.html">Liste</a>
     <a href="map.html">Carte</a>
-    <a href="resultats.html" class="active">Résultats</a>
+    <a href="resultats.html" class="active">Stats</a>
   </div>
-  <button class="logout" onclick="logout()">Déco.</button>
+  <button class="btn-logout" onclick="logout()">Déco.</button>
 </nav>
 
-<div class="header">
+<div class="page-header">
   <h2>Résultats hebdomadaires</h2>
-  <div class="refresh-time" id="refresh_time"></div>
+  <div class="updated" id="updated"></div>
 </div>
 
-<div id="kpi-strip" class="kpi-strip" style="display:none">
-  <div class="kpi"><div class="kpi-val" id="k_cohorts">—</div><div class="kpi-lbl">Semaines</div></div>
-  <div class="kpi"><div class="kpi-val" id="k_rate">—</div><div class="kpi-lbl">Taux moy.</div></div>
-  <div class="kpi"><div class="kpi-val" id="k_volume">—</div><div class="kpi-lbl">FCFA suivi</div></div>
-</div>
-
-<div class="table-wrap">
-  <div id="loader" class="center"><div class="spinner"></div><span>Chargement…</span></div>
-  <div id="content" style="display:none">
-    <div class="section-title">Recouvrement par semaine (12 dernières)</div>
-    <table>
-      <thead>
-        <tr>
-          <th>Semaine</th>
-          <th>Clients</th>
-          <th>Valeur</th>
-          <th>Recup. à date</th>
-          <th>J0</th>
-          <th>J3</th>
-          <th>J7</th>
-          <th>J15</th>
-          <th>J30</th>
-        </tr>
-      </thead>
-      <tbody id="tbody"></tbody>
-    </table>
-  </div>
+<div id="main">
+  <div class="state-center"><div class="spinner"></div><span>Chargement…</span></div>
 </div>
 
 <script>
 const agent = JSON.parse(sessionStorage.getItem('wr_agent') || 'null');
-if (!agent) { window.location.href = 'index.html'; }
-function logout() { sessionStorage.removeItem('wr_agent'); window.location.href = 'index.html'; }
+if (!agent) location.href = 'index.html';
+function logout() { sessionStorage.removeItem('wr_agent'); location.href = 'index.html'; }
 
-const fmt    = n  => n != null ? new Intl.NumberFormat('fr-FR').format(Math.round(n)) : '—';
-const fmtM   = n  => n != null ? (n / 1e6).toFixed(1) + 'M' : '—';
-const pct    = (a, b) => (b && b > 0) ? Math.round((a || 0) / b * 100) : null;
+const fmt  = n => n != null ? new Intl.NumberFormat('fr-FR').format(Math.round(n)) : '—';
+const fmtM = n => n != null ? (n / 1e6).toFixed(1) + 'M' : '—';
+const pct  = (a, b) => (b > 0 && a != null) ? Math.round(a / b * 100) : null;
 
-function pctPill(p) {
-  if (p === null) return '<span class="pct">—</span>';
-  const cls = p >= 90 ? 'good' : p >= 70 ? 'mid' : 'bad';
-  return `<span class="pct ${cls}">${p}%</span>`;
+function pctClass(p) {
+  if (p === null) return 'pct-muted';
+  if (p >= 90) return 'pct-green';
+  if (p >= 70) return 'pct-yellow';
+  return 'pct-red';
+}
+function rateClass(p) {
+  if (p === null) return 'rate-yellow';
+  if (p >= 90) return 'rate-green';
+  if (p >= 70) return 'rate-yellow';
+  return 'rate-red';
+}
+function fmtWeek(iso) {
+  if (!iso) return '—';
+  const d = new Date(iso);
+  return d.toLocaleDateString('fr-FR', { day: '2-digit', month: 'short', year: 'numeric' });
+}
+function fmtTs(iso) {
+  const d = new Date(iso);
+  return d.toLocaleDateString('fr-FR', { weekday: 'short', day: '2-digit', month: 'short' })
+    + ' · ' + d.toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' });
 }
 
-function fmtWeek(isoDate) {
-  if (!isoDate) return '—';
-  const d = new Date(isoDate);
-  const day   = d.getDate().toString().padStart(2, '0');
-  const month = d.toLocaleString('fr-FR', { month: 'short' });
-  const year  = d.getFullYear();
-  return `${day} ${month} ${year}`;
+function initials(name) {
+  return (name || '?').split(' ').map(w => w[0]).join('').slice(0,2).toUpperCase();
 }
 
 async function load() {
-  const res  = await fetch('data/weekly_stats.json?_=' + Date.now());
-  const json = await res.json();
-  const data = json.data || [];
+  const statsJson = await fetch('data/weekly_stats.json?_=' + Date.now()).then(r => r.json());
 
-  document.getElementById('loader').style.display = 'none';
-  document.getElementById('refresh_time').textContent =
-    'Mis à jour ' + new Date(json.updated_at).toLocaleString('fr-FR');
+  document.getElementById('updated').textContent =
+    'Mis à jour ' + new Date(statsJson.updated_at).toLocaleString('fr-FR');
 
-  if (!data.length) {
-    document.getElementById('content').innerHTML =
-      '<div class="center">Pas encore de données</div>';
-    document.getElementById('content').style.display = 'block';
-    return;
-  }
-
-  // KPIs
+  const data = statsJson.data || [];
   const totalVal  = data.reduce((s, r) => s + (r.valeur_totale || 0), 0);
-  const totalRecup = data.reduce((s, r) => s + (r.montant_recouvre || 0), 0);
-  const avgRate = pct(totalRecup, totalVal);
-  document.getElementById('k_cohorts').textContent = data.length;
-  document.getElementById('k_rate').textContent    = avgRate != null ? avgRate + '%' : '—';
-  document.getElementById('k_volume').textContent  = fmtM(totalVal);
-  document.getElementById('kpi-strip').style.display = 'grid';
+  const totalRec  = data.reduce((s, r) => s + (r.montant_recouvre || 0), 0);
+  const avgRate   = pct(totalRec, totalVal);
 
-  const tbody = document.getElementById('tbody');
-  tbody.innerHTML = data.map(r => {
-    const val  = r.valeur_totale || 0;
-    const rec  = r.montant_recouvre || 0;
-    const pA   = pct(rec, val);
-    const p0   = pct(r.recup_j0_cfa, val);
-    const p3   = pct(r.recup_j3_cfa, val);
-    const p7   = pct(r.recup_j7_cfa, val);
-    const p15  = pct(r.recup_j15_cfa, val);
-    const p30  = pct(r.recup_j30_cfa, val);
+  // Build table rows
+  const rows = data.map(r => {
+    const val = r.valeur_totale || 0;
+    const pA  = pct(r.montant_recouvre, val);
+    const p0  = pct(r.recup_j0_cfa,  val);
+    const p3  = pct(r.recup_j3_cfa,  val);
+    const p7  = pct(r.recup_j7_cfa,  val);
+    const p15 = pct(r.recup_j15_cfa, val);
+    const p30 = pct(r.recup_j30_cfa, val);
 
-    // pill color for recovery rate
-    const rateClass = pA >= 90 ? 'pill-green' : pA >= 70 ? 'pill-yellow' : 'pill-red';
-
+    function cell(p, cfa) {
+      const c = pctClass(p);
+      return `<td><span class="pct-val ${c}">${p != null ? p+'%' : '—'}</span><span class="sub">${fmt(cfa)}</span></td>`;
+    }
     return `<tr>
       <td>${fmtWeek(r.semaine)}</td>
-      <td style="text-align:center">${r.nb_clients || 0}</td>
+      <td style="text-align:center">${r.nb_clients}</td>
       <td>${fmt(val)}</td>
-      <td><span class="pill ${rateClass}">${pA != null ? pA + '%' : '—'}</span><br><small style="color:var(--muted)">${fmt(rec)}</small></td>
-      <td>${pctPill(p0)}<br><small style="color:var(--muted)">${fmt(r.recup_j0_cfa)}</small></td>
-      <td>${pctPill(p3)}<br><small style="color:var(--muted)">${fmt(r.recup_j3_cfa)}</small></td>
-      <td>${pctPill(p7)}<br><small style="color:var(--muted)">${fmt(r.recup_j7_cfa)}</small></td>
-      <td>${pctPill(p15)}<br><small style="color:var(--muted)">${fmt(r.recup_j15_cfa)}</small></td>
-      <td>${pctPill(p30)}<br><small style="color:var(--muted)">${fmt(r.recup_j30_cfa)}</small></td>
+      <td><span class="rate-pill ${rateClass(pA)}">${pA != null ? pA+'%' : '—'}</span><span class="sub">${fmt(r.montant_recouvre)}</span></td>
+      ${cell(p0, r.recup_j0_cfa)}
+      ${cell(p3, r.recup_j3_cfa)}
+      ${cell(p7, r.recup_j7_cfa)}
+      ${cell(p15, r.recup_j15_cfa)}
+      ${cell(p30, r.recup_j30_cfa)}
     </tr>`;
   }).join('');
 
-  document.getElementById('content').style.display = 'block';
+  // Logs depuis localStorage (par appareil)
+  const logs = JSON.parse(localStorage.getItem('wr_login_log') || '[]');
+  const logsHTML = logs.length
+    ? logs.slice(0, 50).map(l => `
+        <div class="log-entry">
+          <div class="log-avatar">${initials(l.agent)}</div>
+          <div class="log-info">
+            <div class="log-name">${l.agent}</div>
+            <div class="log-time">${fmtTs(l.ts)}</div>
+            <div class="log-ua">${l.ua || ''}</div>
+          </div>
+        </div>`).join('')
+    : '<div style="color:var(--muted);font-size:14px;padding:8px 0">Aucune connexion sur cet appareil.</div>';
+
+  document.getElementById('main').innerHTML = `
+    <div class="kpi-grid">
+      <div class="kpi"><div class="kpi-val">${data.length}</div><div class="kpi-lbl">Semaines</div></div>
+      <div class="kpi"><div class="kpi-val">${avgRate != null ? avgRate+'%' : '—'}</div><div class="kpi-lbl">Taux moy.</div></div>
+      <div class="kpi"><div class="kpi-val">${fmtM(totalVal)}</div><div class="kpi-lbl">FCFA suivi</div></div>
+    </div>
+
+    <div class="section-label">Recouvrement par semaine (12 dernières)</div>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Semaine</th>
+            <th style="text-align:center">Clients</th>
+            <th>Valeur</th>
+            <th>À date</th>
+            <th>J0</th><th>J3</th><th>J7</th><th>J15</th><th>J30</th>
+          </tr>
+        </thead>
+        <tbody>${rows}</tbody>
+      </table>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="logs-section">
+      <h3>📋 Logs de connexion</h3>
+      ${logsHTML}
+    </div>`;
 }
 
 load().catch(e => {
-  document.getElementById('loader').innerHTML = '<div class="center">⚠️ Erreur de chargement</div>';
+  document.getElementById('main').innerHTML =
+    '<div class="state-center">⚠️ Erreur de chargement</div>';
   console.error(e);
 });
 </script>

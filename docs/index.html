@@ -4,102 +4,132 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <title>Waribei Recouvrement</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/bcryptjs@2.4.3/dist/bcrypt.min.js"></script>
 <style>
-  * { box-sizing: border-box; margin: 0; padding: 0; }
-  body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-    background: #0f172a;
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-  }
-  .card {
-    background: #1e293b;
-    border-radius: 16px;
-    padding: 40px 32px;
-    width: 100%;
-    max-width: 360px;
-    box-shadow: 0 20px 60px rgba(0,0,0,0.5);
-  }
-  .logo {
-    text-align: center;
-    margin-bottom: 32px;
-  }
-  .logo h1 { color: #f59e0b; font-size: 24px; font-weight: 700; }
-  .logo p  { color: #94a3b8; font-size: 13px; margin-top: 4px; }
-  .field { margin-bottom: 16px; }
-  label { display: block; color: #94a3b8; font-size: 13px; margin-bottom: 6px; }
-  input {
-    width: 100%;
-    padding: 14px 16px;
-    background: #0f172a;
-    border: 1px solid #334155;
-    border-radius: 10px;
-    color: #f1f5f9;
-    font-size: 16px;
-    outline: none;
-    transition: border-color .2s;
-  }
-  input:focus { border-color: #f59e0b; }
-  .btn {
-    width: 100%;
-    padding: 14px;
-    background: #f59e0b;
-    color: #0f172a;
-    border: none;
-    border-radius: 10px;
-    font-size: 16px;
-    font-weight: 700;
-    cursor: pointer;
-    margin-top: 8px;
-    transition: opacity .2s;
-  }
-  .btn:disabled { opacity: .5; cursor: not-allowed; }
-  .error {
-    background: #450a0a;
-    border: 1px solid #991b1b;
-    color: #fca5a5;
-    padding: 12px 16px;
-    border-radius: 8px;
-    font-size: 14px;
-    margin-top: 16px;
-    display: none;
-  }
-  .spinner {
-    display: inline-block;
-    width: 18px; height: 18px;
-    border: 2px solid #0f172a;
-    border-top-color: transparent;
-    border-radius: 50%;
-    animation: spin .7s linear infinite;
-    vertical-align: middle;
-    margin-right: 6px;
-  }
-  @keyframes spin { to { transform: rotate(360deg); } }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+  --red:    #F83131;
+  --navy:   #064C72;
+  --sky:    #8ECAE6;
+  --green:  #1B5A43;
+  --yellow: #FFC444;
+  --peach:  #FFDBCC;
+  --ice:    #D8ECFE;
+
+  --bg:      #04212F;
+  --surface: #07384F;
+  --border:  #0D536E;
+  --text:    #F0F9FF;
+  --muted:   #8ECAE6;
+}
+body {
+  font-family: 'DM Sans', sans-serif;
+  background: var(--bg);
+  min-height: 100vh;
+  display: flex; align-items: center; justify-content: center;
+  padding: 24px;
+}
+
+.wrap {
+  width: 100%; max-width: 360px;
+}
+
+.logo {
+  text-align: center;
+  margin-bottom: 36px;
+}
+.logo-badge {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 64px; height: 64px; border-radius: 18px;
+  background: var(--red); margin-bottom: 14px;
+}
+.logo-badge svg { width: 36px; height: 36px; fill: white; }
+.logo h1 { font-size: 22px; font-weight: 800; color: var(--text); letter-spacing: -.3px; }
+.logo p  { color: var(--muted); font-size: 14px; margin-top: 3px; }
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 28px 24px;
+  box-shadow: 0 24px 64px rgba(0,0,0,.4);
+}
+
+.field { margin-bottom: 14px; }
+label { display: block; color: var(--muted); font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: .06em; margin-bottom: 7px; }
+input {
+  width: 100%; padding: 14px 16px;
+  background: var(--bg); border: 1.5px solid var(--border);
+  border-radius: 12px; color: var(--text);
+  font-family: 'DM Sans', sans-serif; font-size: 16px;
+  outline: none; transition: border-color .2s;
+}
+input:focus { border-color: var(--sky); }
+
+.btn {
+  width: 100%; padding: 15px;
+  background: var(--red); color: white;
+  border: none; border-radius: 12px;
+  font-family: 'DM Sans', sans-serif; font-size: 16px; font-weight: 700;
+  cursor: pointer; margin-top: 6px;
+  transition: opacity .15s, transform .1s;
+  display: flex; align-items: center; justify-content: center; gap: 8px;
+}
+.btn:active { opacity: .85; transform: scale(.98); }
+.btn:disabled { opacity: .45; cursor: not-allowed; transform: none; }
+
+.error {
+  background: #2A0A0A; border: 1px solid var(--red);
+  color: #FCA5A5; padding: 12px 14px; border-radius: 10px;
+  font-size: 13px; margin-top: 14px; display: none;
+}
+
+.spinner {
+  width: 18px; height: 18px;
+  border: 2.5px solid rgba(255,255,255,.3); border-top-color: white;
+  border-radius: 50%; animation: spin .65s linear infinite;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+
+.footer { text-align: center; margin-top: 20px; color: var(--muted); font-size: 12px; opacity: .6; }
 </style>
 </head>
 <body>
-<div class="card">
+<div class="wrap">
   <div class="logo">
-    <h1>Waribei Recouvrement</h1>
-    <p>Dashboard agents</p>
+    <div class="logo-badge">
+      <!-- Shield icon -->
+      <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M12 2L3 7v5c0 5.25 3.75 10.15 9 11.35C17.25 22.15 21 17.25 21 12V7L12 2z"/>
+      </svg>
+    </div>
+    <h1>Recouvrement</h1>
+    <p>Waribei · Accès agents</p>
   </div>
-  <div class="field">
-    <label>Identifiant</label>
-    <input id="username" type="text" placeholder="alassane ou francisAka" autocomplete="username">
+
+  <div class="card">
+    <div class="field">
+      <label>Identifiant</label>
+      <input id="username" type="text" placeholder="alassane ou francisaka" autocomplete="username">
+    </div>
+    <div class="field" style="margin-bottom:20px">
+      <label>Mot de passe</label>
+      <input id="password" type="password" placeholder="••••••••" autocomplete="current-password">
+    </div>
+    <button class="btn" id="btn" onclick="login()">
+      Se connecter
+    </button>
+    <div class="error" id="err"></div>
   </div>
-  <div class="field">
-    <label>Mot de passe</label>
-    <input id="password" type="password" placeholder="••••••••" autocomplete="current-password">
-  </div>
-  <button class="btn" id="btn" onclick="login()">Se connecter</button>
-  <div class="error" id="err"></div>
+
+  <div class="footer">Données actualisées toutes les heures</div>
 </div>
 
 <script>
+const agent = JSON.parse(sessionStorage.getItem('wr_agent') || 'null');
+if (agent) { window.location.href = 'operations.html'; }
+
 async function login() {
   const username = document.getElementById('username').value.trim().toLowerCase();
   const password = document.getElementById('password').value;
@@ -107,27 +137,27 @@ async function login() {
   const err = document.getElementById('err');
 
   err.style.display = 'none';
-  if (!username || !password) {
-    showErr('Remplis tous les champs.');
-    return;
-  }
+  if (!username || !password) { showErr('Remplis tous les champs.'); return; }
 
   btn.disabled = true;
-  btn.innerHTML = '<span class="spinner"></span>Vérification…';
+  btn.innerHTML = '<div class="spinner"></div> Vérification…';
 
   try {
-    const res = await fetch('data/config.json?_=' + Date.now());
-    const cfg = await res.json();
-    const agent = cfg.agents.find(a => a.username === username);
-    if (!agent) { showErr('Identifiant inconnu.'); return; }
+    const cfg = await fetch('data/config.json?_=' + Date.now()).then(r => r.json());
+    const found = cfg.agents.find(a => a.username === username);
+    if (!found) { showErr('Identifiant inconnu.'); return; }
 
-    const ok = await bcrypt.compare(password, agent.hash);
+    const ok = await bcrypt.compare(password, found.hash);
     if (!ok) { showErr('Mot de passe incorrect.'); return; }
 
-    sessionStorage.setItem('wr_agent', JSON.stringify({ id: agent.id, display: agent.display }));
+    sessionStorage.setItem('wr_agent', JSON.stringify({ id: found.id, display: found.display, username: found.username }));
+
+    // Log connexion en localStorage
+    logLogin(found.display);
+
     window.location.href = 'operations.html';
   } catch(e) {
-    showErr('Erreur réseau. Réessaie.');
+    showErr('Erreur réseau — réessaie.');
     console.error(e);
   } finally {
     btn.disabled = false;
@@ -135,20 +165,29 @@ async function login() {
   }
 }
 
+function logLogin(displayName) {
+  try {
+    const logs = JSON.parse(localStorage.getItem('wr_login_log') || '[]');
+    logs.unshift({
+      ts: new Date().toISOString(),
+      agent: displayName,
+      ua: /iPhone|iPad/.test(navigator.userAgent) ? '📱 iOS'
+        : /Android/.test(navigator.userAgent) ? '📱 Android'
+        : '💻 Desktop',
+    });
+    if (logs.length > 200) logs.length = 200;
+    localStorage.setItem('wr_login_log', JSON.stringify(logs));
+  } catch(e) { /* silently skip */ }
+}
+
 function showErr(msg) {
   const e = document.getElementById('err');
-  e.textContent = msg;
-  e.style.display = 'block';
+  e.textContent = msg; e.style.display = 'block';
   document.getElementById('btn').disabled = false;
   document.getElementById('btn').innerHTML = 'Se connecter';
 }
 
 document.addEventListener('keydown', e => { if (e.key === 'Enter') login(); });
-
-// Already logged in?
-if (sessionStorage.getItem('wr_agent')) {
-  window.location.href = 'operations.html';
-}
 </script>
 </body>
 </html>

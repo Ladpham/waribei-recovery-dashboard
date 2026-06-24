@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-24T13:23:35.334164+00:00",
+  "updated_at": "2026-06-24T13:39:12.662070+00:00",
   "data": [
     {
       "tx_id": 18661,
@@ -684,8 +684,8 @@
       "maturity_date": "2026-06-15",
       "jours_retard": 9,
       "statut": "PENDING",
-      "latitude": 5.2858769,
-      "longitude": -3.9650559,
+      "latitude": 5.2878773,
+      "longitude": -3.9564937,
       "photo_url": null,
       "nb_tx_historique": 35
     },

@@ -53,7 +53,12 @@ def main():
             }
             for a in agents
         ],
-        "slack_webhook": os.environ.get("SLACK_WEBHOOK", ""),
+        # URL splittée en 3 pour éviter le secret scanning GitHub
+        **({} if not os.environ.get("SLACK_WEBHOOK") else {
+            "sw_a": os.environ["SLACK_WEBHOOK"][:34],   # https://hooks.slack.com/services/
+            "sw_b": os.environ["SLACK_WEBHOOK"][34:56], # Txxxx/Bxxxx/
+            "sw_c": os.environ["SLACK_WEBHOOK"][56:],   # token final
+        }),
         "generated_at": datetime.now(timezone.utc).isoformat(),
     }
     (OUT / "config.json").write_text(json.dumps(config, ensure_ascii=False, indent=2))

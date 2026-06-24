@@ -8,122 +8,199 @@
 <style>
 * { box-sizing: border-box; margin: 0; padding: 0; }
 :root {
-  --red:    #F83131;
-  --navy:   #064C72;
-  --sky:    #8ECAE6;
-  --green:  #1B5A43;
-  --yellow: #FFC444;
-  --peach:  #FFDBCC;
-  --ice:    #D8ECFE;
-  --bg:     #04212F;
-  --surface:#07384F;
-  --border: #0D536E;
-  --text:   #F0F9FF;
-  --muted:  #8ECAE6;
+  --red:#F83131; --navy:#064C72; --sky:#8ECAE6; --green:#1B5A43;
+  --yellow:#FFC444; --bg:#04212F; --surface:#07384F; --border:#0D536E;
+  --text:#F0F9FF; --muted:#8ECAE6;
 }
-body { font-family: 'DM Sans', sans-serif; background: var(--bg); color: var(--text); min-height: 100vh; }
+body { font-family:'DM Sans',sans-serif; background:var(--bg); color:var(--text); min-height:100vh; }
 
-/* ── NAV ── */
+/* NAV */
 nav {
-  background: var(--surface); border-bottom: 1px solid var(--border);
-  display: flex; align-items: center; justify-content: space-between;
-  padding: 0 16px; height: 56px;
-  position: sticky; top: 0; z-index: 100;
+  background:var(--surface); border-bottom:1px solid var(--border);
+  display:flex; align-items:center; justify-content:space-between;
+  padding:0 16px; height:56px; position:sticky; top:0; z-index:100;
 }
-.nav-brand { font-size: 16px; font-weight: 800; color: var(--red); letter-spacing: -.2px; }
-.nav-tabs { display: flex; gap: 2px; }
+.nav-brand { font-size:16px; font-weight:800; color:var(--red); }
+.nav-tabs { display:flex; gap:2px; }
 .nav-tabs a {
-  padding: 7px 11px; border-radius: 9px; font-size: 13px; font-weight: 600;
-  color: var(--muted); text-decoration: none; transition: all .15s;
+  padding:7px 11px; border-radius:9px; font-size:13px; font-weight:600;
+  color:var(--muted); text-decoration:none; transition:all .15s;
 }
-.nav-tabs a.active { background: var(--red); color: white; }
-.nav-tabs a:hover:not(.active) { background: var(--border); color: var(--text); }
-.btn-logout {
-  background: none; border: none; color: var(--muted); font-family: 'DM Sans', sans-serif;
-  font-size: 12px; cursor: pointer; padding: 4px 8px; border-radius: 6px;
-}
-.btn-logout:hover { color: var(--red); }
+.nav-tabs a.active { background:var(--red); color:white; }
+.nav-tabs a:hover:not(.active) { background:var(--border); color:var(--text); }
+.btn-logout { background:none; border:none; color:var(--muted); font-family:'DM Sans',sans-serif; font-size:12px; cursor:pointer; }
+.btn-logout:hover { color:var(--red); }
 
-/* ── HEADER ── */
-.page-header {
-  padding: 16px 16px 12px;
-  border-bottom: 1px solid var(--border);
-}
-.page-header h2 { font-size: 20px; font-weight: 800; letter-spacing: -.3px; }
-.header-meta { display: flex; gap: 8px; margin-top: 10px; flex-wrap: wrap; }
+/* HEADER */
+.page-header { padding:14px 16px 0; }
+.page-header h2 { font-size:20px; font-weight:800; }
+.header-chips { display:flex; gap:8px; margin-top:10px; flex-wrap:wrap; }
 .chip {
-  display: inline-flex; align-items: center; gap: 5px;
-  background: var(--surface); border: 1px solid var(--border);
-  border-radius: 20px; padding: 5px 12px; font-size: 12px; font-weight: 600; color: var(--muted);
+  background:var(--surface); border:1px solid var(--border);
+  border-radius:20px; padding:5px 12px; font-size:12px; font-weight:600; color:var(--muted);
 }
-.chip b { color: var(--text); }
-.chip.danger b { color: var(--red); }
-.chip.warn b { color: var(--yellow); }
-.updated { font-size: 11px; color: var(--muted); opacity: .7; margin-top: 6px; }
+.chip b { color:var(--text); }
+.chip.danger b { color:var(--red); }
+.updated { font-size:11px; color:var(--muted); opacity:.7; margin-top:6px; padding-bottom:12px; }
 
-/* ── CARDS ── */
-.list { padding: 12px; display: flex; flex-direction: column; gap: 10px; }
+/* FILTER TABS */
+.filter-bar {
+  display:flex; gap:8px; padding:12px 16px;
+  overflow-x:auto; -webkit-overflow-scrolling:touch; scrollbar-width:none;
+  position:sticky; top:56px; z-index:90;
+  background:var(--bg); border-bottom:1px solid var(--border);
+}
+.filter-bar::-webkit-scrollbar { display:none; }
+.filter-btn {
+  flex-shrink:0; padding:8px 14px; border-radius:20px; border:1.5px solid var(--border);
+  background:var(--surface); color:var(--muted);
+  font-family:'DM Sans',sans-serif; font-size:13px; font-weight:700;
+  cursor:pointer; transition:all .15s; white-space:nowrap;
+  display:flex; align-items:center; gap:6px;
+}
+.filter-btn.active { border-color:transparent; color:white; }
+.filter-btn.f-all.active    { background:var(--navy); }
+.filter-btn.f-low.active    { background:#14532D; color:#4ADE80; }
+.filter-btn.f-mid.active    { background:#78350F; color:var(--yellow); }
+.filter-btn.f-high.active   { background:#7F1D1D; color:#F87171; }
+.filter-count {
+  background:rgba(255,255,255,.12); border-radius:10px;
+  padding:1px 7px; font-size:11px; font-weight:800;
+}
+
+/* CARDS */
+.list { padding:10px 12px; display:flex; flex-direction:column; gap:8px; }
 
 .card {
-  background: var(--surface); border: 1px solid var(--border); border-radius: 16px; overflow: hidden;
+  background:var(--surface); border:1px solid var(--border); border-radius:16px;
+  overflow:hidden; cursor:pointer; transition:border-color .15s;
 }
-.card-top {
-  display: flex; align-items: center; gap: 12px; padding: 14px 14px 10px;
-}
+.card:active { border-color:var(--sky); }
+
+.card-main { display:flex; align-items:flex-start; gap:12px; padding:12px 12px 10px; }
+
 .avatar {
-  width: 54px; height: 54px; border-radius: 12px; flex-shrink: 0;
-  background: var(--border); overflow: hidden;
-  display: flex; align-items: center; justify-content: center;
-  font-size: 18px; font-weight: 700; color: var(--sky);
+  width:56px; height:56px; border-radius:11px; flex-shrink:0;
+  background:var(--border); overflow:hidden;
+  display:flex; align-items:center; justify-content:center;
+  font-size:18px; font-weight:700; color:var(--sky);
+  cursor:zoom-in;
 }
-.avatar img { width: 100%; height: 100%; object-fit: cover; }
-.card-info { flex: 1; min-width: 0; }
-.card-name { font-size: 15px; font-weight: 700; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-.card-sup  { font-size: 12px; color: var(--muted); margin-top: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.avatar img { width:100%; height:100%; object-fit:cover; }
+
+.card-body { flex:1; min-width:0; }
+.card-name { font-size:15px; font-weight:700; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.card-sup  { font-size:12px; color:var(--muted); margin-top:1px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+
+.card-grid {
+  display:grid; grid-template-columns:1fr 1fr 1fr;
+  gap:1px; background:var(--border);
+  border-top:1px solid var(--border); border-bottom:1px solid var(--border);
+}
+.grid-cell { background:var(--surface); padding:8px 12px; }
+.grid-cell:nth-child(3) { background:#062F42; }
+.cell-label { font-size:9px; font-weight:700; color:var(--muted); text-transform:uppercase; letter-spacing:.06em; }
+.cell-val   { font-size:13px; font-weight:700; margin-top:2px; }
+.cell-val.yellow { color:var(--yellow); }
+.cell-val.green  { color:#4ADE80; }
+.cell-val.red    { color:#F87171; }
+
+.card-footer { display:flex; align-items:center; gap:8px; padding:10px 12px; }
 .delay-tag {
-  flex-shrink: 0; padding: 5px 10px; border-radius: 8px;
-  font-size: 13px; font-weight: 800;
+  padding:4px 10px; border-radius:7px; font-size:12px; font-weight:800; flex-shrink:0;
 }
-.delay-low  { background: #1A3A1A; color: #4ADE80; }
-.delay-mid  { background: #3A2A00; color: var(--yellow); }
-.delay-high { background: #2D0A0A; color: var(--red); }
+.delay-low  { background:#1A3A1A; color:#4ADE80; }
+.delay-mid  { background:#3A2A00; color:var(--yellow); }
+.delay-high { background:#2D0A0A; color:#F87171; }
+.footer-actions { display:flex; gap:6px; flex:1; justify-content:flex-end; }
+.btn-sm {
+  padding:8px 12px; border-radius:9px; border:none;
+  font-family:'DM Sans',sans-serif; font-size:12px; font-weight:700;
+  cursor:pointer; text-decoration:none; text-align:center;
+  display:inline-flex; align-items:center; gap:4px; transition:opacity .15s;
+}
+.btn-sm:active { opacity:.7; }
+.btn-portal { background:var(--red);    color:white; }
+.btn-gps    { background:var(--border); color:var(--text); }
+.btn-cmt    { background:var(--navy);   color:var(--sky); position:relative; }
+.cmt-badge {
+  position:absolute; top:-5px; right:-5px;
+  background:var(--red); color:white; border-radius:8px;
+  font-size:9px; font-weight:800; padding:1px 5px;
+}
 
-.card-stats {
-  display: grid; grid-template-columns: 1fr 1fr; gap: 1px;
-  background: var(--border);
-  border-top: 1px solid var(--border); border-bottom: 1px solid var(--border);
+/* MODAL DETAIL */
+.modal-overlay {
+  display:none; position:fixed; inset:0; z-index:200;
+  background:rgba(0,0,0,.7); backdrop-filter:blur(4px);
+  align-items:flex-end; justify-content:center;
 }
-.stat-cell {
-  background: var(--surface); padding: 10px 14px;
+.modal-overlay.open { display:flex; }
+.modal-sheet {
+  background:var(--surface); border:1px solid var(--border);
+  border-radius:20px 20px 0 0;
+  width:100%; max-width:480px;
+  max-height:85vh; overflow-y:auto;
+  padding:0 0 40px; animation:slideUp .25s ease;
 }
-.stat-cell:nth-child(3), .stat-cell:nth-child(4) { background: #062F42; }
-.stat-label { font-size: 10px; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; }
-.stat-value { font-size: 14px; font-weight: 700; margin-top: 2px; }
-.stat-value.cfa { color: var(--yellow); }
+@keyframes slideUp { from { transform:translateY(100%); } to { transform:translateY(0); } }
+.modal-handle { width:36px; height:4px; background:var(--border); border-radius:2px; margin:14px auto 0; }
+.modal-header { padding:14px 18px 12px; border-bottom:1px solid var(--border); }
+.modal-name  { font-size:18px; font-weight:800; }
+.modal-sub   { font-size:13px; color:var(--muted); margin-top:2px; }
+.modal-photo-wrap { text-align:center; padding:16px; }
+.modal-photo-wrap img { max-width:100%; max-height:220px; border-radius:12px; object-fit:cover; }
+.modal-stats { display:grid; grid-template-columns:1fr 1fr; gap:10px; padding:0 16px 16px; }
+.ms-cell {
+  background:var(--bg); border:1px solid var(--border); border-radius:12px; padding:12px 14px;
+}
+.ms-label { font-size:10px; font-weight:700; color:var(--muted); text-transform:uppercase; letter-spacing:.06em; }
+.ms-val   { font-size:16px; font-weight:800; margin-top:4px; }
+.modal-section { padding:0 16px 8px; }
+.modal-section-title {
+  font-size:11px; font-weight:700; color:var(--muted);
+  text-transform:uppercase; letter-spacing:.08em; margin-bottom:10px;
+}
+.comment-item {
+  background:var(--bg); border:1px solid var(--border); border-radius:10px;
+  padding:10px 12px; margin-bottom:7px;
+}
+.comment-meta { font-size:11px; color:var(--muted); display:flex; justify-content:space-between; margin-bottom:4px; }
+.comment-type {
+  display:inline-block; padding:2px 7px; border-radius:5px;
+  font-size:10px; font-weight:700; background:var(--border); color:var(--sky); margin-bottom:4px;
+}
+.comment-text { font-size:13px; line-height:1.5; }
+.no-comments { color:var(--muted); font-size:13px; text-align:center; padding:20px 0; }
+.modal-actions { display:flex; gap:10px; padding:16px; }
+.modal-btn {
+  flex:1; padding:13px; border-radius:12px; border:none;
+  font-family:'DM Sans',sans-serif; font-size:14px; font-weight:700;
+  cursor:pointer; text-decoration:none; text-align:center; display:block;
+  transition:opacity .15s;
+}
+.modal-btn:active { opacity:.8; }
+.modal-btn-portal { background:var(--red);    color:white; }
+.modal-btn-gps    { background:var(--border); color:var(--text); }
 
-.card-actions { display: flex; gap: 8px; padding: 12px 14px; }
-.btn-action {
-  flex: 1; padding: 11px 8px; border-radius: 11px; border: none;
-  font-family: 'DM Sans', sans-serif; font-size: 13px; font-weight: 700;
-  cursor: pointer; text-decoration: none; text-align: center;
-  display: flex; align-items: center; justify-content: center; gap: 5px;
-  transition: opacity .15s, transform .1s;
+/* PHOTO VIEWER */
+.photo-viewer {
+  display:none; position:fixed; inset:0; z-index:300;
+  background:rgba(0,0,0,.92); align-items:center; justify-content:center;
 }
-.btn-action:active { opacity: .8; transform: scale(.97); }
-.btn-portal { background: var(--red);    color: white; }
-.btn-gps    { background: var(--border); color: var(--text); }
-.btn-gps.disabled { opacity: .35; cursor: not-allowed; }
+.photo-viewer.open { display:flex; }
+.photo-viewer img { max-width:95vw; max-height:90vh; border-radius:12px; object-fit:contain; }
+.photo-viewer-close {
+  position:absolute; top:20px; right:20px;
+  background:rgba(255,255,255,.15); border:none; color:white;
+  font-size:22px; width:40px; height:40px; border-radius:50%;
+  cursor:pointer; display:flex; align-items:center; justify-content:center;
+}
 
-/* ── STATES ── */
-.state-center {
-  display: flex; flex-direction: column; align-items: center; justify-content: center;
-  min-height: 320px; gap: 14px; color: var(--muted); font-size: 14px;
-}
-.spinner {
-  width: 36px; height: 36px; border: 3px solid var(--border); border-top-color: var(--sky);
-  border-radius: 50%; animation: spin .7s linear infinite;
-}
-@keyframes spin { to { transform: rotate(360deg); } }
+/* STATES */
+.state-center { display:flex; flex-direction:column; align-items:center; justify-content:center; min-height:300px; gap:12px; color:var(--muted); }
+.spinner { width:36px; height:36px; border:3px solid var(--border); border-top-color:var(--sky); border-radius:50%; animation:spin .7s linear infinite; }
+@keyframes spin { to { transform:rotate(360deg); } }
 </style>
 </head>
 <body>
@@ -140,97 +217,247 @@ nav {
 
 <div class="page-header">
   <h2>Clients PAR 8–30</h2>
-  <div class="header-meta">
-    <span class="chip"><b id="cnt">…</b>&nbsp;transactions</span>
-    <span class="chip danger"><b id="total_cfa">…</b>&nbsp;FCFA</span>
+  <div class="header-chips">
+    <span class="chip"><b id="cnt">…</b> transactions</span>
+    <span class="chip danger"><b id="total_reste">…</b> FCFA à récupérer</span>
   </div>
   <div class="updated" id="updated"></div>
+</div>
+
+<!-- FILTER TABS -->
+<div class="filter-bar">
+  <button class="filter-btn f-all active" onclick="filter('all')">
+    Tous <span class="filter-count" id="fc-all">0</span>
+  </button>
+  <button class="filter-btn f-low" onclick="filter('low')">
+    🟢 8–14 j <span class="filter-count" id="fc-low">0</span>
+  </button>
+  <button class="filter-btn f-mid" onclick="filter('mid')">
+    🟡 15–21 j <span class="filter-count" id="fc-mid">0</span>
+  </button>
+  <button class="filter-btn f-high" onclick="filter('high')">
+    🔴 22–30 j <span class="filter-count" id="fc-high">0</span>
+  </button>
 </div>
 
 <div id="list" class="list">
   <div class="state-center"><div class="spinner"></div><span>Chargement…</span></div>
 </div>
 
+<!-- MODAL DETAIL -->
+<div class="modal-overlay" id="modal" onclick="closeModal(event)">
+  <div class="modal-sheet" id="modal-sheet">
+    <div class="modal-handle"></div>
+    <div id="modal-content"></div>
+  </div>
+</div>
+
+<!-- PHOTO VIEWER -->
+<div class="photo-viewer" id="photo-viewer" onclick="closePhoto()">
+  <button class="photo-viewer-close" onclick="closePhoto()">✕</button>
+  <img id="photo-img" src="" alt="">
+</div>
+
 <script>
 const WARIPORTAIL_URL = txId => `https://wariportal.waribei.africa/transactions/${txId}`;
-const fmt = n => new Intl.NumberFormat('fr-FR').format(Math.round(n || 0));
+const fmt  = n => new Intl.NumberFormat('fr-FR').format(Math.round(n || 0));
+const fmtD = s => s ? new Date(s).toLocaleDateString('fr-FR', {day:'2-digit', month:'short', year:'2-digit'}) : '—';
 
 const agent = JSON.parse(sessionStorage.getItem('wr_agent') || 'null');
 if (!agent) location.href = 'index.html';
 function logout() { sessionStorage.removeItem('wr_agent'); location.href = 'index.html'; }
 
+let allData = [];
+let currentFilter = 'all';
+
+function delayBucket(d) {
+  if (d >= 22) return 'high';
+  if (d >= 15) return 'mid';
+  return 'low';
+}
 function delayClass(d) {
-  if (d >= 22) return 'delay-high';
-  if (d >= 15) return 'delay-mid';
-  return 'delay-low';
+  return 'delay-' + delayBucket(d);
 }
 
+const COMMENT_LABELS = {
+  GENERIC_COMMENT: 'Commentaire',
+  LETTER_GIVEN_TO_AGENT: 'Lettre remise',
+  AGENT_ACK_RECEIPT: 'Accusé réception',
+  RECOVERY_LETTER_DELIVERED_TO_CLIENT: 'Lettre livrée',
+  AGENT_VISITED_CLIENT: 'Visite',
+  PARTIAL_DELIVERY: 'Paiement partiel',
+  COURIER: 'Courier',
+  AVIS_AR: 'Avis AR',
+};
+
 function renderCard(tx) {
-  const initials = (tx.merchant_name || '?').split(' ').map(w => w[0]).join('').slice(0,2).toUpperCase();
-  const avatarHTML = tx.photo_url
-    ? `<img src="${tx.photo_url}" alt="" loading="lazy" onerror="this.parentElement.innerHTML='${initials}'">`
+  const initials = (tx.merchant_name||'?').split(' ').map(w=>w[0]).join('').slice(0,2).toUpperCase();
+  const avatarInner = tx.photo_url
+    ? `<img src="${tx.photo_url}" alt="" loading="lazy" onerror="this.parentElement.dataset.init='${initials}';this.remove();this.parentElement.textContent='${initials}'" onclick="openPhoto('${tx.photo_url}',event)">`
     : initials;
 
   const gpsHref = tx.latitude && tx.longitude
     ? `https://www.google.com/maps/dir/?api=1&destination=${tx.latitude},${tx.longitude}` : null;
 
-  const dClass = delayClass(tx.jours_retard);
+  const pct = tx.montant > 0 ? Math.round((tx.montant_paye / tx.montant) * 100) : 0;
+  const cmtCount = (tx.comments || []).length;
 
-  return `<div class="card">
-    <div class="card-top">
-      <div class="avatar">${avatarHTML}</div>
-      <div class="card-info">
+  return `<div class="card" onclick="openModal(${tx.tx_id})">
+    <div class="card-main">
+      <div class="avatar" onclick="event.stopPropagation();${tx.photo_url ? `openPhoto('${tx.photo_url}',event)` : ''}">${avatarInner}</div>
+      <div class="card-body">
         <div class="card-name">${tx.merchant_name || '—'}</div>
         <div class="card-sup">📦 ${tx.supplier_name || '—'}</div>
-      </div>
-      <div class="delay-tag ${dClass}">J+${tx.jours_retard}</div>
-    </div>
-    <div class="card-stats">
-      <div class="stat-cell">
-        <div class="stat-label">Montant</div>
-        <div class="stat-value cfa">${fmt(tx.montant)}<small style="font-size:10px;font-weight:500;margin-left:3px">FCFA</small></div>
-      </div>
-      <div class="stat-cell">
-        <div class="stat-label">Tx historique</div>
-        <div class="stat-value">${tx.nb_tx_historique} tx</div>
-      </div>
-      <div class="stat-cell">
-        <div class="stat-label">Zone</div>
-        <div class="stat-value" style="font-size:12px">${tx.district || (tx.latitude ? '📍 GPS dispo' : '—')}</div>
-      </div>
-      <div class="stat-cell">
-        <div class="stat-label">Échéance</div>
-        <div class="stat-value" style="font-size:12px">${tx.maturity_date || '—'}</div>
+        <div class="card-sup" style="margin-top:2px">📅 ${fmtD(tx.date_achat)}</div>
       </div>
     </div>
-    <div class="card-actions">
-      <a href="${WARIPORTAIL_URL(tx.tx_id)}" target="_blank" class="btn-action btn-portal">🔗 Wariportail</a>
-      ${gpsHref
-        ? `<a href="${gpsHref}" target="_blank" class="btn-action btn-gps">🗺️ Y aller</a>`
-        : `<span class="btn-action btn-gps disabled">Pas de GPS</span>`}
+    <div class="card-grid">
+      <div class="grid-cell">
+        <div class="cell-label">Avance</div>
+        <div class="cell-val yellow">${fmt(tx.montant)}</div>
+      </div>
+      <div class="grid-cell">
+        <div class="cell-label">Remboursé</div>
+        <div class="cell-val green">${fmt(tx.montant_paye)}</div>
+      </div>
+      <div class="grid-cell">
+        <div class="cell-label">Reste (${100-pct}%)</div>
+        <div class="cell-val red">${fmt(tx.montant_restant)}</div>
+      </div>
+    </div>
+    <div class="card-footer">
+      <div class="delay-tag ${delayClass(tx.jours_retard)}">J+${tx.jours_retard}</div>
+      <div class="footer-actions">
+        <button class="btn-sm btn-cmt" onclick="event.stopPropagation();openModal(${tx.tx_id})">
+          💬 Notes${cmtCount > 0 ? `<span class="cmt-badge">${cmtCount}</span>` : ''}
+        </button>
+        ${gpsHref
+          ? `<a href="${gpsHref}" target="_blank" class="btn-sm btn-gps" onclick="event.stopPropagation()">🗺️</a>`
+          : ''}
+        <a href="${WARIPORTAIL_URL(tx.tx_id)}" target="_blank" class="btn-sm btn-portal" onclick="event.stopPropagation()">🔗</a>
+      </div>
     </div>
   </div>`;
 }
 
-async function load() {
-  const json = await fetch('data/transactions.json?_=' + Date.now()).then(r => r.json());
-  const data = json.data || [];
+function openPhoto(url, e) {
+  if (e) e.stopPropagation();
+  document.getElementById('photo-img').src = url;
+  document.getElementById('photo-viewer').classList.add('open');
+}
+function closePhoto() { document.getElementById('photo-viewer').classList.remove('open'); }
 
-  document.getElementById('cnt').textContent = data.length;
-  document.getElementById('total_cfa').textContent =
-    fmt(data.reduce((s, t) => s + (t.montant || 0), 0));
-  document.getElementById('updated').textContent =
-    'Mis à jour ' + new Date(json.updated_at).toLocaleString('fr-FR');
+function openModal(txId) {
+  const tx = allData.find(t => t.tx_id === txId);
+  if (!tx) return;
+
+  const gpsHref = tx.latitude && tx.longitude
+    ? `https://www.google.com/maps/dir/?api=1&destination=${tx.latitude},${tx.longitude}` : null;
+  const pct = tx.montant > 0 ? Math.round((tx.montant_paye / tx.montant) * 100) : 0;
+  const comments = tx.comments || [];
+
+  const commentsHTML = comments.length
+    ? comments.slice(0, 20).map(c => `
+        <div class="comment-item">
+          <div class="comment-meta">
+            <span>${c.author || '—'}</span>
+            <span>${fmtD(c.date)}</span>
+          </div>
+          <div class="comment-type">${COMMENT_LABELS[c.type] || c.type}</div>
+          <div class="comment-text">${c.content || ''}</div>
+        </div>`)
+      .join('')
+    : '<div class="no-comments">Aucun commentaire enregistré</div>';
+
+  document.getElementById('modal-content').innerHTML = `
+    <div class="modal-header">
+      <div class="modal-name">${tx.merchant_name || '—'}</div>
+      <div class="modal-sub">📦 ${tx.supplier_name || '—'} · ${tx.district || (tx.latitude ? '📍 GPS' : '—')}</div>
+    </div>
+    ${tx.photo_url ? `<div class="modal-photo-wrap"><img src="${tx.photo_url}" onclick="openPhoto('${tx.photo_url}')"></div>` : ''}
+    <div class="modal-stats">
+      <div class="ms-cell">
+        <div class="ms-label">Date achat</div>
+        <div class="ms-val" style="font-size:14px">${fmtD(tx.date_achat)}</div>
+      </div>
+      <div class="ms-cell">
+        <div class="ms-label">Retard</div>
+        <div class="ms-val" style="color:#F87171">J+${tx.jours_retard}</div>
+      </div>
+      <div class="ms-cell">
+        <div class="ms-label">Avance totale</div>
+        <div class="ms-val" style="color:var(--yellow)">${fmt(tx.montant)}</div>
+      </div>
+      <div class="ms-cell">
+        <div class="ms-label">Remboursé</div>
+        <div class="ms-val" style="color:#4ADE80">${fmt(tx.montant_paye)} <span style="font-size:12px;opacity:.7">${pct}%</span></div>
+      </div>
+      <div class="ms-cell" style="grid-column:span 2">
+        <div class="ms-label">Reste à rembourser</div>
+        <div class="ms-val" style="color:#F87171">${fmt(tx.montant_restant)} FCFA</div>
+      </div>
+    </div>
+    <div class="modal-section">
+      <div class="modal-section-title">📋 Historique (${comments.length} commentaires)</div>
+      ${commentsHTML}
+    </div>
+    <div class="modal-actions">
+      <a href="${WARIPORTAIL_URL(tx.tx_id)}" target="_blank" class="modal-btn modal-btn-portal">🔗 Wariportail</a>
+      ${gpsHref
+        ? `<a href="${gpsHref}" target="_blank" class="modal-btn modal-btn-gps">🗺️ Y aller</a>`
+        : ''}
+    </div>`;
+
+  document.getElementById('modal').classList.add('open');
+}
+
+function closeModal(e) {
+  if (e.target === document.getElementById('modal')) {
+    document.getElementById('modal').classList.remove('open');
+  }
+}
+
+function filter(f) {
+  currentFilter = f;
+  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+  document.querySelector('.f-' + f).classList.add('active');
+  renderList();
+}
+
+function renderList() {
+  const filtered = currentFilter === 'all'
+    ? allData
+    : allData.filter(tx => delayBucket(tx.jours_retard) === currentFilter);
 
   const list = document.getElementById('list');
-  list.innerHTML = data.length
-    ? data.map(renderCard).join('')
-    : '<div class="state-center">✅ Aucune transaction PAR 8–30</div>';
+  list.innerHTML = filtered.length
+    ? filtered.map(renderCard).join('')
+    : '<div class="state-center" style="min-height:200px">Aucune transaction dans cette catégorie</div>';
+}
+
+async function load() {
+  const json = await fetch('data/transactions.json?_=' + Date.now()).then(r => r.json());
+  allData = json.data || [];
+
+  document.getElementById('cnt').textContent = allData.length;
+  const totalReste = allData.reduce((s,t) => s + (t.montant_restant || 0), 0);
+  document.getElementById('total_reste').textContent = fmt(totalReste) + ' FCFA';
+  document.getElementById('updated').textContent = 'Mis à jour ' + new Date(json.updated_at).toLocaleString('fr-FR');
+
+  // Comptes par catégorie
+  const low  = allData.filter(t => delayBucket(t.jours_retard) === 'low').length;
+  const mid  = allData.filter(t => delayBucket(t.jours_retard) === 'mid').length;
+  const high = allData.filter(t => delayBucket(t.jours_retard) === 'high').length;
+  document.getElementById('fc-all').textContent  = allData.length;
+  document.getElementById('fc-low').textContent  = low;
+  document.getElementById('fc-mid').textContent  = mid;
+  document.getElementById('fc-high').textContent = high;
+
+  renderList();
 }
 
 load().catch(() => {
-  document.getElementById('list').innerHTML =
-    '<div class="state-center">⚠️ Erreur de chargement</div>';
+  document.getElementById('list').innerHTML = '<div class="state-center">⚠️ Erreur de chargement</div>';
 });
 </script>
 <script src="feedback.js"></script>

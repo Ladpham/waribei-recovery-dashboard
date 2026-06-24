@@ -1,22 +1,22 @@
 {
-  "updated_at": "2026-06-24T13:50:45.862964+00:00",
+  "updated_at": "2026-06-24T14:33:48.046839+00:00",
   "data": [
     {
       "semaine": "2026-06-22",
       "nb_clients": 158,
       "valeur_totale": 36929854.0,
-      "nb_solds": 147,
-      "montant_recouvre": 33969454.0,
+      "nb_solds": 148,
+      "montant_recouvre": 34049204.0,
       "recup_j0_nb": 147,
       "recup_j0_cfa": 33969454.0,
-      "recup_j3_nb": 147,
-      "recup_j3_cfa": 33969454.0,
-      "recup_j7_nb": 147,
-      "recup_j7_cfa": 33969454.0,
-      "recup_j15_nb": 147,
-      "recup_j15_cfa": 33969454.0,
-      "recup_j30_nb": 147,
-      "recup_j30_cfa": 33969454.0
+      "recup_j3_nb": 148,
+      "recup_j3_cfa": 34049204.0,
+      "recup_j7_nb": 148,
+      "recup_j7_cfa": 34049204.0,
+      "recup_j15_nb": 148,
+      "recup_j15_cfa": 34049204.0,
+      "recup_j30_nb": 148,
+      "recup_j30_cfa": 34049204.0
     },
     {
       "semaine": "2026-06-15",

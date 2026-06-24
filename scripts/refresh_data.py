@@ -53,6 +53,7 @@ def main():
             }
             for a in agents
         ],
+        "slack_webhook": os.environ.get("SLACK_WEBHOOK", ""),
         "generated_at": datetime.now(timezone.utc).isoformat(),
     }
     (OUT / "config.json").write_text(json.dumps(config, ensure_ascii=False, indent=2))

@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>Opérations – Recouvrement</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+  --bg: #0f172a; --surface: #1e293b; --border: #334155;
+  --text: #f1f5f9; --muted: #94a3b8; --accent: #f59e0b;
+  --red: #ef4444; --green: #22c55e;
+}
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: var(--bg); color: var(--text); min-height: 100vh; }
+
+/* ── NAV ── */
+nav {
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 12px 16px;
+  position: sticky; top: 0; z-index: 100;
+}
+.nav-title { font-size: 15px; font-weight: 700; color: var(--accent); }
+.nav-links { display: flex; gap: 4px; }
+.nav-links a {
+  padding: 8px 12px; border-radius: 8px; font-size: 13px; font-weight: 600;
+  color: var(--muted); text-decoration: none; transition: all .15s;
+}
+.nav-links a.active, .nav-links a:hover { background: var(--accent); color: #0f172a; }
+.nav-user { font-size: 12px; color: var(--muted); }
+
+/* ── HEADER ── */
+.header { padding: 16px; border-bottom: 1px solid var(--border); }
+.header h2 { font-size: 18px; }
+.meta { display: flex; gap: 12px; margin-top: 6px; flex-wrap: wrap; }
+.badge {
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: 20px; padding: 4px 12px; font-size: 12px; color: var(--muted);
+}
+.badge b { color: var(--text); }
+.badge.alert b { color: var(--red); }
+.refresh-time { font-size: 11px; color: var(--muted); margin-top: 4px; }
+
+/* ── CARDS ── */
+.list { padding: 12px; display: flex; flex-direction: column; gap: 10px; }
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  overflow: hidden;
+}
+.card-header {
+  display: flex; align-items: center; gap: 12px;
+  padding: 14px 14px 10px;
+}
+.photo {
+  width: 52px; height: 52px; border-radius: 10px; object-fit: cover;
+  background: var(--border); flex-shrink: 0;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 22px; color: var(--muted);
+}
+.photo img { width: 100%; height: 100%; border-radius: 10px; object-fit: cover; }
+.info { flex: 1; min-width: 0; }
+.name { font-size: 15px; font-weight: 700; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.supplier { font-size: 12px; color: var(--muted); margin-top: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.overdue-badge {
+  background: #450a0a; color: var(--red);
+  border-radius: 8px; padding: 4px 10px; font-size: 13px; font-weight: 700;
+  flex-shrink: 0;
+}
+.card-body {
+  padding: 0 14px 4px;
+  display: grid; grid-template-columns: 1fr 1fr; gap: 6px;
+}
+.stat { display: flex; flex-direction: column; }
+.stat-label { font-size: 10px; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; }
+.stat-value { font-size: 14px; font-weight: 600; margin-top: 1px; }
+.stat-value.amount { color: var(--accent); }
+.card-actions {
+  display: flex; gap: 8px;
+  padding: 10px 14px 14px;
+}
+.btn {
+  flex: 1; padding: 10px; border-radius: 10px; border: none;
+  font-size: 13px; font-weight: 600; cursor: pointer;
+  text-decoration: none; text-align: center;
+  display: flex; align-items: center; justify-content: center; gap: 6px;
+  transition: opacity .15s;
+}
+.btn:active { opacity: .7; }
+.btn-primary { background: var(--accent); color: #0f172a; }
+.btn-secondary { background: var(--border); color: var(--text); }
+
+/* ── EMPTY / LOADER ── */
+.center { display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 300px; gap: 12px; color: var(--muted); }
+.spinner { width: 36px; height: 36px; border: 3px solid var(--border); border-top-color: var(--accent); border-radius: 50%; animation: spin .7s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+
+/* ── LOGOUT ── */
+.logout { color: var(--muted); font-size: 12px; cursor: pointer; background: none; border: none; padding: 0; }
+.logout:hover { color: var(--red); }
+</style>
+</head>
+<body>
+
+<nav>
+  <span class="nav-title">Recouvrement</span>
+  <div class="nav-links">
+    <a href="operations.html" class="active">Liste</a>
+    <a href="map.html">Carte</a>
+    <a href="resultats.html">Résultats</a>
+  </div>
+  <button class="logout" onclick="logout()">Déco.</button>
+</nav>
+
+<div class="header">
+  <h2>Clients PAR 8–30</h2>
+  <div class="meta">
+    <span class="badge"><b id="cnt">…</b> transactions</span>
+    <span class="badge alert"><b id="total_cfa">…</b> CFA total</span>
+  </div>
+  <div class="refresh-time" id="refresh_time"></div>
+</div>
+
+<div id="list" class="list">
+  <div class="center"><div class="spinner"></div><span>Chargement…</span></div>
+</div>
+
+<script>
+// ── Auth guard ──────────────────────────────────────────────────────────
+const agent = JSON.parse(sessionStorage.getItem('wr_agent') || 'null');
+if (!agent) { window.location.href = 'index.html'; }
+
+function logout() {
+  sessionStorage.removeItem('wr_agent');
+  window.location.href = 'index.html';
+}
+
+// ── Wariportail deep-link (remplace ce template par le vrai lien) ───────
+const WARIPORTAIL_URL = (merchantId) =>
+  `https://wariportail.waribei.com/merchant/${merchantId}`;
+// TODO: remplacer par le vrai pattern de lien dynamique quand vous l'aurez
+
+// ── Helpers ────────────────────────────────────────────────────────────
+const fmt = n => new Intl.NumberFormat('fr-FR').format(Math.round(n || 0));
+
+function renderCard(tx) {
+  const initials = (tx.merchant_name || '?').split(' ').map(w => w[0]).join('').slice(0, 2).toUpperCase();
+  const photoHTML = tx.photo_url
+    ? `<div class="photo"><img src="${tx.photo_url}" alt="" loading="lazy" onerror="this.parentElement.textContent='${initials}'"></div>`
+    : `<div class="photo">${initials}</div>`;
+
+  const gpsHref = (tx.latitude && tx.longitude)
+    ? `https://www.google.com/maps/dir/?api=1&destination=${tx.latitude},${tx.longitude}`
+    : null;
+
+  return `
+  <div class="card">
+    <div class="card-header">
+      ${photoHTML}
+      <div class="info">
+        <div class="name">${tx.merchant_name || '—'}</div>
+        <div class="supplier">📦 ${tx.supplier_name || '—'}</div>
+      </div>
+      <div class="overdue-badge">J+${tx.jours_retard}</div>
+    </div>
+    <div class="card-body">
+      <div class="stat">
+        <span class="stat-label">Montant</span>
+        <span class="stat-value amount">${fmt(tx.montant)} FCFA</span>
+      </div>
+      <div class="stat">
+        <span class="stat-label">Tx historique</span>
+        <span class="stat-value">${tx.nb_tx_historique} tx</span>
+      </div>
+      <div class="stat">
+        <span class="stat-label">Localisation</span>
+        <span class="stat-value" style="font-size:12px">${tx.district || (tx.latitude ? '📍 GPS dispo' : '—')}</span>
+      </div>
+      <div class="stat">
+        <span class="stat-label">Échéance</span>
+        <span class="stat-value" style="font-size:12px">${tx.maturity_date || '—'}</span>
+      </div>
+    </div>
+    <div class="card-actions">
+      <a href="${WARIPORTAIL_URL(tx.merchant_id)}" target="_blank" class="btn btn-primary">
+        🔗 Wariportail
+      </a>
+      ${gpsHref
+        ? `<a href="${gpsHref}" target="_blank" class="btn btn-secondary">🗺️ Y aller</a>`
+        : `<span class="btn btn-secondary" style="opacity:.4;cursor:default">Pas de GPS</span>`
+      }
+    </div>
+  </div>`;
+}
+
+// ── Load data ───────────────────────────────────────────────────────────
+async function load() {
+  const res = await fetch('data/transactions.json?_=' + Date.now());
+  const json = await res.json();
+  const data = json.data || [];
+
+  document.getElementById('cnt').textContent = data.length;
+  const total = data.reduce((s, tx) => s + (tx.montant || 0), 0);
+  document.getElementById('total_cfa').textContent = fmt(total) + ' FCFA';
+  document.getElementById('refresh_time').textContent =
+    'Mis à jour ' + new Date(json.updated_at).toLocaleString('fr-FR');
+
+  const list = document.getElementById('list');
+  if (!data.length) {
+    list.innerHTML = '<div class="center">✅ Aucune transaction PAR 8–30</div>';
+    return;
+  }
+  list.innerHTML = data.map(renderCard).join('');
+}
+
+load().catch(e => {
+  document.getElementById('list').innerHTML =
+    '<div class="center">⚠️ Erreur de chargement</div>';
+  console.error(e);
+});
+</script>
+</body>
+</html>

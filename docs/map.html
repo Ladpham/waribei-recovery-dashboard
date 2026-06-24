@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>Carte – Recouvrement</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+:root { --bg: #0f172a; --surface: #1e293b; --border: #334155; --text: #f1f5f9; --muted: #94a3b8; --accent: #f59e0b; --red: #ef4444; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: var(--bg); color: var(--text); height: 100vh; display: flex; flex-direction: column; }
+
+nav {
+  background: var(--surface); border-bottom: 1px solid var(--border);
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 12px 16px; flex-shrink: 0;
+}
+.nav-title { font-size: 15px; font-weight: 700; color: var(--accent); }
+.nav-links { display: flex; gap: 4px; }
+.nav-links a {
+  padding: 8px 12px; border-radius: 8px; font-size: 13px; font-weight: 600;
+  color: var(--muted); text-decoration: none; transition: all .15s;
+}
+.nav-links a.active, .nav-links a:hover { background: var(--accent); color: #0f172a; }
+.logout { color: var(--muted); font-size: 12px; cursor: pointer; background: none; border: none; padding: 0; }
+.logout:hover { color: var(--red); }
+
+#map { flex: 1; }
+
+/* Custom popup */
+.leaflet-popup-content-wrapper {
+  background: #1e293b !important; border: 1px solid #334155 !important;
+  border-radius: 12px !important; color: #f1f5f9 !important;
+  box-shadow: 0 8px 30px rgba(0,0,0,.5) !important;
+}
+.leaflet-popup-tip { background: #1e293b !important; }
+.popup-name { font-size: 15px; font-weight: 700; margin-bottom: 4px; }
+.popup-row { font-size: 12px; color: #94a3b8; margin-top: 3px; }
+.popup-row b { color: #f1f5f9; }
+.popup-amount { font-size: 16px; font-weight: 700; color: #f59e0b; margin: 6px 0; }
+.popup-btns { display: flex; gap: 8px; margin-top: 10px; }
+.popup-btn {
+  flex: 1; padding: 8px; border-radius: 8px; border: none;
+  font-size: 12px; font-weight: 600; cursor: pointer; text-decoration: none;
+  text-align: center; display: block;
+}
+.popup-btn-nav  { background: #f59e0b; color: #0f172a; }
+.popup-btn-port { background: #334155; color: #f1f5f9; }
+
+/* Legend */
+.legend {
+  position: absolute; bottom: 20px; left: 12px; z-index: 999;
+  background: #1e293b; border: 1px solid #334155; border-radius: 10px;
+  padding: 10px 14px; font-size: 12px; color: #94a3b8;
+}
+.legend-row { display: flex; align-items: center; gap: 8px; margin-top: 4px; }
+.dot { width: 12px; height: 12px; border-radius: 50%; }
+</style>
+</head>
+<body>
+
+<nav>
+  <span class="nav-title">Recouvrement</span>
+  <div class="nav-links">
+    <a href="operations.html">Liste</a>
+    <a href="map.html" class="active">Carte</a>
+    <a href="resultats.html">Résultats</a>
+  </div>
+  <button class="logout" onclick="logout()">Déco.</button>
+</nav>
+
+<div id="map"></div>
+
+<div class="legend">
+  <div><b style="color:#f1f5f9">Retard (jours)</b></div>
+  <div class="legend-row"><div class="dot" style="background:#fbbf24"></div> 8–14 j</div>
+  <div class="legend-row"><div class="dot" style="background:#f97316"></div> 15–22 j</div>
+  <div class="legend-row"><div class="dot" style="background:#ef4444"></div> 23–30 j</div>
+</div>
+
+<script>
+const agent = JSON.parse(sessionStorage.getItem('wr_agent') || 'null');
+if (!agent) { window.location.href = 'index.html'; }
+function logout() { sessionStorage.removeItem('wr_agent'); window.location.href = 'index.html'; }
+
+const WARIPORTAIL_URL = id => `https://wariportail.waribei.com/merchant/${id}`;
+const fmt = n => new Intl.NumberFormat('fr-FR').format(Math.round(n || 0));
+
+function colorByDelay(days) {
+  if (days >= 23) return '#ef4444';
+  if (days >= 15) return '#f97316';
+  return '#fbbf24';
+}
+
+function circleIcon(color) {
+  return L.divIcon({
+    className: '',
+    html: `<div style="
+      width:28px;height:28px;border-radius:50%;
+      background:${color};border:2px solid white;
+      box-shadow:0 2px 8px rgba(0,0,0,.4);
+    "></div>`,
+    iconSize: [28, 28],
+    iconAnchor: [14, 14],
+    popupAnchor: [0, -16],
+  });
+}
+
+// Centre Abidjan
+const map = L.map('map', { zoomControl: true }).setView([5.345, -4.024], 12);
+
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  attribution: '© OpenStreetMap',
+  maxZoom: 19,
+}).addTo(map);
+
+async function load() {
+  const res = await fetch('data/transactions.json?_=' + Date.now());
+  const json = await res.json();
+  const data = (json.data || []).filter(tx => tx.latitude && tx.longitude);
+
+  if (!data.length) return;
+
+  const bounds = [];
+  for (const tx of data) {
+    const color = colorByDelay(tx.jours_retard);
+    const gpsHref = `https://www.google.com/maps/dir/?api=1&destination=${tx.latitude},${tx.longitude}`;
+
+    const popup = `
+      <div class="popup-name">${tx.merchant_name || '—'}</div>
+      <div class="popup-row">📦 <b>${tx.supplier_name || '—'}</b></div>
+      <div class="popup-row">📍 ${tx.district || '—'}</div>
+      <div class="popup-row">🔄 ${tx.nb_tx_historique} tx historique</div>
+      <div class="popup-amount">${fmt(tx.montant)} FCFA</div>
+      <div class="popup-row">Retard : <b style="color:${color}">J+${tx.jours_retard}</b></div>
+      <div class="popup-btns">
+        <a href="${gpsHref}" target="_blank" class="popup-btn popup-btn-nav">🗺️ Y aller</a>
+        <a href="${WARIPORTAIL_URL(tx.merchant_id)}" target="_blank" class="popup-btn popup-btn-port">🔗 Portail</a>
+      </div>`;
+
+    L.marker([tx.latitude, tx.longitude], { icon: circleIcon(color) })
+      .bindPopup(popup, { maxWidth: 240 })
+      .addTo(map);
+    bounds.push([tx.latitude, tx.longitude]);
+  }
+
+  if (bounds.length) {
+    map.fitBounds(bounds, { padding: [30, 30] });
+  }
+}
+
+load().catch(console.error);
+</script>
+</body>
+</html>

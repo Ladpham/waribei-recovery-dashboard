@@ -1,0 +1,17 @@
+{
+  "agents": [
+    {
+      "id": 1089,
+      "username": "alassane",
+      "hash": "$2b$12$i5xWQB8aW6nE0tr2WjjfGepk7d6Vs7/lzpMq4pIQ/OSWQ3w9X7DLy",
+      "display": "alassane"
+    },
+    {
+      "id": 2021,
+      "username": "francisaka",
+      "hash": "$2b$12$3kLVb4j5f9IJbGHDV4PSz.AzTIZDj7Ydtv/SWwsAZhAX8PYHmb5xi",
+      "display": "francisAka"
+    }
+  ],
+  "generated_at": "2026-06-24T12:55:28.374836+00:00"
+}

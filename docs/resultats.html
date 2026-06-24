@@ -234,8 +234,8 @@ function renderWeeks(data) {
         </div>
       </div>
       <div style="padding:8px 12px 10px; border-top:1px solid var(--border); display:flex; gap:12px; font-size:12px; color:var(--muted)">
-        <span>📋 <b style="color:var(--text)">${lettres}</b> lettre${lettres > 1 ? 's' : ''} déposée${lettres > 1 ? 's' : ''}</span>
-        <span>🚶 <b style="color:var(--text)">${visites}</b> visite${visites > 1 ? 's' : ''}</span>
+        <span>📋 <b style="color:var(--text)">${lettres}</b>/${w.nb_clients} lettres</span>
+        <span>🚶 <b style="color:var(--text)">${visites}</b>/${w.nb_clients} visites</span>
       </div>
     </div>`;
   }).join('');

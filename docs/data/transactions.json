@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-25T19:01:52.567402+00:00",
+  "updated_at": "2026-06-25T21:21:52.205631+00:00",
   "data": [
     {
       "tx_id": 19042.0,
@@ -1591,8 +1591,8 @@
       "maturity_date": "2026-06-13",
       "jours_retard": 12.0,
       "statut": "PENDING",
-      "montant_paye": 0.0,
-      "montant_restant": 400000.0,
+      "montant_paye": 30000.0,
+      "montant_restant": 370000.0,
       "latitude": 5.3304392,
       "longitude": -4.0736523,
       "photo_url": null,

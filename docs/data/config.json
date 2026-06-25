@@ -16,9 +16,5 @@
   "sw_a": "https://hooks.slack.com/services/T",
   "sw_b": "05VBBD79B9/B0BCU42NB70",
   "sw_c": "/PWCFK16qelw8lbvp7C9hn32c",
-<<<<<<< HEAD
-  "generated_at": "2026-06-25T07:34:06.711220+00:00"
-=======
-  "generated_at": "2026-06-25T07:46:05.102704+00:00"
->>>>>>> e427b1d (fix: nb_clients = COUNT(DISTINCT merchantId))
+  "generated_at": "2026-06-25T07:52:32.385611+00:00"
 }

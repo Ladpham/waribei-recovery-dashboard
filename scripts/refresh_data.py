@@ -180,6 +180,11 @@ def main():
               AND t."maturitydDate" IS NOT NULL
               AND (t."maturitydDate"::date + INTERVAL '8 days') >= CURRENT_DATE - INTERVAL '12 weeks'
               AND (t."maturitydDate"::date + INTERVAL '8 days') <= CURRENT_DATE
+              -- Vrais PAR8 : encore impayés à J+8
+              AND (
+                t.type NOT IN ('CLOSE','OVERPAID')
+                OR t."updatedAt"::date >= (t."maturitydDate"::date + INTERVAL '8 days')
+              )
         ),
         cmt_stats AS (
             SELECT

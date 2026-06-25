@@ -1,146 +1,122 @@
 {
-<<<<<<< HEAD
-  "updated_at": "2026-06-25T07:34:09.166453+00:00",
+  "updated_at": "2026-06-25T07:52:33.735013+00:00",
   "data": [
     {
       "semaine": "2026-06-22",
-      "nb_clients": 224.0,
-      "valeur_totale": 48543432.0,
-      "nb_solds": 212.0,
-=======
-  "updated_at": "2026-06-25T07:46:06.939652+00:00",
-  "data": [
-    {
-      "semaine": "2026-06-22",
-      "nb_clients": 219.0,
-      "valeur_totale": 48543432.0,
-      "nb_solds": 208.0,
->>>>>>> e427b1d (fix: nb_clients = COUNT(DISTINCT merchantId))
-      "montant_recouvre": 45314157.0,
-      "nb_clients_lettre": 8.0,
+      "nb_clients": 16.0,
+      "valeur_totale": 3504025.0,
+      "nb_solds": 4.0,
+      "montant_recouvre": 274750.0,
+      "nb_clients_lettre": 7.0,
       "nb_clients_visite": 1.0,
-      "nb_clients_contactes": 8.0
+      "nb_clients_contactes": 7.0
     },
     {
       "semaine": "2026-06-15",
-      "nb_clients": 373.0,
-      "valeur_totale": 99086786.0,
-<<<<<<< HEAD
-      "nb_solds": 382.0,
-=======
-      "nb_solds": 360.0,
->>>>>>> e427b1d (fix: nb_clients = COUNT(DISTINCT merchantId))
-      "montant_recouvre": 97274137.0,
+      "nb_clients": 22.0,
+      "valeur_totale": 3019974.0,
+      "nb_solds": 9.0,
+      "montant_recouvre": 1207325.0,
       "nb_clients_lettre": 18.0,
       "nb_clients_visite": 0.0,
       "nb_clients_contactes": 18.0
     },
     {
       "semaine": "2026-06-08",
-      "nb_clients": 367.0,
-      "valeur_totale": 92980625.0,
-<<<<<<< HEAD
-      "nb_solds": 383.0,
-=======
-      "nb_solds": 358.0,
->>>>>>> e427b1d (fix: nb_clients = COUNT(DISTINCT merchantId))
-      "montant_recouvre": 91104200.0,
+      "nb_clients": 25.0,
+      "valeur_totale": 5841375.0,
+      "nb_solds": 16.0,
+      "montant_recouvre": 3964950.0,
       "nb_clients_lettre": 15.0,
       "nb_clients_visite": 0.0,
       "nb_clients_contactes": 15.0
     },
     {
       "semaine": "2026-06-01",
-      "nb_clients": 342.0,
-      "valeur_totale": 80950597.0,
-      "nb_solds": 328.0,
-      "montant_recouvre": 77136747.0,
+      "nb_clients": 27.0,
+      "valeur_totale": 6263056.0,
+      "nb_solds": 13.0,
+      "montant_recouvre": 2449206.0,
       "nb_clients_lettre": 19.0,
       "nb_clients_visite": 0.0,
       "nb_clients_contactes": 19.0
     },
     {
       "semaine": "2026-05-25",
-      "nb_clients": 364.0,
-      "valeur_totale": 93030488.0,
-      "nb_solds": 360.0,
-      "montant_recouvre": 91717488.0,
+      "nb_clients": 25.0,
+      "valeur_totale": 6654318.0,
+      "nb_solds": 21.0,
+      "montant_recouvre": 5341318.0,
       "nb_clients_lettre": 18.0,
       "nb_clients_visite": 0.0,
       "nb_clients_contactes": 18.0
     },
     {
       "semaine": "2026-05-18",
-<<<<<<< HEAD
-      "nb_clients": 367.0,
-      "valeur_totale": 93559396.0,
-      "nb_solds": 357.0,
-=======
-      "nb_clients": 344.0,
-      "valeur_totale": 93559396.0,
-      "nb_solds": 334.0,
->>>>>>> e427b1d (fix: nb_clients = COUNT(DISTINCT merchantId))
-      "montant_recouvre": 91121856.0,
-      "nb_clients_lettre": 22.0,
+      "nb_clients": 19.0,
+      "valeur_totale": 5088615.0,
+      "nb_solds": 9.0,
+      "montant_recouvre": 2651075.0,
+      "nb_clients_lettre": 19.0,
       "nb_clients_visite": 1.0,
-      "nb_clients_contactes": 22.0
+      "nb_clients_contactes": 19.0
     },
     {
       "semaine": "2026-05-11",
-      "nb_clients": 353.0,
-      "valeur_totale": 88697765.0,
-      "nb_solds": 346.0,
-      "montant_recouvre": 86456215.0,
-      "nb_clients_lettre": 11.0,
+      "nb_clients": 16.0,
+      "valeur_totale": 3458140.0,
+      "nb_solds": 9.0,
+      "montant_recouvre": 1216590.0,
+      "nb_clients_lettre": 10.0,
       "nb_clients_visite": 0.0,
-      "nb_clients_contactes": 11.0
+      "nb_clients_contactes": 10.0
     },
     {
       "semaine": "2026-05-04",
-      "nb_clients": 319.0,
-      "valeur_totale": 80638155.0,
-      "nb_solds": 315.0,
-      "montant_recouvre": 80103208.0,
-      "nb_clients_lettre": 15.0,
-      "nb_clients_visite": 1.0,
-      "nb_clients_contactes": 15.0
-    },
-    {
-      "semaine": "2026-04-27",
-      "nb_clients": 326.0,
-      "valeur_totale": 78839115.0,
-      "nb_solds": 323.0,
-      "montant_recouvre": 77116015.0,
+      "nb_clients": 18.0,
+      "valeur_totale": 2470253.0,
+      "nb_solds": 14.0,
+      "montant_recouvre": 1935306.0,
       "nb_clients_lettre": 12.0,
-      "nb_clients_visite": 0.0,
+      "nb_clients_visite": 1.0,
       "nb_clients_contactes": 12.0
     },
     {
+      "semaine": "2026-04-27",
+      "nb_clients": 14.0,
+      "valeur_totale": 3461600.0,
+      "nb_solds": 11.0,
+      "montant_recouvre": 1738500.0,
+      "nb_clients_lettre": 9.0,
+      "nb_clients_visite": 0.0,
+      "nb_clients_contactes": 9.0
+    },
+    {
       "semaine": "2026-04-20",
-      "nb_clients": 297.0,
-      "valeur_totale": 80273719.0,
-      "nb_solds": 293.0,
-      "montant_recouvre": 77270119.0,
-      "nb_clients_lettre": 13.0,
+      "nb_clients": 14.0,
+      "valeur_totale": 6190925.0,
+      "nb_solds": 10.0,
+      "montant_recouvre": 3187325.0,
+      "nb_clients_lettre": 11.0,
       "nb_clients_visite": 1.0,
-      "nb_clients_contactes": 13.0
+      "nb_clients_contactes": 11.0
     },
     {
       "semaine": "2026-04-13",
-      "nb_clients": 324.0,
-      "valeur_totale": 88828712.0,
-      "nb_solds": 319.0,
-      "montant_recouvre": 87089354.0,
+      "nb_clients": 18.0,
+      "valeur_totale": 3105693.0,
+      "nb_solds": 13.0,
+      "montant_recouvre": 1366335.0,
       "nb_clients_lettre": 11.0,
       "nb_clients_visite": 0.0,
       "nb_clients_contactes": 11.0
     },
     {
       "semaine": "2026-04-06",
-      "nb_clients": 255.0,
-      "valeur_totale": 61024874.0,
-      "nb_solds": 250.0,
-      "montant_recouvre": 57457592.0,
+      "nb_clients": 12.0,
+      "valeur_totale": 4661932.0,
+      "nb_solds": 7.0,
+      "montant_recouvre": 1094650.0,
       "nb_clients_lettre": 6.0,
       "nb_clients_visite": 0.0,
       "nb_clients_contactes": 6.0

@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-  "updated_at": "2026-06-25T07:34:08.659175+00:00",
-=======
-  "updated_at": "2026-06-25T07:46:06.436655+00:00",
->>>>>>> e427b1d (fix: nb_clients = COUNT(DISTINCT merchantId))
+  "updated_at": "2026-06-25T07:52:33.477920+00:00",
   "data": [
     {
       "tx_id": 19042.0,

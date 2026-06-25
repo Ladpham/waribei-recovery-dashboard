@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-25T16:16:17.525457+00:00",
+  "updated_at": "2026-06-25T19:01:52.567402+00:00",
   "data": [
     {
       "tx_id": 19042.0,
@@ -475,13 +475,19 @@
       "maturity_date": "2026-05-30",
       "jours_retard": 26.0,
       "statut": "PENDING",
-      "montant_paye": 100000.0,
-      "montant_restant": 371650.0,
-      "latitude": 5.3315492,
-      "longitude": -4.0769954,
+      "montant_paye": 145000.0,
+      "montant_restant": 326650.0,
+      "latitude": 5.3316075,
+      "longitude": -4.077098,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/ab61988dab2481ec731f3401d6d0f913.jpg",
       "nb_tx_historique": 2.0,
       "comments": [
+        {
+          "date": "2026-06-25",
+          "type": "LETTER_GIVEN_TO_AGENT",
+          "content": "RECOUVREMENT : LETTER_GIVEN_TO_AGENT : Visite : On est passé il avait des casiers vides on a notifié le courrier il a payé 45 milles et il va solder mardi prochain",
+          "author": "francisAka"
+        },
         {
           "date": "2026-06-22",
           "type": "COURIER",
@@ -917,6 +923,12 @@
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/b797f03bd896235afa1e932a2325d84c.jpg",
       "nb_tx_historique": 5.0,
       "comments": [
+        {
+          "date": "2026-06-25",
+          "type": "LETTER_GIVEN_TO_AGENT",
+          "content": "RECOUVREMENT : LETTER_GIVEN_TO_AGENT : Visite : Le client avait déjà établi un échéancier avec miss Kone mais après notre passage le client va payer 100 milles se soir et le reste lundi le courrier a été notifié",
+          "author": "alassane"
+        },
         {
           "date": "2026-06-22",
           "type": "COURIER",
@@ -1470,11 +1482,17 @@
       "statut": "PENDING",
       "montant_paye": 0.0,
       "montant_restant": 80349.0,
-      "latitude": 5.3196798,
-      "longitude": -4.1008379,
+      "latitude": 5.319617,
+      "longitude": -4.1007226,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/bf942b9c72ae2de981f718a177b9a286.jpg",
       "nb_tx_historique": 6.0,
       "comments": [
+        {
+          "date": "2026-06-25",
+          "type": "LETTER_GIVEN_TO_AGENT",
+          "content": "RECOUVREMENT : LETTER_GIVEN_TO_AGENT : Visite : Le client va faire un versement demain de 45 mille et solder jeudi",
+          "author": "francisAka"
+        },
         {
           "date": "2026-06-22",
           "type": "COURIER",
@@ -1575,11 +1593,17 @@
       "statut": "PENDING",
       "montant_paye": 0.0,
       "montant_restant": 400000.0,
-      "latitude": 5.3411763,
-      "longitude": -4.1553737,
+      "latitude": 5.3304392,
+      "longitude": -4.0736523,
       "photo_url": null,
       "nb_tx_historique": 14.0,
       "comments": [
+        {
+          "date": "2026-06-25",
+          "type": "LETTER_GIVEN_TO_AGENT",
+          "content": "RECOUVREMENT : LETTER_GIVEN_TO_AGENT : Visite : Son espace etait cassé elle a fait la rénovation et a ouvert aujourd’hui on a constaté cela elle à payer 30 milles et signifie payer 223000 demain et solder le reste avant lundi",
+          "author": "alassane"
+        },
         {
           "date": "2026-06-23",
           "type": "GENERIC_COMMENT",
@@ -1771,8 +1795,8 @@
       "maturity_date": "2026-06-15",
       "jours_retard": 10.0,
       "statut": "PENDING",
-      "montant_paye": 305000.0,
-      "montant_restant": 234500.0,
+      "montant_paye": 320000.0,
+      "montant_restant": 219500.0,
       "latitude": 5.3076868,
       "longitude": -3.9498955,
       "photo_url": null,
@@ -2196,8 +2220,8 @@
       "statut": "PENDING",
       "montant_paye": 244000.0,
       "montant_restant": 56200.0,
-      "latitude": 5.4037555,
-      "longitude": -4.0067237,
+      "latitude": 5.4037553,
+      "longitude": -4.0067119,
       "photo_url": null,
       "nb_tx_historique": 59.0,
       "comments": [

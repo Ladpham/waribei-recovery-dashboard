@@ -195,13 +195,13 @@ def main():
         )
         SELECT
             semaine,
-            COUNT(*)                                                    AS nb_clients,
-            SUM(montant)                                                AS valeur_totale,
-            COUNT(*) FILTER (WHERE statut IN ('CLOSE','OVERPAID'))      AS nb_solds,
-            SUM(montant) FILTER (WHERE statut IN ('CLOSE','OVERPAID'))  AS montant_recouvre,
-            COUNT(*) FILTER (WHERE cs.a_lettre)                         AS nb_clients_lettre,
-            COUNT(*) FILTER (WHERE cs.a_visite)                         AS nb_clients_visite,
-            COUNT(*) FILTER (WHERE cs.a_lettre OR cs.a_visite)          AS nb_clients_contactes
+            COUNT(DISTINCT "merchantId")                                             AS nb_clients,
+            SUM(montant)                                                             AS valeur_totale,
+            COUNT(DISTINCT "merchantId") FILTER (WHERE statut IN ('CLOSE','OVERPAID'))  AS nb_solds,
+            SUM(montant) FILTER (WHERE statut IN ('CLOSE','OVERPAID'))              AS montant_recouvre,
+            COUNT(DISTINCT "merchantId") FILTER (WHERE cs.a_lettre)                 AS nb_clients_lettre,
+            COUNT(DISTINCT "merchantId") FILTER (WHERE cs.a_visite)                 AS nb_clients_visite,
+            COUNT(DISTINCT "merchantId") FILTER (WHERE cs.a_lettre OR cs.a_visite)  AS nb_clients_contactes
         FROM cohort
         LEFT JOIN cmt_stats cs ON cs."transactionId" = cohort.tx_id
         GROUP BY semaine

@@ -184,27 +184,24 @@ def main():
         cmt_stats AS (
             SELECT
                 c."transactionId",
-                COUNT(*) FILTER (
-                    WHERE c.type IN ('COURIER','LETTER_GIVEN_TO_AGENT','RECOVERY_LETTER_DELIVERED_TO_CLIENT','AVIS_AR')
-                ) AS nb_lettres,
-                COUNT(*) FILTER (
-                    WHERE c.type = 'AGENT_VISITED_CLIENT'
-                       OR (c.type = 'GENERIC_COMMENT' AND c.content ILIKE '%visite%')
-                       OR c.type = 'LETTER_GIVEN_TO_AGENT'
-                ) AS nb_visites
+                BOOL_OR(c.type IN ('COURIER','LETTER_GIVEN_TO_AGENT','RECOVERY_LETTER_DELIVERED_TO_CLIENT','AVIS_AR')) AS a_lettre,
+                BOOL_OR(
+                    c.type = 'AGENT_VISITED_CLIENT'
+                    OR (c.type = 'GENERIC_COMMENT' AND c.content ILIKE '%visite%')
+                ) AS a_visite
             FROM "Comment" c
             WHERE c.deleted = false
             GROUP BY c."transactionId"
         )
         SELECT
             semaine,
-            COUNT(*)                              AS nb_clients,
-            SUM(montant)                          AS valeur_totale,
-            COUNT(*) FILTER (WHERE statut IN ('CLOSE','OVERPAID'))  AS nb_solds,
-            SUM(montant) FILTER (WHERE statut IN ('CLOSE','OVERPAID')) AS montant_recouvre,
-            SUM(COALESCE(cs.nb_lettres, 0))       AS nb_lettres,
-            SUM(COALESCE(cs.nb_visites, 0))       AS nb_visites,
-            COUNT(*) FILTER (WHERE COALESCE(cs.nb_lettres,0) > 0 OR COALESCE(cs.nb_visites,0) > 0) AS nb_clients_contactes
+            COUNT(*)                                                    AS nb_clients,
+            SUM(montant)                                                AS valeur_totale,
+            COUNT(*) FILTER (WHERE statut IN ('CLOSE','OVERPAID'))      AS nb_solds,
+            SUM(montant) FILTER (WHERE statut IN ('CLOSE','OVERPAID'))  AS montant_recouvre,
+            COUNT(*) FILTER (WHERE cs.a_lettre)                         AS nb_clients_lettre,
+            COUNT(*) FILTER (WHERE cs.a_visite)                         AS nb_clients_visite,
+            COUNT(*) FILTER (WHERE cs.a_lettre OR cs.a_visite)          AS nb_clients_contactes
         FROM cohort
         LEFT JOIN cmt_stats cs ON cs."transactionId" = cohort.tx_id
         GROUP BY semaine

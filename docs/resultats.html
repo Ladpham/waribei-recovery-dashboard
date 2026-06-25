@@ -202,8 +202,8 @@ function renderWeeks(data) {
     const cls = rateClass(pct);
     const reste = (w.valeur_totale || 0) - (w.montant_recouvre || 0);
 
-    const lettres  = w.nb_lettres || 0;
-    const visites  = w.nb_visites || 0;
+    const lettres  = w.nb_clients_lettre || 0;
+    const visites  = w.nb_clients_visite || 0;
     const contactes = w.nb_clients_contactes || 0;
 
     return `<div class="week-card">

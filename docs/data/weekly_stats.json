@@ -1,34 +1,34 @@
 {
-  "updated_at": "2026-06-25T03:39:04.526824+00:00",
+  "updated_at": "2026-06-24T16:00:51.703900+00:00",
   "data": [
     {
       "semaine": "2026-06-22",
-      "nb_clients": 224.0,
-      "valeur_totale": 48543432.0,
-      "nb_solds": 212.0,
-      "montant_recouvre": 45314157.0,
-      "nb_lettres": 15.0,
-      "nb_visites": 1.0,
+      "nb_clients": 158.0,
+      "valeur_totale": 36929854.0,
+      "nb_solds": 148.0,
+      "montant_recouvre": 34049204.0,
+      "nb_clients_lettre": 8.0,
+      "nb_clients_visite": 1.0,
       "nb_clients_contactes": 8.0
     },
     {
       "semaine": "2026-06-15",
       "nb_clients": 395.0,
       "valeur_totale": 99086786.0,
-      "nb_solds": 382.0,
-      "montant_recouvre": 97274137.0,
-      "nb_lettres": 27.0,
-      "nb_visites": 3.0,
+      "nb_solds": 381.0,
+      "montant_recouvre": 97224137.0,
+      "nb_clients_lettre": 18.0,
+      "nb_clients_visite": 0.0,
       "nb_clients_contactes": 18.0
     },
     {
       "semaine": "2026-06-08",
       "nb_clients": 392.0,
       "valeur_totale": 92980625.0,
-      "nb_solds": 383.0,
-      "montant_recouvre": 91104200.0,
-      "nb_lettres": 35.0,
-      "nb_visites": 2.0,
+      "nb_solds": 382.0,
+      "montant_recouvre": 90994200.0,
+      "nb_clients_lettre": 15.0,
+      "nb_clients_visite": 0.0,
       "nb_clients_contactes": 15.0
     },
     {
@@ -37,8 +37,8 @@
       "valeur_totale": 80950597.0,
       "nb_solds": 346.0,
       "montant_recouvre": 77136747.0,
-      "nb_lettres": 49.0,
-      "nb_visites": 1.0,
+      "nb_clients_lettre": 19.0,
+      "nb_clients_visite": 0.0,
       "nb_clients_contactes": 19.0
     },
     {
@@ -47,18 +47,18 @@
       "valeur_totale": 93030488.0,
       "nb_solds": 379.0,
       "montant_recouvre": 91717488.0,
-      "nb_lettres": 32.0,
-      "nb_visites": 0.0,
+      "nb_clients_lettre": 18.0,
+      "nb_clients_visite": 0.0,
       "nb_clients_contactes": 18.0
     },
     {
       "semaine": "2026-05-18",
-      "nb_clients": 367.0,
-      "valeur_totale": 93559396.0,
+      "nb_clients": 368.0,
+      "valeur_totale": 93579396.0,
       "nb_solds": 357.0,
       "montant_recouvre": 91121856.0,
-      "nb_lettres": 35.0,
-      "nb_visites": 1.0,
+      "nb_clients_lettre": 22.0,
+      "nb_clients_visite": 1.0,
       "nb_clients_contactes": 22.0
     },
     {
@@ -67,8 +67,8 @@
       "valeur_totale": 88697765.0,
       "nb_solds": 366.0,
       "montant_recouvre": 86456215.0,
-      "nb_lettres": 12.0,
-      "nb_visites": 0.0,
+      "nb_clients_lettre": 11.0,
+      "nb_clients_visite": 0.0,
       "nb_clients_contactes": 11.0
     },
     {
@@ -77,8 +77,8 @@
       "valeur_totale": 80638155.0,
       "nb_solds": 334.0,
       "montant_recouvre": 80103208.0,
-      "nb_lettres": 31.0,
-      "nb_visites": 1.0,
+      "nb_clients_lettre": 15.0,
+      "nb_clients_visite": 0.0,
       "nb_clients_contactes": 15.0
     },
     {
@@ -87,8 +87,8 @@
       "valeur_totale": 78839115.0,
       "nb_solds": 338.0,
       "montant_recouvre": 77116015.0,
-      "nb_lettres": 29.0,
-      "nb_visites": 1.0,
+      "nb_clients_lettre": 12.0,
+      "nb_clients_visite": 0.0,
       "nb_clients_contactes": 12.0
     },
     {
@@ -97,8 +97,8 @@
       "valeur_totale": 80273719.0,
       "nb_solds": 304.0,
       "montant_recouvre": 77270119.0,
-      "nb_lettres": 37.0,
-      "nb_visites": 4.0,
+      "nb_clients_lettre": 13.0,
+      "nb_clients_visite": 1.0,
       "nb_clients_contactes": 13.0
     },
     {
@@ -107,8 +107,8 @@
       "valeur_totale": 88828712.0,
       "nb_solds": 350.0,
       "montant_recouvre": 87089354.0,
-      "nb_lettres": 24.0,
-      "nb_visites": 0.0,
+      "nb_clients_lettre": 11.0,
+      "nb_clients_visite": 0.0,
       "nb_clients_contactes": 11.0
     },
     {
@@ -117,8 +117,8 @@
       "valeur_totale": 61024874.0,
       "nb_solds": 265.0,
       "montant_recouvre": 57457592.0,
-      "nb_lettres": 14.0,
-      "nb_visites": 0.0,
+      "nb_clients_lettre": 6.0,
+      "nb_clients_visite": 0.0,
       "nb_clients_contactes": 6.0
     }
   ]

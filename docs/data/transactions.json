@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-26T13:03:11.515908+00:00",
+  "updated_at": "2026-06-26T16:07:31.226733+00:00",
   "data": [
     {
       "tx_id": 19202.0,
@@ -1303,10 +1303,10 @@
       "maturity_date": "2026-06-10",
       "jours_retard": 16.0,
       "statut": "PENDING",
-      "montant_paye": 0.0,
-      "montant_restant": 80349.0,
-      "latitude": 5.319617,
-      "longitude": -4.1007226,
+      "montant_paye": 41000.0,
+      "montant_restant": 39349.0,
+      "latitude": 5.3184917,
+      "longitude": -4.1878657,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/bf942b9c72ae2de981f718a177b9a286.jpg",
       "nb_tx_historique": 6.0,
       "comments": [
@@ -1427,6 +1427,12 @@
       "photo_url": null,
       "nb_tx_historique": 14.0,
       "comments": [
+        {
+          "date": "2026-06-26",
+          "type": "COURIER",
+          "content": "Date affichée : 2026-06-26 | Commune : Yopougon | Lieu : Yopougon terminus 40 | Montant total : 426400 | Avance : 400000 | Frais transaction : 20000 | Frais retard : 36400 | Montant payé : 30000",
+          "author": "KoneMasse"
+        },
         {
           "date": "2026-06-25",
           "type": "LETTER_GIVEN_TO_AGENT",
@@ -1750,8 +1756,8 @@
       "maturity_date": "2026-06-15",
       "jours_retard": 11.0,
       "statut": "PENDING",
-      "montant_paye": 45000.0,
-      "montant_restant": 47350.0,
+      "montant_paye": 57200.0,
+      "montant_restant": 35150.0,
       "latitude": 5.2516094,
       "longitude": -3.8824994,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/07694c7c9afa90392a4d9e3b7aeec68e.jpg",
@@ -1836,57 +1842,6 @@
           "date": "2026-06-17",
           "type": "GENERIC_COMMENT",
           "content": "Appel (Sortant) [Recouvrement] : aucune reponse",
-          "author": "evinne"
-        }
-      ]
-    },
-    {
-      "tx_id": 20177.0,
-      "merchant_id": 2462.0,
-      "merchant_name": "MONGUEHI EDWIGE",
-      "district": "Adjamé",
-      "phone": "+2250787292519",
-      "supplier_name": "Sd Gonty Adjamé - liberté ",
-      "montant": 40000.0,
-      "date_achat": "2026-06-08",
-      "maturity_date": "2026-06-15",
-      "jours_retard": 11.0,
-      "statut": "PENDING",
-      "montant_paye": 0.0,
-      "montant_restant": 40000.0,
-      "latitude": 5.3679731,
-      "longitude": -4.0236309,
-      "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/8ebbf3095e73b1db2585cb92387e695f.jpg",
-      "nb_tx_historique": 8.0,
-      "comments": [
-        {
-          "date": "2026-06-22",
-          "type": "COURIER",
-          "content": "Date affichée : 2026-06-22 | Commune : Adjamé | Lieu : Willyamsville terminus 14 | Montant total : 33950 | Avance : 30000 | Frais transaction : 1500 | Frais retard : 2450 | Montant payé : 0",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-22",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : aucune reponse",
-          "author": "KoneMasse"
-        },
-        {
-          "date": "2026-06-22",
-          "type": "COURIER",
-          "content": "Date affichée : 2026-06-22 | Commune : Adjamé | Lieu : Willyamsville terminus 14 | Montant total : 33950 | Avance : 30000 | Frais transaction : 1500 | Frais retard : 2450 | Montant payé : 0",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-18",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : aucune reponse",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-17",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : je vais faire  ca mmr",
           "author": "evinne"
         }
       ]

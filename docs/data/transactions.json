@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-26T18:22:50.493782+00:00",
+  "updated_at": "2026-06-26T20:27:13.898711+00:00",
   "data": [
     {
       "tx_id": 19202.0,
@@ -1932,6 +1932,12 @@
       "nb_tx_historique": 16.0,
       "comments": [
         {
+          "date": "2026-06-26",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : je vais faire ce weekend la",
+          "author": "evinne"
+        },
+        {
           "date": "2026-06-22",
           "type": "GENERIC_COMMENT",
           "content": "Appel (Sortant) [Recouvrement] :   jai fait un peu aujourdhui mr demain je vais faire le reste",
@@ -2036,6 +2042,12 @@
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/e41c94fa7860b72679ffd9b7dcd44cf2.jpg",
       "nb_tx_historique": 1.0,
       "comments": [
+        {
+          "date": "2026-06-26",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : je vais faire le necessaire lundi",
+          "author": "evinne"
+        },
         {
           "date": "2026-06-22",
           "type": "GENERIC_COMMENT",

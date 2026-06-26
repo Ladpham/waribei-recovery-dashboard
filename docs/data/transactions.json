@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-26T16:07:31.226733+00:00",
+  "updated_at": "2026-06-26T18:22:50.493782+00:00",
   "data": [
     {
       "tx_id": 19202.0,
@@ -1052,51 +1052,6 @@
       ]
     },
     {
-      "tx_id": 19764.0,
-      "merchant_id": 523.0,
-      "merchant_name": "Zikida Armelle edith Dasse",
-      "district": null,
-      "phone": "+2250748467998",
-      "supplier_name": "Centrale dépôt",
-      "montant": 74250.0,
-      "date_achat": "2026-05-31",
-      "maturity_date": "2026-06-07",
-      "jours_retard": 19.0,
-      "statut": "PENDING",
-      "montant_paye": 0.0,
-      "montant_restant": 74250.0,
-      "latitude": null,
-      "longitude": null,
-      "photo_url": null,
-      "nb_tx_historique": 6.0,
-      "comments": [
-        {
-          "date": "2026-06-22",
-          "type": "COURIER",
-          "content": "Date affichée : 2026-06-22 | Montant total : 56400 | Avance : 50000 | Frais transaction : 1500 | Frais retard : 4900 | Montant payé : 0",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-18",
-          "type": "LETTER_GIVEN_TO_AGENT",
-          "content": "RECOUVREMENT : LETTER_GIVEN_TO_AGENT : Appel : La cliente signifie faire un versement de 20mill demain",
-          "author": "francisAka"
-        },
-        {
-          "date": "2026-06-15",
-          "type": "COURIER",
-          "content": "Date affichée : 2026-06-15 | Montant total : 54300 | Avance : 50000 | Frais transaction : 1500 | Frais retard : 2800 | Montant payé : 0",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-09",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : aucune reponse",
-          "author": "evinne"
-        }
-      ]
-    },
-    {
       "tx_id": 19768.0,
       "merchant_id": 1139.0,
       "merchant_name": "DAINGUI EUNICE FENICIA",
@@ -1244,6 +1199,12 @@
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/85841b44734662d80dd7f17970b611b6.jpg",
       "nb_tx_historique": 2.0,
       "comments": [
+        {
+          "date": "2026-06-26",
+          "type": "LETTER_GIVEN_TO_AGENT",
+          "content": "RECOUVREMENT : LETTER_GIVEN_TO_AGENT : Appel : Le client  signifie faire un versement a 10h vu qu’il viens de rentrer de voyage",
+          "author": "francisAka"
+        },
         {
           "date": "2026-06-22",
           "type": "COURIER",
@@ -1998,6 +1959,12 @@
       "nb_tx_historique": 2.0,
       "comments": [
         {
+          "date": "2026-06-26",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : aucune reponse",
+          "author": "evinne"
+        },
+        {
           "date": "2026-06-22",
           "type": "GENERIC_COMMENT",
           "content": "Appel (Sortant) [Recouvrement] : Injoignable",
@@ -2030,6 +1997,12 @@
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/3346536f6ce034149f578ab952f5fe23.jpg",
       "nb_tx_historique": 2.0,
       "comments": [
+        {
+          "date": "2026-06-26",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : aucune reponse",
+          "author": "evinne"
+        },
         {
           "date": "2026-06-22",
           "type": "GENERIC_COMMENT",
@@ -2096,6 +2069,12 @@
       "photo_url": null,
       "nb_tx_historique": 35.0,
       "comments": [
+        {
+          "date": "2026-06-26",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : aucune reponse",
+          "author": "evinne"
+        },
         {
           "date": "2026-06-24",
           "type": "GENERIC_COMMENT",

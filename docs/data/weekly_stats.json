@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-06-25T23:07:54.533634+00:00",
+  "updated_at": "2026-06-26T02:28:12.284526+00:00",
   "data": [
     {
       "semaine": "2026-06-22",
-      "nb_clients": 16.0,
-      "valeur_totale": 3504025.0,
+      "nb_clients": 20.0,
+      "valeur_totale": 4153740.0,
       "nb_solds": 4.0,
       "montant_recouvre": 274750.0,
       "nb_clients_lettre": 7.0,

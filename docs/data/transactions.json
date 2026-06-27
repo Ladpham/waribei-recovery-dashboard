@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-27T09:22:56.926812+00:00",
+  "updated_at": "2026-06-27T11:20:36.398717+00:00",
   "data": [
     {
       "tx_id": 19202.0,
@@ -2098,45 +2098,6 @@
           "type": "GENERIC_COMMENT",
           "content": "Appel (Sortant) [Recouvrement] : je vais faire demain comme inouss ne travaille pas jai pris pour aller passer commande ailleurs",
           "author": "evinne"
-        }
-      ]
-    },
-    {
-      "tx_id": 20436.0,
-      "merchant_id": 753.0,
-      "merchant_name": "Akissi Annick Kouassi",
-      "district": null,
-      "phone": "+2250749647531",
-      "supplier_name": "Dépôt Redis angré",
-      "montant": 100000.0,
-      "date_achat": "2026-06-11",
-      "maturity_date": "2026-06-19",
-      "jours_retard": 8.0,
-      "statut": "PENDING",
-      "montant_paye": 102000.0,
-      "montant_restant": -2000.0,
-      "latitude": 5.4188299,
-      "longitude": -3.9660026,
-      "photo_url": null,
-      "nb_tx_historique": 58.0,
-      "comments": [
-        {
-          "date": "2026-06-26",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : envoie moi un lient 102k cest moux en ce moment oh mr sinon la on peut pas toout dire cest ca sinon fhoumm . en tout cas envoie moi le lient je vais faire et le soir pour le reste",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-22",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : aucune reponse",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-19",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : elle me reviens car elle se dit occupe",
-          "author": "KoneMasse"
         }
       ]
     },

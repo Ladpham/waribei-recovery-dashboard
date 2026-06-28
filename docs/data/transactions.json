@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-28T15:11:35.876108+00:00",
+  "updated_at": "2026-06-28T16:58:41.926925+00:00",
   "data": [
     {
       "tx_id": 18871.0,
@@ -168,8 +168,8 @@
       "statut": "PENDING",
       "montant_paye": 29600.0,
       "montant_restant": 20400.0,
-      "latitude": 5.464815,
-      "longitude": -3.2098813,
+      "latitude": 5.483453,
+      "longitude": -3.2091649,
       "photo_url": null,
       "nb_tx_historique": 15.0,
       "comments": [
@@ -1985,6 +1985,12 @@
       "photo_url": null,
       "nb_tx_historique": 35.0,
       "comments": [
+        {
+          "date": "2026-06-28",
+          "type": "LETTER_GIVEN_TO_AGENT",
+          "content": "RECOUVREMENT : LETTER_GIVEN_TO_AGENT : Appel : Client signifie commencé le versement demain lundi",
+          "author": "francisAka"
+        },
         {
           "date": "2026-06-26",
           "type": "GENERIC_COMMENT",

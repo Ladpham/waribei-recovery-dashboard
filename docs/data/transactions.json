@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-29T10:22:26.775690+00:00",
+  "updated_at": "2026-06-29T14:41:55.612965+00:00",
   "data": [
     {
       "tx_id": 19260.0,
@@ -456,8 +456,8 @@
       "statut": "PENDING",
       "montant_paye": 419800.0,
       "montant_restant": 243850.0,
-      "latitude": 5.3159119,
-      "longitude": -4.094931,
+      "latitude": 5.3154873,
+      "longitude": -4.09481,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/b797f03bd896235afa1e932a2325d84c.jpg",
       "nb_tx_historique": 5.0,
       "comments": [
@@ -1063,8 +1063,8 @@
       "maturity_date": "2026-06-12",
       "jours_retard": 17.0,
       "statut": "PENDING",
-      "montant_paye": 0.0,
-      "montant_restant": 137400.0,
+      "montant_paye": 20000.0,
+      "montant_restant": 117400.0,
       "latitude": 5.4305424,
       "longitude": -3.9876565,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/b461d10621dffdf1c837da4ae48f3b2c.jpg",
@@ -1165,8 +1165,8 @@
       "maturity_date": "2026-06-13",
       "jours_retard": 16.0,
       "statut": "PENDING",
-      "montant_paye": 120000.0,
-      "montant_restant": 119800.0,
+      "montant_paye": 140000.0,
+      "montant_restant": 99800.0,
       "latitude": 5.239640143786549,
       "longitude": -3.889686898917204,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/52bf5ac6ebf552724945434e12f0b13f.jpg",
@@ -1438,10 +1438,10 @@
       "maturity_date": "2026-06-15",
       "jours_retard": 14.0,
       "statut": "PENDING",
-      "montant_paye": 57200.0,
-      "montant_restant": 35150.0,
-      "latitude": 5.2546077,
-      "longitude": -3.8830445,
+      "montant_paye": 79200.0,
+      "montant_restant": 13150.0,
+      "latitude": 5.2807581,
+      "longitude": -3.9464371,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/07694c7c9afa90392a4d9e3b7aeec68e.jpg",
       "nb_tx_historique": 5.0,
       "comments": [
@@ -1796,62 +1796,23 @@
       ]
     },
     {
-      "tx_id": 20111.0,
-      "merchant_id": 1177.0,
-      "merchant_name": "LAGO ALFRED VINCENT JUNIOR",
+      "tx_id": 20124.0,
+      "merchant_id": 1250.0,
+      "merchant_name": "GUEYE N'GUESSAN DIANE ESTELLE",
       "district": null,
-      "phone": "+2250153967790",
-      "supplier_name": "Dépot N'zi",
-      "montant": 500000.0,
-      "date_achat": "2026-06-06",
-      "maturity_date": "2026-06-20",
-      "jours_retard": 9.0,
-      "statut": "PENDING",
-      "montant_paye": 100000.0,
-      "montant_restant": 400000.0,
-      "latitude": 5.3452057,
-      "longitude": -4.0756031,
-      "photo_url": null,
-      "nb_tx_historique": 26.0,
-      "comments": [
-        {
-          "date": "2026-06-26",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : aucune reponse",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-22",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : aucune reponse",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-17",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : jai dit a votre collegue la que je veux 2 semaines a cause de la penurie",
-          "author": "evinne"
-        }
-      ]
-    },
-    {
-      "tx_id": 20126.0,
-      "merchant_id": 1191.0,
-      "merchant_name": "OUOYA GLOUHIEU DONA HILARY",
-      "district": null,
-      "phone": "+2250787822068",
+      "phone": "+2250749215708",
       "supplier_name": "Depot Florent Koumassi",
       "montant": 500000.0,
       "date_achat": "2026-06-06",
       "maturity_date": "2026-06-20",
       "jours_retard": 9.0,
       "statut": "PENDING",
-      "montant_paye": 0.0,
-      "montant_restant": 500000.0,
-      "latitude": 5.3020399,
-      "longitude": -3.9563071,
+      "montant_paye": 200000.0,
+      "montant_restant": 300000.0,
+      "latitude": 5.302114,
+      "longitude": -3.9563229,
       "photo_url": null,
-      "nb_tx_historique": 20.0,
+      "nb_tx_historique": 18.0,
       "comments": [
         {
           "date": "2026-06-26",
@@ -1860,21 +1821,15 @@
           "author": "evinne"
         },
         {
-          "date": "2026-06-23",
+          "date": "2026-06-22",
           "type": "GENERIC_COMMENT",
           "content": "Appel (Sortant) [Recouvrement] : dossier florent",
           "author": "evinne"
         },
         {
-          "date": "2026-06-22",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : dossier depot florent",
-          "author": "evinne"
-        },
-        {
           "date": "2026-06-18",
           "type": "COURIER",
-          "content": "Date affichée : 2026-06-18 | Commune : Koumassi | Lieu : Koumassi grand marché | Montant total : 525000 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 0 | Montant payé : 0",
+          "content": "Date affichée : 2026-06-18 | Commune : Koumassi | Lieu : Koumassi 32 auprès de la gendarmerie | Montant total : 525000 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 0 | Montant payé : 0",
           "author": "KoneMasse"
         }
       ]
@@ -1925,23 +1880,23 @@
       ]
     },
     {
-      "tx_id": 20124.0,
-      "merchant_id": 1250.0,
-      "merchant_name": "GUEYE N'GUESSAN DIANE ESTELLE",
+      "tx_id": 20126.0,
+      "merchant_id": 1191.0,
+      "merchant_name": "OUOYA GLOUHIEU DONA HILARY",
       "district": null,
-      "phone": "+2250749215708",
+      "phone": "+2250787822068",
       "supplier_name": "Depot Florent Koumassi",
       "montant": 500000.0,
       "date_achat": "2026-06-06",
       "maturity_date": "2026-06-20",
       "jours_retard": 9.0,
       "statut": "PENDING",
-      "montant_paye": 200000.0,
-      "montant_restant": 300000.0,
-      "latitude": 5.302114,
-      "longitude": -3.9563229,
+      "montant_paye": 0.0,
+      "montant_restant": 500000.0,
+      "latitude": 5.3020399,
+      "longitude": -3.9563071,
       "photo_url": null,
-      "nb_tx_historique": 18.0,
+      "nb_tx_historique": 20.0,
       "comments": [
         {
           "date": "2026-06-26",
@@ -1950,16 +1905,61 @@
           "author": "evinne"
         },
         {
-          "date": "2026-06-22",
+          "date": "2026-06-23",
           "type": "GENERIC_COMMENT",
           "content": "Appel (Sortant) [Recouvrement] : dossier florent",
           "author": "evinne"
         },
         {
+          "date": "2026-06-22",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : dossier depot florent",
+          "author": "evinne"
+        },
+        {
           "date": "2026-06-18",
           "type": "COURIER",
-          "content": "Date affichée : 2026-06-18 | Commune : Koumassi | Lieu : Koumassi 32 auprès de la gendarmerie | Montant total : 525000 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 0 | Montant payé : 0",
+          "content": "Date affichée : 2026-06-18 | Commune : Koumassi | Lieu : Koumassi grand marché | Montant total : 525000 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 0 | Montant payé : 0",
           "author": "KoneMasse"
+        }
+      ]
+    },
+    {
+      "tx_id": 20111.0,
+      "merchant_id": 1177.0,
+      "merchant_name": "LAGO ALFRED VINCENT JUNIOR",
+      "district": null,
+      "phone": "+2250153967790",
+      "supplier_name": "Dépot N'zi",
+      "montant": 500000.0,
+      "date_achat": "2026-06-06",
+      "maturity_date": "2026-06-20",
+      "jours_retard": 9.0,
+      "statut": "PENDING",
+      "montant_paye": 100000.0,
+      "montant_restant": 400000.0,
+      "latitude": 5.3452057,
+      "longitude": -4.0756031,
+      "photo_url": null,
+      "nb_tx_historique": 26.0,
+      "comments": [
+        {
+          "date": "2026-06-26",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : aucune reponse",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-06-22",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : aucune reponse",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-06-17",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : jai dit a votre collegue la que je veux 2 semaines a cause de la penurie",
+          "author": "evinne"
         }
       ]
     },

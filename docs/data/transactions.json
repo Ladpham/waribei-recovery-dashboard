@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-30T16:16:44.428057+00:00",
+  "updated_at": "2026-06-30T18:28:41.346219+00:00",
   "data": [
     {
       "tx_id": 19363.0,
@@ -333,8 +333,8 @@
       "statut": "PENDING",
       "montant_paye": 100000.0,
       "montant_restant": 70000.0,
-      "latitude": 5.4527081,
-      "longitude": -4.0114343,
+      "latitude": 5.4524058,
+      "longitude": -4.011592,
       "photo_url": null,
       "nb_tx_historique": 14.0,
       "comments": [
@@ -378,69 +378,6 @@
           "date": "2026-06-05",
           "type": "GENERIC_COMMENT",
           "content": "Appel (Sortant) [Recouvrement] : elle va faire aujourhui",
-          "author": "evinne"
-        }
-      ]
-    },
-    {
-      "tx_id": 19632.0,
-      "merchant_id": 2445.0,
-      "merchant_name": "KOHIRIME SOKO LEA",
-      "district": "Adjamé",
-      "phone": "+2250747665988",
-      "supplier_name": "Sd Gonty Adjamé - liberté ",
-      "montant": 114050.0,
-      "date_achat": "2026-05-29",
-      "maturity_date": "2026-06-05",
-      "jours_retard": 25.0,
-      "statut": "PENDING",
-      "montant_paye": 71000.0,
-      "montant_restant": 43050.0,
-      "latitude": 5.3682569,
-      "longitude": -4.026649,
-      "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/2440df4c02841bc8da7dc40d40eee302.jpg",
-      "nb_tx_historique": 7.0,
-      "comments": [
-        {
-          "date": "2026-06-24",
-          "type": "LETTER_GIVEN_TO_AGENT",
-          "content": "RECOUVREMENT : LETTER_GIVEN_TO_AGENT : Visite : Elle a effectué un versement de 26.000 puis a promis de payer 15.000 le soir même et solder le vendredi",
-          "author": "alassane"
-        },
-        {
-          "date": "2026-06-22",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : Injoignable",
-          "author": "KoneMasse"
-        },
-        {
-          "date": "2026-06-22",
-          "type": "COURIER",
-          "content": "Date affichée : 2026-06-22 | Commune : Adjamé | Lieu : CRS portail fermé | Montant total : 57900 | Avance : 80000 | Frais transaction : 3000 | Frais retard : 4900 | Montant payé : 30000",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-15",
-          "type": "COURIER",
-          "content": "Date affichée : 2026-06-15 | Commune : Adjamé | Lieu : CRS portail fermé | Montant total : 56500 | Avance : 80000 | Frais transaction : 3000 | Frais retard : 3500 | Montant payé : 30000",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-15",
-          "type": "COURIER",
-          "content": "Date affichée : 2026-06-15 | Commune : Adjamé | Lieu : CRS portail fermé | Montant total : 56500 | Avance : 80000 | Frais transaction : 3000 | Frais retard : 3500 | Montant payé : 30000",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-11",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : elle va faire le necessiare ce soir au demain matin",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-09",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : je vais faire un versement aujourdhui",
           "author": "evinne"
         }
       ]
@@ -883,8 +820,8 @@
       "maturity_date": "2026-06-13",
       "jours_retard": 17.0,
       "statut": "PENDING",
-      "montant_paye": 30000.0,
-      "montant_restant": 370000.0,
+      "montant_paye": 140000.0,
+      "montant_restant": 260000.0,
       "latitude": 5.3304392,
       "longitude": -4.0736523,
       "photo_url": null,
@@ -1604,108 +1541,6 @@
       ]
     },
     {
-      "tx_id": 20126.0,
-      "merchant_id": 1191.0,
-      "merchant_name": "OUOYA GLOUHIEU DONA HILARY",
-      "district": null,
-      "phone": "+2250787822068",
-      "supplier_name": "Depot Florent Koumassi",
-      "montant": 500000.0,
-      "date_achat": "2026-06-06",
-      "maturity_date": "2026-06-20",
-      "jours_retard": 10.0,
-      "statut": "PENDING",
-      "montant_paye": 0.0,
-      "montant_restant": 500000.0,
-      "latitude": 5.3020399,
-      "longitude": -3.9563071,
-      "photo_url": null,
-      "nb_tx_historique": 20.0,
-      "comments": [
-        {
-          "date": "2026-06-30",
-          "type": "COURIER",
-          "content": "Date affichée : 2026-06-30 | Commune : Koumassi | Lieu : Koumassi grand marché | Montant total : 560000 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 35000 | Montant payé : 0",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-26",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : dossier florent",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-23",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : dossier florent",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-22",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : dossier depot florent",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-18",
-          "type": "COURIER",
-          "content": "Date affichée : 2026-06-18 | Commune : Koumassi | Lieu : Koumassi grand marché | Montant total : 525000 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 0 | Montant payé : 0",
-          "author": "KoneMasse"
-        }
-      ]
-    },
-    {
-      "tx_id": 20125.0,
-      "merchant_id": 1190.0,
-      "merchant_name": "TOME ANGE MARIE-JULIANA",
-      "district": null,
-      "phone": "+2250787052538",
-      "supplier_name": "Depot Florent Koumassi",
-      "montant": 500000.0,
-      "date_achat": "2026-06-06",
-      "maturity_date": "2026-06-20",
-      "jours_retard": 10.0,
-      "statut": "PENDING",
-      "montant_paye": 0.0,
-      "montant_restant": 500000.0,
-      "latitude": 5.3020876,
-      "longitude": -3.9563141,
-      "photo_url": null,
-      "nb_tx_historique": 20.0,
-      "comments": [
-        {
-          "date": "2026-06-30",
-          "type": "COURIER",
-          "content": "Date affichée : 2026-06-30 | Commune : Koumassi | Lieu : Koumassi quartier divo | Montant total : 560000 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 35000 | Montant payé : 0",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-26",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : dossier florent",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-23",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] :  dossier florent",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-22",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : dossier plorent",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-18",
-          "type": "COURIER",
-          "content": "Date affichée : 2026-06-18 | Commune : Koumassi | Lieu : Koumassi quartier divo | Montant total : 525000 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 0 | Montant payé : 0",
-          "author": "KoneMasse"
-        }
-      ]
-    },
-    {
       "tx_id": 20124.0,
       "merchant_id": 1250.0,
       "merchant_name": "GUEYE N'GUESSAN DIANE ESTELLE",
@@ -1796,6 +1631,108 @@
       ]
     },
     {
+      "tx_id": 20125.0,
+      "merchant_id": 1190.0,
+      "merchant_name": "TOME ANGE MARIE-JULIANA",
+      "district": null,
+      "phone": "+2250787052538",
+      "supplier_name": "Depot Florent Koumassi",
+      "montant": 500000.0,
+      "date_achat": "2026-06-06",
+      "maturity_date": "2026-06-20",
+      "jours_retard": 10.0,
+      "statut": "PENDING",
+      "montant_paye": 0.0,
+      "montant_restant": 500000.0,
+      "latitude": 5.3020876,
+      "longitude": -3.9563141,
+      "photo_url": null,
+      "nb_tx_historique": 20.0,
+      "comments": [
+        {
+          "date": "2026-06-30",
+          "type": "COURIER",
+          "content": "Date affichée : 2026-06-30 | Commune : Koumassi | Lieu : Koumassi quartier divo | Montant total : 560000 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 35000 | Montant payé : 0",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-06-26",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : dossier florent",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-06-23",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] :  dossier florent",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-06-22",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : dossier plorent",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-06-18",
+          "type": "COURIER",
+          "content": "Date affichée : 2026-06-18 | Commune : Koumassi | Lieu : Koumassi quartier divo | Montant total : 525000 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 0 | Montant payé : 0",
+          "author": "KoneMasse"
+        }
+      ]
+    },
+    {
+      "tx_id": 20126.0,
+      "merchant_id": 1191.0,
+      "merchant_name": "OUOYA GLOUHIEU DONA HILARY",
+      "district": null,
+      "phone": "+2250787822068",
+      "supplier_name": "Depot Florent Koumassi",
+      "montant": 500000.0,
+      "date_achat": "2026-06-06",
+      "maturity_date": "2026-06-20",
+      "jours_retard": 10.0,
+      "statut": "PENDING",
+      "montant_paye": 0.0,
+      "montant_restant": 500000.0,
+      "latitude": 5.3020399,
+      "longitude": -3.9563071,
+      "photo_url": null,
+      "nb_tx_historique": 20.0,
+      "comments": [
+        {
+          "date": "2026-06-30",
+          "type": "COURIER",
+          "content": "Date affichée : 2026-06-30 | Commune : Koumassi | Lieu : Koumassi grand marché | Montant total : 560000 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 35000 | Montant payé : 0",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-06-26",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : dossier florent",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-06-23",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : dossier florent",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-06-22",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : dossier depot florent",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-06-18",
+          "type": "COURIER",
+          "content": "Date affichée : 2026-06-18 | Commune : Koumassi | Lieu : Koumassi grand marché | Montant total : 525000 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 0 | Montant payé : 0",
+          "author": "KoneMasse"
+        }
+      ]
+    },
+    {
       "tx_id": 20531.0,
       "merchant_id": 2824.0,
       "merchant_name": "BABO AMELIE",
@@ -1852,10 +1789,10 @@
       "maturity_date": "2026-06-20",
       "jours_retard": 10.0,
       "statut": "PENDING",
-      "montant_paye": 50000.0,
-      "montant_restant": 51000.0,
-      "latitude": 5.3006461,
-      "longitude": -4.0049182,
+      "montant_paye": 75000.0,
+      "montant_restant": 26000.0,
+      "latitude": 5.3005027,
+      "longitude": -4.0049079,
       "photo_url": null,
       "nb_tx_historique": 1.0,
       "comments": [
@@ -2028,8 +1965,8 @@
       "statut": "PENDING",
       "montant_paye": 14000.0,
       "montant_restant": 26000.0,
-      "latitude": 5.3263047,
-      "longitude": -3.932209,
+      "latitude": 5.3257604,
+      "longitude": -3.9321405,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/38374240022d0b0740546c7d03e75caf.jpg",
       "nb_tx_historique": 11.0,
       "comments": [

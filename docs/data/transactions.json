@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-30T18:28:41.346219+00:00",
+  "updated_at": "2026-06-30T20:51:23.639143+00:00",
   "data": [
     {
       "tx_id": 19363.0,
@@ -1791,8 +1791,8 @@
       "statut": "PENDING",
       "montant_paye": 75000.0,
       "montant_restant": 26000.0,
-      "latitude": 5.3005027,
-      "longitude": -4.0049079,
+      "latitude": 5.3006242,
+      "longitude": -4.0049218,
       "photo_url": null,
       "nb_tx_historique": 1.0,
       "comments": [
@@ -2011,6 +2011,12 @@
       "comments": [
         {
           "date": "2026-06-30",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : recouvrement",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-06-30",
           "type": "COURIER",
           "content": "Date affichée : 2026-06-30 | Commune : Abobo | Lieu : Abobo BC près avant de le terrain gervinho | Montant total : 923200 | Avance : 950000 | Frais transaction : 47500 | Frais retard : 49000 | Montant payé : 123300",
           "author": "evinne"
@@ -2048,6 +2054,12 @@
       "photo_url": null,
       "nb_tx_historique": 28.0,
       "comments": [
+        {
+          "date": "2026-06-30",
+          "type": "GENERIC_COMMENT",
+          "content": "Message : recouvrement",
+          "author": "evinne"
+        },
         {
           "date": "2026-06-30",
           "type": "COURIER",

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-01T21:18:08.446013+00:00",
+  "updated_at": "2026-07-01T23:02:29.593946+00:00",
   "data": [
     {
       "tx_id": 19424.0,
@@ -174,8 +174,8 @@
       "statut": "PENDING",
       "montant_paye": 125350.0,
       "montant_restant": 8100.0,
-      "latitude": 5.356301,
-      "longitude": -4.0723846,
+      "latitude": 5.4379616,
+      "longitude": -4.0199814,
       "photo_url": null,
       "nb_tx_historique": 23.0,
       "comments": [
@@ -772,51 +772,6 @@
           "type": "GENERIC_COMMENT",
           "content": "Appel (Entrant) : aucune reponse",
           "author": "KoneMasse"
-        }
-      ]
-    },
-    {
-      "tx_id": 20110.0,
-      "merchant_id": 2606.0,
-      "merchant_name": "TIZIE LOU NENENAN ALBERTINE",
-      "district": "Port-Bouët",
-      "phone": "2250788505184",
-      "supplier_name": "Sd TDS PORT BOUET ",
-      "montant": 239800.0,
-      "date_achat": "2026-06-06",
-      "maturity_date": "2026-06-13",
-      "jours_retard": 18.0,
-      "statut": "PENDING",
-      "montant_paye": 185000.0,
-      "montant_restant": 54800.0,
-      "latitude": 5.239640143786549,
-      "longitude": -3.889686898917204,
-      "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/52bf5ac6ebf552724945434e12f0b13f.jpg",
-      "nb_tx_historique": 5.0,
-      "comments": [
-        {
-          "date": "2026-06-30",
-          "type": "COURIER",
-          "content": "Date affichée : 2026-06-30 | Commune : Port-Bouët | Lieu : Gonzague carrefour dieudonné | Montant total : 38250 | Avance : 180000 | Frais transaction : 6000 | Frais retard : 12250 | Montant payé : 160000",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-22",
-          "type": "COURIER",
-          "content": "Date affichée : 2026-06-22 | Commune : Port-Bouët | Lieu : Gonzague carrefour dieudonné | Montant total : 104750 | Avance : 180000 | Frais transaction : 6000 | Frais retard : 8750 | Montant payé : 90000",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-19",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : comme ya probleme de boisson la moi jai pris l argent la pour travailler",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-17",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : cest compris demain je vais faire",
-          "author": "evinne"
         }
       ]
     },
@@ -1439,28 +1394,34 @@
       ]
     },
     {
-      "tx_id": 20126.0,
-      "merchant_id": 1191.0,
-      "merchant_name": "OUOYA GLOUHIEU DONA HILARY",
+      "tx_id": 20124.0,
+      "merchant_id": 1250.0,
+      "merchant_name": "GUEYE N'GUESSAN DIANE ESTELLE",
       "district": null,
-      "phone": "+2250787822068",
+      "phone": "+2250749215708",
       "supplier_name": "Depot Florent Koumassi",
       "montant": 500000.0,
       "date_achat": "2026-06-06",
       "maturity_date": "2026-06-20",
       "jours_retard": 11.0,
       "statut": "PENDING",
-      "montant_paye": 0.0,
-      "montant_restant": 500000.0,
-      "latitude": 5.3020399,
-      "longitude": -3.9563071,
+      "montant_paye": 200000.0,
+      "montant_restant": 300000.0,
+      "latitude": 5.302114,
+      "longitude": -3.9563229,
       "photo_url": null,
-      "nb_tx_historique": 20.0,
+      "nb_tx_historique": 18.0,
       "comments": [
+        {
+          "date": "2026-07-01",
+          "type": "LETTER_GIVEN_TO_AGENT",
+          "content": "RECOUVREMENT : LETTER_GIVEN_TO_AGENT : Visite : La cliente avait déjà commencé a payer par échelonnement 100 mille par semaine. Le courrier a été déposé et signé",
+          "author": "francisAka"
+        },
         {
           "date": "2026-06-30",
           "type": "COURIER",
-          "content": "Date affichée : 2026-06-30 | Commune : Koumassi | Lieu : Koumassi grand marché | Montant total : 560000 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 35000 | Montant payé : 0",
+          "content": "Date affichée : 2026-06-30 | Commune : Koumassi | Lieu : Koumassi 32 auprès de la gendarmerie | Montant total : 351600 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 26600 | Montant payé : 200000",
           "author": "evinne"
         },
         {
@@ -1470,21 +1431,15 @@
           "author": "evinne"
         },
         {
-          "date": "2026-06-23",
+          "date": "2026-06-22",
           "type": "GENERIC_COMMENT",
           "content": "Appel (Sortant) [Recouvrement] : dossier florent",
           "author": "evinne"
         },
         {
-          "date": "2026-06-22",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : dossier depot florent",
-          "author": "evinne"
-        },
-        {
           "date": "2026-06-18",
           "type": "COURIER",
-          "content": "Date affichée : 2026-06-18 | Commune : Koumassi | Lieu : Koumassi grand marché | Montant total : 525000 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 0 | Montant payé : 0",
+          "content": "Date affichée : 2026-06-18 | Commune : Koumassi | Lieu : Koumassi 32 auprès de la gendarmerie | Montant total : 525000 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 0 | Montant payé : 0",
           "author": "KoneMasse"
         }
       ]
@@ -1541,34 +1496,28 @@
       ]
     },
     {
-      "tx_id": 20124.0,
-      "merchant_id": 1250.0,
-      "merchant_name": "GUEYE N'GUESSAN DIANE ESTELLE",
+      "tx_id": 20126.0,
+      "merchant_id": 1191.0,
+      "merchant_name": "OUOYA GLOUHIEU DONA HILARY",
       "district": null,
-      "phone": "+2250749215708",
+      "phone": "+2250787822068",
       "supplier_name": "Depot Florent Koumassi",
       "montant": 500000.0,
       "date_achat": "2026-06-06",
       "maturity_date": "2026-06-20",
       "jours_retard": 11.0,
       "statut": "PENDING",
-      "montant_paye": 200000.0,
-      "montant_restant": 300000.0,
-      "latitude": 5.302114,
-      "longitude": -3.9563229,
+      "montant_paye": 0.0,
+      "montant_restant": 500000.0,
+      "latitude": 5.3020399,
+      "longitude": -3.9563071,
       "photo_url": null,
-      "nb_tx_historique": 18.0,
+      "nb_tx_historique": 20.0,
       "comments": [
-        {
-          "date": "2026-07-01",
-          "type": "LETTER_GIVEN_TO_AGENT",
-          "content": "RECOUVREMENT : LETTER_GIVEN_TO_AGENT : Visite : La cliente avait déjà commencé a payer par échelonnement 100 mille par semaine. Le courrier a été déposé et signé",
-          "author": "francisAka"
-        },
         {
           "date": "2026-06-30",
           "type": "COURIER",
-          "content": "Date affichée : 2026-06-30 | Commune : Koumassi | Lieu : Koumassi 32 auprès de la gendarmerie | Montant total : 351600 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 26600 | Montant payé : 200000",
+          "content": "Date affichée : 2026-06-30 | Commune : Koumassi | Lieu : Koumassi grand marché | Montant total : 560000 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 35000 | Montant payé : 0",
           "author": "evinne"
         },
         {
@@ -1578,15 +1527,21 @@
           "author": "evinne"
         },
         {
-          "date": "2026-06-22",
+          "date": "2026-06-23",
           "type": "GENERIC_COMMENT",
           "content": "Appel (Sortant) [Recouvrement] : dossier florent",
           "author": "evinne"
         },
         {
+          "date": "2026-06-22",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : dossier depot florent",
+          "author": "evinne"
+        },
+        {
           "date": "2026-06-18",
           "type": "COURIER",
-          "content": "Date affichée : 2026-06-18 | Commune : Koumassi | Lieu : Koumassi 32 auprès de la gendarmerie | Montant total : 525000 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 0 | Montant payé : 0",
+          "content": "Date affichée : 2026-06-18 | Commune : Koumassi | Lieu : Koumassi grand marché | Montant total : 525000 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 0 | Montant payé : 0",
           "author": "KoneMasse"
         }
       ]

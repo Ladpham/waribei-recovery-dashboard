@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-01T08:03:39.479236+00:00",
+  "updated_at": "2026-07-01T11:51:19.326467+00:00",
   "data": [
     {
       "tx_id": 19424.0,
@@ -109,10 +109,10 @@
       "maturity_date": "2026-06-02",
       "jours_retard": 29.0,
       "statut": "PENDING",
-      "montant_paye": 419800.0,
-      "montant_restant": 243850.0,
-      "latitude": 5.3154873,
-      "longitude": -4.09481,
+      "montant_paye": 484700.0,
+      "montant_restant": 178950.0,
+      "latitude": 5.3150203,
+      "longitude": -4.0943212,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/b797f03bd896235afa1e932a2325d84c.jpg",
       "nb_tx_historique": 5.0,
       "comments": [
@@ -231,8 +231,8 @@
       "statut": "PENDING",
       "montant_paye": 150000.0,
       "montant_restant": 20000.0,
-      "latitude": 5.4524058,
-      "longitude": -4.011592,
+      "latitude": 5.4523799,
+      "longitude": -4.0113184,
       "photo_url": null,
       "nb_tx_historique": 14.0,
       "comments": [
@@ -1863,8 +1863,8 @@
       "statut": "PENDING",
       "montant_paye": 14000.0,
       "montant_restant": 26000.0,
-      "latitude": 5.3258375,
-      "longitude": -3.9321621,
+      "latitude": 5.326376,
+      "longitude": -3.9338364,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/38374240022d0b0740546c7d03e75caf.jpg",
       "nb_tx_historique": 11.0,
       "comments": [
@@ -1945,8 +1945,8 @@
       "maturity_date": "2026-06-22",
       "jours_retard": 9.0,
       "statut": "PENDING",
-      "montant_paye": 124900.0,
-      "montant_restant": 805350.0,
+      "montant_paye": 189800.0,
+      "montant_restant": 740450.0,
       "latitude": 5.3157113,
       "longitude": -4.0948794,
       "photo_url": null,

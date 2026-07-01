@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-01T14:07:35.565984+00:00",
+  "updated_at": "2026-07-01T17:06:32.265637+00:00",
   "data": [
     {
       "tx_id": 19424.0,
@@ -787,8 +787,8 @@
       "maturity_date": "2026-06-13",
       "jours_retard": 18.0,
       "statut": "PENDING",
-      "montant_paye": 175000.0,
-      "montant_restant": 64800.0,
+      "montant_paye": 185000.0,
+      "montant_restant": 54800.0,
       "latitude": 5.239640143786549,
       "longitude": -3.889686898917204,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/52bf5ac6ebf552724945434e12f0b13f.jpg",
@@ -1560,6 +1560,12 @@
       "nb_tx_historique": 18.0,
       "comments": [
         {
+          "date": "2026-07-01",
+          "type": "LETTER_GIVEN_TO_AGENT",
+          "content": "RECOUVREMENT : LETTER_GIVEN_TO_AGENT : Visite : La cliente avait déjà commencé a payer par échelonnement 100 mille par semaine. Le courrier a été déposé et signé",
+          "author": "francisAka"
+        },
+        {
           "date": "2026-06-30",
           "type": "COURIER",
           "content": "Date affichée : 2026-06-30 | Commune : Koumassi | Lieu : Koumassi 32 auprès de la gendarmerie | Montant total : 351600 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 26600 | Montant payé : 200000",
@@ -1644,8 +1650,8 @@
       "statut": "PENDING",
       "montant_paye": 60000.0,
       "montant_restant": 127100.0,
-      "latitude": 5.3037647,
-      "longitude": -3.9969321,
+      "latitude": 5.2998468,
+      "longitude": -3.997889,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/2aa894ab265f88c9c797995e3d98951d.jpg",
       "nb_tx_historique": 3.0,
       "comments": [
@@ -1861,10 +1867,10 @@
       "maturity_date": "2026-06-20",
       "jours_retard": 11.0,
       "statut": "PENDING",
-      "montant_paye": 14000.0,
-      "montant_restant": 26000.0,
-      "latitude": 5.326376,
-      "longitude": -3.9338364,
+      "montant_paye": 15350.0,
+      "montant_restant": 24650.0,
+      "latitude": 5.3264402,
+      "longitude": -3.9332903,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/38374240022d0b0740546c7d03e75caf.jpg",
       "nb_tx_historique": 11.0,
       "comments": [

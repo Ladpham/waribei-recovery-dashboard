@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-02T12:02:40.371954+00:00",
+  "updated_at": "2026-07-02T15:05:59.255916+00:00",
   "data": [
     {
       "tx_id": 19072.0,
@@ -14,8 +14,8 @@
       "maturity_date": "2026-06-02",
       "jours_retard": 30.0,
       "statut": "PENDING",
-      "montant_paye": 484700.0,
-      "montant_restant": 178950.0,
+      "montant_paye": 524700.0,
+      "montant_restant": 138950.0,
       "latitude": 5.3151881,
       "longitude": -4.094944,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/b797f03bd896235afa1e932a2325d84c.jpg",
@@ -418,8 +418,8 @@
       "maturity_date": "2026-06-09",
       "jours_retard": 23.0,
       "statut": "PENDING",
-      "montant_paye": 35000.0,
-      "montant_restant": 27850.0,
+      "montant_paye": 50000.0,
+      "montant_restant": 12850.0,
       "latitude": 5.2985855,
       "longitude": -3.9762459,
       "photo_url": null,
@@ -1508,49 +1508,55 @@
       "promise_nb_past": 0.0
     },
     {
-      "tx_id": 20111.0,
-      "merchant_id": 1177.0,
-      "merchant_name": "LAGO ALFRED VINCENT JUNIOR",
+      "tx_id": 20125.0,
+      "merchant_id": 1190.0,
+      "merchant_name": "TOME ANGE MARIE-JULIANA",
       "district": null,
-      "phone": "+2250153967790",
-      "supplier_name": "Dépot N'zi",
+      "phone": "+2250787052538",
+      "supplier_name": "Depot Florent Koumassi",
       "montant": 500000.0,
       "revenue": 25000.0,
       "date_achat": "2026-06-06",
       "maturity_date": "2026-06-20",
       "jours_retard": 12.0,
       "statut": "PENDING",
-      "montant_paye": 100000.0,
-      "montant_restant": 400000.0,
-      "latitude": 5.3452057,
-      "longitude": -4.0756031,
+      "montant_paye": 0.0,
+      "montant_restant": 500000.0,
+      "latitude": 5.3020876,
+      "longitude": -3.9563141,
       "photo_url": null,
       "decharge_url": null,
-      "nb_tx_historique": 26.0,
+      "nb_tx_historique": 20.0,
       "comments": [
         {
           "date": "2026-06-30",
           "type": "COURIER",
-          "content": "Date affichée : 2026-06-30 | Commune : Yopougon | Lieu : Yopougon sicogi derrière la cathédrale saint André | Montant total : 454400 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 29400 | Montant payé : 100000",
+          "content": "Date affichée : 2026-06-30 | Commune : Koumassi | Lieu : Koumassi quartier divo | Montant total : 560000 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 35000 | Montant payé : 0",
           "author": "evinne"
         },
         {
           "date": "2026-06-26",
           "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : aucune reponse",
+          "content": "Appel (Sortant) [Recouvrement] : dossier florent",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-06-23",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] :  dossier florent",
           "author": "evinne"
         },
         {
           "date": "2026-06-22",
           "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : aucune reponse",
+          "content": "Appel (Sortant) [Recouvrement] : dossier plorent",
           "author": "evinne"
         },
         {
-          "date": "2026-06-17",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : jai dit a votre collegue la que je veux 2 semaines a cause de la penurie",
-          "author": "evinne"
+          "date": "2026-06-18",
+          "type": "COURIER",
+          "content": "Date affichée : 2026-06-18 | Commune : Koumassi | Lieu : Koumassi quartier divo | Montant total : 525000 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 0 | Montant payé : 0",
+          "author": "KoneMasse"
         }
       ],
       "promises": [],
@@ -1625,55 +1631,49 @@
       "promise_nb_past": 1.0
     },
     {
-      "tx_id": 20125.0,
-      "merchant_id": 1190.0,
-      "merchant_name": "TOME ANGE MARIE-JULIANA",
+      "tx_id": 20111.0,
+      "merchant_id": 1177.0,
+      "merchant_name": "LAGO ALFRED VINCENT JUNIOR",
       "district": null,
-      "phone": "+2250787052538",
-      "supplier_name": "Depot Florent Koumassi",
+      "phone": "+2250153967790",
+      "supplier_name": "Dépot N'zi",
       "montant": 500000.0,
       "revenue": 25000.0,
       "date_achat": "2026-06-06",
       "maturity_date": "2026-06-20",
       "jours_retard": 12.0,
       "statut": "PENDING",
-      "montant_paye": 0.0,
-      "montant_restant": 500000.0,
-      "latitude": 5.3020876,
-      "longitude": -3.9563141,
+      "montant_paye": 100000.0,
+      "montant_restant": 400000.0,
+      "latitude": 5.3452057,
+      "longitude": -4.0756031,
       "photo_url": null,
       "decharge_url": null,
-      "nb_tx_historique": 20.0,
+      "nb_tx_historique": 26.0,
       "comments": [
         {
           "date": "2026-06-30",
           "type": "COURIER",
-          "content": "Date affichée : 2026-06-30 | Commune : Koumassi | Lieu : Koumassi quartier divo | Montant total : 560000 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 35000 | Montant payé : 0",
+          "content": "Date affichée : 2026-06-30 | Commune : Yopougon | Lieu : Yopougon sicogi derrière la cathédrale saint André | Montant total : 454400 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 29400 | Montant payé : 100000",
           "author": "evinne"
         },
         {
           "date": "2026-06-26",
           "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : dossier florent",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-23",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] :  dossier florent",
+          "content": "Appel (Sortant) [Recouvrement] : aucune reponse",
           "author": "evinne"
         },
         {
           "date": "2026-06-22",
           "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : dossier plorent",
+          "content": "Appel (Sortant) [Recouvrement] : aucune reponse",
           "author": "evinne"
         },
         {
-          "date": "2026-06-18",
-          "type": "COURIER",
-          "content": "Date affichée : 2026-06-18 | Commune : Koumassi | Lieu : Koumassi quartier divo | Montant total : 525000 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 0 | Montant payé : 0",
-          "author": "KoneMasse"
+          "date": "2026-06-17",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : jai dit a votre collegue la que je veux 2 semaines a cause de la penurie",
+          "author": "evinne"
         }
       ],
       "promises": [],
@@ -2281,50 +2281,6 @@
           "date": "2026-06-26",
           "type": "GENERIC_COMMENT",
           "content": "Appel (Sortant) [Recouvrement] : aucune reponse",
-          "author": "KoneMasse"
-        }
-      ],
-      "promises": [],
-      "promise_nb_respected": 0.0,
-      "promise_nb_past": 0.0
-    },
-    {
-      "tx_id": 20317.0,
-      "merchant_id": 1188.0,
-      "merchant_name": "YAO AMANI LUC",
-      "district": null,
-      "phone": "+2250707666630",
-      "supplier_name": "Centrale Dépôt Aboboté",
-      "montant": 300000.0,
-      "revenue": 15000.0,
-      "date_achat": "2026-06-10",
-      "maturity_date": "2026-06-24",
-      "jours_retard": 8.0,
-      "statut": "PENDING",
-      "montant_paye": 150000.0,
-      "montant_restant": 150000.0,
-      "latitude": 5.4126135,
-      "longitude": -3.9976511,
-      "photo_url": null,
-      "decharge_url": null,
-      "nb_tx_historique": 19.0,
-      "comments": [
-        {
-          "date": "2026-06-30",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : Injoignable",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-26",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] :  : Je vais payé lundi ou mardi le de compléter à cause de la pluie qui a ralenti ma vente",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-24",
-          "type": "GENERIC_COMMENT",
-          "content": "Message (Entrant) [Recouvrement] : Je vais payé lundi ou mardi le de compléter  à cause de la pluie  qui a ralenti ma vente",
           "author": "KoneMasse"
         }
       ],

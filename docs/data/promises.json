@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-02T12:02:40.930450+00:00",
+  "updated_at": "2026-07-02T15:05:59.512343+00:00",
   "data": [
     {
       "promise_id": 1519.0,
@@ -180,7 +180,7 @@
       "promise_amount": 364900.0,
       "montant": 663650.0,
       "paid_around_promise": 0.0,
-      "total_paid_tx": 484700.0,
+      "total_paid_tx": 524700.0,
       "status": "missed"
     },
     {
@@ -278,7 +278,7 @@
       "promise_amount": 54100.0,
       "montant": 266940.0,
       "paid_around_promise": 0.0,
-      "total_paid_tx": 120500.0,
+      "total_paid_tx": 150700.0,
       "status": "missed"
     },
     {
@@ -334,7 +334,7 @@
       "promise_amount": 54100.0,
       "montant": 266940.0,
       "paid_around_promise": 0.0,
-      "total_paid_tx": 120500.0,
+      "total_paid_tx": 150700.0,
       "status": "missed"
     },
     {

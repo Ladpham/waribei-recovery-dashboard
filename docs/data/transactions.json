@@ -1,102 +1,6 @@
 {
-  "updated_at": "2026-07-01T23:02:29.593946+00:00",
+  "updated_at": "2026-07-02T02:14:24.632258+00:00",
   "data": [
-    {
-      "tx_id": 19424.0,
-      "merchant_id": 2641.0,
-      "merchant_name": "EDOUKOU KOUAKOU MICHAEL",
-      "district": "Abobo",
-      "phone": "2250778340433",
-      "supplier_name": "Sd Angélique abobo",
-      "montant": 305100.0,
-      "date_achat": "2026-05-25",
-      "maturity_date": "2026-06-01",
-      "jours_retard": 30.0,
-      "statut": "PENDING",
-      "montant_paye": 200000.0,
-      "montant_restant": 105100.0,
-      "latitude": 5.434816,
-      "longitude": -4.0091961,
-      "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/0923013351880284bcefa10317f597da.jpg",
-      "nb_tx_historique": 3.0,
-      "comments": [
-        {
-          "date": "2026-06-16",
-          "type": "COURIER",
-          "content": "Date affichée : 2026-06-16 | Commune : Abobo | Lieu : Soghefia | Montant total : 131400 | Avance : 300000 | Frais transaction : 9000 | Frais retard : 22400 | Montant payé : 200000",
-          "author": "KoneMasse"
-        },
-        {
-          "date": "2026-06-08",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : auucne reponse",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-08",
-          "type": "COURIER",
-          "content": "Date affichée : 2026-06-08 | Commune : Abobo | Lieu : Soghefia | Montant total : 323700 | Avance : 300000 | Frais transaction : 9000 | Frais retard : 14700 | Montant payé : 0",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-04",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : il a va faire ca aujourdhui",
-          "author": "evinne"
-        }
-      ]
-    },
-    {
-      "tx_id": 19415.0,
-      "merchant_id": 2582.0,
-      "merchant_name": "GOUSSEBOTIN GAEL RODRIGUE",
-      "district": "Yopougon",
-      "phone": "+2250747936742",
-      "supplier_name": "Socob Locodjro",
-      "montant": 101925.0,
-      "date_achat": "2026-05-25",
-      "maturity_date": "2026-06-01",
-      "jours_retard": 30.0,
-      "statut": "PENDING",
-      "montant_paye": 0.0,
-      "montant_restant": 101925.0,
-      "latitude": 5.3235922,
-      "longitude": -4.0628157,
-      "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/90c5e85757def072b4a57fe6ad13bcf4.jpg",
-      "nb_tx_historique": 3.0,
-      "comments": [
-        {
-          "date": "2026-06-17",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : aucune reponse",
-          "author": "KoneMasse"
-        },
-        {
-          "date": "2026-06-17",
-          "type": "COURIER",
-          "content": "Date affichée : 2026-06-17 | Commune : Yopougon | Lieu : Petit toit rouge au virage | Montant total : 112800 | Avance : 100000 | Frais transaction : 3000 | Frais retard : 9800 | Montant payé : 0",
-          "author": "KoneMasse"
-        },
-        {
-          "date": "2026-06-08",
-          "type": "COURIER",
-          "content": "Date affichée : 2026-06-08 | Commune : Yopougon | Lieu : Petit toit rouge au virage | Montant total : 107900 | Avance : 100000 | Frais transaction : 3000 | Frais retard : 4900 | Montant payé : 0",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-04",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : il va faire le necessaire jusqua la fin de la semaine car ses vendeurs ont vendu mais ils sont pas la",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-05-30",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Entrant) : il aura du retard car son gérant a fui avec sa recette quand il était en voyage ",
-          "author": "KoneMasse"
-        }
-      ]
-    },
     {
       "tx_id": 19072.0,
       "merchant_id": 2286.0,
@@ -107,7 +11,7 @@
       "montant": 663650.0,
       "date_achat": "2026-05-19",
       "maturity_date": "2026-06-02",
-      "jours_retard": 29.0,
+      "jours_retard": 30.0,
       "statut": "PENDING",
       "montant_paye": 484700.0,
       "montant_restant": 178950.0,
@@ -170,7 +74,7 @@
       "montant": 133450.0,
       "date_achat": "2026-05-27",
       "maturity_date": "2026-06-03",
-      "jours_retard": 28.0,
+      "jours_retard": 29.0,
       "statut": "PENDING",
       "montant_paye": 125350.0,
       "montant_restant": 8100.0,
@@ -227,7 +131,7 @@
       "montant": 170000.0,
       "date_achat": "2026-05-28",
       "maturity_date": "2026-06-04",
-      "jours_retard": 27.0,
+      "jours_retard": 28.0,
       "statut": "PENDING",
       "montant_paye": 150000.0,
       "montant_restant": 20000.0,
@@ -290,7 +194,7 @@
       "montant": 80000.0,
       "date_achat": "2026-05-30",
       "maturity_date": "2026-06-06",
-      "jours_retard": 25.0,
+      "jours_retard": 26.0,
       "statut": "PENDING",
       "montant_paye": 30000.0,
       "montant_restant": 50000.0,
@@ -329,7 +233,7 @@
       "montant": 100000.0,
       "date_achat": "2026-05-31",
       "maturity_date": "2026-06-07",
-      "jours_retard": 24.0,
+      "jours_retard": 25.0,
       "statut": "PENDING",
       "montant_paye": 0.0,
       "montant_restant": 100000.0,
@@ -368,7 +272,7 @@
       "montant": 150000.0,
       "date_achat": "2026-06-01",
       "maturity_date": "2026-06-08",
-      "jours_retard": 23.0,
+      "jours_retard": 24.0,
       "statut": "PENDING",
       "montant_paye": 100000.0,
       "montant_restant": 50000.0,
@@ -413,7 +317,7 @@
       "montant": 100000.0,
       "date_achat": "2026-06-01",
       "maturity_date": "2026-06-08",
-      "jours_retard": 23.0,
+      "jours_retard": 24.0,
       "statut": "PENDING",
       "montant_paye": 30000.0,
       "montant_restant": 70000.0,
@@ -458,7 +362,7 @@
       "montant": 62850.0,
       "date_achat": "2026-06-02",
       "maturity_date": "2026-06-09",
-      "jours_retard": 22.0,
+      "jours_retard": 23.0,
       "statut": "PENDING",
       "montant_paye": 35000.0,
       "montant_restant": 27850.0,
@@ -497,7 +401,7 @@
       "montant": 165700.0,
       "date_achat": "2026-06-03",
       "maturity_date": "2026-06-10",
-      "jours_retard": 21.0,
+      "jours_retard": 22.0,
       "statut": "PENDING",
       "montant_paye": 55000.0,
       "montant_restant": 110700.0,
@@ -542,7 +446,7 @@
       "montant": 100000.0,
       "date_achat": "2026-06-03",
       "maturity_date": "2026-06-10",
-      "jours_retard": 21.0,
+      "jours_retard": 22.0,
       "statut": "PENDING",
       "montant_paye": 88700.0,
       "montant_restant": 11300.0,
@@ -581,7 +485,7 @@
       "montant": 80349.0,
       "date_achat": "2026-06-03",
       "maturity_date": "2026-06-10",
-      "jours_retard": 21.0,
+      "jours_retard": 22.0,
       "statut": "PENDING",
       "montant_paye": 58000.0,
       "montant_restant": 22349.0,
@@ -620,7 +524,7 @@
       "montant": 67300.0,
       "date_achat": "2026-06-04",
       "maturity_date": "2026-06-11",
-      "jours_retard": 20.0,
+      "jours_retard": 21.0,
       "statut": "PENDING",
       "montant_paye": 40000.0,
       "montant_restant": 27300.0,
@@ -671,7 +575,7 @@
       "montant": 137400.0,
       "date_achat": "2026-06-05",
       "maturity_date": "2026-06-12",
-      "jours_retard": 19.0,
+      "jours_retard": 20.0,
       "statut": "PENDING",
       "montant_paye": 20000.0,
       "montant_restant": 117400.0,
@@ -716,7 +620,7 @@
       "montant": 400000.0,
       "date_achat": "2026-05-30",
       "maturity_date": "2026-06-13",
-      "jours_retard": 18.0,
+      "jours_retard": 19.0,
       "statut": "PENDING",
       "montant_paye": 140000.0,
       "montant_restant": 260000.0,
@@ -785,7 +689,7 @@
       "montant": 135000.0,
       "date_achat": "2026-06-06",
       "maturity_date": "2026-06-13",
-      "jours_retard": 18.0,
+      "jours_retard": 19.0,
       "statut": "PENDING",
       "montant_paye": 20000.0,
       "montant_restant": 115000.0,
@@ -842,7 +746,7 @@
       "montant": 828500.0,
       "date_achat": "2026-05-31",
       "maturity_date": "2026-06-14",
-      "jours_retard": 17.0,
+      "jours_retard": 18.0,
       "statut": "PENDING",
       "montant_paye": 0.0,
       "montant_restant": 828500.0,
@@ -917,7 +821,7 @@
       "montant": 539500.0,
       "date_achat": "2026-06-08",
       "maturity_date": "2026-06-15",
-      "jours_retard": 16.0,
+      "jours_retard": 17.0,
       "statut": "PENDING",
       "montant_paye": 370000.0,
       "montant_restant": 169500.0,
@@ -968,7 +872,7 @@
       "montant": 300000.0,
       "date_achat": "2026-06-01",
       "maturity_date": "2026-06-15",
-      "jours_retard": 16.0,
+      "jours_retard": 17.0,
       "statut": "PENDING",
       "montant_paye": 0.0,
       "montant_restant": 300000.0,
@@ -1049,7 +953,7 @@
       "montant": 50350.0,
       "date_achat": "2026-06-08",
       "maturity_date": "2026-06-15",
-      "jours_retard": 16.0,
+      "jours_retard": 17.0,
       "statut": "PENDING",
       "montant_paye": 0.0,
       "montant_restant": 50350.0,
@@ -1094,7 +998,7 @@
       "montant": 62450.0,
       "date_achat": "2026-06-09",
       "maturity_date": "2026-06-16",
-      "jours_retard": 15.0,
+      "jours_retard": 16.0,
       "statut": "PENDING",
       "montant_paye": 28600.0,
       "montant_restant": 33850.0,
@@ -1139,7 +1043,7 @@
       "montant": 48425.0,
       "date_achat": "2026-06-10",
       "maturity_date": "2026-06-17",
-      "jours_retard": 14.0,
+      "jours_retard": 15.0,
       "statut": "PENDING",
       "montant_paye": 45000.0,
       "montant_restant": 3425.0,
@@ -1178,7 +1082,7 @@
       "montant": 187200.0,
       "date_achat": "2026-06-11",
       "maturity_date": "2026-06-18",
-      "jours_retard": 13.0,
+      "jours_retard": 14.0,
       "statut": "PENDING",
       "montant_paye": 101000.0,
       "montant_restant": 86200.0,
@@ -1217,7 +1121,7 @@
       "montant": 150000.0,
       "date_achat": "2026-06-11",
       "maturity_date": "2026-06-18",
-      "jours_retard": 13.0,
+      "jours_retard": 14.0,
       "statut": "PENDING",
       "montant_paye": 51000.0,
       "montant_restant": 99000.0,
@@ -1262,7 +1166,7 @@
       "montant": 135300.0,
       "date_achat": "2026-06-10",
       "maturity_date": "2026-06-18",
-      "jours_retard": 13.0,
+      "jours_retard": 14.0,
       "statut": "PENDING",
       "montant_paye": 33000.0,
       "montant_restant": 102300.0,
@@ -1307,7 +1211,7 @@
       "montant": 101300.0,
       "date_achat": "2026-06-11",
       "maturity_date": "2026-06-18",
-      "jours_retard": 13.0,
+      "jours_retard": 14.0,
       "statut": "PENDING",
       "montant_paye": 63000.0,
       "montant_restant": 38300.0,
@@ -1352,7 +1256,7 @@
       "montant": 75915.0,
       "date_achat": "2026-06-11",
       "maturity_date": "2026-06-18",
-      "jours_retard": 13.0,
+      "jours_retard": 14.0,
       "statut": "PENDING",
       "montant_paye": 0.0,
       "montant_restant": 75915.0,
@@ -1394,104 +1298,47 @@
       ]
     },
     {
-      "tx_id": 20124.0,
-      "merchant_id": 1250.0,
-      "merchant_name": "GUEYE N'GUESSAN DIANE ESTELLE",
+      "tx_id": 20111.0,
+      "merchant_id": 1177.0,
+      "merchant_name": "LAGO ALFRED VINCENT JUNIOR",
       "district": null,
-      "phone": "+2250749215708",
-      "supplier_name": "Depot Florent Koumassi",
+      "phone": "+2250153967790",
+      "supplier_name": "Dépot N'zi",
       "montant": 500000.0,
       "date_achat": "2026-06-06",
       "maturity_date": "2026-06-20",
-      "jours_retard": 11.0,
+      "jours_retard": 12.0,
       "statut": "PENDING",
-      "montant_paye": 200000.0,
-      "montant_restant": 300000.0,
-      "latitude": 5.302114,
-      "longitude": -3.9563229,
+      "montant_paye": 100000.0,
+      "montant_restant": 400000.0,
+      "latitude": 5.3452057,
+      "longitude": -4.0756031,
       "photo_url": null,
-      "nb_tx_historique": 18.0,
+      "nb_tx_historique": 26.0,
       "comments": [
-        {
-          "date": "2026-07-01",
-          "type": "LETTER_GIVEN_TO_AGENT",
-          "content": "RECOUVREMENT : LETTER_GIVEN_TO_AGENT : Visite : La cliente avait déjà commencé a payer par échelonnement 100 mille par semaine. Le courrier a été déposé et signé",
-          "author": "francisAka"
-        },
         {
           "date": "2026-06-30",
           "type": "COURIER",
-          "content": "Date affichée : 2026-06-30 | Commune : Koumassi | Lieu : Koumassi 32 auprès de la gendarmerie | Montant total : 351600 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 26600 | Montant payé : 200000",
+          "content": "Date affichée : 2026-06-30 | Commune : Yopougon | Lieu : Yopougon sicogi derrière la cathédrale saint André | Montant total : 454400 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 29400 | Montant payé : 100000",
           "author": "evinne"
         },
         {
           "date": "2026-06-26",
           "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : dossier florent",
+          "content": "Appel (Sortant) [Recouvrement] : aucune reponse",
           "author": "evinne"
         },
         {
           "date": "2026-06-22",
           "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : dossier florent",
+          "content": "Appel (Sortant) [Recouvrement] : aucune reponse",
           "author": "evinne"
         },
         {
-          "date": "2026-06-18",
-          "type": "COURIER",
-          "content": "Date affichée : 2026-06-18 | Commune : Koumassi | Lieu : Koumassi 32 auprès de la gendarmerie | Montant total : 525000 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 0 | Montant payé : 0",
-          "author": "KoneMasse"
-        }
-      ]
-    },
-    {
-      "tx_id": 20125.0,
-      "merchant_id": 1190.0,
-      "merchant_name": "TOME ANGE MARIE-JULIANA",
-      "district": null,
-      "phone": "+2250787052538",
-      "supplier_name": "Depot Florent Koumassi",
-      "montant": 500000.0,
-      "date_achat": "2026-06-06",
-      "maturity_date": "2026-06-20",
-      "jours_retard": 11.0,
-      "statut": "PENDING",
-      "montant_paye": 0.0,
-      "montant_restant": 500000.0,
-      "latitude": 5.3020876,
-      "longitude": -3.9563141,
-      "photo_url": null,
-      "nb_tx_historique": 20.0,
-      "comments": [
-        {
-          "date": "2026-06-30",
-          "type": "COURIER",
-          "content": "Date affichée : 2026-06-30 | Commune : Koumassi | Lieu : Koumassi quartier divo | Montant total : 560000 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 35000 | Montant payé : 0",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-26",
+          "date": "2026-06-17",
           "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : dossier florent",
+          "content": "Appel (Sortant) [Recouvrement] : jai dit a votre collegue la que je veux 2 semaines a cause de la penurie",
           "author": "evinne"
-        },
-        {
-          "date": "2026-06-23",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] :  dossier florent",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-22",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : dossier plorent",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-18",
-          "type": "COURIER",
-          "content": "Date affichée : 2026-06-18 | Commune : Koumassi | Lieu : Koumassi quartier divo | Montant total : 525000 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 0 | Montant payé : 0",
-          "author": "KoneMasse"
         }
       ]
     },
@@ -1505,7 +1352,7 @@
       "montant": 500000.0,
       "date_achat": "2026-06-06",
       "maturity_date": "2026-06-20",
-      "jours_retard": 11.0,
+      "jours_retard": 12.0,
       "statut": "PENDING",
       "montant_paye": 0.0,
       "montant_restant": 500000.0,
@@ -1547,47 +1394,104 @@
       ]
     },
     {
-      "tx_id": 20111.0,
-      "merchant_id": 1177.0,
-      "merchant_name": "LAGO ALFRED VINCENT JUNIOR",
+      "tx_id": 20125.0,
+      "merchant_id": 1190.0,
+      "merchant_name": "TOME ANGE MARIE-JULIANA",
       "district": null,
-      "phone": "+2250153967790",
-      "supplier_name": "Dépot N'zi",
+      "phone": "+2250787052538",
+      "supplier_name": "Depot Florent Koumassi",
       "montant": 500000.0,
       "date_achat": "2026-06-06",
       "maturity_date": "2026-06-20",
-      "jours_retard": 11.0,
+      "jours_retard": 12.0,
       "statut": "PENDING",
-      "montant_paye": 100000.0,
-      "montant_restant": 400000.0,
-      "latitude": 5.3452057,
-      "longitude": -4.0756031,
+      "montant_paye": 0.0,
+      "montant_restant": 500000.0,
+      "latitude": 5.3020876,
+      "longitude": -3.9563141,
       "photo_url": null,
-      "nb_tx_historique": 26.0,
+      "nb_tx_historique": 20.0,
       "comments": [
         {
           "date": "2026-06-30",
           "type": "COURIER",
-          "content": "Date affichée : 2026-06-30 | Commune : Yopougon | Lieu : Yopougon sicogi derrière la cathédrale saint André | Montant total : 454400 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 29400 | Montant payé : 100000",
+          "content": "Date affichée : 2026-06-30 | Commune : Koumassi | Lieu : Koumassi quartier divo | Montant total : 560000 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 35000 | Montant payé : 0",
           "author": "evinne"
         },
         {
           "date": "2026-06-26",
           "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : aucune reponse",
+          "content": "Appel (Sortant) [Recouvrement] : dossier florent",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-06-23",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] :  dossier florent",
           "author": "evinne"
         },
         {
           "date": "2026-06-22",
           "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : aucune reponse",
+          "content": "Appel (Sortant) [Recouvrement] : dossier plorent",
           "author": "evinne"
         },
         {
-          "date": "2026-06-17",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : jai dit a votre collegue la que je veux 2 semaines a cause de la penurie",
+          "date": "2026-06-18",
+          "type": "COURIER",
+          "content": "Date affichée : 2026-06-18 | Commune : Koumassi | Lieu : Koumassi quartier divo | Montant total : 525000 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 0 | Montant payé : 0",
+          "author": "KoneMasse"
+        }
+      ]
+    },
+    {
+      "tx_id": 20124.0,
+      "merchant_id": 1250.0,
+      "merchant_name": "GUEYE N'GUESSAN DIANE ESTELLE",
+      "district": null,
+      "phone": "+2250749215708",
+      "supplier_name": "Depot Florent Koumassi",
+      "montant": 500000.0,
+      "date_achat": "2026-06-06",
+      "maturity_date": "2026-06-20",
+      "jours_retard": 12.0,
+      "statut": "PENDING",
+      "montant_paye": 200000.0,
+      "montant_restant": 300000.0,
+      "latitude": 5.302114,
+      "longitude": -3.9563229,
+      "photo_url": null,
+      "nb_tx_historique": 18.0,
+      "comments": [
+        {
+          "date": "2026-07-01",
+          "type": "LETTER_GIVEN_TO_AGENT",
+          "content": "RECOUVREMENT : LETTER_GIVEN_TO_AGENT : Visite : La cliente avait déjà commencé a payer par échelonnement 100 mille par semaine. Le courrier a été déposé et signé",
+          "author": "francisAka"
+        },
+        {
+          "date": "2026-06-30",
+          "type": "COURIER",
+          "content": "Date affichée : 2026-06-30 | Commune : Koumassi | Lieu : Koumassi 32 auprès de la gendarmerie | Montant total : 351600 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 26600 | Montant payé : 200000",
           "author": "evinne"
+        },
+        {
+          "date": "2026-06-26",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : dossier florent",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-06-22",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : dossier florent",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-06-18",
+          "type": "COURIER",
+          "content": "Date affichée : 2026-06-18 | Commune : Koumassi | Lieu : Koumassi 32 auprès de la gendarmerie | Montant total : 525000 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 0 | Montant payé : 0",
+          "author": "KoneMasse"
         }
       ]
     },
@@ -1601,7 +1505,7 @@
       "montant": 187100.0,
       "date_achat": "2026-06-13",
       "maturity_date": "2026-06-20",
-      "jours_retard": 11.0,
+      "jours_retard": 12.0,
       "statut": "PENDING",
       "montant_paye": 90000.0,
       "montant_restant": 97100.0,
@@ -1646,7 +1550,7 @@
       "montant": 101000.0,
       "date_achat": "2026-06-12",
       "maturity_date": "2026-06-20",
-      "jours_retard": 11.0,
+      "jours_retard": 12.0,
       "statut": "PENDING",
       "montant_paye": 75000.0,
       "montant_restant": 26000.0,
@@ -1691,7 +1595,7 @@
       "montant": 75600.0,
       "date_achat": "2026-06-13",
       "maturity_date": "2026-06-20",
-      "jours_retard": 11.0,
+      "jours_retard": 12.0,
       "statut": "PENDING",
       "montant_paye": 3000.0,
       "montant_restant": 72600.0,
@@ -1736,7 +1640,7 @@
       "montant": 57650.0,
       "date_achat": "2026-06-13",
       "maturity_date": "2026-06-20",
-      "jours_retard": 11.0,
+      "jours_retard": 12.0,
       "statut": "PENDING",
       "montant_paye": 30000.0,
       "montant_restant": 27650.0,
@@ -1775,7 +1679,7 @@
       "montant": 50000.0,
       "date_achat": "2026-06-13",
       "maturity_date": "2026-06-20",
-      "jours_retard": 11.0,
+      "jours_retard": 12.0,
       "statut": "PENDING",
       "montant_paye": 0.0,
       "montant_restant": 50000.0,
@@ -1820,7 +1724,7 @@
       "montant": 40000.0,
       "date_achat": "2026-06-13",
       "maturity_date": "2026-06-20",
-      "jours_retard": 11.0,
+      "jours_retard": 12.0,
       "statut": "PENDING",
       "montant_paye": 15350.0,
       "montant_restant": 24650.0,
@@ -1859,7 +1763,7 @@
       "montant": 1080000.0,
       "date_achat": "2026-06-08",
       "maturity_date": "2026-06-22",
-      "jours_retard": 9.0,
+      "jours_retard": 10.0,
       "statut": "PENDING",
       "montant_paye": 208300.0,
       "montant_restant": 871700.0,
@@ -1904,7 +1808,7 @@
       "montant": 930250.0,
       "date_achat": "2026-06-08",
       "maturity_date": "2026-06-22",
-      "jours_retard": 9.0,
+      "jours_retard": 10.0,
       "statut": "PENDING",
       "montant_paye": 189800.0,
       "montant_restant": 740450.0,
@@ -1955,7 +1859,7 @@
       "montant": 102900.0,
       "date_achat": "2026-06-15",
       "maturity_date": "2026-06-22",
-      "jours_retard": 9.0,
+      "jours_retard": 10.0,
       "statut": "PENDING",
       "montant_paye": 105800.0,
       "montant_restant": -2900.0,
@@ -1988,7 +1892,7 @@
       "montant": 830000.0,
       "date_achat": "2026-06-09",
       "maturity_date": "2026-06-23",
-      "jours_retard": 8.0,
+      "jours_retard": 9.0,
       "statut": "PENDING",
       "montant_paye": 300000.0,
       "montant_restant": 530000.0,
@@ -2027,7 +1931,7 @@
       "montant": 307000.0,
       "date_achat": "2026-06-09",
       "maturity_date": "2026-06-23",
-      "jours_retard": 8.0,
+      "jours_retard": 9.0,
       "statut": "PENDING",
       "montant_paye": 110000.0,
       "montant_restant": 197000.0,
@@ -2072,7 +1976,7 @@
       "montant": 41450.0,
       "date_achat": "2026-06-16",
       "maturity_date": "2026-06-23",
-      "jours_retard": 8.0,
+      "jours_retard": 9.0,
       "statut": "PENDING",
       "montant_paye": 30700.0,
       "montant_restant": 10750.0,
@@ -2104,6 +2008,168 @@
           "type": "GENERIC_COMMENT",
           "content": "Appel (Sortant) [Recouvrement] : elle dit que la saison des pluie l'empêche de travailler correctement donc elle a fait un paiement partiel hier elle fera un paiement partiel demain et vendredi elle va solder si le temps est clément",
           "author": "KoneMasse"
+        }
+      ]
+    },
+    {
+      "tx_id": 20348.0,
+      "merchant_id": 1439.0,
+      "merchant_name": "ASSI MAFFON JEROME",
+      "district": null,
+      "phone": "+2250102187942",
+      "supplier_name": "NCDI.S ",
+      "montant": 601000.0,
+      "date_achat": "2026-06-10",
+      "maturity_date": "2026-06-24",
+      "jours_retard": 8.0,
+      "statut": "PENDING",
+      "montant_paye": 404550.0,
+      "montant_restant": 196450.0,
+      "latitude": 5.3145248,
+      "longitude": -4.0877638,
+      "photo_url": null,
+      "nb_tx_historique": 26.0,
+      "comments": [
+        {
+          "date": "2026-06-30",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Entrant) [Recouvrement] : il fait des paiements partiels tout les jours pour solder.la saison des pluies ralentis les ventes",
+          "author": "KoneMasse"
+        },
+        {
+          "date": "2026-06-26",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : jai fait un versement demain et dans les deux jours tout solder",
+          "author": "evinne"
+        }
+      ]
+    },
+    {
+      "tx_id": 20350.0,
+      "merchant_id": 1070.0,
+      "merchant_name": "AOURA DOBA SOPHIE",
+      "district": null,
+      "phone": "+2250585018246",
+      "supplier_name": "Sd Stan anono village",
+      "montant": 530400.0,
+      "date_achat": "2026-06-10",
+      "maturity_date": "2026-06-24",
+      "jours_retard": 8.0,
+      "statut": "PENDING",
+      "montant_paye": 0.0,
+      "montant_restant": 530400.0,
+      "latitude": 5.3391755,
+      "longitude": -3.9714784,
+      "photo_url": null,
+      "nb_tx_historique": 36.0,
+      "comments": [
+        {
+          "date": "2026-06-30",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : Injoignable",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-06-26",
+          "type": "GENERIC_COMMENT",
+          "content": "Message (Entrant) [Recouvrement] : Bonsoir Miss je serai vraiment en retard Car j'ai perdu mon papa j'étais vraiment occupé l'enterrement est pour samedi donc après ça je vais revenir sur Abidjan et faire mon dépôt mille excuses",
+          "author": "KoneMasse"
+        },
+        {
+          "date": "2026-06-26",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : aucune reponse",
+          "author": "KoneMasse"
+        }
+      ]
+    },
+    {
+      "tx_id": 20317.0,
+      "merchant_id": 1188.0,
+      "merchant_name": "YAO AMANI LUC",
+      "district": null,
+      "phone": "+2250707666630",
+      "supplier_name": "Centrale Dépôt Aboboté",
+      "montant": 300000.0,
+      "date_achat": "2026-06-10",
+      "maturity_date": "2026-06-24",
+      "jours_retard": 8.0,
+      "statut": "PENDING",
+      "montant_paye": 150000.0,
+      "montant_restant": 150000.0,
+      "latitude": 5.4126135,
+      "longitude": -3.9976511,
+      "photo_url": null,
+      "nb_tx_historique": 19.0,
+      "comments": [
+        {
+          "date": "2026-06-30",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : Injoignable",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-06-26",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] :  : Je vais payé lundi ou mardi le de compléter à cause de la pluie qui a ralenti ma vente",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-06-24",
+          "type": "GENERIC_COMMENT",
+          "content": "Message (Entrant) [Recouvrement] : Je vais payé lundi ou mardi le de compléter  à cause de la pluie  qui a ralenti ma vente",
+          "author": "KoneMasse"
+        }
+      ]
+    },
+    {
+      "tx_id": 20360.0,
+      "merchant_id": 836.0,
+      "merchant_name": "KOUASSI ETIENNE KOUAME",
+      "district": null,
+      "phone": "+2250707367514",
+      "supplier_name": "Centrale Dépôt Aboboté",
+      "montant": 300000.0,
+      "date_achat": "2026-06-10",
+      "maturity_date": "2026-06-24",
+      "jours_retard": 8.0,
+      "statut": "PENDING",
+      "montant_paye": 70000.0,
+      "montant_restant": 230000.0,
+      "latitude": 5.4089571,
+      "longitude": -4.0009131,
+      "photo_url": null,
+      "nb_tx_historique": 59.0,
+      "comments": [
+        {
+          "date": "2026-07-01",
+          "type": "COURIER",
+          "content": "Date affichée : 2026-07-01 | Commune : Abobo | Lieu : Aboboté au terrain | Montant total : 259350 | Avance : 300000 | Frais transaction : 15000 | Frais retard : 14350 | Montant payé : 70000",
+          "author": "KouabenanUlrich"
+        },
+        {
+          "date": "2026-06-30",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : je vais faire un versement aujourdhui",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-06-26",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] :  apres avoir faire une menace comme quoi le systeme va reduire son montant a 100k au lieu de 300 k du cop le lcient se montre obliger de faire la moitie dici ce soir ou demain",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-06-19",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : va faire ca demain",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-06-18",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : jai pas pu faire aujourdhui donc demain",
+          "author": "evinne"
         }
       ]
     }

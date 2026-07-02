@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>Promesses – Recouvrement</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+  --red:#F83131; --navy:#064C72; --sky:#8ECAE6; --green:#1B5A43;
+  --yellow:#FFC444; --bg:#04212F; --surface:#07384F; --border:#0D536E;
+  --text:#F0F9FF; --muted:#8ECAE6;
+  --kept:#4ADE80; --partial:#FFC444; --missed:#F87171; --future:#60A5FA;
+}
+body { font-family:'DM Sans',sans-serif; background:var(--bg); color:var(--text); min-height:100vh; }
+
+nav {
+  background:var(--surface); border-bottom:1px solid var(--border);
+  display:flex; align-items:center; justify-content:space-between;
+  padding:0 16px; height:56px; position:sticky; top:0; z-index:100;
+}
+.nav-brand { font-size:16px; font-weight:800; color:var(--red); }
+.nav-tabs { display:flex; gap:2px; }
+.nav-tabs a {
+  padding:7px 11px; border-radius:9px; font-size:13px; font-weight:600;
+  color:var(--muted); text-decoration:none; transition:all .15s;
+}
+.nav-tabs a.active { background:var(--red); color:white; }
+.nav-tabs a:hover:not(.active) { background:var(--border); color:var(--text); }
+.btn-logout { background:none; border:none; color:var(--muted); font-family:'DM Sans',sans-serif; font-size:12px; cursor:pointer; }
+.btn-logout:hover { color:var(--red); }
+
+.page-header { padding:14px 16px 12px; }
+.page-header h2 { font-size:20px; font-weight:800; }
+.updated { font-size:11px; color:var(--muted); opacity:.7; margin-top:4px; }
+
+/* KPI strip */
+.kpi-strip { display:grid; grid-template-columns:repeat(4,1fr); gap:6px; padding:0 12px 12px; }
+.kpi-cell { background:var(--surface); border:1px solid var(--border); border-radius:12px; padding:10px 10px; text-align:center; }
+.kpi-num  { font-size:20px; font-weight:900; }
+.kpi-lbl  { font-size:9px; font-weight:700; color:var(--muted); text-transform:uppercase; letter-spacing:.05em; margin-top:2px; }
+
+/* Filter bar */
+.filter-bar {
+  display:flex; gap:6px; padding:0 12px 12px;
+  overflow-x:auto; scrollbar-width:none;
+}
+.filter-bar::-webkit-scrollbar { display:none; }
+.filter-btn {
+  flex-shrink:0; padding:6px 14px; border-radius:20px; border:1.5px solid var(--border);
+  background:var(--surface); color:var(--muted);
+  font-family:'DM Sans',sans-serif; font-size:12px; font-weight:700;
+  cursor:pointer; white-space:nowrap;
+}
+.filter-btn.active { border-color:transparent; color:#04212F; }
+.filter-btn.f-all.active    { background:var(--muted); }
+.filter-btn.f-future.active { background:var(--future); }
+.filter-btn.f-kept.active   { background:var(--kept); }
+.filter-btn.f-partial.active{ background:var(--partial); }
+.filter-btn.f-missed.active { background:var(--missed); }
+
+/* Day groups */
+.day-list { padding:0 12px 80px; }
+
+.day-group { margin-bottom:16px; }
+
+.day-header {
+  display:flex; align-items:center; gap:10px;
+  padding:8px 12px; margin-bottom:6px;
+  border-radius:10px;
+}
+.day-header.is-today { background:rgba(96,165,250,.12); border:1px solid rgba(96,165,250,.3); }
+.day-header.is-future { background:rgba(96,165,250,.06); }
+.day-header.is-past   { background:rgba(255,255,255,.03); }
+
+.day-dot {
+  width:10px; height:10px; border-radius:50%; flex-shrink:0;
+}
+.day-label { font-size:14px; font-weight:800; flex:1; }
+.day-sub   { font-size:11px; color:var(--muted); }
+.day-total { font-size:12px; font-weight:700; color:var(--muted); }
+.today-pill {
+  background:var(--future); color:#04212F;
+  font-size:10px; font-weight:800; padding:2px 8px; border-radius:10px;
+}
+
+/* Promise row */
+.promise-card {
+  background:var(--surface); border:1px solid var(--border);
+  border-radius:13px; padding:12px 14px;
+  margin-bottom:7px; position:relative; overflow:hidden;
+}
+.promise-card::before {
+  content:''; position:absolute; left:0; top:0; bottom:0; width:4px;
+}
+.promise-card.kept    { border-color:rgba(74,222,128,.3); }
+.promise-card.kept::before    { background:var(--kept); }
+.promise-card.partial { border-color:rgba(255,196,68,.3); }
+.promise-card.partial::before { background:var(--partial); }
+.promise-card.missed  { border-color:rgba(248,113,113,.3); }
+.promise-card.missed::before  { background:var(--missed); }
+.promise-card.future  { border-color:rgba(96,165,250,.3); }
+.promise-card.future::before  { background:var(--future); }
+
+.promise-top { display:flex; align-items:flex-start; gap:10px; }
+.promise-icon { font-size:22px; flex-shrink:0; margin-top:1px; }
+.promise-info { flex:1; min-width:0; }
+.promise-name { font-size:14px; font-weight:700; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.promise-sup  { font-size:12px; color:var(--muted); margin-top:1px; }
+.promise-amount { text-align:right; flex-shrink:0; }
+.promise-amt-val { font-size:15px; font-weight:800; }
+.promise-amt-lbl { font-size:10px; color:var(--muted); margin-top:1px; }
+
+.promise-progress {
+  margin-top:9px; background:rgba(255,255,255,.06);
+  border-radius:5px; height:6px; overflow:hidden;
+}
+.promise-progress-fill { height:100%; border-radius:5px; }
+
+.promise-detail {
+  display:flex; justify-content:space-between; align-items:center;
+  margin-top:6px; font-size:11px; color:var(--muted);
+}
+.promise-status-lbl { font-weight:700; }
+.promise-status-lbl.kept    { color:var(--kept); }
+.promise-status-lbl.partial { color:var(--partial); }
+.promise-status-lbl.missed  { color:var(--missed); }
+.promise-status-lbl.future  { color:var(--future); }
+
+.empty { color:var(--muted); font-size:13px; text-align:center; padding:40px 0; }
+.state-center { display:flex; flex-direction:column; align-items:center; justify-content:center; min-height:300px; gap:12px; color:var(--muted); }
+.spinner { width:32px; height:32px; border:3px solid var(--border); border-top-color:var(--sky); border-radius:50%; animation:spin .7s linear infinite; }
+@keyframes spin { to { transform:rotate(360deg); } }
+</style>
+</head>
+<body>
+
+<nav>
+  <span class="nav-brand">Recouvrement</span>
+  <div class="nav-tabs">
+    <a href="operations.html">Liste</a>
+    <a href="map.html">Carte</a>
+    <a href="promesses.html" class="active">Promesses</a>
+    <a href="resultats.html">Stats</a>
+  </div>
+  <button class="btn-logout" onclick="logout()">Déco.</button>
+</nav>
+
+<div class="page-header">
+  <h2>Promesses de paiement</h2>
+  <div class="updated" id="updated"></div>
+</div>
+
+<div class="kpi-strip" id="kpi-strip" style="display:none">
+  <div class="kpi-cell">
+    <div class="kpi-num" id="kpi-future" style="color:var(--future)">—</div>
+    <div class="kpi-lbl">À venir</div>
+  </div>
+  <div class="kpi-cell">
+    <div class="kpi-num" id="kpi-kept" style="color:var(--kept)">—</div>
+    <div class="kpi-lbl">Tenues</div>
+  </div>
+  <div class="kpi-cell">
+    <div class="kpi-num" id="kpi-partial" style="color:var(--partial)">—</div>
+    <div class="kpi-lbl">Partielles</div>
+  </div>
+  <div class="kpi-cell">
+    <div class="kpi-num" id="kpi-missed" style="color:var(--missed)">—</div>
+    <div class="kpi-lbl">Manquées</div>
+  </div>
+</div>
+
+<div class="filter-bar">
+  <button class="filter-btn f-all active" onclick="setFilter('all')">Toutes</button>
+  <button class="filter-btn f-future" onclick="setFilter('future')">🔜 À venir</button>
+  <button class="filter-btn f-kept"   onclick="setFilter('kept')">✅ Tenues</button>
+  <button class="filter-btn f-partial" onclick="setFilter('partial')">⚡ Partielles</button>
+  <button class="filter-btn f-missed" onclick="setFilter('missed')">❌ Manquées</button>
+</div>
+
+<div class="day-list" id="day-list">
+  <div class="state-center"><div class="spinner"></div><span>Chargement…</span></div>
+</div>
+
+<script>
+const agent = JSON.parse(sessionStorage.getItem('wr_agent') || 'null');
+if (!agent) location.href = 'index.html';
+function logout() { sessionStorage.removeItem('wr_agent'); location.href = 'index.html'; }
+
+const fmt  = n => new Intl.NumberFormat('fr-FR').format(Math.round(n || 0));
+const today = new Date().toISOString().slice(0, 10);
+
+let allData = [], currentFilter = 'all';
+
+const STATUS_ICON  = { kept:'✅', partial:'⚡', missed:'❌', future:'🔜' };
+const STATUS_LABEL = { kept:'Tenue', partial:'Partielle', missed:'Manquée', future:'À venir' };
+
+function dayLabel(dateStr) {
+  const d = new Date(dateStr + 'T12:00:00');
+  if (dateStr === today) return "Aujourd'hui";
+  const diff = Math.round((d - new Date(today + 'T12:00:00')) / 86400000);
+  if (diff === 1) return 'Demain';
+  if (diff === -1) return 'Hier';
+  return d.toLocaleDateString('fr-FR', { weekday: 'long', day: '2-digit', month: 'long' });
+}
+
+function renderPromise(p) {
+  const progress = p.promise_amount > 0
+    ? Math.min(100, Math.round((p.paid_around_promise / p.promise_amount) * 100)) : 0;
+  const progressColor = { kept:'var(--kept)', partial:'var(--partial)', missed:'var(--missed)', future:'var(--future)' }[p.status];
+
+  return `<div class="promise-card ${p.status}">
+    <div class="promise-top">
+      <div class="promise-icon">${STATUS_ICON[p.status]}</div>
+      <div class="promise-info">
+        <div class="promise-name">${p.merchant_name || '—'}</div>
+        <div class="promise-sup">📦 ${p.supplier_name || '—'}${p.district ? ' · ' + p.district : ''}</div>
+      </div>
+      <div class="promise-amount">
+        <div class="promise-amt-val">${fmt(p.promise_amount)}</div>
+        <div class="promise-amt-lbl">FCFA promis</div>
+      </div>
+    </div>
+    ${p.status !== 'future' ? `
+    <div class="promise-progress">
+      <div class="promise-progress-fill" style="width:${progress}%;background:${progressColor}"></div>
+    </div>
+    <div class="promise-detail">
+      <span class="promise-status-lbl ${p.status}">${STATUS_LABEL[p.status]} · ${fmt(p.paid_around_promise)} reçus</span>
+      <span>${progress}%</span>
+    </div>` : `
+    <div class="promise-detail">
+      <span class="promise-status-lbl future">En attente</span>
+      <span style="color:var(--muted)">Total tx : ${fmt(p.montant)}</span>
+    </div>`}
+  </div>`;
+}
+
+function render() {
+  const filtered = currentFilter === 'all'
+    ? allData : allData.filter(p => p.status === currentFilter);
+
+  if (!filtered.length) {
+    document.getElementById('day-list').innerHTML = '<div class="empty">Aucune promesse dans cette catégorie</div>';
+    return;
+  }
+
+  // Group by date — futures first (ascending), then past (descending)
+  const byDate = {};
+  filtered.forEach(p => {
+    const d = p.promise_date;
+    if (!byDate[d]) byDate[d] = [];
+    byDate[d].push(p);
+  });
+
+  const futureDates = Object.keys(byDate).filter(d => d >= today).sort();
+  const pastDates   = Object.keys(byDate).filter(d => d < today).sort().reverse();
+  const orderedDates = [...futureDates, ...pastDates];
+
+  const html = orderedDates.map(d => {
+    const promises = byDate[d];
+    const isToday  = d === today;
+    const isFuture = d > today;
+    const totalAmt = promises.reduce((s, p) => s + (p.promise_amount || 0), 0);
+
+    const dayClass = isToday ? 'is-today' : isFuture ? 'is-future' : 'is-past';
+    const dotColor = isFuture ? 'var(--future)' : 'rgba(255,255,255,.2)';
+
+    const label = dayLabel(d);
+    const todayPill = isToday ? '<span class="today-pill">AUJOURD\'HUI</span>' : '';
+
+    return `<div class="day-group">
+      <div class="day-header ${dayClass}">
+        <div class="day-dot" style="background:${dotColor}"></div>
+        <div class="day-label">${label} ${todayPill}</div>
+        <div class="day-total">${fmt(totalAmt)} FCFA · ${promises.length} promesse${promises.length>1?'s':''}</div>
+      </div>
+      ${promises.map(renderPromise).join('')}
+    </div>`;
+  }).join('');
+
+  document.getElementById('day-list').innerHTML = html;
+}
+
+function setFilter(f) {
+  currentFilter = f;
+  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+  document.querySelector('.f-' + f).classList.add('active');
+  render();
+}
+
+async function load() {
+  const json = await fetch('data/promises.json?_=' + Date.now()).then(r => r.json());
+  allData = json.data || [];
+  document.getElementById('updated').textContent = 'Mis à jour ' + new Date(json.updated_at).toLocaleString('fr-FR');
+
+  const counts = { future:0, kept:0, partial:0, missed:0 };
+  allData.forEach(p => { if (counts[p.status] !== undefined) counts[p.status]++; });
+
+  document.getElementById('kpi-future').textContent  = counts.future;
+  document.getElementById('kpi-kept').textContent    = counts.kept;
+  document.getElementById('kpi-partial').textContent = counts.partial;
+  document.getElementById('kpi-missed').textContent  = counts.missed;
+  document.getElementById('kpi-strip').style.display = 'grid';
+
+  render();
+}
+
+load().catch(() => {
+  document.getElementById('day-list').innerHTML = '<div class="state-center">⚠️ Erreur de chargement</div>';
+});
+</script>
+<script src="feedback.js"></script>
+</body>
+</html>

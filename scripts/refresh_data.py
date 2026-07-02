@@ -264,6 +264,77 @@ def main():
     )
     print(f"  ✓ weekly_stats.json  ({len(weekly)} semaines)")
 
+    # ── 4. Promesses de paiement ──────────────────────────────────────────────
+    promises_rows = q(conn, """
+        WITH paid_around AS (
+            SELECT
+                rt."transactionId",
+                rt."createdAt"::date AS pay_date,
+                rt.amount
+            FROM "ReconciledTransaction" rt
+        ),
+        promise_base AS (
+            SELECT
+                pp.id                             AS promise_id,
+                pp."transactionId"                AS tx_id,
+                pp."promiseDate"::date            AS promise_date,
+                pp.amount                         AS promise_amount,
+                pp."createdAt"::date              AS created_date,
+                t.type                            AS tx_statut,
+                t."totalPrice"                    AS montant,
+                COALESCE(m."displayName", m.name) AS merchant_name,
+                m."e164"                          AS phone,
+                m.district,
+                COALESCE(s."displayName", s.name) AS supplier_name,
+                COALESCE(SUM(pa.amount) FILTER (
+                    WHERE pa.pay_date BETWEEN pp."promiseDate"::date - 2
+                                          AND pp."promiseDate"::date + 3
+                ), 0) AS paid_around_promise,
+                COALESCE(SUM(pa.amount), 0)       AS total_paid_tx
+            FROM "PaymentPromise" pp
+            JOIN "Transaction" t ON t.id = pp."transactionId" AND t.deleted = false
+            JOIN "Client" m ON t."merchantId" = m.id
+            JOIN "Client" s ON t."supplierId" = s.id
+            LEFT JOIN paid_around pa ON pa."transactionId" = pp."transactionId"
+            WHERE pp.deleted = false
+              AND pp."promiseDate"::date >= CURRENT_DATE - INTERVAL '45 days'
+            GROUP BY pp.id, pp."transactionId", pp."promiseDate", pp.amount,
+                     pp."createdAt", t.type, t."totalPrice",
+                     m."displayName", m.name, m."e164", m.district,
+                     s."displayName", s.name
+        )
+        SELECT
+            promise_id,
+            tx_id,
+            merchant_name,
+            phone,
+            district,
+            supplier_name,
+            promise_date,
+            promise_amount,
+            montant,
+            paid_around_promise,
+            total_paid_tx,
+            CASE
+                WHEN promise_date >= CURRENT_DATE THEN 'future'
+                WHEN paid_around_promise >= promise_amount THEN 'kept'
+                WHEN paid_around_promise > 0 THEN 'partial'
+                ELSE 'missed'
+            END AS status
+        FROM promise_base
+        ORDER BY promise_date DESC
+    """)
+
+    promises_data = [
+        {k: serial(v) for k, v in r.items()}
+        for r in promises_rows
+    ]
+    (OUT / "promises.json").write_text(
+        json.dumps({"updated_at": datetime.now(timezone.utc).isoformat(), "data": promises_data},
+                   ensure_ascii=False, indent=2)
+    )
+    print(f"  ✓ promises.json  ({len(promises_data)} promesses)")
+
     conn.close()
     print("Terminé.")
 

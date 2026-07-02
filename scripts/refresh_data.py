@@ -99,6 +99,17 @@ def main():
               AND d.deleted = false
             ORDER BY ud."clientId", d."createdAt" DESC
         ),
+        decharge AS (
+            SELECT DISTINCT ON (ud."clientId")
+                ud."clientId",
+                d."awsUrl" AS decharge_url
+            FROM "UserDocument" ud
+            JOIN "Document" d ON d."userDocumentId" = ud.id
+            WHERE d."metaData"->>'type' = 'ONBOARDING_INVOICE'
+              AND d."awsUrl" IS NOT NULL
+              AND d.deleted = false
+            ORDER BY ud."clientId", d."createdAt" DESC
+        ),
         gps AS (
             SELECT DISTINCT ON ("clientId")
                 "clientId", latitude, longitude
@@ -111,6 +122,28 @@ def main():
             FROM "Transaction"
             WHERE deleted = false
             GROUP BY "merchantId"
+        ),
+        promise_agg AS (
+            SELECT
+                pp."transactionId",
+                JSON_AGG(
+                    JSON_BUILD_OBJECT(
+                        'date',      pp."promiseDate"::date,
+                        'amount',    pp.amount,
+                        'respected', pp.respected
+                    ) ORDER BY pp."promiseDate"
+                ) FILTER (WHERE pp.deleted = false) AS promises,
+                COUNT(*) FILTER (
+                    WHERE pp.deleted = false
+                      AND pp."promiseDate"::date < CURRENT_DATE
+                      AND pp.respected = true
+                )                                   AS nb_respected,
+                COUNT(*) FILTER (
+                    WHERE pp.deleted = false
+                      AND pp."promiseDate"::date < CURRENT_DATE
+                )                                   AS nb_past
+            FROM "PaymentPromise" pp
+            GROUP BY pp."transactionId"
         )
         SELECT
             t.id                               AS tx_id,
@@ -120,6 +153,7 @@ def main():
             m."e164"                           AS phone,
             COALESCE(s."displayName", s.name)  AS supplier_name,
             t."totalPrice"                     AS montant,
+            CAST(t.fee AS INTEGER)             AS revenue,
             t."createdAt"::date                AS date_achat,
             t."maturitydDate"::date            AS maturity_date,
             (CURRENT_DATE - t."maturitydDate"::date) AS jours_retard,
@@ -129,16 +163,22 @@ def main():
             gps.latitude,
             gps.longitude,
             photo."awsUrl"                     AS photo_url,
+            deg.decharge_url,
             COALESCE(tc.nb_tx, 0)              AS nb_tx_historique,
-            COALESCE(ca.comments, '[]'::json)  AS comments
+            COALESCE(ca.comments, '[]'::json)  AS comments,
+            COALESCE(pa.promises, '[]'::json)  AS promises,
+            COALESCE(pa.nb_respected, 0)       AS promise_nb_respected,
+            COALESCE(pa.nb_past, 0)            AS promise_nb_past
         FROM "Transaction" t
         JOIN "Client" m ON t."merchantId" = m.id
         JOIN "Client" s ON t."supplierId" = s.id
         LEFT JOIN photo       ON photo."clientId" = m.id
+        LEFT JOIN decharge    deg ON deg."clientId" = m.id
         LEFT JOIN gps         ON gps."clientId" = m.id
         LEFT JOIN tx_count tc ON tc."merchantId" = m.id
         LEFT JOIN paid_agg p  ON p."transactionId" = t.id
         LEFT JOIN comments_agg ca ON ca."transactionId" = t.id
+        LEFT JOIN promise_agg pa  ON pa."transactionId" = t.id
         WHERE t.deleted = false
           AND t.type NOT IN ('CLOSE', 'OVERPAID')
           AND t."maturitydDate" IS NOT NULL

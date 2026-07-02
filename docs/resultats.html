@@ -242,24 +242,56 @@ function renderWeeks(data) {
 }
 
 function renderLogs() {
-  const logs = JSON.parse(localStorage.getItem('wr_login_log') || '[]');
+  const activity = JSON.parse(localStorage.getItem('wr_activity') || '[]');
+  const logins   = JSON.parse(localStorage.getItem('wr_login_log') || '[]');
   const el = document.getElementById('logs');
-  if (!logs.length) {
-    el.innerHTML = '<div class="no-logs">Aucune connexion enregistrée sur cet appareil</div>';
+
+  if (!activity.length && !logins.length) {
+    el.innerHTML = '<div class="no-logs">Aucune activité enregistrée sur cet appareil</div>';
     return;
   }
-  el.innerHTML = logs.slice(0, 15).map(l => {
-    const initials = (l.agent || '?').split(' ').map(w => w[0]).join('').slice(0, 2).toUpperCase();
-    const ts = new Date(l.ts);
-    const dateStr = ts.toLocaleDateString('fr-FR', { weekday: 'short', day: '2-digit', month: 'short' });
-    const timeStr = ts.toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' });
+
+  // Group activity by date
+  const byDate = {};
+  activity.forEach(e => {
+    const d = e.date || e.ts?.slice(0, 10);
+    if (!d) return;
+    if (!byDate[d]) byDate[d] = { total: 0, clients: 0, portals: 0, gps: 0, agents: new Set() };
+    byDate[d].total++;
+    if (e.action === 'open_client') byDate[d].clients++;
+    if (e.action === 'portal' || e.action === 'portal_modal') byDate[d].portals++;
+    if (e.action === 'gps' || e.action === 'gps_modal') byDate[d].gps++;
+    if (e.agent) byDate[d].agents.add(e.agent);
+  });
+
+  // Add login days
+  logins.forEach(l => {
+    const d = l.ts?.slice(0, 10);
+    if (!d) return;
+    if (!byDate[d]) byDate[d] = { total: 0, clients: 0, portals: 0, gps: 0, agents: new Set() };
+    if (l.agent) byDate[d].agents.add(l.agent);
+  });
+
+  const dates = Object.keys(byDate).sort().reverse().slice(0, 14);
+  if (!dates.length) {
+    el.innerHTML = '<div class="no-logs">Aucune activité récente</div>';
+    return;
+  }
+
+  el.innerHTML = dates.map(d => {
+    const stats = byDate[d];
+    const dateStr = new Date(d).toLocaleDateString('fr-FR', { weekday: 'short', day: '2-digit', month: 'short' });
+    const chips = [];
+    if (stats.clients > 0) chips.push(`<span style="background:#0D2040;color:#60A5FA;padding:2px 7px;border-radius:6px;font-size:10px;font-weight:700">${stats.clients} fiches</span>`);
+    if (stats.portals > 0) chips.push(`<span style="background:#1A0A0A;color:#F87171;padding:2px 7px;border-radius:6px;font-size:10px;font-weight:700">${stats.portals} portail</span>`);
+    if (stats.gps > 0)     chips.push(`<span style="background:#0D2040;color:var(--muted);padding:2px 7px;border-radius:6px;font-size:10px;font-weight:700">${stats.gps} GPS</span>`);
     return `<div class="log-item">
-      <div class="log-avatar">${initials}</div>
+      <div class="log-avatar" style="font-size:10px">${d.slice(5)}</div>
       <div style="flex:1">
-        <div class="log-name">${l.agent || '—'}</div>
-        <div class="log-time">${dateStr} à ${timeStr}</div>
+        <div class="log-name">${dateStr}</div>
+        <div style="display:flex;gap:5px;flex-wrap:wrap;margin-top:4px">${chips.join('') || '<span style="font-size:11px;color:var(--muted)">Connexion</span>'}</div>
       </div>
-      <div class="log-device">${l.ua || ''}</div>
+      <div class="log-device" style="font-size:12px;font-weight:700;color:var(--text)">${stats.total || ''}</div>
     </div>`;
   }).join('');
 }

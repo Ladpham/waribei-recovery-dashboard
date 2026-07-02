@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-02T09:52:33.915619+00:00",
+  "updated_at": "2026-07-02T09:51:16.543096+00:00",
   "data": [
     {
       "tx_id": 19072.0,
@@ -9,6 +9,7 @@
       "phone": "+2250758805121",
       "supplier_name": "NCDI.S ",
       "montant": 663650.0,
+      "revenue": 25000.0,
       "date_achat": "2026-05-19",
       "maturity_date": "2026-06-02",
       "jours_retard": 30.0,
@@ -18,6 +19,7 @@
       "latitude": 5.3150203,
       "longitude": -4.0943212,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/b797f03bd896235afa1e932a2325d84c.jpg",
+      "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/8a564022cdf54a599029a76b5781550c.jpg",
       "nb_tx_historique": 5.0,
       "comments": [
         {
@@ -62,7 +64,16 @@
           "content": "Appel (Sortant) [Recouvrement] : aucune reponse",
           "author": "KoneMasse"
         }
-      ]
+      ],
+      "promises": [
+        {
+          "date": "2026-06-22",
+          "amount": 364900,
+          "respected": null
+        }
+      ],
+      "promise_nb_respected": 0.0,
+      "promise_nb_past": 1.0
     },
     {
       "tx_id": 19539.0,
@@ -72,6 +83,7 @@
       "phone": "+2250707983993",
       "supplier_name": "Distribution Bon prix Abobo",
       "montant": 133450.0,
+      "revenue": 4500.0,
       "date_achat": "2026-05-27",
       "maturity_date": "2026-06-03",
       "jours_retard": 29.0,
@@ -81,6 +93,7 @@
       "latitude": 5.4379616,
       "longitude": -4.0199814,
       "photo_url": null,
+      "decharge_url": null,
       "nb_tx_historique": 23.0,
       "comments": [
         {
@@ -119,7 +132,10 @@
           "content": "Appel (Sortant) [Recouvrement] : aucune reponse",
           "author": "evinne"
         }
-      ]
+      ],
+      "promises": [],
+      "promise_nb_respected": 0.0,
+      "promise_nb_past": 0.0
     },
     {
       "tx_id": 19598.0,
@@ -129,6 +145,7 @@
       "phone": "+2250777544657",
       "supplier_name": "Distribution Bon prix Abobo",
       "montant": 170000.0,
+      "revenue": 6000.0,
       "date_achat": "2026-05-28",
       "maturity_date": "2026-06-04",
       "jours_retard": 28.0,
@@ -138,6 +155,7 @@
       "latitude": 5.4523799,
       "longitude": -4.0113184,
       "photo_url": null,
+      "decharge_url": null,
       "nb_tx_historique": 14.0,
       "comments": [
         {
@@ -182,7 +200,16 @@
           "content": "Appel (Sortant) [Recouvrement] : elle va faire aujourhui",
           "author": "evinne"
         }
-      ]
+      ],
+      "promises": [
+        {
+          "date": "2026-06-18",
+          "amount": 194200,
+          "respected": null
+        }
+      ],
+      "promise_nb_respected": 0.0,
+      "promise_nb_past": 1.0
     },
     {
       "tx_id": 19732.0,
@@ -192,6 +219,7 @@
       "phone": "+2250759736200",
       "supplier_name": "Timo distribution Agbayaté",
       "montant": 80000.0,
+      "revenue": 3000.0,
       "date_achat": "2026-05-30",
       "maturity_date": "2026-06-06",
       "jours_retard": 26.0,
@@ -201,6 +229,7 @@
       "latitude": 5.3186414,
       "longitude": -4.0478408,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/acaa56b5985a232c0981d74f9c53119a.jpg",
+      "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/6072700ec1889db0bd10a0c489178def.jpg",
       "nb_tx_historique": 5.0,
       "comments": [
         {
@@ -221,7 +250,10 @@
           "content": "Appel (Sortant) [Recouvrement] : aucune reponse",
           "author": "evinne"
         }
-      ]
+      ],
+      "promises": [],
+      "promise_nb_respected": 0.0,
+      "promise_nb_past": 0.0
     },
     {
       "tx_id": 19741.0,
@@ -231,6 +263,7 @@
       "phone": "+2250707949442",
       "supplier_name": "Dépôt la source Koumassi ",
       "montant": 100000.0,
+      "revenue": 3000.0,
       "date_achat": "2026-05-31",
       "maturity_date": "2026-06-07",
       "jours_retard": 25.0,
@@ -240,6 +273,7 @@
       "latitude": 5.2997296,
       "longitude": -3.969406,
       "photo_url": null,
+      "decharge_url": null,
       "nb_tx_historique": 51.0,
       "comments": [
         {
@@ -260,7 +294,10 @@
           "content": "Appel (Sortant) [Recouvrement] : ligne occupée",
           "author": "evinne"
         }
-      ]
+      ],
+      "promises": [],
+      "promise_nb_respected": 0.0,
+      "promise_nb_past": 0.0
     },
     {
       "tx_id": 19768.0,
@@ -270,6 +307,7 @@
       "phone": "+2250709690697",
       "supplier_name": "Sd el shaada ",
       "montant": 150000.0,
+      "revenue": 4500.0,
       "date_achat": "2026-06-01",
       "maturity_date": "2026-06-08",
       "jours_retard": 24.0,
@@ -279,6 +317,7 @@
       "latitude": 5.3036478,
       "longitude": -3.9555593,
       "photo_url": null,
+      "decharge_url": null,
       "nb_tx_historique": 22.0,
       "comments": [
         {
@@ -305,7 +344,16 @@
           "content": "Appel (Sortant) [Recouvrement] : elle dit qu elle est a l hopital et quelle va faire quand elle sera prete  elle  fera signe  a miss koné",
           "author": "evinne"
         }
-      ]
+      ],
+      "promises": [
+        {
+          "date": "2026-06-21",
+          "amount": 166000,
+          "respected": null
+        }
+      ],
+      "promise_nb_respected": 0.0,
+      "promise_nb_past": 1.0
     },
     {
       "tx_id": 19785.0,
@@ -315,6 +363,7 @@
       "phone": "+2250708178003",
       "supplier_name": "SD Diviry",
       "montant": 100000.0,
+      "revenue": 3000.0,
       "date_achat": "2026-06-01",
       "maturity_date": "2026-06-08",
       "jours_retard": 24.0,
@@ -324,6 +373,7 @@
       "latitude": 5.4115533,
       "longitude": -4.0046111,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/42525d2783c474f15a05455d4f46c5ea.jpg",
+      "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/7050f4ebcb4f587fc12d6078d1edab6b.jpg",
       "nb_tx_historique": 11.0,
       "comments": [
         {
@@ -350,7 +400,10 @@
           "content": "Appel (Sortant) [Recouvrement] : auucne reponse",
           "author": "evinne"
         }
-      ]
+      ],
+      "promises": [],
+      "promise_nb_respected": 0.0,
+      "promise_nb_past": 0.0
     },
     {
       "tx_id": 19853.0,
@@ -360,6 +413,7 @@
       "phone": "+2250749822589",
       "supplier_name": "Sd yssouf Soweto",
       "montant": 62850.0,
+      "revenue": 3000.0,
       "date_achat": "2026-06-02",
       "maturity_date": "2026-06-09",
       "jours_retard": 23.0,
@@ -369,6 +423,7 @@
       "latitude": 5.2977804,
       "longitude": -3.9759391,
       "photo_url": null,
+      "decharge_url": null,
       "nb_tx_historique": 16.0,
       "comments": [
         {
@@ -389,7 +444,10 @@
           "content": "Appel:10-06-2026:18-18:00:30:Allo? Oui? Bonsoir M. Kwasi. Bonsoir M. Kwasi. C'est Waribe. Euh oui. M. je vais vous appeler pour... Oh j'ai bougé un peu deux jours là. Où je suis? Euh... je rentre... comment on appelle? Demain. D'accord. Euh... je rentre demain. C'est pourquoi je n'ai pas... je n'ai pas pu faire. Je rentre demain. J'ai voulu même vous appeler même pour lui de m'excuser quoi. D'accord. Alors vous rentrez demain. Euh... voilà je rentre demain. Si je veux. Ouais. Pas de souci. Ok. Mais la pénalité va se rajouter encore. Y'a pas de problème moi. Y'a pas de problème. Mais je suis sûr que vous m'en foutez. D'accord M. donc à demain. Euh... je suis sûr que vous m'en foutez.:Recouvrement",
           "author": "evinne"
         }
-      ]
+      ],
+      "promises": [],
+      "promise_nb_respected": 0.0,
+      "promise_nb_past": 0.0
     },
     {
       "tx_id": 19937.0,
@@ -399,6 +457,7 @@
       "phone": "2250709150004",
       "supplier_name": "NCDI.S ",
       "montant": 165700.0,
+      "revenue": 4500.0,
       "date_achat": "2026-06-03",
       "maturity_date": "2026-06-10",
       "jours_retard": 22.0,
@@ -408,6 +467,7 @@
       "latitude": 6.92208,
       "longitude": -6.07837,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/85841b44734662d80dd7f17970b611b6.jpg",
+      "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/e9ba1016159dc594179efd667c3d8cb1.jpg",
       "nb_tx_historique": 2.0,
       "comments": [
         {
@@ -434,7 +494,10 @@
           "content": "Appel (Sortant) : il rentre comme ca sur abidjan car il etait en deplacement .il fera son paiement ce soir",
           "author": "KoneMasse"
         }
-      ]
+      ],
+      "promises": [],
+      "promise_nb_respected": 0.0,
+      "promise_nb_past": 0.0
     },
     {
       "tx_id": 19927.0,
@@ -444,6 +507,7 @@
       "phone": "+2250101499335",
       "supplier_name": "Sd WiFi Gonzague",
       "montant": 100000.0,
+      "revenue": 3000.0,
       "date_achat": "2026-06-03",
       "maturity_date": "2026-06-10",
       "jours_retard": 22.0,
@@ -453,6 +517,7 @@
       "latitude": 5.2474986,
       "longitude": -3.9188698,
       "photo_url": null,
+      "decharge_url": null,
       "nb_tx_historique": 23.0,
       "comments": [
         {
@@ -473,7 +538,10 @@
           "content": "Appel (Sortant) : il a fait un paiement partiel aujourd'hui ,il fera le reste demain",
           "author": "KoneMasse"
         }
-      ]
+      ],
+      "promises": [],
+      "promise_nb_respected": 0.0,
+      "promise_nb_past": 0.0
     },
     {
       "tx_id": 19890.0,
@@ -483,6 +551,7 @@
       "phone": "+2250708037090",
       "supplier_name": "La pieuvre ",
       "montant": 80349.0,
+      "revenue": 3000.0,
       "date_achat": "2026-06-03",
       "maturity_date": "2026-06-10",
       "jours_retard": 22.0,
@@ -492,6 +561,7 @@
       "latitude": 5.3196175,
       "longitude": -4.1007242,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/bf942b9c72ae2de981f718a177b9a286.jpg",
+      "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/133a0be7a3d6afec6ed3814f4cb11098.jpg",
       "nb_tx_historique": 6.0,
       "comments": [
         {
@@ -512,7 +582,10 @@
           "content": "Appel (Sortant) : il raccroche mes appels et me laisse un message disant qu'il est occupée et qu'il me rappelle",
           "author": "KoneMasse"
         }
-      ]
+      ],
+      "promises": [],
+      "promise_nb_respected": 0.0,
+      "promise_nb_past": 0.0
     },
     {
       "tx_id": 20215.0,
@@ -522,6 +595,7 @@
       "phone": "2250757096137",
       "supplier_name": "Sd Guitty bingerville",
       "montant": 67300.0,
+      "revenue": 3000.0,
       "date_achat": "2026-06-04",
       "maturity_date": "2026-06-11",
       "jours_retard": 21.0,
@@ -531,6 +605,7 @@
       "latitude": 5.3742716,
       "longitude": -3.9270721,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/216a39ad48ea052470163eefcd59e954.jpg",
+      "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/1ec93da8bea2bc938cca84bec30341fd.jpg",
       "nb_tx_historique": 4.0,
       "comments": [
         {
@@ -563,7 +638,10 @@
           "content": "Appel (Sortant) [Confirmation] : aucune reponse",
           "author": "evinne"
         }
-      ]
+      ],
+      "promises": [],
+      "promise_nb_respected": 0.0,
+      "promise_nb_past": 0.0
     },
     {
       "tx_id": 19996.0,
@@ -573,6 +651,7 @@
       "phone": "2250584554289",
       "supplier_name": "Fk distribution abobo",
       "montant": 137400.0,
+      "revenue": 3000.0,
       "date_achat": "2026-06-05",
       "maturity_date": "2026-06-12",
       "jours_retard": 20.0,
@@ -582,6 +661,7 @@
       "latitude": 5.4305424,
       "longitude": -3.9876565,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/b461d10621dffdf1c837da4ae48f3b2c.jpg",
+      "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/d5df5aee2a5ed8bd3d6a74c685fa74e1.jpg",
       "nb_tx_historique": 1.0,
       "comments": [
         {
@@ -608,7 +688,10 @@
           "content": "Appel (Sortant) [Recouvrement] : Injoignable",
           "author": "evinne"
         }
-      ]
+      ],
+      "promises": [],
+      "promise_nb_respected": 0.0,
+      "promise_nb_past": 0.0
     },
     {
       "tx_id": 19607.0,
@@ -618,6 +701,7 @@
       "phone": "+2250565241626",
       "supplier_name": "Socob Locodjro",
       "montant": 400000.0,
+      "revenue": 20000.0,
       "date_achat": "2026-05-30",
       "maturity_date": "2026-06-13",
       "jours_retard": 19.0,
@@ -627,6 +711,7 @@
       "latitude": 5.3304392,
       "longitude": -4.0736523,
       "photo_url": null,
+      "decharge_url": null,
       "nb_tx_historique": 14.0,
       "comments": [
         {
@@ -677,7 +762,10 @@
           "content": "Appel (Entrant) : aucune reponse",
           "author": "KoneMasse"
         }
-      ]
+      ],
+      "promises": [],
+      "promise_nb_respected": 0.0,
+      "promise_nb_past": 0.0
     },
     {
       "tx_id": 20102.0,
@@ -687,6 +775,7 @@
       "phone": "+2250707095530",
       "supplier_name": "Dépôt Redis angré",
       "montant": 135000.0,
+      "revenue": 3000.0,
       "date_achat": "2026-06-06",
       "maturity_date": "2026-06-13",
       "jours_retard": 19.0,
@@ -696,6 +785,7 @@
       "latitude": 5.395776238863882,
       "longitude": -3.940689261433941,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/fd30f3b25b0c7880631e6b913921d111.jpg",
+      "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/2230837213859bce02f9b642bc098b02.jpg",
       "nb_tx_historique": 15.0,
       "comments": [
         {
@@ -734,7 +824,16 @@
           "content": "Appel (Sortant) [Recouvrement] : ligne occupéé",
           "author": "evinne"
         }
-      ]
+      ],
+      "promises": [
+        {
+          "date": "2026-06-27",
+          "amount": 112800,
+          "respected": null
+        }
+      ],
+      "promise_nb_respected": 0.0,
+      "promise_nb_past": 1.0
     },
     {
       "tx_id": 19738.0,
@@ -744,6 +843,7 @@
       "phone": "+2250707340205",
       "supplier_name": "Sd sportif ",
       "montant": 828500.0,
+      "revenue": 25000.0,
       "date_achat": "2026-05-31",
       "maturity_date": "2026-06-14",
       "jours_retard": 18.0,
@@ -753,6 +853,7 @@
       "latitude": 5.3748083,
       "longitude": -4.0907898,
       "photo_url": null,
+      "decharge_url": null,
       "nb_tx_historique": 22.0,
       "comments": [
         {
@@ -809,7 +910,10 @@
           "content": "Appel (Sortant) [Recouvrement] : aucune reponse",
           "author": "evinne"
         }
-      ]
+      ],
+      "promises": [],
+      "promise_nb_respected": 0.0,
+      "promise_nb_past": 0.0
     },
     {
       "tx_id": 20193.0,
@@ -819,6 +923,7 @@
       "phone": "+2250545873061",
       "supplier_name": "Stephy service distribution Marcory ",
       "montant": 539500.0,
+      "revenue": 15000.0,
       "date_achat": "2026-06-08",
       "maturity_date": "2026-06-15",
       "jours_retard": 17.0,
@@ -828,6 +933,7 @@
       "latitude": 5.307561,
       "longitude": -3.9499533,
       "photo_url": null,
+      "decharge_url": null,
       "nb_tx_historique": 11.0,
       "comments": [
         {
@@ -860,7 +966,10 @@
           "content": "Appel:08-06-2026:14-03:00:05:Allô ? Allô, bonjour. Bonjour monsieur. Madame Agua, Sandrine, comment allez-vous ? Ça va bien. C'est Monsieur Touré de Ouaribé. Oui. C'est quoi le souci avec le paiement ? C'est quoi le souci avec le paiement ? Oui. Je ne comprends pas votre question. Oui, parce que vous connaissez Monsieur Touré bien. Monsieur Touré, oui. D'accord. Et on a établi un échéancier que vous devriez respecter. D'accord. La dernière fois je vous ai même envoyé le lien du paiement via WhatsApp et depuis lors vous n'avez pas réagi. Oui. Donc c'est pourquoi je vous demande c'est quoi le souci avec le paiement. D'accord. D'accord, Madame Sandrine. Madame Sandrine. Oui. J'ai été beaucoup compréhensif sur cette situation. Vous savez ça. Oui. Et hier j'étais dans votre espace. J'ai vu, il y avait de la clientèle, ça consommait de l'argent. Hier c'est moi-même qui étais là-bas. Hier c'est moi-même qui étais là-bas. Vous n'avez pas dit que je suis passé le dimanche, le samedi, pardon. Je suis passé plutôt le samedi. Samedi. Oui. Non, on ne m'a rien dit. D'accord. D'accord. Le samedi, je suis allé faire les premiers, manquer, manquer, manquer. Non, non. La journée d'hier, à treize, moi je suis allé là-bas pour aller voir. D'accord. La boisson que j'ai mis là-bas, l'argent qui doit ressortir, le capital qui doit ressortir n'est pas ressorti et puis on me dit qu'il manque encore. Ok, je vais. Il faut respecter l'échéancier qu'on établit. Je vais vous envoyer le lien, il faut faire le paiement. Et à partir d'aujourd'hui là, il faut solder, il ne reste plus assez. Mais aujourd'hui là, je suis en train de vous expliquer un truc. Je dis aujourd'hui, moi je ne refuse pas de payer. Mais vous aussi comprenez, aujourd'hui là, je n'ai pas l'argent. Je veux que vous compreniez une chose. Non, je suis en train de vous expliquer. Non, non, écoutez-moi. Je n'ai pas refusé de payer. Ecoutez-moi. Moi je ne dois pas. Je n'ai jamais pris l'arbre de Waribe et puis vous dites que je ne vais pas payer. Je vous ai toujours payé. Il y a une situation qui est arrivée. Et puis je lui ai dit que je vais payer 10 000 par semaine. Mais il y a un truc qui est arrivé. C'est en train de chercher l'argent pour vous payer. Je n'ai jamais dit que je ne paye pas. Moi, mes vêtements, mes bébés. Votre échéancier de paiement, vous ne l'avez pas fait. Oui. C'est ça. Je n'ai jamais dit que je ne paye pas. Vous ne pouvez pas me dire que vous allez m'envoyer un lien aujourd'hui. Mais il y a la clientèle. Encore des boissons, 5 500, ils ont payé. Boissons qui étaient près de 30 000, ils ont fait manquer. Et puis il y a 5 500. Madame, je n'ai pas refusé de payer. On va vous envoyer le lien. Si le paiement n'est pas faible, la prochaine fois que je vais arriver là-bas, ce ne sera plus pour établir l'échéancier ni pour négocier. Donc, je vais poser une action. Mais quand tu parles comme ça, tu parles comme ça à ta clientèle. C'est comme ça. Une clientèle qui a eu des problèmes. Tu n'as jamais refusé de payer. La deuxième fois que je suis arrivé, ce n'est pas comme ça que j'ai parlé. Mais quand tu as... C'est parce que je n'ai pas reçu de votre engagement. Non, non. Ce n'est pas un non-reçu. Le lien qu'ils m'ont envoyé là. Le truc qu'ils m'ont envoyé là. Ils m'ont dit jusqu'au 14. Moi, je sentais que c'était là. Mais s'il n'a jamais reçu ça. Il vous a dit jusqu'au 14. Attends. Laisse-moi te parler d'abord. Ce n'est pas après le truc au 14. Quand tu m'envoies le lien, est-ce que je ne te paye pas? Quand tu m'envoies le lien, je ne te paye pas. Je vous envoie le lien, vous n'avez pas payé. C'est pourquoi je vous appelle. Non, non. Quand tu m'envoies le lien, est-ce que je ne te paye pas? Vous ne payez pas. Quand tu m'envoies le lien, je ne te paye pas. C'est ça, ils sont détestés. Il faut me comprendre aussi. Je ne peux pas vous comprendre. Je dis qu'ils sont détestés. Pourquoi il n'y a plus ça? Tu ne peux pas me comprendre. Je ne peux pas vous comprendre. Ça fait combien de mois maintenant pour une créance qui est censée durer une semaine? Mais une créance qui est censée durer une semaine. Est-ce que toi, tu arrives à me comprendre? Ils sont détestés. Je ne refuse pas de payer. Je le connais. Envoie-lui le lien de son paiement. Je n'ai pas refusé de payer. Aujourd'hui, je n'ai pas l'argent. Je dis qu'ils sont détestés. J'ai compris.:Verification transaction",
           "author": "evinne"
         }
-      ]
+      ],
+      "promises": [],
+      "promise_nb_respected": 0.0,
+      "promise_nb_past": 0.0
     },
     {
       "tx_id": 19798.0,
@@ -870,6 +979,7 @@
       "phone": "+2250788465072",
       "supplier_name": "Socob Locodjro",
       "montant": 300000.0,
+      "revenue": 15000.0,
       "date_achat": "2026-06-01",
       "maturity_date": "2026-06-15",
       "jours_retard": 17.0,
@@ -879,6 +989,7 @@
       "latitude": 5.3340551,
       "longitude": -4.093384,
       "photo_url": null,
+      "decharge_url": null,
       "nb_tx_historique": 14.0,
       "comments": [
         {
@@ -941,7 +1052,10 @@
           "content": "Appel (Sortant) [Recouvrement] : aucune reponse",
           "author": "KoneMasse"
         }
-      ]
+      ],
+      "promises": [],
+      "promise_nb_respected": 0.0,
+      "promise_nb_past": 0.0
     },
     {
       "tx_id": 20235.0,
@@ -951,6 +1065,7 @@
       "phone": "2250564478055",
       "supplier_name": "La Cave du Marché",
       "montant": 50350.0,
+      "revenue": 1500.0,
       "date_achat": "2026-06-08",
       "maturity_date": "2026-06-15",
       "jours_retard": 17.0,
@@ -960,6 +1075,7 @@
       "latitude": 5.3498889,
       "longitude": -3.8779249,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/f77bce5d70c6fdfe13c7c46625435cc5.jpg",
+      "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/5c0c5c5f2face3e44cb9e5a13a5a6e8d.jpg",
       "nb_tx_historique": 3.0,
       "comments": [
         {
@@ -986,7 +1102,10 @@
           "content": "Appel (Sortant) [Recouvrement] : aucune reponse",
           "author": "evinne"
         }
-      ]
+      ],
+      "promises": [],
+      "promise_nb_respected": 0.0,
+      "promise_nb_past": 0.0
     },
     {
       "tx_id": 20244.0,
@@ -996,6 +1115,7 @@
       "phone": "2250748185313",
       "supplier_name": "NCDI.S ",
       "montant": 62450.0,
+      "revenue": 1500.0,
       "date_achat": "2026-06-09",
       "maturity_date": "2026-06-16",
       "jours_retard": 16.0,
@@ -1005,6 +1125,7 @@
       "latitude": null,
       "longitude": null,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/46eebe0ce8fd32727c78d2900608c729.jpg",
+      "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/bbbad20eb1de56424896819c955bff45.jpg",
       "nb_tx_historique": 1.0,
       "comments": [
         {
@@ -1031,7 +1152,10 @@
           "content": "Appel (Sortant) [Recouvrement] : aucune reponse",
           "author": "evinne"
         }
-      ]
+      ],
+      "promises": [],
+      "promise_nb_respected": 0.0,
+      "promise_nb_past": 0.0
     },
     {
       "tx_id": 20326.0,
@@ -1041,6 +1165,7 @@
       "phone": "+2250101855886",
       "supplier_name": "ODIS Grand bassam",
       "montant": 48425.0,
+      "revenue": 1500.0,
       "date_achat": "2026-06-10",
       "maturity_date": "2026-06-17",
       "jours_retard": 15.0,
@@ -1050,6 +1175,7 @@
       "latitude": 5.2212355,
       "longitude": -3.7519785,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/e54ca5752fd97d74a1e11e11d9822fa2.jpg",
+      "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/e906d2ba77189079e5ad3c337efb4071.jpg",
       "nb_tx_historique": 10.0,
       "comments": [
         {
@@ -1070,7 +1196,10 @@
           "content": "Appel (Sortant) [Recouvrement] : desole mr je vais faire ca demain",
           "author": "evinne"
         }
-      ]
+      ],
+      "promises": [],
+      "promise_nb_respected": 0.0,
+      "promise_nb_past": 0.0
     },
     {
       "tx_id": 20427.0,
@@ -1080,6 +1209,7 @@
       "phone": "+2250708240924",
       "supplier_name": "Sd Canaan Port Bouet ",
       "montant": 187200.0,
+      "revenue": 4500.0,
       "date_achat": "2026-06-11",
       "maturity_date": "2026-06-18",
       "jours_retard": 14.0,
@@ -1089,6 +1219,7 @@
       "latitude": 5.2446744,
       "longitude": -3.9152134,
       "photo_url": null,
+      "decharge_url": null,
       "nb_tx_historique": 16.0,
       "comments": [
         {
@@ -1109,7 +1240,10 @@
           "content": "Appel (Sortant) [Recouvrement] :   jai fait un peu aujourdhui mr demain je vais faire le reste",
           "author": "evinne"
         }
-      ]
+      ],
+      "promises": [],
+      "promise_nb_respected": 0.0,
+      "promise_nb_past": 0.0
     },
     {
       "tx_id": 20434.0,
@@ -1119,6 +1253,7 @@
       "phone": "2250596216158",
       "supplier_name": "Sd dépôt 19 port bouet ",
       "montant": 150000.0,
+      "revenue": 4500.0,
       "date_achat": "2026-06-11",
       "maturity_date": "2026-06-18",
       "jours_retard": 14.0,
@@ -1128,6 +1263,7 @@
       "latitude": 5.2725198,
       "longitude": -3.947014,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/e410d4044337759efee972d6d65c422a.jpg",
+      "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/0bdecceb42b85a1853fd71ed14b8cab3.jpg",
       "nb_tx_historique": 2.0,
       "comments": [
         {
@@ -1154,7 +1290,10 @@
           "content": "Appel (Sortant) [Recouvrement] : aucune reponse",
           "author": "evinne"
         }
-      ]
+      ],
+      "promises": [],
+      "promise_nb_respected": 0.0,
+      "promise_nb_past": 0.0
     },
     {
       "tx_id": 20376.0,
@@ -1164,6 +1303,7 @@
       "phone": "2250713674844",
       "supplier_name": "Sd KRSS Gonzague ",
       "montant": 135300.0,
+      "revenue": 3000.0,
       "date_achat": "2026-06-10",
       "maturity_date": "2026-06-18",
       "jours_retard": 14.0,
@@ -1173,6 +1313,7 @@
       "latitude": 5.2483921,
       "longitude": -3.9134504,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/3346536f6ce034149f578ab952f5fe23.jpg",
+      "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/983eb2ec890b7784ab1489f54edebfcf.jpg",
       "nb_tx_historique": 2.0,
       "comments": [
         {
@@ -1199,7 +1340,10 @@
           "content": "Elle dit elle va payer le 20/06/26",
           "author": "Yannick"
         }
-      ]
+      ],
+      "promises": [],
+      "promise_nb_respected": 0.0,
+      "promise_nb_past": 0.0
     },
     {
       "tx_id": 20419.0,
@@ -1209,6 +1353,7 @@
       "phone": "2250140933141",
       "supplier_name": "Sd petit solibra",
       "montant": 101300.0,
+      "revenue": 3000.0,
       "date_achat": "2026-06-11",
       "maturity_date": "2026-06-18",
       "jours_retard": 14.0,
@@ -1218,6 +1363,7 @@
       "latitude": 5.2977148,
       "longitude": -3.9901983,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/e41c94fa7860b72679ffd9b7dcd44cf2.jpg",
+      "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/306e8a979bf7692dec2b4fe247ffb38b.jpg",
       "nb_tx_historique": 1.0,
       "comments": [
         {
@@ -1244,7 +1390,10 @@
           "content": "A cause de la pluie, elle a dû mal mais elle va payer un aujourd'hui",
           "author": "Yannick"
         }
-      ]
+      ],
+      "promises": [],
+      "promise_nb_respected": 0.0,
+      "promise_nb_past": 0.0
     },
     {
       "tx_id": 20392.0,
@@ -1254,6 +1403,7 @@
       "phone": "0708616504",
       "supplier_name": "Inouss Brassivoire Koumassi",
       "montant": 75915.0,
+      "revenue": 3000.0,
       "date_achat": "2026-06-11",
       "maturity_date": "2026-06-18",
       "jours_retard": 14.0,
@@ -1263,6 +1413,7 @@
       "latitude": 5.286258,
       "longitude": -3.9549164,
       "photo_url": null,
+      "decharge_url": null,
       "nb_tx_historique": 35.0,
       "comments": [
         {
@@ -1295,154 +1446,10 @@
           "content": "Appel (Sortant) [Recouvrement] : je vais faire demain comme inouss ne travaille pas jai pris pour aller passer commande ailleurs",
           "author": "evinne"
         }
-      ]
-    },
-    {
-      "tx_id": 20125.0,
-      "merchant_id": 1190.0,
-      "merchant_name": "TOME ANGE MARIE-JULIANA",
-      "district": null,
-      "phone": "+2250787052538",
-      "supplier_name": "Depot Florent Koumassi",
-      "montant": 500000.0,
-      "date_achat": "2026-06-06",
-      "maturity_date": "2026-06-20",
-      "jours_retard": 12.0,
-      "statut": "PENDING",
-      "montant_paye": 0.0,
-      "montant_restant": 500000.0,
-      "latitude": 5.3020876,
-      "longitude": -3.9563141,
-      "photo_url": null,
-      "nb_tx_historique": 20.0,
-      "comments": [
-        {
-          "date": "2026-06-30",
-          "type": "COURIER",
-          "content": "Date affichée : 2026-06-30 | Commune : Koumassi | Lieu : Koumassi quartier divo | Montant total : 560000 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 35000 | Montant payé : 0",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-26",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : dossier florent",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-23",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] :  dossier florent",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-22",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : dossier plorent",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-18",
-          "type": "COURIER",
-          "content": "Date affichée : 2026-06-18 | Commune : Koumassi | Lieu : Koumassi quartier divo | Montant total : 525000 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 0 | Montant payé : 0",
-          "author": "KoneMasse"
-        }
-      ]
-    },
-    {
-      "tx_id": 20111.0,
-      "merchant_id": 1177.0,
-      "merchant_name": "LAGO ALFRED VINCENT JUNIOR",
-      "district": null,
-      "phone": "+2250153967790",
-      "supplier_name": "Dépot N'zi",
-      "montant": 500000.0,
-      "date_achat": "2026-06-06",
-      "maturity_date": "2026-06-20",
-      "jours_retard": 12.0,
-      "statut": "PENDING",
-      "montant_paye": 100000.0,
-      "montant_restant": 400000.0,
-      "latitude": 5.3452057,
-      "longitude": -4.0756031,
-      "photo_url": null,
-      "nb_tx_historique": 26.0,
-      "comments": [
-        {
-          "date": "2026-06-30",
-          "type": "COURIER",
-          "content": "Date affichée : 2026-06-30 | Commune : Yopougon | Lieu : Yopougon sicogi derrière la cathédrale saint André | Montant total : 454400 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 29400 | Montant payé : 100000",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-26",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : aucune reponse",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-22",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : aucune reponse",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-17",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : jai dit a votre collegue la que je veux 2 semaines a cause de la penurie",
-          "author": "evinne"
-        }
-      ]
-    },
-    {
-      "tx_id": 20124.0,
-      "merchant_id": 1250.0,
-      "merchant_name": "GUEYE N'GUESSAN DIANE ESTELLE",
-      "district": null,
-      "phone": "+2250749215708",
-      "supplier_name": "Depot Florent Koumassi",
-      "montant": 500000.0,
-      "date_achat": "2026-06-06",
-      "maturity_date": "2026-06-20",
-      "jours_retard": 12.0,
-      "statut": "PENDING",
-      "montant_paye": 200000.0,
-      "montant_restant": 300000.0,
-      "latitude": 5.302114,
-      "longitude": -3.9563229,
-      "photo_url": null,
-      "nb_tx_historique": 18.0,
-      "comments": [
-        {
-          "date": "2026-07-01",
-          "type": "LETTER_GIVEN_TO_AGENT",
-          "content": "RECOUVREMENT : LETTER_GIVEN_TO_AGENT : Visite : La cliente avait déjà commencé a payer par échelonnement 100 mille par semaine. Le courrier a été déposé et signé",
-          "author": "francisAka"
-        },
-        {
-          "date": "2026-06-30",
-          "type": "COURIER",
-          "content": "Date affichée : 2026-06-30 | Commune : Koumassi | Lieu : Koumassi 32 auprès de la gendarmerie | Montant total : 351600 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 26600 | Montant payé : 200000",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-26",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : dossier florent",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-22",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : dossier florent",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-18",
-          "type": "COURIER",
-          "content": "Date affichée : 2026-06-18 | Commune : Koumassi | Lieu : Koumassi 32 auprès de la gendarmerie | Montant total : 525000 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 0 | Montant payé : 0",
-          "author": "KoneMasse"
-        }
-      ]
+      ],
+      "promises": [],
+      "promise_nb_respected": 0.0,
+      "promise_nb_past": 0.0
     },
     {
       "tx_id": 20126.0,
@@ -1452,6 +1459,7 @@
       "phone": "+2250787822068",
       "supplier_name": "Depot Florent Koumassi",
       "montant": 500000.0,
+      "revenue": 25000.0,
       "date_achat": "2026-06-06",
       "maturity_date": "2026-06-20",
       "jours_retard": 12.0,
@@ -1461,6 +1469,7 @@
       "latitude": 5.3020399,
       "longitude": -3.9563071,
       "photo_url": null,
+      "decharge_url": null,
       "nb_tx_historique": 20.0,
       "comments": [
         {
@@ -1493,7 +1502,183 @@
           "content": "Date affichée : 2026-06-18 | Commune : Koumassi | Lieu : Koumassi grand marché | Montant total : 525000 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 0 | Montant payé : 0",
           "author": "KoneMasse"
         }
-      ]
+      ],
+      "promises": [],
+      "promise_nb_respected": 0.0,
+      "promise_nb_past": 0.0
+    },
+    {
+      "tx_id": 20111.0,
+      "merchant_id": 1177.0,
+      "merchant_name": "LAGO ALFRED VINCENT JUNIOR",
+      "district": null,
+      "phone": "+2250153967790",
+      "supplier_name": "Dépot N'zi",
+      "montant": 500000.0,
+      "revenue": 25000.0,
+      "date_achat": "2026-06-06",
+      "maturity_date": "2026-06-20",
+      "jours_retard": 12.0,
+      "statut": "PENDING",
+      "montant_paye": 100000.0,
+      "montant_restant": 400000.0,
+      "latitude": 5.3452057,
+      "longitude": -4.0756031,
+      "photo_url": null,
+      "decharge_url": null,
+      "nb_tx_historique": 26.0,
+      "comments": [
+        {
+          "date": "2026-06-30",
+          "type": "COURIER",
+          "content": "Date affichée : 2026-06-30 | Commune : Yopougon | Lieu : Yopougon sicogi derrière la cathédrale saint André | Montant total : 454400 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 29400 | Montant payé : 100000",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-06-26",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : aucune reponse",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-06-22",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : aucune reponse",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-06-17",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : jai dit a votre collegue la que je veux 2 semaines a cause de la penurie",
+          "author": "evinne"
+        }
+      ],
+      "promises": [],
+      "promise_nb_respected": 0.0,
+      "promise_nb_past": 0.0
+    },
+    {
+      "tx_id": 20124.0,
+      "merchant_id": 1250.0,
+      "merchant_name": "GUEYE N'GUESSAN DIANE ESTELLE",
+      "district": null,
+      "phone": "+2250749215708",
+      "supplier_name": "Depot Florent Koumassi",
+      "montant": 500000.0,
+      "revenue": 25000.0,
+      "date_achat": "2026-06-06",
+      "maturity_date": "2026-06-20",
+      "jours_retard": 12.0,
+      "statut": "PENDING",
+      "montant_paye": 200000.0,
+      "montant_restant": 300000.0,
+      "latitude": 5.302114,
+      "longitude": -3.9563229,
+      "photo_url": null,
+      "decharge_url": null,
+      "nb_tx_historique": 18.0,
+      "comments": [
+        {
+          "date": "2026-07-01",
+          "type": "LETTER_GIVEN_TO_AGENT",
+          "content": "RECOUVREMENT : LETTER_GIVEN_TO_AGENT : Visite : La cliente avait déjà commencé a payer par échelonnement 100 mille par semaine. Le courrier a été déposé et signé",
+          "author": "francisAka"
+        },
+        {
+          "date": "2026-06-30",
+          "type": "COURIER",
+          "content": "Date affichée : 2026-06-30 | Commune : Koumassi | Lieu : Koumassi 32 auprès de la gendarmerie | Montant total : 351600 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 26600 | Montant payé : 200000",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-06-26",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : dossier florent",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-06-22",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : dossier florent",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-06-18",
+          "type": "COURIER",
+          "content": "Date affichée : 2026-06-18 | Commune : Koumassi | Lieu : Koumassi 32 auprès de la gendarmerie | Montant total : 525000 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 0 | Montant payé : 0",
+          "author": "KoneMasse"
+        }
+      ],
+      "promises": [
+        {
+          "date": "2026-06-27",
+          "amount": 100000,
+          "respected": null
+        },
+        {
+          "date": "2026-07-04",
+          "amount": 100000,
+          "respected": null
+        }
+      ],
+      "promise_nb_respected": 0.0,
+      "promise_nb_past": 1.0
+    },
+    {
+      "tx_id": 20125.0,
+      "merchant_id": 1190.0,
+      "merchant_name": "TOME ANGE MARIE-JULIANA",
+      "district": null,
+      "phone": "+2250787052538",
+      "supplier_name": "Depot Florent Koumassi",
+      "montant": 500000.0,
+      "revenue": 25000.0,
+      "date_achat": "2026-06-06",
+      "maturity_date": "2026-06-20",
+      "jours_retard": 12.0,
+      "statut": "PENDING",
+      "montant_paye": 0.0,
+      "montant_restant": 500000.0,
+      "latitude": 5.3020876,
+      "longitude": -3.9563141,
+      "photo_url": null,
+      "decharge_url": null,
+      "nb_tx_historique": 20.0,
+      "comments": [
+        {
+          "date": "2026-06-30",
+          "type": "COURIER",
+          "content": "Date affichée : 2026-06-30 | Commune : Koumassi | Lieu : Koumassi quartier divo | Montant total : 560000 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 35000 | Montant payé : 0",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-06-26",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : dossier florent",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-06-23",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] :  dossier florent",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-06-22",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : dossier plorent",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-06-18",
+          "type": "COURIER",
+          "content": "Date affichée : 2026-06-18 | Commune : Koumassi | Lieu : Koumassi quartier divo | Montant total : 525000 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 0 | Montant payé : 0",
+          "author": "KoneMasse"
+        }
+      ],
+      "promises": [],
+      "promise_nb_respected": 0.0,
+      "promise_nb_past": 0.0
     },
     {
       "tx_id": 20475.0,
@@ -1503,6 +1688,7 @@
       "phone": "2250708862444",
       "supplier_name": "Sd 2ke Multi service Treichville ",
       "montant": 101000.0,
+      "revenue": 3000.0,
       "date_achat": "2026-06-12",
       "maturity_date": "2026-06-20",
       "jours_retard": 12.0,
@@ -1512,6 +1698,7 @@
       "latitude": 5.3006242,
       "longitude": -4.0049218,
       "photo_url": null,
+      "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/74dcb060174b29f69ae466c6e1e563aa.jpg",
       "nb_tx_historique": 1.0,
       "comments": [
         {
@@ -1538,7 +1725,10 @@
           "content": "Appel (Sortant) [Confirmation] : Injoignable",
           "author": "evinne"
         }
-      ]
+      ],
+      "promises": [],
+      "promise_nb_respected": 0.0,
+      "promise_nb_past": 0.0
     },
     {
       "tx_id": 20510.0,
@@ -1548,6 +1738,7 @@
       "phone": "+2250709200670",
       "supplier_name": "Sd Gonty Adjamé - liberté ",
       "montant": 75600.0,
+      "revenue": 1500.0,
       "date_achat": "2026-06-13",
       "maturity_date": "2026-06-20",
       "jours_retard": 12.0,
@@ -1557,6 +1748,7 @@
       "latitude": 5.4565134,
       "longitude": -3.9727439,
       "photo_url": null,
+      "decharge_url": null,
       "nb_tx_historique": 13.0,
       "comments": [
         {
@@ -1583,7 +1775,10 @@
           "content": "Appel (Sortant) [Recouvrement] : Injoignable",
           "author": "evinne"
         }
-      ]
+      ],
+      "promises": [],
+      "promise_nb_respected": 0.0,
+      "promise_nb_past": 0.0
     },
     {
       "tx_id": 20516.0,
@@ -1593,6 +1788,7 @@
       "phone": "+2250717523352",
       "supplier_name": "Distribution Bon prix Abobo",
       "montant": 57650.0,
+      "revenue": 1500.0,
       "date_achat": "2026-06-13",
       "maturity_date": "2026-06-20",
       "jours_retard": 12.0,
@@ -1602,6 +1798,7 @@
       "latitude": 5.495741,
       "longitude": -4.054735,
       "photo_url": null,
+      "decharge_url": null,
       "nb_tx_historique": 14.0,
       "comments": [
         {
@@ -1622,7 +1819,10 @@
           "content": "Appel (Sortant) [Recouvrement] : Injoignable",
           "author": "evinne"
         }
-      ]
+      ],
+      "promises": [],
+      "promise_nb_respected": 0.0,
+      "promise_nb_past": 0.0
     },
     {
       "tx_id": 20511.0,
@@ -1632,6 +1832,7 @@
       "phone": "+2250799825110",
       "supplier_name": "Depot Sogephia Koumassi",
       "montant": 50000.0,
+      "revenue": 1500.0,
       "date_achat": "2026-06-13",
       "maturity_date": "2026-06-20",
       "jours_retard": 12.0,
@@ -1641,6 +1842,7 @@
       "latitude": 5.2999982,
       "longitude": -3.9532457,
       "photo_url": null,
+      "decharge_url": null,
       "nb_tx_historique": 25.0,
       "comments": [
         {
@@ -1667,7 +1869,10 @@
           "content": "Appel (Sortant) [Recouvrement] : Injoignable",
           "author": "evinne"
         }
-      ]
+      ],
+      "promises": [],
+      "promise_nb_respected": 0.0,
+      "promise_nb_past": 0.0
     },
     {
       "tx_id": 20518.0,
@@ -1677,6 +1882,7 @@
       "phone": "+2250584404886",
       "supplier_name": "Naya distribution m’badon",
       "montant": 40000.0,
+      "revenue": 1500.0,
       "date_achat": "2026-06-13",
       "maturity_date": "2026-06-20",
       "jours_retard": 12.0,
@@ -1686,6 +1892,7 @@
       "latitude": 5.3257943,
       "longitude": -3.9321933,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/38374240022d0b0740546c7d03e75caf.jpg",
+      "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/fb1b999f0774ac633f790ae8d86b4e9e.jpg",
       "nb_tx_historique": 11.0,
       "comments": [
         {
@@ -1706,7 +1913,10 @@
           "content": "Appel (Sortant) [Recouvrement] : aucune reponse",
           "author": "evinne"
         }
-      ]
+      ],
+      "promises": [],
+      "promise_nb_respected": 0.0,
+      "promise_nb_past": 0.0
     },
     {
       "tx_id": 20219.0,
@@ -1716,6 +1926,7 @@
       "phone": "2250151364769",
       "supplier_name": "Centrale dépôt",
       "montant": 1080000.0,
+      "revenue": 47500.0,
       "date_achat": "2026-06-08",
       "maturity_date": "2026-06-22",
       "jours_retard": 10.0,
@@ -1725,6 +1936,7 @@
       "latitude": 5.446007,
       "longitude": -4.0273902,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/94efc1f41594d4db31539de7160b2fc8.jpg",
+      "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/d8c518b1fd516c010333f2b01600631a.jpg",
       "nb_tx_historique": 5.0,
       "comments": [
         {
@@ -1751,7 +1963,10 @@
           "content": "Appel (Sortant) [Recouvrement] : la boisson sort pas oooh mon coin est remplir comme ca de boisson a cause de la pluie la mais d ici ce soir je vais verser 200 ou 300 k . pardon ooh ne vous fachez pas",
           "author": "evinne"
         }
-      ]
+      ],
+      "promises": [],
+      "promise_nb_respected": 0.0,
+      "promise_nb_past": 0.0
     },
     {
       "tx_id": 20230.0,
@@ -1761,6 +1976,7 @@
       "phone": "0788335417",
       "supplier_name": "NCDI.S ",
       "montant": 930250.0,
+      "revenue": 25000.0,
       "date_achat": "2026-06-08",
       "maturity_date": "2026-06-22",
       "jours_retard": 10.0,
@@ -1770,6 +1986,7 @@
       "latitude": 5.3157113,
       "longitude": -4.0948794,
       "photo_url": null,
+      "decharge_url": null,
       "nb_tx_historique": 28.0,
       "comments": [
         {
@@ -1802,7 +2019,10 @@
           "content": "Appel (Sortant) [Recouvrement] : a fait un versement aujourdhui",
           "author": "evinne"
         }
-      ]
+      ],
+      "promises": [],
+      "promise_nb_respected": 0.0,
+      "promise_nb_past": 0.0
     },
     {
       "tx_id": 20638.0,
@@ -1812,6 +2032,7 @@
       "phone": "2250748481435",
       "supplier_name": "Sd Canaan Port Bouet ",
       "montant": 102900.0,
+      "revenue": 3000.0,
       "date_achat": "2026-06-15",
       "maturity_date": "2026-06-22",
       "jours_retard": 10.0,
@@ -1821,6 +2042,7 @@
       "latitude": 5.24797557433292,
       "longitude": -3.943720938519656,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/30d40f15cd9d3bb3c8fc11d70cb25293.jpg",
+      "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/9bcbbe00e0dc86a9bfe08ee45247f47a.jpg",
       "nb_tx_historique": 2.0,
       "comments": [
         {
@@ -1835,7 +2057,10 @@
           "content": "Appel (Sortant) [Recouvrement] : aucune reponse",
           "author": "evinne"
         }
-      ]
+      ],
+      "promises": [],
+      "promise_nb_respected": 0.0,
+      "promise_nb_past": 0.0
     },
     {
       "tx_id": 20249.0,
@@ -1845,6 +2070,7 @@
       "phone": "0585016496",
       "supplier_name": "Sd sportif ",
       "montant": 830000.0,
+      "revenue": 25000.0,
       "date_achat": "2026-06-09",
       "maturity_date": "2026-06-23",
       "jours_retard": 9.0,
@@ -1854,6 +2080,7 @@
       "latitude": 5.2446614,
       "longitude": -3.91407,
       "photo_url": null,
+      "decharge_url": null,
       "nb_tx_historique": 24.0,
       "comments": [
         {
@@ -1874,7 +2101,10 @@
           "content": "Appel (Sortant) [Recouvrement] : il va solder dans ces deux jours la a cause du temps de pluie il a eu du retard",
           "author": "evinne"
         }
-      ]
+      ],
+      "promises": [],
+      "promise_nb_respected": 0.0,
+      "promise_nb_past": 0.0
     },
     {
       "tx_id": 20259.0,
@@ -1884,6 +2114,7 @@
       "phone": "2250142163816",
       "supplier_name": "Inouss Brassivoire Koumassi",
       "montant": 307000.0,
+      "revenue": 10000.0,
       "date_achat": "2026-06-09",
       "maturity_date": "2026-06-23",
       "jours_retard": 9.0,
@@ -1893,6 +2124,7 @@
       "latitude": 5.3014037,
       "longitude": -3.9507907,
       "photo_url": null,
+      "decharge_url": null,
       "nb_tx_historique": 14.0,
       "comments": [
         {
@@ -1919,7 +2151,10 @@
           "content": "Appel (Sortant) [Recouvrement] : il fait le point avec sa gerante et me reviens",
           "author": "KoneMasse"
         }
-      ]
+      ],
+      "promises": [],
+      "promise_nb_respected": 0.0,
+      "promise_nb_past": 0.0
     },
     {
       "tx_id": 20693.0,
@@ -1929,6 +2164,7 @@
       "phone": "2250545802660",
       "supplier_name": "Sd BBH GONZAGUE ",
       "montant": 41450.0,
+      "revenue": 1500.0,
       "date_achat": "2026-06-16",
       "maturity_date": "2026-06-23",
       "jours_retard": 9.0,
@@ -1938,6 +2174,7 @@
       "latitude": 5.2657578,
       "longitude": -3.9062924,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/5f9c7b877d1c958f2250e65e6e6fe2f4.jpg",
+      "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/31b58f620f85bc71671c5e321f1bdb52.jpg",
       "nb_tx_historique": 1.0,
       "comments": [
         {
@@ -1964,7 +2201,10 @@
           "content": "Appel (Sortant) [Recouvrement] : elle dit que la saison des pluie l'empêche de travailler correctement donc elle a fait un paiement partiel hier elle fera un paiement partiel demain et vendredi elle va solder si le temps est clément",
           "author": "KoneMasse"
         }
-      ]
+      ],
+      "promises": [],
+      "promise_nb_respected": 0.0,
+      "promise_nb_past": 0.0
     },
     {
       "tx_id": 20348.0,
@@ -1974,6 +2214,7 @@
       "phone": "+2250102187942",
       "supplier_name": "NCDI.S ",
       "montant": 601000.0,
+      "revenue": 30000.0,
       "date_achat": "2026-06-10",
       "maturity_date": "2026-06-24",
       "jours_retard": 8.0,
@@ -1983,6 +2224,7 @@
       "latitude": 5.3145248,
       "longitude": -4.0877638,
       "photo_url": null,
+      "decharge_url": null,
       "nb_tx_historique": 26.0,
       "comments": [
         {
@@ -1997,7 +2239,10 @@
           "content": "Appel (Sortant) [Recouvrement] : jai fait un versement demain et dans les deux jours tout solder",
           "author": "evinne"
         }
-      ]
+      ],
+      "promises": [],
+      "promise_nb_respected": 0.0,
+      "promise_nb_past": 0.0
     },
     {
       "tx_id": 20350.0,
@@ -2007,6 +2252,7 @@
       "phone": "+2250585018246",
       "supplier_name": "Sd Stan anono village",
       "montant": 530400.0,
+      "revenue": 25000.0,
       "date_achat": "2026-06-10",
       "maturity_date": "2026-06-24",
       "jours_retard": 8.0,
@@ -2016,6 +2262,7 @@
       "latitude": 5.3391755,
       "longitude": -3.9714784,
       "photo_url": null,
+      "decharge_url": null,
       "nb_tx_historique": 36.0,
       "comments": [
         {
@@ -2036,7 +2283,10 @@
           "content": "Appel (Sortant) [Recouvrement] : aucune reponse",
           "author": "KoneMasse"
         }
-      ]
+      ],
+      "promises": [],
+      "promise_nb_respected": 0.0,
+      "promise_nb_past": 0.0
     },
     {
       "tx_id": 20317.0,
@@ -2046,6 +2296,7 @@
       "phone": "+2250707666630",
       "supplier_name": "Centrale Dépôt Aboboté",
       "montant": 300000.0,
+      "revenue": 15000.0,
       "date_achat": "2026-06-10",
       "maturity_date": "2026-06-24",
       "jours_retard": 8.0,
@@ -2055,6 +2306,7 @@
       "latitude": 5.4126135,
       "longitude": -3.9976511,
       "photo_url": null,
+      "decharge_url": null,
       "nb_tx_historique": 19.0,
       "comments": [
         {
@@ -2075,7 +2327,10 @@
           "content": "Message (Entrant) [Recouvrement] : Je vais payé lundi ou mardi le de compléter  à cause de la pluie  qui a ralenti ma vente",
           "author": "KoneMasse"
         }
-      ]
+      ],
+      "promises": [],
+      "promise_nb_respected": 0.0,
+      "promise_nb_past": 0.0
     },
     {
       "tx_id": 20360.0,
@@ -2085,6 +2340,7 @@
       "phone": "+2250707367514",
       "supplier_name": "Centrale Dépôt Aboboté",
       "montant": 300000.0,
+      "revenue": 15000.0,
       "date_achat": "2026-06-10",
       "maturity_date": "2026-06-24",
       "jours_retard": 8.0,
@@ -2094,6 +2350,7 @@
       "latitude": 5.4089571,
       "longitude": -4.0009131,
       "photo_url": null,
+      "decharge_url": null,
       "nb_tx_historique": 59.0,
       "comments": [
         {
@@ -2126,7 +2383,10 @@
           "content": "Appel (Sortant) [Recouvrement] : jai pas pu faire aujourdhui donc demain",
           "author": "evinne"
         }
-      ]
+      ],
+      "promises": [],
+      "promise_nb_respected": 0.0,
+      "promise_nb_past": 0.0
     }
   ]
 }

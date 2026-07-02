@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-02T15:05:59.255916+00:00",
+  "updated_at": "2026-07-02T17:26:51.266359+00:00",
   "data": [
     {
       "tx_id": 19072.0,
@@ -2171,8 +2171,8 @@
       "statut": "PENDING",
       "montant_paye": 30700.0,
       "montant_restant": 10750.0,
-      "latitude": 5.2657578,
-      "longitude": -3.9062924,
+      "latitude": 5.2657645,
+      "longitude": -3.90628,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/5f9c7b877d1c958f2250e65e6e6fe2f4.jpg",
       "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/31b58f620f85bc71671c5e321f1bdb52.jpg",
       "nb_tx_historique": 1.0,

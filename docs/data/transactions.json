@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-02T19:09:27.788439+00:00",
+  "updated_at": "2026-07-02T20:54:13.126427+00:00",
   "data": [
     {
       "tx_id": 19072.0,
@@ -570,8 +570,8 @@
       "statut": "PENDING",
       "montant_paye": 58000.0,
       "montant_restant": 22349.0,
-      "latitude": 5.3196184,
-      "longitude": -4.1007187,
+      "latitude": 5.3160585,
+      "longitude": -4.0902773,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/bf942b9c72ae2de981f718a177b9a286.jpg",
       "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/133a0be7a3d6afec6ed3814f4cb11098.jpg",
       "nb_tx_historique": 6.0,
@@ -942,8 +942,8 @@
       "statut": "PENDING",
       "montant_paye": 370000.0,
       "montant_restant": 169500.0,
-      "latitude": 5.307561,
-      "longitude": -3.9499533,
+      "latitude": 5.3049754,
+      "longitude": -3.9857138,
       "photo_url": null,
       "decharge_url": null,
       "nb_tx_historique": 11.0,
@@ -2040,8 +2040,8 @@
       "statut": "PENDING",
       "montant_paye": 208300.0,
       "montant_restant": 871700.0,
-      "latitude": 5.446007,
-      "longitude": -4.0273902,
+      "latitude": 5.4468044,
+      "longitude": -4.0270972,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/94efc1f41594d4db31539de7160b2fc8.jpg",
       "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/d8c518b1fd516c010333f2b01600631a.jpg",
       "nb_tx_historique": 5.0,
@@ -2340,12 +2340,18 @@
       "statut": "PENDING",
       "montant_paye": 404550.0,
       "montant_restant": 196450.0,
-      "latitude": 5.3134083,
-      "longitude": -4.0857764,
+      "latitude": 5.3162189,
+      "longitude": -4.0869557,
       "photo_url": null,
       "decharge_url": null,
       "nb_tx_historique": 26.0,
       "comments": [
+        {
+          "date": "2026-07-02",
+          "type": "GENERIC_COMMENT",
+          "content": "Message : il fait des paiements partiels tout les jours pour solder.la saison des pluies ralentis les ventes",
+          "author": "evinne"
+        },
         {
           "date": "2026-06-30",
           "type": "GENERIC_COMMENT",
@@ -2384,6 +2390,12 @@
       "decharge_url": null,
       "nb_tx_historique": 36.0,
       "comments": [
+        {
+          "date": "2026-07-02",
+          "type": "GENERIC_COMMENT",
+          "content": "Message : Bonsoir Miss je serai vraiment en retard Car j'ai perdu mon papa j'étais vraiment occupé l'enterrement est pour samedi donc après ça je vais revenir sur Abidjan et faire mon dépôt mille excuses\n\nRappel 26/06/2026 12:00\nAjouté le 2",
+          "author": "evinne"
+        },
         {
           "date": "2026-07-02",
           "type": "GENERIC_COMMENT",
@@ -2434,6 +2446,12 @@
       "decharge_url": null,
       "nb_tx_historique": 59.0,
       "comments": [
+        {
+          "date": "2026-07-02",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : trabsfert les appels",
+          "author": "evinne"
+        },
         {
           "date": "2026-07-01",
           "type": "COURIER",

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-02T17:26:51.266359+00:00",
+  "updated_at": "2026-07-02T19:09:27.788439+00:00",
   "data": [
     {
       "tx_id": 19072.0,
@@ -471,6 +471,12 @@
       "nb_tx_historique": 2.0,
       "comments": [
         {
+          "date": "2026-07-02",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : il a ete victime de vole a son espace et lui meme il etait en deplacement a l'enterrement de son frere .il demande pardon il fera ses paiement partiel pour rembourser sa dette",
+          "author": "KoneMasse"
+        },
+        {
           "date": "2026-06-30",
           "type": "COURIER",
           "content": "Date affichée : 2026-06-30 | Commune : Yopougon | Lieu : Azito quartier laurier | Montant total : 100350 | Avance : 140000 | Frais transaction : 4500 | Frais retard : 10850 | Montant payé : 55000",
@@ -521,6 +527,12 @@
       "nb_tx_historique": 23.0,
       "comments": [
         {
+          "date": "2026-07-02",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : ill le fera demain .il dit que son telephone etait a la reparation",
+          "author": "KoneMasse"
+        },
+        {
           "date": "2026-06-30",
           "type": "COURIER",
           "content": "Date affichée : 2026-06-30 | Commune : Port-Bouët | Lieu : Port Bouet quartier Adjoufou boutique Olo | Montant total : 19550 | Avance : 100000 | Frais transaction : 3000 | Frais retard : 5250 | Montant payé : 88700",
@@ -558,8 +570,8 @@
       "statut": "PENDING",
       "montant_paye": 58000.0,
       "montant_restant": 22349.0,
-      "latitude": 5.3196175,
-      "longitude": -4.1007242,
+      "latitude": 5.3196184,
+      "longitude": -4.1007187,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/bf942b9c72ae2de981f718a177b9a286.jpg",
       "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/133a0be7a3d6afec6ed3814f4cb11098.jpg",
       "nb_tx_historique": 6.0,
@@ -937,6 +949,12 @@
       "nb_tx_historique": 11.0,
       "comments": [
         {
+          "date": "2026-07-02",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : elle terminera son remboursement cette semaine elle a eu de nombreux soucis il y a eu la pluie ensuite elle est tombe malde",
+          "author": "KoneMasse"
+        },
+        {
           "date": "2026-06-30",
           "type": "COURIER",
           "content": "Date affichée : 2026-06-30 | Montant total : 185900 | Avance : 500000 | Frais transaction : 15000 | Frais retard : 25900 | Montant payé : 355000",
@@ -1079,6 +1097,12 @@
       "nb_tx_historique": 3.0,
       "comments": [
         {
+          "date": "2026-07-02",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : elle le fera ce soir",
+          "author": "KoneMasse"
+        },
+        {
           "date": "2026-06-30",
           "type": "COURIER",
           "content": "Date affichée : 2026-06-30 | Commune : Bingerville | Lieu : Bingerville cité Impôt | Montant total : 56400 | Avance : 50000 | Frais transaction : 1500 | Frais retard : 4900 | Montant payé : 0",
@@ -1128,6 +1152,12 @@
       "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/bbbad20eb1de56424896819c955bff45.jpg",
       "nb_tx_historique": 1.0,
       "comments": [
+        {
+          "date": "2026-07-02",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : elle fera le reste de son paiement le week end",
+          "author": "KoneMasse"
+        },
         {
           "date": "2026-06-30",
           "type": "COURIER",
@@ -1179,6 +1209,12 @@
       "nb_tx_historique": 10.0,
       "comments": [
         {
+          "date": "2026-07-02",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : aucune reponse",
+          "author": "KoneMasse"
+        },
+        {
           "date": "2026-06-30",
           "type": "COURIER",
           "content": "Date affichée : 2026-06-30 | Commune : Grand Bassam | Lieu : Conteneur orange, 100m voie non bitumée | Montant total : 9450 | Avance : 48400 | Frais transaction : 1500 | Frais retard : 4550 | Montant payé : 45000",
@@ -1222,6 +1258,12 @@
       "decharge_url": null,
       "nb_tx_historique": 16.0,
       "comments": [
+        {
+          "date": "2026-07-02",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : sa maison est inonde elle n'arrive pas aller vendre a cause de cette situation",
+          "author": "KoneMasse"
+        },
         {
           "date": "2026-06-30",
           "type": "COURIER",
@@ -1291,7 +1333,18 @@
           "author": "evinne"
         }
       ],
-      "promises": [],
+      "promises": [
+        {
+          "date": "2026-07-06",
+          "amount": 100000,
+          "respected": null
+        },
+        {
+          "date": "2026-07-13",
+          "amount": 100000,
+          "respected": null
+        }
+      ],
       "promise_nb_respected": 0.0,
       "promise_nb_past": 0.0
     },
@@ -1316,6 +1369,12 @@
       "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/983eb2ec890b7784ab1489f54edebfcf.jpg",
       "nb_tx_historique": 2.0,
       "comments": [
+        {
+          "date": "2026-07-02",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : son espace est inonde depuis la saison des pluie a commence et il ne fait que pleuvoir donc elle n'arrive pas a vendre .elle dit qu'elle fera des paiements partiels pour solder",
+          "author": "KoneMasse"
+        },
         {
           "date": "2026-06-30",
           "type": "COURIER",
@@ -1367,6 +1426,12 @@
       "nb_tx_historique": 1.0,
       "comments": [
         {
+          "date": "2026-07-02",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : Injoignable",
+          "author": "KoneMasse"
+        },
+        {
           "date": "2026-06-30",
           "type": "COURIER",
           "content": "Date affichée : 2026-06-30 | Commune : Port-Bouët | Lieu : Casier, boutique rouge 100m | Montant total : 45600 | Avance : 100000 | Frais transaction : 3000 | Frais retard : 5600 | Montant payé : 63000",
@@ -1417,6 +1482,12 @@
       "nb_tx_historique": 35.0,
       "comments": [
         {
+          "date": "2026-07-02",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : il ne prend pas les appels",
+          "author": "KoneMasse"
+        },
+        {
           "date": "2026-06-30",
           "type": "COURIER",
           "content": "Date affichée : 2026-06-30 | Commune : Koumassi | Lieu : Koumassi sicogi 3 | Montant total : 81650 | Avance : 70250 | Frais transaction : 3000 | Frais retard : 8400 | Montant payé : 0",
@@ -1447,7 +1518,13 @@
           "author": "evinne"
         }
       ],
-      "promises": [],
+      "promises": [
+        {
+          "date": "2026-07-06",
+          "amount": 85000,
+          "respected": null
+        }
+      ],
       "promise_nb_respected": 0.0,
       "promise_nb_past": 0.0
     },
@@ -1752,6 +1829,12 @@
       "nb_tx_historique": 13.0,
       "comments": [
         {
+          "date": "2026-07-02",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : elle rentre de voyage elle etait soufrante .elle fera le paiement demain",
+          "author": "KoneMasse"
+        },
+        {
           "date": "2026-06-30",
           "type": "COURIER",
           "content": "Date affichée : 2026-06-30 | Commune : Adjamé | Lieu : Adjamé 220 pharmacie sarah | Montant total : 32000 | Avance : 30000 | Frais transaction : 1500 | Frais retard : 3500 | Montant payé : 3000",
@@ -1776,7 +1859,13 @@
           "author": "evinne"
         }
       ],
-      "promises": [],
+      "promises": [
+        {
+          "date": "2026-07-03",
+          "amount": 33400,
+          "respected": null
+        }
+      ],
       "promise_nb_respected": 0.0,
       "promise_nb_past": 0.0
     },
@@ -1801,6 +1890,12 @@
       "decharge_url": null,
       "nb_tx_historique": 14.0,
       "comments": [
+        {
+          "date": "2026-07-02",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : aucune reponse",
+          "author": "KoneMasse"
+        },
         {
           "date": "2026-06-30",
           "type": "COURIER",
@@ -1845,6 +1940,18 @@
       "decharge_url": null,
       "nb_tx_historique": 25.0,
       "comments": [
+        {
+          "date": "2026-07-02",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : il dit etre en deplacement il rentre samedi il fera le paiement",
+          "author": "KoneMasse"
+        },
+        {
+          "date": "2026-07-02",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : Injoignable",
+          "author": "KoneMasse"
+        },
         {
           "date": "2026-06-30",
           "type": "COURIER",
@@ -2084,6 +2191,12 @@
       "nb_tx_historique": 24.0,
       "comments": [
         {
+          "date": "2026-07-02",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : aucune reponse",
+          "author": "KoneMasse"
+        },
+        {
           "date": "2026-06-30",
           "type": "GENERIC_COMMENT",
           "content": "Appel (Sortant) [Recouvrement] : recouvrement",
@@ -2127,6 +2240,12 @@
       "decharge_url": null,
       "nb_tx_historique": 14.0,
       "comments": [
+        {
+          "date": "2026-07-02",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : il est en brousse présentement il rentre demain et il me reviens",
+          "author": "KoneMasse"
+        },
         {
           "date": "2026-06-30",
           "type": "GENERIC_COMMENT",
@@ -2221,8 +2340,8 @@
       "statut": "PENDING",
       "montant_paye": 404550.0,
       "montant_restant": 196450.0,
-      "latitude": 5.3145248,
-      "longitude": -4.0877638,
+      "latitude": 5.3134083,
+      "longitude": -4.0857764,
       "photo_url": null,
       "decharge_url": null,
       "nb_tx_historique": 26.0,
@@ -2265,6 +2384,12 @@
       "decharge_url": null,
       "nb_tx_historique": 36.0,
       "comments": [
+        {
+          "date": "2026-07-02",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : elle fera son paiement demain car elle vient de rentrer des funérailles",
+          "author": "KoneMasse"
+        },
         {
           "date": "2026-06-30",
           "type": "GENERIC_COMMENT",

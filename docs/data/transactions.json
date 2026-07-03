@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-03T08:49:19.854266+00:00",
+  "updated_at": "2026-07-03T11:26:19.725200+00:00",
   "data": [
     {
       "tx_id": 19539.0,
@@ -1505,62 +1505,6 @@
       "promise_nb_past": 0.0
     },
     {
-      "tx_id": 20125.0,
-      "merchant_id": 1190.0,
-      "merchant_name": "TOME ANGE MARIE-JULIANA",
-      "district": null,
-      "phone": "+2250787052538",
-      "supplier_name": "Depot Florent Koumassi",
-      "montant": 500000.0,
-      "revenue": 25000.0,
-      "date_achat": "2026-06-06",
-      "maturity_date": "2026-06-20",
-      "jours_retard": 13.0,
-      "statut": "PENDING",
-      "montant_paye": 0.0,
-      "montant_restant": 500000.0,
-      "latitude": 5.3020876,
-      "longitude": -3.9563141,
-      "photo_url": null,
-      "decharge_url": null,
-      "nb_tx_historique": 20.0,
-      "comments": [
-        {
-          "date": "2026-06-30",
-          "type": "COURIER",
-          "content": "Date affichée : 2026-06-30 | Commune : Koumassi | Lieu : Koumassi quartier divo | Montant total : 560000 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 35000 | Montant payé : 0",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-26",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : dossier florent",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-23",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] :  dossier florent",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-22",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : dossier plorent",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-18",
-          "type": "COURIER",
-          "content": "Date affichée : 2026-06-18 | Commune : Koumassi | Lieu : Koumassi quartier divo | Montant total : 525000 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 0 | Montant payé : 0",
-          "author": "KoneMasse"
-        }
-      ],
-      "promises": [],
-      "promise_nb_respected": 0.0,
-      "promise_nb_past": 0.0
-    },
-    {
       "tx_id": 20126.0,
       "merchant_id": 1191.0,
       "merchant_name": "OUOYA GLOUHIEU DONA HILARY",
@@ -1684,6 +1628,62 @@
       "promise_nb_past": 1.0
     },
     {
+      "tx_id": 20125.0,
+      "merchant_id": 1190.0,
+      "merchant_name": "TOME ANGE MARIE-JULIANA",
+      "district": null,
+      "phone": "+2250787052538",
+      "supplier_name": "Depot Florent Koumassi",
+      "montant": 500000.0,
+      "revenue": 25000.0,
+      "date_achat": "2026-06-06",
+      "maturity_date": "2026-06-20",
+      "jours_retard": 13.0,
+      "statut": "PENDING",
+      "montant_paye": 0.0,
+      "montant_restant": 500000.0,
+      "latitude": 5.3020876,
+      "longitude": -3.9563141,
+      "photo_url": null,
+      "decharge_url": null,
+      "nb_tx_historique": 20.0,
+      "comments": [
+        {
+          "date": "2026-06-30",
+          "type": "COURIER",
+          "content": "Date affichée : 2026-06-30 | Commune : Koumassi | Lieu : Koumassi quartier divo | Montant total : 560000 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 35000 | Montant payé : 0",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-06-26",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : dossier florent",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-06-23",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] :  dossier florent",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-06-22",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : dossier plorent",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-06-18",
+          "type": "COURIER",
+          "content": "Date affichée : 2026-06-18 | Commune : Koumassi | Lieu : Koumassi quartier divo | Montant total : 525000 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 0 | Montant payé : 0",
+          "author": "KoneMasse"
+        }
+      ],
+      "promises": [],
+      "promise_nb_respected": 0.0,
+      "promise_nb_past": 0.0
+    },
+    {
       "tx_id": 20475.0,
       "merchant_id": 2883.0,
       "merchant_name": "CAROLINE GOURIGUI SERY",
@@ -1748,8 +1748,8 @@
       "statut": "PENDING",
       "montant_paye": 3000.0,
       "montant_restant": 72600.0,
-      "latitude": 5.4600879,
-      "longitude": -3.9705905,
+      "latitude": 5.4601111,
+      "longitude": -3.9705684,
       "photo_url": null,
       "decharge_url": null,
       "nb_tx_historique": 13.0,
@@ -1908,50 +1908,6 @@
       "promise_nb_past": 0.0
     },
     {
-      "tx_id": 20518.0,
-      "merchant_id": 2359.0,
-      "merchant_name": "AGBASSI AKOMIAN CHARLES JUNIOR PATERNE",
-      "district": "Cocody",
-      "phone": "+2250584404886",
-      "supplier_name": "Naya distribution m’badon",
-      "montant": 40000.0,
-      "revenue": 1500.0,
-      "date_achat": "2026-06-13",
-      "maturity_date": "2026-06-20",
-      "jours_retard": 13.0,
-      "statut": "PENDING",
-      "montant_paye": 16700.0,
-      "montant_restant": 23300.0,
-      "latitude": 5.3258082,
-      "longitude": -3.9322214,
-      "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/38374240022d0b0740546c7d03e75caf.jpg",
-      "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/fb1b999f0774ac633f790ae8d86b4e9e.jpg",
-      "nb_tx_historique": 11.0,
-      "comments": [
-        {
-          "date": "2026-06-30",
-          "type": "COURIER",
-          "content": "Date affichée : 2026-06-30 | Commune : Cocody | Lieu : Cocody M'badon gare pinace | Montant total : 32350 | Avance : 40000 | Frais transaction : 1500 | Frais retard : 3500 | Montant payé : 12650",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-26",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : versement aujourdhui",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-22",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : aucune reponse",
-          "author": "evinne"
-        }
-      ],
-      "promises": [],
-      "promise_nb_respected": 0.0,
-      "promise_nb_past": 0.0
-    },
-    {
       "tx_id": 20219.0,
       "merchant_id": 2526.0,
       "merchant_name": "ATTA APO CHRISTINE",
@@ -2016,8 +1972,8 @@
       "statut": "PENDING",
       "montant_paye": 229800.0,
       "montant_restant": 700450.0,
-      "latitude": 5.3157113,
-      "longitude": -4.0948794,
+      "latitude": 5.3146899,
+      "longitude": -4.0938302,
       "photo_url": null,
       "decharge_url": null,
       "nb_tx_historique": 28.0,
@@ -2435,7 +2391,7 @@
       "montant_paye": 0.0,
       "montant_restant": 652075.0,
       "latitude": 5.333333333333333,
-      "longitude": -4.053584853485557,
+      "longitude": -4.071681214438617,
       "photo_url": null,
       "decharge_url": null,
       "nb_tx_historique": 13.0,
@@ -2561,7 +2517,7 @@
       "montant_paye": 0.0,
       "montant_restant": 211000.0,
       "latitude": 5.333333333333333,
-      "longitude": -4.053584853485557,
+      "longitude": -4.071681214438617,
       "photo_url": null,
       "decharge_url": null,
       "nb_tx_historique": 13.0,

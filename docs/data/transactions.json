@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-03T15:49:00.147222+00:00",
+  "updated_at": "2026-07-03T17:13:30.894977+00:00",
   "data": [
     {
       "tx_id": 19539.0,
@@ -1132,56 +1132,6 @@
       "promise_nb_past": 0.0
     },
     {
-      "tx_id": 20326.0,
-      "merchant_id": 2288.0,
-      "merchant_name": "KOUASSI BROU LARISSA AIMEE",
-      "district": "Grand Bassam",
-      "phone": "+2250101855886",
-      "supplier_name": "ODIS Grand bassam",
-      "montant": 48425.0,
-      "revenue": 1500.0,
-      "date_achat": "2026-06-10",
-      "maturity_date": "2026-06-17",
-      "jours_retard": 16.0,
-      "statut": "PENDING",
-      "montant_paye": 45000.0,
-      "montant_restant": 3425.0,
-      "latitude": 5.2212355,
-      "longitude": -3.7519785,
-      "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/e54ca5752fd97d74a1e11e11d9822fa2.jpg",
-      "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/e906d2ba77189079e5ad3c337efb4071.jpg",
-      "nb_tx_historique": 10.0,
-      "comments": [
-        {
-          "date": "2026-07-02",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : aucune reponse",
-          "author": "KoneMasse"
-        },
-        {
-          "date": "2026-06-30",
-          "type": "COURIER",
-          "content": "Date affichée : 2026-06-30 | Commune : Grand Bassam | Lieu : Conteneur orange, 100m voie non bitumée | Montant total : 9450 | Avance : 48400 | Frais transaction : 1500 | Frais retard : 4550 | Montant payé : 45000",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-22",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : jai fait un versement de 15 k aujourdhui",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-18",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : desole mr je vais faire ca demain",
-          "author": "evinne"
-        }
-      ],
-      "promises": [],
-      "promise_nb_respected": 0.0,
-      "promise_nb_past": 0.0
-    },
-    {
       "tx_id": 20427.0,
       "merchant_id": 1777.0,
       "merchant_name": "DIBY REGINA MARLENE",
@@ -1473,6 +1423,62 @@
       "promise_nb_past": 0.0
     },
     {
+      "tx_id": 20125.0,
+      "merchant_id": 1190.0,
+      "merchant_name": "TOME ANGE MARIE-JULIANA",
+      "district": null,
+      "phone": "+2250787052538",
+      "supplier_name": "Depot Florent Koumassi",
+      "montant": 500000.0,
+      "revenue": 25000.0,
+      "date_achat": "2026-06-06",
+      "maturity_date": "2026-06-20",
+      "jours_retard": 13.0,
+      "statut": "PENDING",
+      "montant_paye": 0.0,
+      "montant_restant": 500000.0,
+      "latitude": 5.3020876,
+      "longitude": -3.9563141,
+      "photo_url": null,
+      "decharge_url": null,
+      "nb_tx_historique": 20.0,
+      "comments": [
+        {
+          "date": "2026-06-30",
+          "type": "COURIER",
+          "content": "Date affichée : 2026-06-30 | Commune : Koumassi | Lieu : Koumassi quartier divo | Montant total : 560000 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 35000 | Montant payé : 0",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-06-26",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : dossier florent",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-06-23",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] :  dossier florent",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-06-22",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : dossier plorent",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-06-18",
+          "type": "COURIER",
+          "content": "Date affichée : 2026-06-18 | Commune : Koumassi | Lieu : Koumassi quartier divo | Montant total : 525000 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 0 | Montant payé : 0",
+          "author": "KoneMasse"
+        }
+      ],
+      "promises": [],
+      "promise_nb_respected": 0.0,
+      "promise_nb_past": 0.0
+    },
+    {
       "tx_id": 20124.0,
       "merchant_id": 1250.0,
       "merchant_name": "GUEYE N'GUESSAN DIANE ESTELLE",
@@ -1583,62 +1589,6 @@
           "type": "GENERIC_COMMENT",
           "content": "Appel (Sortant) [Recouvrement] : jai dit a votre collegue la que je veux 2 semaines a cause de la penurie",
           "author": "evinne"
-        }
-      ],
-      "promises": [],
-      "promise_nb_respected": 0.0,
-      "promise_nb_past": 0.0
-    },
-    {
-      "tx_id": 20125.0,
-      "merchant_id": 1190.0,
-      "merchant_name": "TOME ANGE MARIE-JULIANA",
-      "district": null,
-      "phone": "+2250787052538",
-      "supplier_name": "Depot Florent Koumassi",
-      "montant": 500000.0,
-      "revenue": 25000.0,
-      "date_achat": "2026-06-06",
-      "maturity_date": "2026-06-20",
-      "jours_retard": 13.0,
-      "statut": "PENDING",
-      "montant_paye": 0.0,
-      "montant_restant": 500000.0,
-      "latitude": 5.3020876,
-      "longitude": -3.9563141,
-      "photo_url": null,
-      "decharge_url": null,
-      "nb_tx_historique": 20.0,
-      "comments": [
-        {
-          "date": "2026-06-30",
-          "type": "COURIER",
-          "content": "Date affichée : 2026-06-30 | Commune : Koumassi | Lieu : Koumassi quartier divo | Montant total : 560000 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 35000 | Montant payé : 0",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-26",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : dossier florent",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-23",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] :  dossier florent",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-22",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : dossier plorent",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-18",
-          "type": "COURIER",
-          "content": "Date affichée : 2026-06-18 | Commune : Koumassi | Lieu : Koumassi quartier divo | Montant total : 525000 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 0 | Montant payé : 0",
-          "author": "KoneMasse"
         }
       ],
       "promises": [],

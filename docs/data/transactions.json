@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-03T11:26:19.725200+00:00",
+  "updated_at": "2026-07-03T13:42:47.742728+00:00",
   "data": [
     {
       "tx_id": 19539.0,
@@ -22,6 +22,12 @@
       "decharge_url": null,
       "nb_tx_historique": 23.0,
       "comments": [
+        {
+          "date": "2026-07-03",
+          "type": "LETTER_GIVEN_TO_AGENT",
+          "content": "RECOUVREMENT : LETTER_GIVEN_TO_AGENT : Visite : Localisation inexistante aucune photos pour reconnaître l’espace j’ai parler avec le commercial qui m’informe que la photo et la localisation ne sont pas correct mais elle a parlé avec le client qui est actuellement en déplacement et il va verser 50 k aujourd’hui puis solder le dimanche",
+          "author": "alassane"
+        },
         {
           "date": "2026-06-22",
           "type": "COURIER",
@@ -84,6 +90,12 @@
       "decharge_url": null,
       "nb_tx_historique": 14.0,
       "comments": [
+        {
+          "date": "2026-07-03",
+          "type": "LETTER_GIVEN_TO_AGENT",
+          "content": "RECOUVREMENT : LETTER_GIVEN_TO_AGENT : Visite : Elle a payé 25k sur place et va solder le dimanche 05",
+          "author": "alassane"
+        },
         {
           "date": "2026-06-22",
           "type": "COURIER",
@@ -302,6 +314,12 @@
       "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/7050f4ebcb4f587fc12d6078d1edab6b.jpg",
       "nb_tx_historique": 11.0,
       "comments": [
+        {
+          "date": "2026-07-03",
+          "type": "LETTER_GIVEN_TO_AGENT",
+          "content": "RECOUVREMENT : LETTER_GIVEN_TO_AGENT : Visite : Il va solder le soir du vendredi 03 juillet",
+          "author": "alassane"
+        },
         {
           "date": "2026-06-22",
           "type": "COURIER",
@@ -1014,8 +1032,8 @@
       "maturity_date": "2026-06-15",
       "jours_retard": 18.0,
       "statut": "PENDING",
-      "montant_paye": 0.0,
-      "montant_restant": 50350.0,
+      "montant_paye": 55350.0,
+      "montant_restant": -5000.0,
       "latitude": 5.3498889,
       "longitude": -3.8779249,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/f77bce5d70c6fdfe13c7c46625435cc5.jpg",
@@ -1287,10 +1305,10 @@
       "maturity_date": "2026-06-18",
       "jours_retard": 15.0,
       "statut": "PENDING",
-      "montant_paye": 33000.0,
-      "montant_restant": 102300.0,
-      "latitude": 5.2483921,
-      "longitude": -3.9134504,
+      "montant_paye": 53000.0,
+      "montant_restant": 82300.0,
+      "latitude": 5.2485657,
+      "longitude": -3.9147069,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/3346536f6ce034149f578ab952f5fe23.jpg",
       "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/983eb2ec890b7784ab1489f54edebfcf.jpg",
       "nb_tx_historique": 2.0,
@@ -1455,6 +1473,73 @@
       "promise_nb_past": 0.0
     },
     {
+      "tx_id": 20124.0,
+      "merchant_id": 1250.0,
+      "merchant_name": "GUEYE N'GUESSAN DIANE ESTELLE",
+      "district": null,
+      "phone": "+2250749215708",
+      "supplier_name": "Depot Florent Koumassi",
+      "montant": 500000.0,
+      "revenue": 25000.0,
+      "date_achat": "2026-06-06",
+      "maturity_date": "2026-06-20",
+      "jours_retard": 13.0,
+      "statut": "PENDING",
+      "montant_paye": 200000.0,
+      "montant_restant": 300000.0,
+      "latitude": 5.302114,
+      "longitude": -3.9563229,
+      "photo_url": null,
+      "decharge_url": null,
+      "nb_tx_historique": 18.0,
+      "comments": [
+        {
+          "date": "2026-07-01",
+          "type": "LETTER_GIVEN_TO_AGENT",
+          "content": "RECOUVREMENT : LETTER_GIVEN_TO_AGENT : Visite : La cliente avait déjà commencé a payer par échelonnement 100 mille par semaine. Le courrier a été déposé et signé",
+          "author": "francisAka"
+        },
+        {
+          "date": "2026-06-30",
+          "type": "COURIER",
+          "content": "Date affichée : 2026-06-30 | Commune : Koumassi | Lieu : Koumassi 32 auprès de la gendarmerie | Montant total : 351600 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 26600 | Montant payé : 200000",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-06-26",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : dossier florent",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-06-22",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : dossier florent",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-06-18",
+          "type": "COURIER",
+          "content": "Date affichée : 2026-06-18 | Commune : Koumassi | Lieu : Koumassi 32 auprès de la gendarmerie | Montant total : 525000 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 0 | Montant payé : 0",
+          "author": "KoneMasse"
+        }
+      ],
+      "promises": [
+        {
+          "date": "2026-06-27",
+          "amount": 100000,
+          "respected": null
+        },
+        {
+          "date": "2026-07-04",
+          "amount": 100000,
+          "respected": null
+        }
+      ],
+      "promise_nb_respected": 0.0,
+      "promise_nb_past": 1.0
+    },
+    {
       "tx_id": 20111.0,
       "merchant_id": 1177.0,
       "merchant_name": "LAGO ALFRED VINCENT JUNIOR",
@@ -1559,73 +1644,6 @@
       "promises": [],
       "promise_nb_respected": 0.0,
       "promise_nb_past": 0.0
-    },
-    {
-      "tx_id": 20124.0,
-      "merchant_id": 1250.0,
-      "merchant_name": "GUEYE N'GUESSAN DIANE ESTELLE",
-      "district": null,
-      "phone": "+2250749215708",
-      "supplier_name": "Depot Florent Koumassi",
-      "montant": 500000.0,
-      "revenue": 25000.0,
-      "date_achat": "2026-06-06",
-      "maturity_date": "2026-06-20",
-      "jours_retard": 13.0,
-      "statut": "PENDING",
-      "montant_paye": 200000.0,
-      "montant_restant": 300000.0,
-      "latitude": 5.302114,
-      "longitude": -3.9563229,
-      "photo_url": null,
-      "decharge_url": null,
-      "nb_tx_historique": 18.0,
-      "comments": [
-        {
-          "date": "2026-07-01",
-          "type": "LETTER_GIVEN_TO_AGENT",
-          "content": "RECOUVREMENT : LETTER_GIVEN_TO_AGENT : Visite : La cliente avait déjà commencé a payer par échelonnement 100 mille par semaine. Le courrier a été déposé et signé",
-          "author": "francisAka"
-        },
-        {
-          "date": "2026-06-30",
-          "type": "COURIER",
-          "content": "Date affichée : 2026-06-30 | Commune : Koumassi | Lieu : Koumassi 32 auprès de la gendarmerie | Montant total : 351600 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 26600 | Montant payé : 200000",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-26",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : dossier florent",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-22",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : dossier florent",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-18",
-          "type": "COURIER",
-          "content": "Date affichée : 2026-06-18 | Commune : Koumassi | Lieu : Koumassi 32 auprès de la gendarmerie | Montant total : 525000 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 0 | Montant payé : 0",
-          "author": "KoneMasse"
-        }
-      ],
-      "promises": [
-        {
-          "date": "2026-06-27",
-          "amount": 100000,
-          "respected": null
-        },
-        {
-          "date": "2026-07-04",
-          "amount": 100000,
-          "respected": null
-        }
-      ],
-      "promise_nb_respected": 0.0,
-      "promise_nb_past": 1.0
     },
     {
       "tx_id": 20125.0,
@@ -1746,8 +1764,8 @@
       "maturity_date": "2026-06-20",
       "jours_retard": 13.0,
       "statut": "PENDING",
-      "montant_paye": 3000.0,
-      "montant_restant": 72600.0,
+      "montant_paye": 10400.0,
+      "montant_restant": 65200.0,
       "latitude": 5.4601111,
       "longitude": -3.9705684,
       "photo_url": null,
@@ -2132,10 +2150,10 @@
       "maturity_date": "2026-06-23",
       "jours_retard": 10.0,
       "statut": "PENDING",
-      "montant_paye": 30700.0,
-      "montant_restant": 10750.0,
-      "latitude": 5.2657645,
-      "longitude": -3.90628,
+      "montant_paye": 44650.0,
+      "montant_restant": -3200.0,
+      "latitude": 5.2657639,
+      "longitude": -3.9062816,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/5f9c7b877d1c958f2250e65e6e6fe2f4.jpg",
       "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/31b58f620f85bc71671c5e321f1bdb52.jpg",
       "nb_tx_historique": 1.0,
@@ -2182,8 +2200,8 @@
       "maturity_date": "2026-06-24",
       "jours_retard": 9.0,
       "statut": "PENDING",
-      "montant_paye": 404550.0,
-      "montant_restant": 196450.0,
+      "montant_paye": 416350.0,
+      "montant_restant": 184650.0,
       "latitude": 5.3136002,
       "longitude": -4.0885532,
       "photo_url": null,
@@ -2346,8 +2364,8 @@
       "statut": "PENDING",
       "montant_paye": 400000.0,
       "montant_restant": 533140.0,
-      "latitude": 5.3911251,
-      "longitude": -3.9104716,
+      "latitude": 5.391235,
+      "longitude": -3.9105202,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/627c5f711d740e58f622c50e929df3ab.jpg",
       "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/3eee970c201fddefa78efbf2a8999a3d.jpg",
       "nb_tx_historique": 1.0,

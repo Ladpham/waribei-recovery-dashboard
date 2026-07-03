@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-03T13:42:47.742728+00:00",
+  "updated_at": "2026-07-03T15:49:00.147222+00:00",
   "data": [
     {
       "tx_id": 19539.0,
@@ -82,8 +82,8 @@
       "maturity_date": "2026-06-04",
       "jours_retard": 29.0,
       "statut": "PENDING",
-      "montant_paye": 150000.0,
-      "montant_restant": 20000.0,
+      "montant_paye": 175000.0,
+      "montant_restant": -5000.0,
       "latitude": 5.4523799,
       "longitude": -4.0113184,
       "photo_url": null,
@@ -512,8 +512,8 @@
       "maturity_date": "2026-06-10",
       "jours_retard": 23.0,
       "statut": "PENDING",
-      "montant_paye": 58000.0,
-      "montant_restant": 22349.0,
+      "montant_paye": 73000.0,
+      "montant_restant": 7349.0,
       "latitude": 5.3196114,
       "longitude": -4.1007102,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/bf942b9c72ae2de981f718a177b9a286.jpg",
@@ -1590,62 +1590,6 @@
       "promise_nb_past": 0.0
     },
     {
-      "tx_id": 20126.0,
-      "merchant_id": 1191.0,
-      "merchant_name": "OUOYA GLOUHIEU DONA HILARY",
-      "district": null,
-      "phone": "+2250787822068",
-      "supplier_name": "Depot Florent Koumassi",
-      "montant": 500000.0,
-      "revenue": 25000.0,
-      "date_achat": "2026-06-06",
-      "maturity_date": "2026-06-20",
-      "jours_retard": 13.0,
-      "statut": "PENDING",
-      "montant_paye": 0.0,
-      "montant_restant": 500000.0,
-      "latitude": 5.3020399,
-      "longitude": -3.9563071,
-      "photo_url": null,
-      "decharge_url": null,
-      "nb_tx_historique": 20.0,
-      "comments": [
-        {
-          "date": "2026-06-30",
-          "type": "COURIER",
-          "content": "Date affichée : 2026-06-30 | Commune : Koumassi | Lieu : Koumassi grand marché | Montant total : 560000 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 35000 | Montant payé : 0",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-26",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : dossier florent",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-23",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : dossier florent",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-22",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : dossier depot florent",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-18",
-          "type": "COURIER",
-          "content": "Date affichée : 2026-06-18 | Commune : Koumassi | Lieu : Koumassi grand marché | Montant total : 525000 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 0 | Montant payé : 0",
-          "author": "KoneMasse"
-        }
-      ],
-      "promises": [],
-      "promise_nb_respected": 0.0,
-      "promise_nb_past": 0.0
-    },
-    {
       "tx_id": 20125.0,
       "merchant_id": 1190.0,
       "merchant_name": "TOME ANGE MARIE-JULIANA",
@@ -1694,6 +1638,62 @@
           "date": "2026-06-18",
           "type": "COURIER",
           "content": "Date affichée : 2026-06-18 | Commune : Koumassi | Lieu : Koumassi quartier divo | Montant total : 525000 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 0 | Montant payé : 0",
+          "author": "KoneMasse"
+        }
+      ],
+      "promises": [],
+      "promise_nb_respected": 0.0,
+      "promise_nb_past": 0.0
+    },
+    {
+      "tx_id": 20126.0,
+      "merchant_id": 1191.0,
+      "merchant_name": "OUOYA GLOUHIEU DONA HILARY",
+      "district": null,
+      "phone": "+2250787822068",
+      "supplier_name": "Depot Florent Koumassi",
+      "montant": 500000.0,
+      "revenue": 25000.0,
+      "date_achat": "2026-06-06",
+      "maturity_date": "2026-06-20",
+      "jours_retard": 13.0,
+      "statut": "PENDING",
+      "montant_paye": 0.0,
+      "montant_restant": 500000.0,
+      "latitude": 5.3020399,
+      "longitude": -3.9563071,
+      "photo_url": null,
+      "decharge_url": null,
+      "nb_tx_historique": 20.0,
+      "comments": [
+        {
+          "date": "2026-06-30",
+          "type": "COURIER",
+          "content": "Date affichée : 2026-06-30 | Commune : Koumassi | Lieu : Koumassi grand marché | Montant total : 560000 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 35000 | Montant payé : 0",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-06-26",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : dossier florent",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-06-23",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : dossier florent",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-06-22",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : dossier depot florent",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-06-18",
+          "type": "COURIER",
+          "content": "Date affichée : 2026-06-18 | Commune : Koumassi | Lieu : Koumassi grand marché | Montant total : 525000 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 0 | Montant payé : 0",
           "author": "KoneMasse"
         }
       ],
@@ -1814,56 +1814,6 @@
       "promise_nb_past": 0.0
     },
     {
-      "tx_id": 20516.0,
-      "merchant_id": 2042.0,
-      "merchant_name": "ATSE APO OLPHEE IDA",
-      "district": null,
-      "phone": "+2250717523352",
-      "supplier_name": "Distribution Bon prix Abobo",
-      "montant": 57650.0,
-      "revenue": 1500.0,
-      "date_achat": "2026-06-13",
-      "maturity_date": "2026-06-20",
-      "jours_retard": 13.0,
-      "statut": "PENDING",
-      "montant_paye": 30000.0,
-      "montant_restant": 27650.0,
-      "latitude": 5.495741,
-      "longitude": -4.054735,
-      "photo_url": null,
-      "decharge_url": null,
-      "nb_tx_historique": 14.0,
-      "comments": [
-        {
-          "date": "2026-07-02",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : aucune reponse",
-          "author": "KoneMasse"
-        },
-        {
-          "date": "2026-06-30",
-          "type": "COURIER",
-          "content": "Date affichée : 2026-06-30 | Commune : Abobo | Lieu : Abobo Avenue Casa | Montant total : 35000 | Avance : 50000 | Frais transaction : 1500 | Frais retard : 3500 | Montant payé : 20000",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-26",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : aucne reponse",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-22",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : Injoignable",
-          "author": "evinne"
-        }
-      ],
-      "promises": [],
-      "promise_nb_respected": 0.0,
-      "promise_nb_past": 0.0
-    },
-    {
       "tx_id": 20511.0,
       "merchant_id": 291.0,
       "merchant_name": "Ibrahim Traore",
@@ -1946,6 +1896,12 @@
       "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/d8c518b1fd516c010333f2b01600631a.jpg",
       "nb_tx_historique": 5.0,
       "comments": [
+        {
+          "date": "2026-07-03",
+          "type": "LETTER_GIVEN_TO_AGENT",
+          "content": "RECOUVREMENT : LETTER_GIVEN_TO_AGENT : Visite : Elle a payé 125k sur place et compte payer 75k le soir et solder le lundi prochain",
+          "author": "alassane"
+        },
         {
           "date": "2026-06-30",
           "type": "GENERIC_COMMENT",
@@ -2300,10 +2256,10 @@
       "maturity_date": "2026-06-24",
       "jours_retard": 9.0,
       "statut": "PENDING",
-      "montant_paye": 70000.0,
-      "montant_restant": 230000.0,
-      "latitude": 5.4089571,
-      "longitude": -4.0009131,
+      "montant_paye": 120000.0,
+      "montant_restant": 180000.0,
+      "latitude": 5.4084749,
+      "longitude": -4.0015224,
       "photo_url": null,
       "decharge_url": null,
       "nb_tx_historique": 59.0,

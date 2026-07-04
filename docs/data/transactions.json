@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-04T21:48:41.064436+00:00",
+  "updated_at": "2026-07-04T22:47:37.553560+00:00",
   "data": [
     {
       "tx_id": 19598.0,
@@ -1754,8 +1754,8 @@
       "statut": "ASSIGNED_TO_RECOVERY",
       "montant_paye": 110000.0,
       "montant_restant": 197000.0,
-      "latitude": 5.3014037,
-      "longitude": -3.9507907,
+      "latitude": 5.3014275,
+      "longitude": -3.9509214,
       "photo_url": null,
       "decharge_url": null,
       "nb_tx_historique": 14.0,

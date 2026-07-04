@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-04T13:00:14.783747+00:00",
+  "updated_at": "2026-07-04T14:57:53.660661+00:00",
   "data": [
     {
       "tx_id": 19598.0,
@@ -394,8 +394,8 @@
       "maturity_date": "2026-06-10",
       "jours_retard": 24.0,
       "statut": "ASSIGNED_TO_RECOVERY",
-      "montant_paye": 88700.0,
-      "montant_restant": 11300.0,
+      "montant_paye": 101200.0,
+      "montant_restant": -1200.0,
       "latitude": 5.2474986,
       "longitude": -3.9188698,
       "photo_url": null,
@@ -1810,8 +1810,8 @@
       "statut": "ASSIGNED_TO_RECOVERY",
       "montant_paye": 416350.0,
       "montant_restant": 184650.0,
-      "latitude": 5.3136002,
-      "longitude": -4.0885532,
+      "latitude": 5.3144017,
+      "longitude": -4.0862526,
       "photo_url": null,
       "decharge_url": null,
       "nb_tx_historique": 26.0,

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-04T09:59:43.141701+00:00",
+  "updated_at": "2026-07-04T11:34:39.931690+00:00",
   "data": [
     {
       "promise_id": 1519.0,
@@ -166,7 +166,7 @@
       "promise_amount": 112800.0,
       "montant": 135000.0,
       "paid_around_promise": 20000.0,
-      "total_paid_tx": 20000.0,
+      "total_paid_tx": 112800.0,
       "status": "partial"
     },
     {

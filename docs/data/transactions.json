@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-05T22:52:36.816566+00:00",
+  "updated_at": "2026-07-05T23:57:44.166191+00:00",
   "data": [
     {
       "tx_id": 19732.0,
@@ -260,8 +260,8 @@
       "statut": "ASSIGNED_TO_RECOVERY",
       "montant_paye": 90000.0,
       "montant_restant": 75700.0,
-      "latitude": 5.87845,
-      "longitude": -4.7712717,
+      "latitude": 5.8782517,
+      "longitude": -4.771555,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/85841b44734662d80dd7f17970b611b6.jpg",
       "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/e9ba1016159dc594179efd667c3d8cb1.jpg",
       "nb_tx_historique": 2.0,

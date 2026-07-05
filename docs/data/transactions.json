@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-05T19:10:57.259072+00:00",
+  "updated_at": "2026-07-05T20:46:58.194070+00:00",
   "data": [
     {
       "tx_id": 19732.0,
@@ -1890,8 +1890,8 @@
       "maturity_date": "2026-06-25",
       "jours_retard": 10.0,
       "statut": "ASSIGNED_TO_RECOVERY",
-      "montant_paye": 400000.0,
-      "montant_restant": 533140.0,
+      "montant_paye": 500000.0,
+      "montant_restant": 433140.0,
       "latitude": 5.3934867,
       "longitude": -3.9090642,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/627c5f711d740e58f622c50e929df3ab.jpg",

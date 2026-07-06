@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-06T15:00:17.230126+00:00",
+  "updated_at": "2026-07-06T18:04:43.898931+00:00",
   "data": [
     {
       "tx_id": 19732.0,
@@ -523,6 +523,12 @@
       "nb_tx_historique": 14.0,
       "comments": [
         {
+          "date": "2026-07-06",
+          "type": "AGENT_ACK_RECEIPT",
+          "content": "RECOUVREMENT : AGENT_ACK_RECEIPT : Visite : La cliente a reçu son courrier le samedi 4 juillet et signifie faire une versement mardi 7 juillet",
+          "author": "francisAka"
+        },
+        {
           "date": "2026-06-30",
           "type": "COURIER",
           "content": "Date affichée : 2026-06-30 | Commune : Yopougon | Lieu : Yopougon terminus 40 | Montant total : 429200 | Avance : 400000 | Frais transaction : 20000 | Frais retard : 39200 | Montant payé : 30000",
@@ -910,67 +916,6 @@
       "promise_nb_past": 0.0
     },
     {
-      "tx_id": 20434.0,
-      "merchant_id": 2884.0,
-      "merchant_name": "Kokutse Abaye",
-      "district": "Port-Bouët",
-      "phone": "2250596216158",
-      "supplier_name": "Sd dépôt 19 port bouet ",
-      "montant": 150000.0,
-      "revenue": 4500.0,
-      "date_achat": "2026-06-11",
-      "maturity_date": "2026-06-18",
-      "jours_retard": 18.0,
-      "statut": "ASSIGNED_TO_RECOVERY",
-      "montant_paye": 51000.0,
-      "montant_restant": 99000.0,
-      "latitude": 5.2725198,
-      "longitude": -3.947014,
-      "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/e410d4044337759efee972d6d65c422a.jpg",
-      "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/0bdecceb42b85a1853fd71ed14b8cab3.jpg",
-      "nb_tx_historique": 2.0,
-      "comments": [
-        {
-          "date": "2026-06-30",
-          "type": "COURIER",
-          "content": "Date affichée : 2026-06-30 | Commune : Port-Bouët | Lieu : Adjawi en face du foyer des jeunes | Montant total : 113650 | Avance : 150000 | Frais transaction : 4500 | Frais retard : 10150 | Montant payé : 51000",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-26",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : aucune reponse",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-22",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : Injoignable",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-19",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : aucune reponse",
-          "author": "evinne"
-        }
-      ],
-      "promises": [
-        {
-          "date": "2026-07-06",
-          "amount": 100000,
-          "respected": null
-        },
-        {
-          "date": "2026-07-13",
-          "amount": 100000,
-          "respected": null
-        }
-      ],
-      "promise_nb_respected": 0.0,
-      "promise_nb_past": 0.0
-    },
-    {
       "tx_id": 20376.0,
       "merchant_id": 2808.0,
       "merchant_name": "Monhessea modeste Manhe",
@@ -1095,6 +1040,68 @@
       "promise_nb_past": 0.0
     },
     {
+      "tx_id": 20126.0,
+      "merchant_id": 1191.0,
+      "merchant_name": "OUOYA GLOUHIEU DONA HILARY",
+      "district": null,
+      "phone": "+2250787822068",
+      "supplier_name": "Depot Florent Koumassi",
+      "montant": 500000.0,
+      "revenue": 25000.0,
+      "date_achat": "2026-06-06",
+      "maturity_date": "2026-06-20",
+      "jours_retard": 16.0,
+      "statut": "ASSIGNED_TO_RECOVERY",
+      "montant_paye": 0.0,
+      "montant_restant": 500000.0,
+      "latitude": 5.3020399,
+      "longitude": -3.9563071,
+      "photo_url": null,
+      "decharge_url": null,
+      "nb_tx_historique": 20.0,
+      "comments": [
+        {
+          "date": "2026-07-06",
+          "type": "GENERIC_COMMENT",
+          "content": "Message (Entrant) [Recouvrement] : Bonsoir Madame nous avons les plaintes et un courier chacune pour votre structure le commissaire dit vous devez signer et mettre votre cachet donc je voudrais savoir si nous pouvons passer au siège demain je peux avoir la situation géographique de votre siège",
+          "author": "KoneMasse"
+        },
+        {
+          "date": "2026-06-30",
+          "type": "COURIER",
+          "content": "Date affichée : 2026-06-30 | Commune : Koumassi | Lieu : Koumassi grand marché | Montant total : 560000 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 35000 | Montant payé : 0",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-06-26",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : dossier florent",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-06-23",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : dossier florent",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-06-22",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : dossier depot florent",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-06-18",
+          "type": "COURIER",
+          "content": "Date affichée : 2026-06-18 | Commune : Koumassi | Lieu : Koumassi grand marché | Montant total : 525000 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 0 | Montant payé : 0",
+          "author": "KoneMasse"
+        }
+      ],
+      "promises": [],
+      "promise_nb_respected": 0.0,
+      "promise_nb_past": 0.0
+    },
+    {
       "tx_id": 20111.0,
       "merchant_id": 1177.0,
       "merchant_name": "LAGO ALFRED VINCENT JUNIOR",
@@ -1165,6 +1172,12 @@
       "decharge_url": null,
       "nb_tx_historique": 20.0,
       "comments": [
+        {
+          "date": "2026-07-06",
+          "type": "GENERIC_COMMENT",
+          "content": "Message (Entrant) [Recouvrement] : Bonsoir Madame nous avons les plaintes et un courier chacune pour votre structure le commissaire dit vous devez signer et mettre votre cachet donc je voudrais savoir si nous pouvons passer au siège demain je peux avoir la situation géographique de votre siège",
+          "author": "KoneMasse"
+        },
         {
           "date": "2026-06-30",
           "type": "COURIER",
@@ -1268,62 +1281,6 @@
       "promise_nb_past": 2.0
     },
     {
-      "tx_id": 20126.0,
-      "merchant_id": 1191.0,
-      "merchant_name": "OUOYA GLOUHIEU DONA HILARY",
-      "district": null,
-      "phone": "+2250787822068",
-      "supplier_name": "Depot Florent Koumassi",
-      "montant": 500000.0,
-      "revenue": 25000.0,
-      "date_achat": "2026-06-06",
-      "maturity_date": "2026-06-20",
-      "jours_retard": 16.0,
-      "statut": "ASSIGNED_TO_RECOVERY",
-      "montant_paye": 0.0,
-      "montant_restant": 500000.0,
-      "latitude": 5.3020399,
-      "longitude": -3.9563071,
-      "photo_url": null,
-      "decharge_url": null,
-      "nb_tx_historique": 20.0,
-      "comments": [
-        {
-          "date": "2026-06-30",
-          "type": "COURIER",
-          "content": "Date affichée : 2026-06-30 | Commune : Koumassi | Lieu : Koumassi grand marché | Montant total : 560000 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 35000 | Montant payé : 0",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-26",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : dossier florent",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-23",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : dossier florent",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-22",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : dossier depot florent",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-18",
-          "type": "COURIER",
-          "content": "Date affichée : 2026-06-18 | Commune : Koumassi | Lieu : Koumassi grand marché | Montant total : 525000 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 0 | Montant payé : 0",
-          "author": "KoneMasse"
-        }
-      ],
-      "promises": [],
-      "promise_nb_respected": 0.0,
-      "promise_nb_past": 0.0
-    },
-    {
       "tx_id": 20510.0,
       "merchant_id": 1866.0,
       "merchant_name": "YANKOU CHRISTIANE EVELYNE VALERIE",
@@ -1407,6 +1364,12 @@
       "nb_tx_historique": 25.0,
       "comments": [
         {
+          "date": "2026-07-06",
+          "type": "COURIER",
+          "content": "Date affichée : 2026-07-06 | Montant total : 56400 | Avance : 50000 | Frais transaction : 1500 | Frais retard : 4900 | Montant payé : 0",
+          "author": "evinne"
+        },
+        {
           "date": "2026-07-02",
           "type": "GENERIC_COMMENT",
           "content": "Appel (Sortant) [Recouvrement] : il dit etre en deplacement il rentre samedi il fera le paiement",
@@ -1448,62 +1411,6 @@
       "promise_nb_past": 0.0
     },
     {
-      "tx_id": 20219.0,
-      "merchant_id": 2526.0,
-      "merchant_name": "ATTA APO CHRISTINE",
-      "district": "Abobo",
-      "phone": "2250151364769",
-      "supplier_name": "Centrale dépôt",
-      "montant": 1080000.0,
-      "revenue": 47500.0,
-      "date_achat": "2026-06-08",
-      "maturity_date": "2026-06-22",
-      "jours_retard": 14.0,
-      "statut": "ASSIGNED_TO_RECOVERY",
-      "montant_paye": 333300.0,
-      "montant_restant": 746700.0,
-      "latitude": 5.4468044,
-      "longitude": -4.0270972,
-      "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/94efc1f41594d4db31539de7160b2fc8.jpg",
-      "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/d8c518b1fd516c010333f2b01600631a.jpg",
-      "nb_tx_historique": 5.0,
-      "comments": [
-        {
-          "date": "2026-07-03",
-          "type": "LETTER_GIVEN_TO_AGENT",
-          "content": "RECOUVREMENT : LETTER_GIVEN_TO_AGENT : Visite : Elle a payé 125k sur place et compte payer 75k le soir et solder le lundi prochain",
-          "author": "alassane"
-        },
-        {
-          "date": "2026-06-30",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : recouvrement",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-30",
-          "type": "COURIER",
-          "content": "Date affichée : 2026-06-30 | Commune : Abobo | Lieu : Abobo BC près avant de le terrain gervinho | Montant total : 923200 | Avance : 950000 | Frais transaction : 47500 | Frais retard : 49000 | Montant payé : 123300",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-26",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : aucune reponse",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-23",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : la boisson sort pas oooh mon coin est remplir comme ca de boisson a cause de la pluie la mais d ici ce soir je vais verser 200 ou 300 k . pardon ooh ne vous fachez pas",
-          "author": "evinne"
-        }
-      ],
-      "promises": [],
-      "promise_nb_respected": 0.0,
-      "promise_nb_past": 0.0
-    },
-    {
       "tx_id": 20230.0,
       "merchant_id": 1563.0,
       "merchant_name": "TIEHI GUEI LAZARE SYLVAIN",
@@ -1524,6 +1431,12 @@
       "decharge_url": null,
       "nb_tx_historique": 28.0,
       "comments": [
+        {
+          "date": "2026-07-06",
+          "type": "COURIER",
+          "content": "Date affichée : 2026-07-06 | Commune : Yopougon | Lieu : Carrefour centre social | Montant total : 442100 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 42000 | Montant payé : 124900",
+          "author": "evinne"
+        },
         {
           "date": "2026-06-30",
           "type": "GENERIC_COMMENT",
@@ -1581,6 +1494,12 @@
       "nb_tx_historique": 24.0,
       "comments": [
         {
+          "date": "2026-07-06",
+          "type": "COURIER",
+          "content": "Date affichée : 2026-07-06 | Commune : Port-Bouët | Lieu : Port Bouet Jean folly | Montant total : 245300 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 20300 | Montant payé : 300000",
+          "author": "evinne"
+        },
+        {
           "date": "2026-07-02",
           "type": "GENERIC_COMMENT",
           "content": "Appel (Sortant) [Recouvrement] : aucune reponse",
@@ -1631,6 +1550,12 @@
       "nb_tx_historique": 14.0,
       "comments": [
         {
+          "date": "2026-07-06",
+          "type": "COURIER",
+          "content": "Date affichée : 2026-07-06 | Commune : Koumassi | Lieu : Koumassi au beté | Montant total : 110500 | Avance : 200000 | Frais transaction : 10000 | Frais retard : 10500 | Montant payé : 110000",
+          "author": "evinne"
+        },
+        {
           "date": "2026-07-02",
           "type": "GENERIC_COMMENT",
           "content": "Appel (Sortant) [Recouvrement] : il est en brousse présentement il rentre demain et il me reviens",
@@ -1678,14 +1603,20 @@
       "maturity_date": "2026-06-24",
       "jours_retard": 12.0,
       "statut": "ASSIGNED_TO_RECOVERY",
-      "montant_paye": 419250.0,
-      "montant_restant": 181750.0,
+      "montant_paye": 432050.0,
+      "montant_restant": 168950.0,
       "latitude": 5.3144977,
       "longitude": -4.0861438,
       "photo_url": null,
       "decharge_url": null,
       "nb_tx_historique": 26.0,
       "comments": [
+        {
+          "date": "2026-07-06",
+          "type": "COURIER",
+          "content": "Date affichée : 2026-07-06 | Commune : Yopougon | Lieu : Yopougon Niangon 27 école bad | Montant total : 220000 | Avance : 600000 | Frais transaction : 30000 | Frais retard : 22050 | Montant payé : 432050",
+          "author": "evinne"
+        },
         {
           "date": "2026-07-02",
           "type": "GENERIC_COMMENT",
@@ -1730,6 +1661,12 @@
       "decharge_url": null,
       "nb_tx_historique": 36.0,
       "comments": [
+        {
+          "date": "2026-07-06",
+          "type": "COURIER",
+          "content": "Date affichée : 2026-07-06 | Commune : Cocody | Lieu : 5,3466014, -3,9694440 | Montant total : 557000 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 42000 | Montant payé : 10000",
+          "author": "evinne"
+        },
         {
           "date": "2026-07-02",
           "type": "GENERIC_COMMENT",
@@ -1778,14 +1715,20 @@
       "maturity_date": "2026-06-24",
       "jours_retard": 12.0,
       "statut": "ASSIGNED_TO_RECOVERY",
-      "montant_paye": 120000.0,
-      "montant_restant": 180000.0,
-      "latitude": 5.411848,
-      "longitude": -3.9944801,
+      "montant_paye": 145000.0,
+      "montant_restant": 155000.0,
+      "latitude": 5.4124229,
+      "longitude": -3.99452,
       "photo_url": null,
       "decharge_url": null,
       "nb_tx_historique": 59.0,
       "comments": [
+        {
+          "date": "2026-07-06",
+          "type": "COURIER",
+          "content": "Date affichée : 2026-07-06 | Commune : Abobo | Lieu : Aboboté au terrain | Montant total : 217050 | Avance : 300000 | Frais transaction : 15000 | Frais retard : 22050 | Montant payé : 120000",
+          "author": "evinne"
+        },
         {
           "date": "2026-07-02",
           "type": "GENERIC_COMMENT",
@@ -1849,6 +1792,12 @@
       "nb_tx_historique": 1.0,
       "comments": [
         {
+          "date": "2026-07-06",
+          "type": "COURIER",
+          "content": "Date affichée : 2026-07-06 | Commune : Bingerville | Lieu : Bingerville oribat carrefour mauritanien | Montant total : 527190 | Avance : 933140 | Frais transaction : 47500 | Frais retard : 46550 | Montant payé : 500000",
+          "author": "evinne"
+        },
+        {
           "date": "2026-07-02",
           "type": "GENERIC_COMMENT",
           "content": "Appel (Sortant) [Recouvrement] : aucune reponse",
@@ -1892,6 +1841,12 @@
       "decharge_url": null,
       "nb_tx_historique": 13.0,
       "comments": [
+        {
+          "date": "2026-07-06",
+          "type": "COURIER",
+          "content": "Date affichée : 2026-07-06 | Commune : Yopougon | Lieu : Yopougon selmer cooper | Montant total : 721550 | Avance : 639000 | Frais transaction : 32500 | Frais retard : 50050 | Montant payé : 0",
+          "author": "evinne"
+        },
         {
           "date": "2026-07-02",
           "type": "GENERIC_COMMENT",
@@ -1937,6 +1892,12 @@
       "nb_tx_historique": 6.0,
       "comments": [
         {
+          "date": "2026-07-06",
+          "type": "COURIER",
+          "content": "Date affichée : 2026-07-06 | Commune : Treichville | Lieu : Belleville | Montant total : 221400 | Avance : 200000 | Frais transaction : 6000 | Frais retard : 15400 | Montant payé : 0",
+          "author": "evinne"
+        },
+        {
           "date": "2026-07-02",
           "type": "GENERIC_COMMENT",
           "content": "Appel (Sortant) [Recouvrement] : Injoignable",
@@ -1974,6 +1935,12 @@
       "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/1f676df4c6b04c0638a5c34d063398ab.jpg",
       "nb_tx_historique": 6.0,
       "comments": [
+        {
+          "date": "2026-07-06",
+          "type": "COURIER",
+          "content": "Date affichée : 2026-07-06 | Commune : Yopougon | Lieu : Yopougon toit rouge prêt de la pharmacie eden | Montant total : 1400 | Avance : 180000 | Frais transaction : 6000 | Frais retard : 15400 | Montant payé : 200000",
+          "author": "evinne"
+        },
         {
           "date": "2026-07-02",
           "type": "GENERIC_COMMENT",
@@ -2019,6 +1986,12 @@
       "nb_tx_historique": 13.0,
       "comments": [
         {
+          "date": "2026-07-06",
+          "type": "COURIER",
+          "content": "Date affichée : 2026-07-06 | Commune : Yopougon | Lieu : Yopougon selmer cooper | Montant total : 242750 | Avance : 211000 | Frais transaction : 12500 | Frais retard : 19250 | Montant payé : 0",
+          "author": "evinne"
+        },
+        {
           "date": "2026-07-02",
           "type": "GENERIC_COMMENT",
           "content": "Appel (Sortant) [Recouvrement] : Injoignable",
@@ -2062,6 +2035,12 @@
       "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/2775bd3b9afe7ef4fba7efde56bcca6a.jpg",
       "nb_tx_historique": 4.0,
       "comments": [
+        {
+          "date": "2026-07-06",
+          "type": "COURIER",
+          "content": "Date affichée : 2026-07-06 | Commune : Yopougon | Lieu : Beago deuxième dodane | Montant total : 90700 | Avance : 80000 | Frais transaction : 3000 | Frais retard : 7700 | Montant payé : 0",
+          "author": "evinne"
+        },
         {
           "date": "2026-07-02",
           "type": "GENERIC_COMMENT",
@@ -2107,6 +2086,12 @@
       "nb_tx_historique": 4.0,
       "comments": [
         {
+          "date": "2026-07-06",
+          "type": "COURIER",
+          "content": "Date affichée : 2026-07-06 | Commune : Yopougon | Lieu : Beago deuxième dodane | Montant total : 55350 | Avance : 50000 | Frais transaction : 1500 | Frais retard : 3850 | Montant payé : 0",
+          "author": "evinne"
+        },
+        {
           "date": "2026-07-02",
           "type": "GENERIC_COMMENT",
           "content": "Appel (Sortant) [Recouvrement] : demain pour le remboursement",
@@ -2151,6 +2136,12 @@
       "nb_tx_historique": 1.0,
       "comments": [
         {
+          "date": "2026-07-06",
+          "type": "COURIER",
+          "content": "Date affichée : 2026-07-06 | Commune : Marcory | Lieu : Sicogi, tiacoh | Montant total : 41200 | Avance : 35850 | Frais transaction : 1500 | Frais retard : 3850 | Montant payé : 0",
+          "author": "evinne"
+        },
+        {
           "date": "2026-07-02",
           "type": "GENERIC_COMMENT",
           "content": "Appel (Sortant) [Recouvrement] : elle dit pouvoir payer que le lundi",
@@ -2194,6 +2185,12 @@
       "decharge_url": null,
       "nb_tx_historique": 19.0,
       "comments": [
+        {
+          "date": "2026-07-06",
+          "type": "COURIER",
+          "content": "Date affichée : 2026-07-06 | Montant total : 784000 | Avance : 700000 | Frais transaction : 35000 | Frais retard : 49000 | Montant payé : 0",
+          "author": "evinne"
+        },
         {
           "date": "2026-07-02",
           "type": "GENERIC_COMMENT",
@@ -2257,6 +2254,12 @@
       "nb_tx_historique": 19.0,
       "comments": [
         {
+          "date": "2026-07-06",
+          "type": "COURIER",
+          "content": "Date affichée : 2026-07-06 | Commune : Grand Bassam | Lieu : Koffi bilé | Montant total : 294800 | Avance : 600000 | Frais transaction : 30000 | Frais retard : 30800 | Montant payé : 366000",
+          "author": "evinne"
+        },
+        {
           "date": "2026-07-02",
           "type": "GENERIC_COMMENT",
           "content": "Appel (Sortant) [Recouvrement] : ,il fait le point et il me reviens",
@@ -2301,6 +2304,12 @@
       "nb_tx_historique": 26.0,
       "comments": [
         {
+          "date": "2026-07-06",
+          "type": "COURIER",
+          "content": "Date affichée : 2026-07-06 | Commune : Cocody | Lieu : 2 plateaux sococé colombie, derrière foyer des jeunes, en face du groupe scolaire les oliviers | Montant total : 134700 | Avance : 149700 | Frais transaction : 4500 | Frais retard : 10500 | Montant payé : 30000",
+          "author": "evinne"
+        },
+        {
           "date": "2026-07-02",
           "type": "GENERIC_COMMENT",
           "content": "Appel (Sortant) [Recouvrement] : je vais faire dans la semaine",
@@ -2338,6 +2347,12 @@
       "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/726c6f7c03c6622b278a44883ebf380f.jpg",
       "nb_tx_historique": 8.0,
       "comments": [
+        {
+          "date": "2026-07-06",
+          "type": "COURIER",
+          "content": "Date affichée : 2026-07-06 | Commune : Grand Bassam | Lieu : Cinéma congo | Montant total : 90000 | Avance : 80000 | Frais transaction : 3000 | Frais retard : 7000 | Montant payé : 0",
+          "author": "evinne"
+        },
         {
           "date": "2026-07-02",
           "type": "GENERIC_COMMENT",
@@ -2383,6 +2398,12 @@
       "nb_tx_historique": 7.0,
       "comments": [
         {
+          "date": "2026-07-06",
+          "type": "COURIER",
+          "content": "Date affichée : 2026-07-06 | Commune : Port-Bouët | Lieu : Port Bouet centre , cité vanou | Montant total : 90000 | Avance : 80000 | Frais transaction : 3000 | Frais retard : 7000 | Montant payé : 0",
+          "author": "evinne"
+        },
+        {
           "date": "2026-07-02",
           "type": "GENERIC_COMMENT",
           "content": "Appel (Sortant) [Recouvrement] : aucune repinse",
@@ -2427,6 +2448,12 @@
       "nb_tx_historique": 2.0,
       "comments": [
         {
+          "date": "2026-07-06",
+          "type": "COURIER",
+          "content": "Date affichée : 2026-07-06 | Commune : Yopougon | Lieu : Sicogi chicago | Montant total : 55000 | Avance : 50000 | Frais transaction : 1500 | Frais retard : 3500 | Montant payé : 0",
+          "author": "evinne"
+        },
+        {
           "date": "2026-07-02",
           "type": "GENERIC_COMMENT",
           "content": "Appel (Sortant) [Recouvrement] :  elle fera son paiement demain car elle est deja rentrer a la maison et a oublie de mettre l'argent sur son compte wave",
@@ -2462,14 +2489,20 @@
       "maturity_date": "2026-06-27",
       "jours_retard": 9.0,
       "statut": "ASSIGNED_TO_RECOVERY",
-      "montant_paye": 71000.0,
-      "montant_restant": 951003.0,
+      "montant_paye": 75000.0,
+      "montant_restant": 947003.0,
       "latitude": 5.3225154,
       "longitude": -4.0660976,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/5a425b39581f8823698724ce72645bda.jpg",
       "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/ad259851f6fbe8e97314777a26bceaad.jpg",
       "nb_tx_historique": 2.0,
       "comments": [
+        {
+          "date": "2026-07-06",
+          "type": "COURIER",
+          "content": "Date affichée : 2026-07-06 | Commune : Yopougon | Lieu : Petit toit rouge | Montant total : 11150 | Avance : 76000 | Frais transaction : 3000 | Frais retard : 3150 | Montant payé : 71000",
+          "author": "evinne"
+        },
         {
           "date": "2026-07-02",
           "type": "GENERIC_COMMENT",
@@ -2514,6 +2547,12 @@
       "decharge_url": null,
       "nb_tx_historique": 18.0,
       "comments": [
+        {
+          "date": "2026-07-06",
+          "type": "COURIER",
+          "content": "Date affichée : 2026-07-06 | Commune : Songon | Lieu : Bimbresso | Montant total : 723450 | Avance : 650000 | Frais transaction : 32500 | Frais retard : 40950 | Montant payé : 0",
+          "author": "evinne"
+        },
         {
           "date": "2026-07-03",
           "type": "GENERIC_COMMENT",
@@ -2627,6 +2666,12 @@
           "author": "evinne"
         },
         {
+          "date": "2026-07-06",
+          "type": "COURIER",
+          "content": "Date affichée : 2026-07-06 | Commune : Abobo | Lieu : Abobo ndotre carrefour celeste près de l'école agoueto | Montant total : 79300 | Avance : 70000 | Frais transaction : 3000 | Frais retard : 6300 | Montant payé : 0",
+          "author": "evinne"
+        },
+        {
           "date": "2026-07-02",
           "type": "GENERIC_COMMENT",
           "content": "Appel (Sortant) [Recouvrement] : Injoignable",
@@ -2676,6 +2721,12 @@
       "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/aa7d9399bb90b964c88fd521a71535cc.jpg",
       "nb_tx_historique": 2.0,
       "comments": [
+        {
+          "date": "2026-07-06",
+          "type": "COURIER",
+          "content": "Date affichée : 2026-07-06 | Commune : Abobo | Lieu : Abobo ndotre carrefour marché gouro 2 | Montant total : 54650 | Avance : 50000 | Frais transaction : 1500 | Frais retard : 3150 | Montant payé : 0",
+          "author": "evinne"
+        },
         {
           "date": "2026-07-06",
           "type": "COURIER",

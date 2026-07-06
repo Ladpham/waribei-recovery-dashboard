@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-06T18:04:43.898931+00:00",
+  "updated_at": "2026-07-06T20:46:27.969464+00:00",
   "data": [
     {
       "tx_id": 19732.0,
@@ -366,8 +366,8 @@
       "statut": "ASSIGNED_TO_RECOVERY",
       "montant_paye": 73000.0,
       "montant_restant": 7349.0,
-      "latitude": 5.3454117,
-      "longitude": -4.1004464,
+      "latitude": 5.3198146,
+      "longitude": -4.1008096,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/bf942b9c72ae2de981f718a177b9a286.jpg",
       "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/133a0be7a3d6afec6ed3814f4cb11098.jpg",
       "nb_tx_historique": 6.0,
@@ -1102,56 +1102,6 @@
       "promise_nb_past": 0.0
     },
     {
-      "tx_id": 20111.0,
-      "merchant_id": 1177.0,
-      "merchant_name": "LAGO ALFRED VINCENT JUNIOR",
-      "district": null,
-      "phone": "+2250153967790",
-      "supplier_name": "Dépot N'zi",
-      "montant": 500000.0,
-      "revenue": 25000.0,
-      "date_achat": "2026-06-06",
-      "maturity_date": "2026-06-20",
-      "jours_retard": 16.0,
-      "statut": "ASSIGNED_TO_RECOVERY",
-      "montant_paye": 160000.0,
-      "montant_restant": 340000.0,
-      "latitude": 5.3452057,
-      "longitude": -4.0756031,
-      "photo_url": null,
-      "decharge_url": null,
-      "nb_tx_historique": 26.0,
-      "comments": [
-        {
-          "date": "2026-06-30",
-          "type": "COURIER",
-          "content": "Date affichée : 2026-06-30 | Commune : Yopougon | Lieu : Yopougon sicogi derrière la cathédrale saint André | Montant total : 454400 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 29400 | Montant payé : 100000",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-26",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : aucune reponse",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-22",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : aucune reponse",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-17",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : jai dit a votre collegue la que je veux 2 semaines a cause de la penurie",
-          "author": "evinne"
-        }
-      ],
-      "promises": [],
-      "promise_nb_respected": 0.0,
-      "promise_nb_past": 0.0
-    },
-    {
       "tx_id": 20125.0,
       "merchant_id": 1190.0,
       "merchant_name": "TOME ANGE MARIE-JULIANA",
@@ -1279,6 +1229,56 @@
       ],
       "promise_nb_respected": 0.0,
       "promise_nb_past": 2.0
+    },
+    {
+      "tx_id": 20111.0,
+      "merchant_id": 1177.0,
+      "merchant_name": "LAGO ALFRED VINCENT JUNIOR",
+      "district": null,
+      "phone": "+2250153967790",
+      "supplier_name": "Dépot N'zi",
+      "montant": 500000.0,
+      "revenue": 25000.0,
+      "date_achat": "2026-06-06",
+      "maturity_date": "2026-06-20",
+      "jours_retard": 16.0,
+      "statut": "ASSIGNED_TO_RECOVERY",
+      "montant_paye": 160000.0,
+      "montant_restant": 340000.0,
+      "latitude": 5.3452057,
+      "longitude": -4.0756031,
+      "photo_url": null,
+      "decharge_url": null,
+      "nb_tx_historique": 26.0,
+      "comments": [
+        {
+          "date": "2026-06-30",
+          "type": "COURIER",
+          "content": "Date affichée : 2026-06-30 | Commune : Yopougon | Lieu : Yopougon sicogi derrière la cathédrale saint André | Montant total : 454400 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 29400 | Montant payé : 100000",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-06-26",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : aucune reponse",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-06-22",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : aucune reponse",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-06-17",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : jai dit a votre collegue la que je veux 2 semaines a cause de la penurie",
+          "author": "evinne"
+        }
+      ],
+      "promises": [],
+      "promise_nb_respected": 0.0,
+      "promise_nb_past": 0.0
     },
     {
       "tx_id": 20510.0,
@@ -1929,8 +1929,8 @@
       "statut": "ASSIGNED_TO_RECOVERY",
       "montant_paye": 200000.0,
       "montant_restant": 53300.0,
-      "latitude": 5.3200359,
-      "longitude": -4.0479294,
+      "latitude": 5.3222215,
+      "longitude": -4.0512536,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/5bb9293c2994302a0cece4f33597d466.jpg",
       "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/1f676df4c6b04c0638a5c34d063398ab.jpg",
       "nb_tx_historique": 6.0,
@@ -2320,56 +2320,6 @@
           "type": "GENERIC_COMMENT",
           "content": "Appel (Sortant) [Recouvrement] : je vais faire dans la semaine",
           "author": "evinne"
-        }
-      ],
-      "promises": [],
-      "promise_nb_respected": 0.0,
-      "promise_nb_past": 0.0
-    },
-    {
-      "tx_id": 20861.0,
-      "merchant_id": 2365.0,
-      "merchant_name": "YAO ADJOA SOLANGE",
-      "district": "Grand Bassam",
-      "phone": "+2250748744781",
-      "supplier_name": "GRACE DISTRIBUTION Grd BASSAM",
-      "montant": 86200.0,
-      "revenue": 3000.0,
-      "date_achat": "2026-06-19",
-      "maturity_date": "2026-06-26",
-      "jours_retard": 10.0,
-      "statut": "ASSIGNED_TO_RECOVERY",
-      "montant_paye": 0.0,
-      "montant_restant": 86200.0,
-      "latitude": 5.2110877,
-      "longitude": -3.7391576,
-      "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/e10cc1a3cc0c42d929c530e6f17dd32a.jpg",
-      "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/726c6f7c03c6622b278a44883ebf380f.jpg",
-      "nb_tx_historique": 8.0,
-      "comments": [
-        {
-          "date": "2026-07-06",
-          "type": "COURIER",
-          "content": "Date affichée : 2026-07-06 | Commune : Grand Bassam | Lieu : Cinéma congo | Montant total : 90000 | Avance : 80000 | Frais transaction : 3000 | Frais retard : 7000 | Montant payé : 0",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-07-02",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : aucune reponse",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-30",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : aucune reponse",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-26",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : aucune reponse",
-          "author": "KoneMasse"
         }
       ],
       "promises": [],

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-07T06:46:35.545727+00:00",
+  "updated_at": "2026-07-07T10:18:49.185384+00:00",
   "data": [
     {
       "tx_id": 19741.0,
@@ -940,10 +940,10 @@
       "maturity_date": "2026-06-18",
       "jours_retard": 19.0,
       "statut": "ASSIGNED_TO_RECOVERY",
-      "montant_paye": 0.0,
-      "montant_restant": 75915.0,
-      "latitude": 5.2861233,
-      "longitude": -3.9548887,
+      "montant_paye": 40000.0,
+      "montant_restant": 35915.0,
+      "latitude": 5.2854914,
+      "longitude": -3.9671617,
       "photo_url": null,
       "decharge_url": null,
       "nb_tx_historique": 35.0,
@@ -1113,68 +1113,6 @@
       "promise_nb_past": 2.0
     },
     {
-      "tx_id": 20125.0,
-      "merchant_id": 1190.0,
-      "merchant_name": "TOME ANGE MARIE-JULIANA",
-      "district": null,
-      "phone": "+2250787052538",
-      "supplier_name": "Depot Florent Koumassi",
-      "montant": 500000.0,
-      "revenue": 25000.0,
-      "date_achat": "2026-06-06",
-      "maturity_date": "2026-06-20",
-      "jours_retard": 17.0,
-      "statut": "ASSIGNED_TO_RECOVERY",
-      "montant_paye": 0.0,
-      "montant_restant": 500000.0,
-      "latitude": 5.3020876,
-      "longitude": -3.9563141,
-      "photo_url": null,
-      "decharge_url": null,
-      "nb_tx_historique": 20.0,
-      "comments": [
-        {
-          "date": "2026-07-06",
-          "type": "GENERIC_COMMENT",
-          "content": "Message (Entrant) [Recouvrement] : Bonsoir Madame nous avons les plaintes et un courier chacune pour votre structure le commissaire dit vous devez signer et mettre votre cachet donc je voudrais savoir si nous pouvons passer au siège demain je peux avoir la situation géographique de votre siège",
-          "author": "KoneMasse"
-        },
-        {
-          "date": "2026-06-30",
-          "type": "COURIER",
-          "content": "Date affichée : 2026-06-30 | Commune : Koumassi | Lieu : Koumassi quartier divo | Montant total : 560000 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 35000 | Montant payé : 0",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-26",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : dossier florent",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-23",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] :  dossier florent",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-22",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : dossier plorent",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-18",
-          "type": "COURIER",
-          "content": "Date affichée : 2026-06-18 | Commune : Koumassi | Lieu : Koumassi quartier divo | Montant total : 525000 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 0 | Montant payé : 0",
-          "author": "KoneMasse"
-        }
-      ],
-      "promises": [],
-      "promise_nb_respected": 0.0,
-      "promise_nb_past": 0.0
-    },
-    {
       "tx_id": 20126.0,
       "merchant_id": 1191.0,
       "merchant_name": "OUOYA GLOUHIEU DONA HILARY",
@@ -1237,12 +1175,74 @@
       "promise_nb_past": 0.0
     },
     {
+      "tx_id": 20125.0,
+      "merchant_id": 1190.0,
+      "merchant_name": "TOME ANGE MARIE-JULIANA",
+      "district": null,
+      "phone": "+2250787052538",
+      "supplier_name": "Depot Florent Koumassi",
+      "montant": 500000.0,
+      "revenue": 25000.0,
+      "date_achat": "2026-06-06",
+      "maturity_date": "2026-06-20",
+      "jours_retard": 17.0,
+      "statut": "ASSIGNED_TO_RECOVERY",
+      "montant_paye": 0.0,
+      "montant_restant": 500000.0,
+      "latitude": 5.3020876,
+      "longitude": -3.9563141,
+      "photo_url": null,
+      "decharge_url": null,
+      "nb_tx_historique": 20.0,
+      "comments": [
+        {
+          "date": "2026-07-06",
+          "type": "GENERIC_COMMENT",
+          "content": "Message (Entrant) [Recouvrement] : Bonsoir Madame nous avons les plaintes et un courier chacune pour votre structure le commissaire dit vous devez signer et mettre votre cachet donc je voudrais savoir si nous pouvons passer au siège demain je peux avoir la situation géographique de votre siège",
+          "author": "KoneMasse"
+        },
+        {
+          "date": "2026-06-30",
+          "type": "COURIER",
+          "content": "Date affichée : 2026-06-30 | Commune : Koumassi | Lieu : Koumassi quartier divo | Montant total : 560000 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 35000 | Montant payé : 0",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-06-26",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : dossier florent",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-06-23",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] :  dossier florent",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-06-22",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : dossier plorent",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-06-18",
+          "type": "COURIER",
+          "content": "Date affichée : 2026-06-18 | Commune : Koumassi | Lieu : Koumassi quartier divo | Montant total : 525000 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 0 | Montant payé : 0",
+          "author": "KoneMasse"
+        }
+      ],
+      "promises": [],
+      "promise_nb_respected": 0.0,
+      "promise_nb_past": 0.0
+    },
+    {
       "tx_id": 20510.0,
       "merchant_id": 1866.0,
       "merchant_name": "YANKOU CHRISTIANE EVELYNE VALERIE",
       "district": null,
       "phone": "+2250709200670",
-      "supplier_name": "Sd Gonty Adjamé - liberté ",
+      "supplier_name": "Sd Gonty Adjamé - Liberté",
       "montant": 75600.0,
       "revenue": 1500.0,
       "date_achat": "2026-06-13",
@@ -1673,8 +1673,8 @@
       "statut": "ASSIGNED_TO_RECOVERY",
       "montant_paye": 145000.0,
       "montant_restant": 155000.0,
-      "latitude": 5.4124229,
-      "longitude": -3.99452,
+      "latitude": 5.4118189,
+      "longitude": -3.9944486,
       "photo_url": null,
       "decharge_url": null,
       "nb_tx_historique": 59.0,
@@ -2955,6 +2955,56 @@
       "promise_nb_past": 0.0
     },
     {
+      "tx_id": 21088.0,
+      "merchant_id": 1759.0,
+      "merchant_name": "BOUTOU BOUGLOHIKE ESTER",
+      "district": null,
+      "phone": "+2250709379799",
+      "supplier_name": "La Cave du Marché",
+      "montant": 60000.0,
+      "revenue": 1500.0,
+      "date_achat": "2026-06-22",
+      "maturity_date": "2026-06-29",
+      "jours_retard": 8.0,
+      "statut": "NEGOTIATION",
+      "montant_paye": 52300.0,
+      "montant_restant": 7700.0,
+      "latitude": 5.3498853,
+      "longitude": -3.8779184,
+      "photo_url": null,
+      "decharge_url": null,
+      "nb_tx_historique": 18.0,
+      "comments": [
+        {
+          "date": "2026-07-06",
+          "type": "COURIER",
+          "content": "Date affichée : 2026-07-06 | Commune : Bingerville | Lieu : Village adjamé Bingerville | Montant total : 1650 | Avance : 50000 | Frais transaction : 1500 | Frais retard : 2450 | Montant payé : 52300",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-07-02",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : tout a kheure",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-07-01",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : je vais faire un versement aujourdhui",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-06-30",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : aucune reponse",
+          "author": "evinne"
+        }
+      ],
+      "promises": [],
+      "promise_nb_respected": 0.0,
+      "promise_nb_past": 0.0
+    },
+    {
       "tx_id": 20637.0,
       "merchant_id": 2745.0,
       "merchant_name": "kokou Ayassou",
@@ -3003,56 +3053,6 @@
           "date": "2026-06-23",
           "type": "GENERIC_COMMENT",
           "content": "Appel (Sortant) [Recouvrement] : demain je vais faire car suis unpeu malade 2 jours la",
-          "author": "evinne"
-        }
-      ],
-      "promises": [],
-      "promise_nb_respected": 0.0,
-      "promise_nb_past": 0.0
-    },
-    {
-      "tx_id": 21088.0,
-      "merchant_id": 1759.0,
-      "merchant_name": "BOUTOU BOUGLOHIKE ESTER",
-      "district": null,
-      "phone": "+2250709379799",
-      "supplier_name": "La Cave du Marché",
-      "montant": 60000.0,
-      "revenue": 1500.0,
-      "date_achat": "2026-06-22",
-      "maturity_date": "2026-06-29",
-      "jours_retard": 8.0,
-      "statut": "NEGOTIATION",
-      "montant_paye": 52300.0,
-      "montant_restant": 7700.0,
-      "latitude": 5.3498853,
-      "longitude": -3.8779184,
-      "photo_url": null,
-      "decharge_url": null,
-      "nb_tx_historique": 18.0,
-      "comments": [
-        {
-          "date": "2026-07-06",
-          "type": "COURIER",
-          "content": "Date affichée : 2026-07-06 | Commune : Bingerville | Lieu : Village adjamé Bingerville | Montant total : 1650 | Avance : 50000 | Frais transaction : 1500 | Frais retard : 2450 | Montant payé : 52300",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-07-02",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : tout a kheure",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-07-01",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : je vais faire un versement aujourdhui",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-30",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : aucune reponse",
           "author": "evinne"
         }
       ],

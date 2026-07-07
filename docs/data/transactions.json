@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-07T18:54:24.971144+00:00",
+  "updated_at": "2026-07-07T20:44:50.183301+00:00",
   "data": [
     {
       "tx_id": 19741.0,
@@ -2882,6 +2882,12 @@
       "nb_tx_historique": 40.0,
       "comments": [
         {
+          "date": "2026-07-07",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : je vais faire cette semaine jai parler a misss kone",
+          "author": "evinne"
+        },
+        {
           "date": "2026-07-06",
           "type": "GENERIC_COMMENT",
           "content": "Appel (Sortant) : il soldera demain",
@@ -2944,6 +2950,12 @@
       "nb_tx_historique": 18.0,
       "comments": [
         {
+          "date": "2026-07-07",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : Injoignable",
+          "author": "evinne"
+        },
+        {
           "date": "2026-07-06",
           "type": "COURIER",
           "content": "Date affichée : 2026-07-06 | Commune : Bingerville | Lieu : Village adjamé Bingerville | Montant total : 1650 | Avance : 50000 | Frais transaction : 1500 | Frais retard : 2450 | Montant payé : 52300",
@@ -2993,6 +3005,12 @@
       "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/50ba14c25a6420c478a24dea18cd1090.jpg",
       "nb_tx_historique": 4.0,
       "comments": [
+        {
+          "date": "2026-07-07",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : Injoignable",
+          "author": "evinne"
+        },
         {
           "date": "2026-07-06",
           "type": "COURIER",

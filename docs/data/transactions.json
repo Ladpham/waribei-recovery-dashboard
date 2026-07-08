@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-08T17:19:33.626089+00:00",
+  "updated_at": "2026-07-08T19:07:27.270874+00:00",
   "data": [
     {
       "tx_id": 19768.0,
@@ -684,8 +684,8 @@
       "statut": "ASSIGNED_TO_RECOVERY",
       "montant_paye": 470600.0,
       "montant_restant": 68900.0,
-      "latitude": 5.3076405,
-      "longitude": -3.9498904,
+      "latitude": 5.3049958,
+      "longitude": -3.9857385,
       "photo_url": null,
       "decharge_url": null,
       "nb_tx_historique": 11.0,
@@ -1685,8 +1685,8 @@
       "statut": "ASSIGNED_TO_RECOVERY",
       "montant_paye": 453450.0,
       "montant_restant": 147550.0,
-      "latitude": 5.3144953,
-      "longitude": -4.0861533,
+      "latitude": 5.3145062,
+      "longitude": -4.0861443,
       "photo_url": null,
       "decharge_url": null,
       "nb_tx_historique": 26.0,
@@ -2209,6 +2209,12 @@
       "comments": [
         {
           "date": "2026-07-08",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : il a du faire un réaménagement de son espace car a cause de l'indépendance son espace a été touche par le réaménagement .il pourra commencer a rembourser qu'a partir de lundi",
+          "author": "KoneMasse"
+        },
+        {
+          "date": "2026-07-08",
           "type": "COURIER",
           "content": "Date affichée : 2026-07-08 | Commune : Yopougon | Lieu : Beago deuxième dodane | Montant total : 56050 | Avance : 50000 | Frais transaction : 1500 | Frais retard : 4550 | Montant payé : 0",
           "author": "KoneMasse"
@@ -2686,6 +2692,12 @@
       "nb_tx_historique": 8.0,
       "comments": [
         {
+          "date": "2026-07-08",
+          "type": "COURIER",
+          "content": "Date affichée : 2026-07-08 | Commune : Yopougon | Lieu : Tout Rouge | Montant total : 110700 | Avance : 100000 | Frais transaction : 3000 | Frais retard : 7700 | Montant payé : 0",
+          "author": "KoneMasse"
+        },
+        {
           "date": "2026-07-06",
           "type": "COURIER",
           "content": "Date affichée : 2026-07-06 | Commune : Yopougon | Lieu : Tout Rouge | Montant total : 109300 | Avance : 100000 | Frais transaction : 3000 | Frais retard : 6300 | Montant payé : 0",
@@ -2933,6 +2945,12 @@
       "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/a300b94e82ecd25d081b79122640f673.jpg",
       "nb_tx_historique": 8.0,
       "comments": [
+        {
+          "date": "2026-07-08",
+          "type": "COURIER",
+          "content": "Date affichée : 2026-07-08 | Commune : Yopougon | Lieu : Tout Rouge | Montant total : 110000 | Avance : 100000 | Frais transaction : 3000 | Frais retard : 7000 | Montant payé : 0",
+          "author": "KoneMasse"
+        },
         {
           "date": "2026-07-06",
           "type": "COURIER",

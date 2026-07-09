@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-09T13:43:00.729361+00:00",
+  "updated_at": "2026-07-09T16:22:18.309407+00:00",
   "data": [
     {
       "tx_id": 19853.0,
@@ -1549,8 +1549,8 @@
       "statut": "ASSIGNED_TO_RECOVERY",
       "montant_paye": 453450.0,
       "montant_restant": 147550.0,
-      "latitude": 5.3163245,
-      "longitude": -4.086833,
+      "latitude": 5.3140827,
+      "longitude": -4.0862184,
       "photo_url": null,
       "decharge_url": null,
       "nb_tx_historique": 26.0,
@@ -2487,12 +2487,18 @@
       "statut": "ASSIGNED_TO_RECOVERY",
       "montant_paye": 0.0,
       "montant_restant": 650000.0,
-      "latitude": 5.3430582,
-      "longitude": -4.0214317,
+      "latitude": 5.3404246,
+      "longitude": -4.1487293,
       "photo_url": null,
       "decharge_url": null,
       "nb_tx_historique": 18.0,
       "comments": [
+        {
+          "date": "2026-07-09",
+          "type": "COURIER",
+          "content": "Date affichée : 2026-07-09 | Commune : Songon | Lieu : Bimbresso | Montant total : 737100 | Avance : 650000 | Frais transaction : 32500 | Frais retard : 54600 | Montant payé : 0",
+          "author": "KoneMasse"
+        },
         {
           "date": "2026-07-08",
           "type": "COURIER",

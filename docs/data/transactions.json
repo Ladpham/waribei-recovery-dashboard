@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-09T16:22:18.309407+00:00",
+  "updated_at": "2026-07-09T18:45:48.279933+00:00",
   "data": [
     {
       "tx_id": 19853.0,
@@ -1673,8 +1673,8 @@
       "statut": "ASSIGNED_TO_RECOVERY",
       "montant_paye": 145000.0,
       "montant_restant": 155000.0,
-      "latitude": 5.4118189,
-      "longitude": -3.9944486,
+      "latitude": 5.4137275,
+      "longitude": -3.9950275,
       "photo_url": null,
       "decharge_url": null,
       "nb_tx_historique": 59.0,
@@ -2331,6 +2331,12 @@
       "decharge_url": null,
       "nb_tx_historique": 26.0,
       "comments": [
+        {
+          "date": "2026-07-09",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : elle dit que son appâtâmes était tombe donc elle ne vendait pas .elle fera un effort pour solder ses deux jours la",
+          "author": "KoneMasse"
+        },
         {
           "date": "2026-07-08",
           "type": "COURIER",
@@ -3119,8 +3125,8 @@
       "statut": "ASSIGNED_TO_RECOVERY",
       "montant_paye": 0.0,
       "montant_restant": 29850.0,
-      "latitude": 5.420625,
-      "longitude": -3.9723499,
+      "latitude": 5.4206313,
+      "longitude": -3.9723524,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/b6dde80ef1e670854dd5fbb57980bd8a.jpg",
       "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/893565b305982551872fbf2f7dcf04e4.jpg",
       "nb_tx_historique": 5.0,
@@ -3169,6 +3175,12 @@
       "decharge_url": null,
       "nb_tx_historique": 11.0,
       "comments": [
+        {
+          "date": "2026-07-09",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : elle a encore redit la même chose qu'hier ,qu'elle le fera ce soir",
+          "author": "KoneMasse"
+        },
         {
           "date": "2026-07-08",
           "type": "COURIER",
@@ -3401,8 +3413,8 @@
       "statut": "NEGOTIATION",
       "montant_paye": 60000.0,
       "montant_restant": 40000.0,
-      "latitude": 5.3222746,
-      "longitude": -4.0508366,
+      "latitude": 5.3222752,
+      "longitude": -4.0508233,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/82b62177b8ed46cb6eb657281b57c3ab.jpg",
       "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/da5d79050036cb24724510ec80a5b498.jpg",
       "nb_tx_historique": 10.0,

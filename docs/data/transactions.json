@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-10T13:03:28.219214+00:00",
+  "updated_at": "2026-07-10T16:14:18.989624+00:00",
   "data": [
     {
       "tx_id": 19937.0,
@@ -146,8 +146,8 @@
       "statut": "ASSIGNED_TO_RECOVERY",
       "montant_paye": 73000.0,
       "montant_restant": 7349.0,
-      "latitude": 5.3198146,
-      "longitude": -4.1008096,
+      "latitude": 5.3194053,
+      "longitude": -4.1005106,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/bf942b9c72ae2de981f718a177b9a286.jpg",
       "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/133a0be7a3d6afec6ed3814f4cb11098.jpg",
       "nb_tx_historique": 6.0,
@@ -470,74 +470,6 @@
           "date": "2026-06-17",
           "type": "GENERIC_COMMENT",
           "content": "Appel (Sortant) [Recouvrement] : aucune reponse",
-          "author": "evinne"
-        }
-      ],
-      "promises": [],
-      "promise_nb_respected": 0.0,
-      "promise_nb_past": 0.0
-    },
-    {
-      "tx_id": 20193.0,
-      "merchant_id": 289.0,
-      "merchant_name": "Akouba Jeanne marie Kouman",
-      "district": null,
-      "phone": "+2250545873061",
-      "supplier_name": "Stephy service distribution Marcory ",
-      "montant": 539500.0,
-      "revenue": 15000.0,
-      "date_achat": "2026-06-08",
-      "maturity_date": "2026-06-15",
-      "jours_retard": 25.0,
-      "statut": "ASSIGNED_TO_RECOVERY",
-      "montant_paye": 495600.0,
-      "montant_restant": 43900.0,
-      "latitude": 5.3049999,
-      "longitude": -3.9857427,
-      "photo_url": null,
-      "decharge_url": null,
-      "nb_tx_historique": 11.0,
-      "comments": [
-        {
-          "date": "2026-07-08",
-          "type": "COURIER",
-          "content": "Date affichée : 2026-07-08 | Montant total : 85300 | Avance : 500000 | Frais transaction : 15000 | Frais retard : 25900 | Montant payé : 455600",
-          "author": "KoneMasse"
-        },
-        {
-          "date": "2026-07-02",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : elle terminera son remboursement cette semaine elle a eu de nombreux soucis il y a eu la pluie ensuite elle est tombe malde",
-          "author": "KoneMasse"
-        },
-        {
-          "date": "2026-06-30",
-          "type": "COURIER",
-          "content": "Date affichée : 2026-06-30 | Montant total : 185900 | Avance : 500000 | Frais transaction : 15000 | Frais retard : 25900 | Montant payé : 355000",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-22",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : aucune reponse",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-19",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : je vais faire un versement",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-17",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : demain ou apres demain",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-08",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel:08-06-2026:14-03:00:05:Allô ? Allô, bonjour. Bonjour monsieur. Madame Agua, Sandrine, comment allez-vous ? Ça va bien. C'est Monsieur Touré de Ouaribé. Oui. C'est quoi le souci avec le paiement ? C'est quoi le souci avec le paiement ? Oui. Je ne comprends pas votre question. Oui, parce que vous connaissez Monsieur Touré bien. Monsieur Touré, oui. D'accord. Et on a établi un échéancier que vous devriez respecter. D'accord. La dernière fois je vous ai même envoyé le lien du paiement via WhatsApp et depuis lors vous n'avez pas réagi. Oui. Donc c'est pourquoi je vous demande c'est quoi le souci avec le paiement. D'accord. D'accord, Madame Sandrine. Madame Sandrine. Oui. J'ai été beaucoup compréhensif sur cette situation. Vous savez ça. Oui. Et hier j'étais dans votre espace. J'ai vu, il y avait de la clientèle, ça consommait de l'argent. Hier c'est moi-même qui étais là-bas. Hier c'est moi-même qui étais là-bas. Vous n'avez pas dit que je suis passé le dimanche, le samedi, pardon. Je suis passé plutôt le samedi. Samedi. Oui. Non, on ne m'a rien dit. D'accord. D'accord. Le samedi, je suis allé faire les premiers, manquer, manquer, manquer. Non, non. La journée d'hier, à treize, moi je suis allé là-bas pour aller voir. D'accord. La boisson que j'ai mis là-bas, l'argent qui doit ressortir, le capital qui doit ressortir n'est pas ressorti et puis on me dit qu'il manque encore. Ok, je vais. Il faut respecter l'échéancier qu'on établit. Je vais vous envoyer le lien, il faut faire le paiement. Et à partir d'aujourd'hui là, il faut solder, il ne reste plus assez. Mais aujourd'hui là, je suis en train de vous expliquer un truc. Je dis aujourd'hui, moi je ne refuse pas de payer. Mais vous aussi comprenez, aujourd'hui là, je n'ai pas l'argent. Je veux que vous compreniez une chose. Non, je suis en train de vous expliquer. Non, non, écoutez-moi. Je n'ai pas refusé de payer. Ecoutez-moi. Moi je ne dois pas. Je n'ai jamais pris l'arbre de Waribe et puis vous dites que je ne vais pas payer. Je vous ai toujours payé. Il y a une situation qui est arrivée. Et puis je lui ai dit que je vais payer 10 000 par semaine. Mais il y a un truc qui est arrivé. C'est en train de chercher l'argent pour vous payer. Je n'ai jamais dit que je ne paye pas. Moi, mes vêtements, mes bébés. Votre échéancier de paiement, vous ne l'avez pas fait. Oui. C'est ça. Je n'ai jamais dit que je ne paye pas. Vous ne pouvez pas me dire que vous allez m'envoyer un lien aujourd'hui. Mais il y a la clientèle. Encore des boissons, 5 500, ils ont payé. Boissons qui étaient près de 30 000, ils ont fait manquer. Et puis il y a 5 500. Madame, je n'ai pas refusé de payer. On va vous envoyer le lien. Si le paiement n'est pas faible, la prochaine fois que je vais arriver là-bas, ce ne sera plus pour établir l'échéancier ni pour négocier. Donc, je vais poser une action. Mais quand tu parles comme ça, tu parles comme ça à ta clientèle. C'est comme ça. Une clientèle qui a eu des problèmes. Tu n'as jamais refusé de payer. La deuxième fois que je suis arrivé, ce n'est pas comme ça que j'ai parlé. Mais quand tu as... C'est parce que je n'ai pas reçu de votre engagement. Non, non. Ce n'est pas un non-reçu. Le lien qu'ils m'ont envoyé là. Le truc qu'ils m'ont envoyé là. Ils m'ont dit jusqu'au 14. Moi, je sentais que c'était là. Mais s'il n'a jamais reçu ça. Il vous a dit jusqu'au 14. Attends. Laisse-moi te parler d'abord. Ce n'est pas après le truc au 14. Quand tu m'envoies le lien, est-ce que je ne te paye pas? Quand tu m'envoies le lien, je ne te paye pas. Je vous envoie le lien, vous n'avez pas payé. C'est pourquoi je vous appelle. Non, non. Quand tu m'envoies le lien, est-ce que je ne te paye pas? Vous ne payez pas. Quand tu m'envoies le lien, je ne te paye pas. C'est ça, ils sont détestés. Il faut me comprendre aussi. Je ne peux pas vous comprendre. Je dis qu'ils sont détestés. Pourquoi il n'y a plus ça? Tu ne peux pas me comprendre. Je ne peux pas vous comprendre. Ça fait combien de mois maintenant pour une créance qui est censée durer une semaine? Mais une créance qui est censée durer une semaine. Est-ce que toi, tu arrives à me comprendre? Ils sont détestés. Je ne refuse pas de payer. Je le connais. Envoie-lui le lien de son paiement. Je n'ai pas refusé de payer. Aujourd'hui, je n'ai pas l'argent. Je dis qu'ils sont détestés. J'ai compris.:Verification transaction",
           "author": "evinne"
         }
       ],
@@ -898,61 +830,55 @@
       "promise_nb_past": 1.0
     },
     {
-      "tx_id": 20126.0,
-      "merchant_id": 1191.0,
-      "merchant_name": "OUOYA GLOUHIEU DONA HILARY",
+      "tx_id": 20111.0,
+      "merchant_id": 1177.0,
+      "merchant_name": "LAGO ALFRED VINCENT JUNIOR",
       "district": null,
-      "phone": "+2250787822068",
-      "supplier_name": "Depot Florent Koumassi",
+      "phone": "+2250153967790",
+      "supplier_name": "Dépot N'zi",
       "montant": 500000.0,
       "revenue": 25000.0,
       "date_achat": "2026-06-06",
       "maturity_date": "2026-06-20",
       "jours_retard": 20.0,
       "statut": "ASSIGNED_TO_RECOVERY",
-      "montant_paye": 0.0,
-      "montant_restant": 500000.0,
-      "latitude": 5.3020399,
-      "longitude": -3.9563071,
+      "montant_paye": 160000.0,
+      "montant_restant": 340000.0,
+      "latitude": 5.3452057,
+      "longitude": -4.0756031,
       "photo_url": null,
       "decharge_url": null,
-      "nb_tx_historique": 20.0,
+      "nb_tx_historique": 26.0,
       "comments": [
         {
-          "date": "2026-07-06",
-          "type": "GENERIC_COMMENT",
-          "content": "Message (Entrant) [Recouvrement] : Bonsoir Madame nous avons les plaintes et un courier chacune pour votre structure le commissaire dit vous devez signer et mettre votre cachet donc je voudrais savoir si nous pouvons passer au siège demain je peux avoir la situation géographique de votre siège",
+          "date": "2026-07-08",
+          "type": "COURIER",
+          "content": "Date affichée : 2026-07-08 | Commune : Yopougon | Lieu : Yopougon sicogi derrière la cathédrale saint André | Montant total : 405600 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 40600 | Montant payé : 160000",
           "author": "KoneMasse"
         },
         {
           "date": "2026-06-30",
           "type": "COURIER",
-          "content": "Date affichée : 2026-06-30 | Commune : Koumassi | Lieu : Koumassi grand marché | Montant total : 560000 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 35000 | Montant payé : 0",
+          "content": "Date affichée : 2026-06-30 | Commune : Yopougon | Lieu : Yopougon sicogi derrière la cathédrale saint André | Montant total : 454400 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 29400 | Montant payé : 100000",
           "author": "evinne"
         },
         {
           "date": "2026-06-26",
           "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : dossier florent",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-23",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : dossier florent",
+          "content": "Appel (Sortant) [Recouvrement] : aucune reponse",
           "author": "evinne"
         },
         {
           "date": "2026-06-22",
           "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : dossier depot florent",
+          "content": "Appel (Sortant) [Recouvrement] : aucune reponse",
           "author": "evinne"
         },
         {
-          "date": "2026-06-18",
-          "type": "COURIER",
-          "content": "Date affichée : 2026-06-18 | Commune : Koumassi | Lieu : Koumassi grand marché | Montant total : 525000 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 0 | Montant payé : 0",
-          "author": "KoneMasse"
+          "date": "2026-06-17",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : jai dit a votre collegue la que je veux 2 semaines a cause de la penurie",
+          "author": "evinne"
         }
       ],
       "promises": [],
@@ -1089,55 +1015,61 @@
       "promise_nb_past": 0.0
     },
     {
-      "tx_id": 20111.0,
-      "merchant_id": 1177.0,
-      "merchant_name": "LAGO ALFRED VINCENT JUNIOR",
+      "tx_id": 20126.0,
+      "merchant_id": 1191.0,
+      "merchant_name": "OUOYA GLOUHIEU DONA HILARY",
       "district": null,
-      "phone": "+2250153967790",
-      "supplier_name": "Dépot N'zi",
+      "phone": "+2250787822068",
+      "supplier_name": "Depot Florent Koumassi",
       "montant": 500000.0,
       "revenue": 25000.0,
       "date_achat": "2026-06-06",
       "maturity_date": "2026-06-20",
       "jours_retard": 20.0,
       "statut": "ASSIGNED_TO_RECOVERY",
-      "montant_paye": 160000.0,
-      "montant_restant": 340000.0,
-      "latitude": 5.3452057,
-      "longitude": -4.0756031,
+      "montant_paye": 0.0,
+      "montant_restant": 500000.0,
+      "latitude": 5.3020399,
+      "longitude": -3.9563071,
       "photo_url": null,
       "decharge_url": null,
-      "nb_tx_historique": 26.0,
+      "nb_tx_historique": 20.0,
       "comments": [
         {
-          "date": "2026-07-08",
-          "type": "COURIER",
-          "content": "Date affichée : 2026-07-08 | Commune : Yopougon | Lieu : Yopougon sicogi derrière la cathédrale saint André | Montant total : 405600 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 40600 | Montant payé : 160000",
+          "date": "2026-07-06",
+          "type": "GENERIC_COMMENT",
+          "content": "Message (Entrant) [Recouvrement] : Bonsoir Madame nous avons les plaintes et un courier chacune pour votre structure le commissaire dit vous devez signer et mettre votre cachet donc je voudrais savoir si nous pouvons passer au siège demain je peux avoir la situation géographique de votre siège",
           "author": "KoneMasse"
         },
         {
           "date": "2026-06-30",
           "type": "COURIER",
-          "content": "Date affichée : 2026-06-30 | Commune : Yopougon | Lieu : Yopougon sicogi derrière la cathédrale saint André | Montant total : 454400 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 29400 | Montant payé : 100000",
+          "content": "Date affichée : 2026-06-30 | Commune : Koumassi | Lieu : Koumassi grand marché | Montant total : 560000 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 35000 | Montant payé : 0",
           "author": "evinne"
         },
         {
           "date": "2026-06-26",
           "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : aucune reponse",
+          "content": "Appel (Sortant) [Recouvrement] : dossier florent",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-06-23",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : dossier florent",
           "author": "evinne"
         },
         {
           "date": "2026-06-22",
           "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : aucune reponse",
+          "content": "Appel (Sortant) [Recouvrement] : dossier depot florent",
           "author": "evinne"
         },
         {
-          "date": "2026-06-17",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : jai dit a votre collegue la que je veux 2 semaines a cause de la penurie",
-          "author": "evinne"
+          "date": "2026-06-18",
+          "type": "COURIER",
+          "content": "Date affichée : 2026-06-18 | Commune : Koumassi | Lieu : Koumassi grand marché | Montant total : 525000 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 0 | Montant payé : 0",
+          "author": "KoneMasse"
         }
       ],
       "promises": [],
@@ -2332,6 +2264,12 @@
       "nb_tx_historique": 7.0,
       "comments": [
         {
+          "date": "2026-07-10",
+          "type": "GENERIC_COMMENT",
+          "content": "Va payer d'ici lundi et va stopper un peu vue que son mari est malade.",
+          "author": "Yannick"
+        },
+        {
           "date": "2026-07-08",
           "type": "COURIER",
           "content": "Date affichée : 2026-07-08 | Commune : Port-Bouët | Lieu : Port Bouet centre , cité vanou | Montant total : 31400 | Avance : 80000 | Frais transaction : 3000 | Frais retard : 8400 | Montant payé : 60000",
@@ -3249,56 +3187,6 @@
       "promise_nb_past": 0.0
     },
     {
-      "tx_id": 21206.0,
-      "merchant_id": 2071.0,
-      "merchant_name": "ZOGBE SOLANGE",
-      "district": null,
-      "phone": "+2250779490998",
-      "supplier_name": "Dépôt la source Koumassi ",
-      "montant": 100000.0,
-      "revenue": 3000.0,
-      "date_achat": "2026-06-24",
-      "maturity_date": "2026-07-01",
-      "jours_retard": 9.0,
-      "statut": "NEGOTIATION",
-      "montant_paye": 102000.0,
-      "montant_restant": -2000.0,
-      "latitude": 5.301914898304807,
-      "longitude": -3.965388831809667,
-      "photo_url": null,
-      "decharge_url": null,
-      "nb_tx_historique": 17.0,
-      "comments": [
-        {
-          "date": "2026-07-08",
-          "type": "COURIER",
-          "content": "Date affichée : 2026-07-08 | Commune : Koumassi | Lieu : Koumassi remblais derrière cité cir | Montant total : 107900 | Avance : 100000 | Frais transaction : 3000 | Frais retard : 4900 | Montant payé : 0",
-          "author": "KoneMasse"
-        },
-        {
-          "date": "2026-07-07",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : aucune reponse",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-07-05",
-          "type": "GENERIC_COMMENT",
-          "content": "Son gérant a passé une nouvelle commande avec l'argent donc elle va vendre pour payer",
-          "author": "Yannick"
-        },
-        {
-          "date": "2026-07-02",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : elle va faire ca demain",
-          "author": "evinne"
-        }
-      ],
-      "promises": [],
-      "promise_nb_respected": 0.0,
-      "promise_nb_past": 0.0
-    },
-    {
       "tx_id": 21169.0,
       "merchant_id": 2785.0,
       "merchant_name": "BEUGRE WAWORO PIERRE PAULINE",
@@ -3313,8 +3201,8 @@
       "statut": "ASSIGNED_TO_RECOVERY",
       "montant_paye": 60000.0,
       "montant_restant": 40000.0,
-      "latitude": 5.3222752,
-      "longitude": -4.0508233,
+      "latitude": 5.3222733,
+      "longitude": -4.0508328,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/82b62177b8ed46cb6eb657281b57c3ab.jpg",
       "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/da5d79050036cb24724510ec80a5b498.jpg",
       "nb_tx_historique": 10.0,
@@ -3529,8 +3417,8 @@
       "statut": "WAITING_VERIFICATION",
       "montant_paye": 0.0,
       "montant_restant": 125000.0,
-      "latitude": 5.2516684,
-      "longitude": -3.9091313,
+      "latitude": 5.3263452,
+      "longitude": -4.0170471,
       "photo_url": null,
       "decharge_url": null,
       "nb_tx_historique": 1.0,

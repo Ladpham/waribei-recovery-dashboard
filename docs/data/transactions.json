@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-11T18:44:48.023579+00:00",
+  "updated_at": "2026-07-11T19:59:16.115720+00:00",
   "data": [
     {
       "tx_id": 19996.0,
@@ -2896,50 +2896,6 @@
           "type": "GENERIC_COMMENT",
           "content": "Appel (Sortant) [Recouvrement] : il va regler ca ce soir",
           "author": "evinne"
-        }
-      ],
-      "promises": [],
-      "promise_nb_respected": 0.0,
-      "promise_nb_past": 0.0
-    },
-    {
-      "tx_id": 21267.0,
-      "merchant_id": 2950.0,
-      "merchant_name": "Peegwende kobo andre Bere",
-      "district": "Port-Bouët",
-      "phone": "2250503477414",
-      "supplier_name": "Sd dépôt 19 port bouet ",
-      "montant": 300000.0,
-      "revenue": 9000.0,
-      "date_achat": "2026-06-25",
-      "maturity_date": "2026-07-02",
-      "jours_retard": 9.0,
-      "statut": "ASSIGNED_TO_RECOVERY",
-      "montant_paye": 100000.0,
-      "montant_restant": 200000.0,
-      "latitude": 5.2750139,
-      "longitude": -3.9520253,
-      "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/3716472b42673b0c1559c006af423de4.jpg",
-      "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/0c520d995a5ee83b627400e91c28a6ad.jpg",
-      "nb_tx_historique": 1.0,
-      "comments": [
-        {
-          "date": "2026-07-11",
-          "type": "COURIER",
-          "content": "Date affichée : 2026-07-11 | Commune : Port-Bouët | Lieu : Adjawi, 100m du terrain | Montant total : 222300 | Avance : 300000 | Frais transaction : 9000 | Frais retard : 13300 | Montant payé : 100000",
-          "author": "KoneMasse"
-        },
-        {
-          "date": "2026-07-07",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : je vous regle ca mercredi",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-07-06",
-          "type": "GENERIC_COMMENT",
-          "content": "Va payer le reste au plus tard le mercredi",
-          "author": "Yannick"
         }
       ],
       "promises": [],

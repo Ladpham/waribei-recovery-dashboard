@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-11T12:55:40.557139+00:00",
+  "updated_at": "2026-07-11T14:18:45.158100+00:00",
   "data": [
     {
       "tx_id": 19996.0,
@@ -2455,8 +2455,8 @@
       "statut": "ASSIGNED_TO_RECOVERY",
       "montant_paye": 60200.0,
       "montant_restant": 639800.0,
-      "latitude": 5.2858103,
-      "longitude": -3.9591952,
+      "latitude": 5.2858099,
+      "longitude": -3.9592109,
       "photo_url": null,
       "decharge_url": null,
       "nb_tx_historique": 40.0,
@@ -2741,8 +2741,8 @@
       "statut": "ASSIGNED_TO_RECOVERY",
       "montant_paye": 168250.0,
       "montant_restant": 204500.0,
-      "latitude": 5.202370617094667,
-      "longitude": -3.737452242724739,
+      "latitude": 5.202399296152327,
+      "longitude": -3.737509087425843,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/dd080d3092679e50578696fbcfc3cbe2.jpg",
       "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/06a055cd87325fc0a66953cbc570b725.jpg",
       "nb_tx_historique": 18.0,
@@ -2923,6 +2923,12 @@
       "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/0c520d995a5ee83b627400e91c28a6ad.jpg",
       "nb_tx_historique": 1.0,
       "comments": [
+        {
+          "date": "2026-07-11",
+          "type": "COURIER",
+          "content": "Date affichée : 2026-07-11 | Commune : Port-Bouët | Lieu : Adjawi, 100m du terrain | Montant total : 222300 | Avance : 300000 | Frais transaction : 9000 | Frais retard : 13300 | Montant payé : 100000",
+          "author": "KoneMasse"
+        },
         {
           "date": "2026-07-07",
           "type": "GENERIC_COMMENT",

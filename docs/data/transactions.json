@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-13T05:26:58.151929+00:00",
+  "updated_at": "2026-07-13T08:48:42.109604+00:00",
   "data": [
     {
       "tx_id": 19607.0,
@@ -2897,8 +2897,8 @@
       "maturity_date": "2026-07-02",
       "jours_retard": 11.0,
       "statut": "ASSIGNED_TO_RECOVERY",
-      "montant_paye": 30200.0,
-      "montant_restant": 147400.0,
+      "montant_paye": 40200.0,
+      "montant_restant": 137400.0,
       "latitude": 5.261261261261261,
       "longitude": -3.908358101391248,
       "photo_url": null,

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-14T21:47:38.302064+00:00",
+  "updated_at": "2026-07-14T22:46:49.313369+00:00",
   "data": [
     {
       "tx_id": 19738.0,
@@ -991,8 +991,8 @@
       "statut": "ASSIGNED_TO_RECOVERY",
       "montant_paye": 474500.0,
       "montant_restant": 126500.0,
-      "latitude": 5.3143239,
-      "longitude": -4.0885238,
+      "latitude": 5.3149085,
+      "longitude": -4.0879142,
       "photo_url": null,
       "decharge_url": null,
       "nb_tx_historique": 26.0,
@@ -2685,8 +2685,8 @@
       "statut": "ASSIGNED_TO_RECOVERY",
       "montant_paye": 60000.0,
       "montant_restant": 40000.0,
-      "latitude": 5.3309112,
-      "longitude": -4.0476447,
+      "latitude": 5.3308637,
+      "longitude": -4.0479223,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/82b62177b8ed46cb6eb657281b57c3ab.jpg",
       "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/da5d79050036cb24724510ec80a5b498.jpg",
       "nb_tx_historique": 10.0,
@@ -3374,50 +3374,6 @@
           "date": "2026-07-06",
           "type": "GENERIC_COMMENT",
           "content": "Appel (Sortant) [Recouvrement] : demain matin je vais payer",
-          "author": "evinne"
-        }
-      ],
-      "promises": [],
-      "promise_nb_respected": 0.0,
-      "promise_nb_past": 0.0
-    },
-    {
-      "tx_id": 21445.0,
-      "merchant_id": 2785.0,
-      "merchant_name": "BEUGRE WAWORO PIERRE PAULINE",
-      "district": "Yopougon",
-      "phone": "2250747845681",
-      "supplier_name": "Dépot K2A Drink Attécoubé ",
-      "montant": 50000.0,
-      "revenue": 1500.0,
-      "date_achat": "2026-06-27",
-      "maturity_date": "2026-07-04",
-      "jours_retard": 10.0,
-      "statut": "ASSIGNED_TO_RECOVERY",
-      "montant_paye": 0.0,
-      "montant_restant": 50000.0,
-      "latitude": 5.3309112,
-      "longitude": -4.0476447,
-      "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/82b62177b8ed46cb6eb657281b57c3ab.jpg",
-      "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/da5d79050036cb24724510ec80a5b498.jpg",
-      "nb_tx_historique": 10.0,
-      "comments": [
-        {
-          "date": "2026-07-13",
-          "type": "COURIER",
-          "content": "Date affichée : 2026-07-13 | Commune : Yopougon | Lieu : Koweït | Montant total : 54650 | Avance : 50000 | Frais transaction : 1500 | Frais retard : 3150 | Montant payé : 0",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-07-07",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : elle va faire ca aujourdhui",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-07-06",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : aucune reponse",
           "author": "evinne"
         }
       ],

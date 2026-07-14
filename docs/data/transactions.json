@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-14T01:27:18.534956+00:00",
+  "updated_at": "2026-07-14T04:41:17.790227+00:00",
   "data": [
     {
       "tx_id": 19738.0,
@@ -3507,7 +3507,7 @@
       "date_achat": "2026-06-28",
       "maturity_date": "2026-07-05",
       "jours_retard": 9.0,
-      "statut": "NEGOTIATION",
+      "statut": "ASSIGNED_TO_RECOVERY",
       "montant_paye": 0.0,
       "montant_restant": 50000.0,
       "latitude": 5.2830827,

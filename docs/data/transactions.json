@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-14T11:17:51.408410+00:00",
+  "updated_at": "2026-07-14T13:08:27.775779+00:00",
   "data": [
     {
       "tx_id": 19738.0,
@@ -720,6 +720,12 @@
       "nb_tx_historique": 25.0,
       "comments": [
         {
+          "date": "2026-07-14",
+          "type": "COURIER",
+          "content": "Date affichée : 2026-07-14 | Montant total : 56400 | Avance : 50000 | Frais transaction : 1500 | Frais retard : 4900 | Montant payé : 0",
+          "author": "evinne"
+        },
+        {
           "date": "2026-07-08",
           "type": "COURIER",
           "content": "Date affichée : 2026-07-08 | Montant total : 56400 | Avance : 50000 | Frais transaction : 1500 | Frais retard : 4900 | Montant payé : 0",
@@ -1109,8 +1115,8 @@
       "statut": "ASSIGNED_TO_RECOVERY",
       "montant_paye": 155000.0,
       "montant_restant": 145000.0,
-      "latitude": 5.4117144,
-      "longitude": -3.9945278,
+      "latitude": 5.4027378,
+      "longitude": -4.0032279,
       "photo_url": null,
       "decharge_url": null,
       "nb_tx_historique": 59.0,
@@ -1635,8 +1641,8 @@
       "maturity_date": "2026-06-26",
       "jours_retard": 18.0,
       "statut": "ASSIGNED_TO_RECOVERY",
-      "montant_paye": 300000.0,
-      "montant_restant": 1240050.0,
+      "montant_paye": 600000.0,
+      "montant_restant": 940050.0,
       "latitude": 5.3303656,
       "longitude": -4.073595,
       "photo_url": null,
@@ -2275,12 +2281,18 @@
       "statut": "ASSIGNED_TO_RECOVERY",
       "montant_paye": 60200.0,
       "montant_restant": 639800.0,
-      "latitude": 5.2858099,
-      "longitude": -3.9592109,
+      "latitude": 5.2858067,
+      "longitude": -3.9591858,
       "photo_url": null,
       "decharge_url": null,
       "nb_tx_historique": 40.0,
       "comments": [
+        {
+          "date": "2026-07-14",
+          "type": "COURIER",
+          "content": "Date affichée : 2026-07-14 | Commune : Koumassi | Lieu : Koumassi SICOGI en face du petit marché | Montant total : 727300 | Avance : 700000 | Frais transaction : 21000 | Frais retard : 66500 | Montant payé : 60200",
+          "author": "evinne"
+        },
         {
           "date": "2026-07-08",
           "type": "COURIER",

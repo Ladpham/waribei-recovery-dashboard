@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-14T07:03:41.357552+00:00",
+  "updated_at": "2026-07-14T09:46:48.044540+00:00",
   "data": [
     {
       "tx_id": 19738.0,
@@ -1709,8 +1709,8 @@
       "maturity_date": "2026-06-26",
       "jours_retard": 18.0,
       "statut": "ASSIGNED_TO_RECOVERY",
-      "montant_paye": 30000.0,
-      "montant_restant": 123500.0,
+      "montant_paye": 45000.0,
+      "montant_restant": 108500.0,
       "latitude": 5.1940193,
       "longitude": -3.7284355,
       "photo_url": null,
@@ -3237,7 +3237,7 @@
       "merchant_name": "Akissi Annick Kouassi",
       "district": null,
       "phone": "+2250749647531",
-      "supplier_name": "Dépôt Redis angré",
+      "supplier_name": "Dépôt Redis Angré",
       "montant": 100000.0,
       "revenue": 3000.0,
       "date_achat": "2026-06-27",

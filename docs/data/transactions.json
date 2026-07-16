@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-16T20:52:35.882897+00:00",
+  "updated_at": "2026-07-16T21:56:01.429145+00:00",
   "data": [
     {
       "tx_id": 20244.0,
@@ -3243,8 +3243,8 @@
       "statut": "NEGOTIATION",
       "montant_paye": 70900.0,
       "montant_restant": 29100.0,
-      "latitude": 5.407731,
-      "longitude": -3.9650463,
+      "latitude": 5.4095415,
+      "longitude": -3.953733,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/08fcf67f72ab3e29362a0608db1581b0.jpg",
       "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/db55ddc4cb75f9e76c7e3db0647e1210.jpg",
       "nb_tx_historique": 6.0,

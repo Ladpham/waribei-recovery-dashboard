@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-16T13:20:13.116204+00:00",
+  "updated_at": "2026-07-16T15:26:01.687271+00:00",
   "data": [
     {
       "tx_id": 20244.0,
@@ -2462,31 +2462,6 @@
           "author": "evinne"
         }
       ],
-      "promises": [],
-      "promise_nb_respected": 0.0,
-      "promise_nb_past": 0.0
-    },
-    {
-      "tx_id": 21249.0,
-      "merchant_id": 13.0,
-      "merchant_name": "Koffi Bi Tra",
-      "district": null,
-      "phone": "+2250777926179",
-      "supplier_name": "Chez Lad Fournisseur",
-      "montant": 125000.0,
-      "revenue": 1500.0,
-      "date_achat": "2026-06-25",
-      "maturity_date": "2026-07-02",
-      "jours_retard": 14.0,
-      "statut": "WAITING_VERIFICATION",
-      "montant_paye": 0.0,
-      "montant_restant": 125000.0,
-      "latitude": 5.3109908,
-      "longitude": -3.9674932,
-      "photo_url": null,
-      "decharge_url": null,
-      "nb_tx_historique": 1.0,
-      "comments": [],
       "promises": [],
       "promise_nb_respected": 0.0,
       "promise_nb_past": 0.0

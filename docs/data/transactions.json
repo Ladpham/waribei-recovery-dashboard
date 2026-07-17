@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-17T18:08:36.268098+00:00",
+  "updated_at": "2026-07-17T19:58:24.056458+00:00",
   "data": [
     {
       "tx_id": 20427.0,
@@ -51,68 +51,6 @@
           "type": "GENERIC_COMMENT",
           "content": "Appel (Sortant) [Recouvrement] :   jai fait un peu aujourdhui mr demain je vais faire le reste",
           "author": "evinne"
-        }
-      ],
-      "promises": [],
-      "promise_nb_respected": 0.0,
-      "promise_nb_past": 0.0
-    },
-    {
-      "tx_id": 20126.0,
-      "merchant_id": 1191.0,
-      "merchant_name": "OUOYA GLOUHIEU DONA HILARY",
-      "district": null,
-      "phone": "+2250787822068",
-      "supplier_name": "Depot Florent Koumassi",
-      "montant": 500000.0,
-      "revenue": 25000.0,
-      "date_achat": "2026-06-06",
-      "maturity_date": "2026-06-20",
-      "jours_retard": 27.0,
-      "statut": "ASSIGNED_TO_RECOVERY",
-      "montant_paye": 0.0,
-      "montant_restant": 500000.0,
-      "latitude": 5.3020399,
-      "longitude": -3.9563071,
-      "photo_url": null,
-      "decharge_url": null,
-      "nb_tx_historique": 20.0,
-      "comments": [
-        {
-          "date": "2026-07-06",
-          "type": "GENERIC_COMMENT",
-          "content": "Message (Entrant) [Recouvrement] : Bonsoir Madame nous avons les plaintes et un courier chacune pour votre structure le commissaire dit vous devez signer et mettre votre cachet donc je voudrais savoir si nous pouvons passer au siège demain je peux avoir la situation géographique de votre siège",
-          "author": "KoneMasse"
-        },
-        {
-          "date": "2026-06-30",
-          "type": "COURIER",
-          "content": "Date affichée : 2026-06-30 | Commune : Koumassi | Lieu : Koumassi grand marché | Montant total : 560000 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 35000 | Montant payé : 0",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-26",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : dossier florent",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-23",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : dossier florent",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-22",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : dossier depot florent",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-18",
-          "type": "COURIER",
-          "content": "Date affichée : 2026-06-18 | Commune : Koumassi | Lieu : Koumassi grand marché | Montant total : 525000 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 0 | Montant payé : 0",
-          "author": "KoneMasse"
         }
       ],
       "promises": [],
@@ -247,6 +185,68 @@
       ],
       "promise_nb_respected": 0.0,
       "promise_nb_past": 2.0
+    },
+    {
+      "tx_id": 20126.0,
+      "merchant_id": 1191.0,
+      "merchant_name": "OUOYA GLOUHIEU DONA HILARY",
+      "district": null,
+      "phone": "+2250787822068",
+      "supplier_name": "Depot Florent Koumassi",
+      "montant": 500000.0,
+      "revenue": 25000.0,
+      "date_achat": "2026-06-06",
+      "maturity_date": "2026-06-20",
+      "jours_retard": 27.0,
+      "statut": "ASSIGNED_TO_RECOVERY",
+      "montant_paye": 0.0,
+      "montant_restant": 500000.0,
+      "latitude": 5.3020399,
+      "longitude": -3.9563071,
+      "photo_url": null,
+      "decharge_url": null,
+      "nb_tx_historique": 20.0,
+      "comments": [
+        {
+          "date": "2026-07-06",
+          "type": "GENERIC_COMMENT",
+          "content": "Message (Entrant) [Recouvrement] : Bonsoir Madame nous avons les plaintes et un courier chacune pour votre structure le commissaire dit vous devez signer et mettre votre cachet donc je voudrais savoir si nous pouvons passer au siège demain je peux avoir la situation géographique de votre siège",
+          "author": "KoneMasse"
+        },
+        {
+          "date": "2026-06-30",
+          "type": "COURIER",
+          "content": "Date affichée : 2026-06-30 | Commune : Koumassi | Lieu : Koumassi grand marché | Montant total : 560000 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 35000 | Montant payé : 0",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-06-26",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : dossier florent",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-06-23",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : dossier florent",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-06-22",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : dossier depot florent",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-06-18",
+          "type": "COURIER",
+          "content": "Date affichée : 2026-06-18 | Commune : Koumassi | Lieu : Koumassi grand marché | Montant total : 525000 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 0 | Montant payé : 0",
+          "author": "KoneMasse"
+        }
+      ],
+      "promises": [],
+      "promise_nb_respected": 0.0,
+      "promise_nb_past": 0.0
     },
     {
       "tx_id": 20111.0,
@@ -2065,8 +2065,8 @@
       "maturity_date": "2026-07-01",
       "jours_retard": 16.0,
       "statut": "ASSIGNED_TO_RECOVERY",
-      "montant_paye": 168250.0,
-      "montant_restant": 204500.0,
+      "montant_paye": 238250.0,
+      "montant_restant": 134500.0,
       "latitude": 5.213615711138375,
       "longitude": -3.733579568683019,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/dd080d3092679e50578696fbcfc3cbe2.jpg",
@@ -3014,44 +3014,6 @@
           "type": "GENERIC_COMMENT",
           "content": "Ne réponds pas aux appels depuis hier",
           "author": "Maurel"
-        }
-      ],
-      "promises": [],
-      "promise_nb_respected": 0.0,
-      "promise_nb_past": 0.0
-    },
-    {
-      "tx_id": 21599.0,
-      "merchant_id": 244.0,
-      "merchant_name": "Felicite Dally",
-      "district": null,
-      "phone": "2250797119377",
-      "supplier_name": "Sd Success +",
-      "montant": 64800.0,
-      "revenue": 3000.0,
-      "date_achat": "2026-06-30",
-      "maturity_date": "2026-07-07",
-      "jours_retard": 10.0,
-      "statut": "ASSIGNED_TO_RECOVERY",
-      "montant_paye": 64000.0,
-      "montant_restant": 800.0,
-      "latitude": 5.2979339,
-      "longitude": -3.9767569,
-      "photo_url": null,
-      "decharge_url": null,
-      "nb_tx_historique": 30.0,
-      "comments": [
-        {
-          "date": "2026-07-10",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : aucune reponse",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-07-08",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : Injoignable",
-          "author": "evinne"
         }
       ],
       "promises": [],

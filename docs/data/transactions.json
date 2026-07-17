@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-17T04:54:38.329271+00:00",
+  "updated_at": "2026-07-17T07:10:48.247544+00:00",
   "data": [
     {
       "tx_id": 20427.0,
@@ -3289,8 +3289,8 @@
       "statut": "NEGOTIATION",
       "montant_paye": 20000.0,
       "montant_restant": 180000.0,
-      "latitude": 5.2554888,
-      "longitude": -3.9205533,
+      "latitude": 5.2732154,
+      "longitude": -4.0132965,
       "photo_url": null,
       "decharge_url": null,
       "nb_tx_historique": 38.0,

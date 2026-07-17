@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-17T19:58:24.056458+00:00",
+  "updated_at": "2026-07-17T20:53:57.070833+00:00",
   "data": [
     {
       "tx_id": 20427.0,
@@ -51,68 +51,6 @@
           "type": "GENERIC_COMMENT",
           "content": "Appel (Sortant) [Recouvrement] :   jai fait un peu aujourdhui mr demain je vais faire le reste",
           "author": "evinne"
-        }
-      ],
-      "promises": [],
-      "promise_nb_respected": 0.0,
-      "promise_nb_past": 0.0
-    },
-    {
-      "tx_id": 20125.0,
-      "merchant_id": 1190.0,
-      "merchant_name": "TOME ANGE MARIE-JULIANA",
-      "district": null,
-      "phone": "+2250787052538",
-      "supplier_name": "Depot Florent Koumassi",
-      "montant": 500000.0,
-      "revenue": 25000.0,
-      "date_achat": "2026-06-06",
-      "maturity_date": "2026-06-20",
-      "jours_retard": 27.0,
-      "statut": "ASSIGNED_TO_RECOVERY",
-      "montant_paye": 0.0,
-      "montant_restant": 500000.0,
-      "latitude": 5.3020876,
-      "longitude": -3.9563141,
-      "photo_url": null,
-      "decharge_url": null,
-      "nb_tx_historique": 20.0,
-      "comments": [
-        {
-          "date": "2026-07-06",
-          "type": "GENERIC_COMMENT",
-          "content": "Message (Entrant) [Recouvrement] : Bonsoir Madame nous avons les plaintes et un courier chacune pour votre structure le commissaire dit vous devez signer et mettre votre cachet donc je voudrais savoir si nous pouvons passer au siège demain je peux avoir la situation géographique de votre siège",
-          "author": "KoneMasse"
-        },
-        {
-          "date": "2026-06-30",
-          "type": "COURIER",
-          "content": "Date affichée : 2026-06-30 | Commune : Koumassi | Lieu : Koumassi quartier divo | Montant total : 560000 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 35000 | Montant payé : 0",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-26",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : dossier florent",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-23",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] :  dossier florent",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-22",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : dossier plorent",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-18",
-          "type": "COURIER",
-          "content": "Date affichée : 2026-06-18 | Commune : Koumassi | Lieu : Koumassi quartier divo | Montant total : 525000 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 0 | Montant payé : 0",
-          "author": "KoneMasse"
         }
       ],
       "promises": [],
@@ -298,6 +236,68 @@
           "type": "GENERIC_COMMENT",
           "content": "Appel (Sortant) [Recouvrement] : jai dit a votre collegue la que je veux 2 semaines a cause de la penurie",
           "author": "evinne"
+        }
+      ],
+      "promises": [],
+      "promise_nb_respected": 0.0,
+      "promise_nb_past": 0.0
+    },
+    {
+      "tx_id": 20125.0,
+      "merchant_id": 1190.0,
+      "merchant_name": "TOME ANGE MARIE-JULIANA",
+      "district": null,
+      "phone": "+2250787052538",
+      "supplier_name": "Depot Florent Koumassi",
+      "montant": 500000.0,
+      "revenue": 25000.0,
+      "date_achat": "2026-06-06",
+      "maturity_date": "2026-06-20",
+      "jours_retard": 27.0,
+      "statut": "ASSIGNED_TO_RECOVERY",
+      "montant_paye": 0.0,
+      "montant_restant": 500000.0,
+      "latitude": 5.3020876,
+      "longitude": -3.9563141,
+      "photo_url": null,
+      "decharge_url": null,
+      "nb_tx_historique": 20.0,
+      "comments": [
+        {
+          "date": "2026-07-06",
+          "type": "GENERIC_COMMENT",
+          "content": "Message (Entrant) [Recouvrement] : Bonsoir Madame nous avons les plaintes et un courier chacune pour votre structure le commissaire dit vous devez signer et mettre votre cachet donc je voudrais savoir si nous pouvons passer au siège demain je peux avoir la situation géographique de votre siège",
+          "author": "KoneMasse"
+        },
+        {
+          "date": "2026-06-30",
+          "type": "COURIER",
+          "content": "Date affichée : 2026-06-30 | Commune : Koumassi | Lieu : Koumassi quartier divo | Montant total : 560000 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 35000 | Montant payé : 0",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-06-26",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : dossier florent",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-06-23",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] :  dossier florent",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-06-22",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : dossier plorent",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-06-18",
+          "type": "COURIER",
+          "content": "Date affichée : 2026-06-18 | Commune : Koumassi | Lieu : Koumassi quartier divo | Montant total : 525000 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 0 | Montant payé : 0",
+          "author": "KoneMasse"
         }
       ],
       "promises": [],
@@ -1699,124 +1699,6 @@
       "promise_nb_past": 0.0
     },
     {
-      "tx_id": 20983.0,
-      "merchant_id": 2906.0,
-      "merchant_name": "DJE KOFFI FABRICE",
-      "district": "Abobo",
-      "phone": "2250708967828",
-      "supplier_name": "Sd continental club",
-      "montant": 50000.0,
-      "revenue": 1500.0,
-      "date_achat": "2026-06-20",
-      "maturity_date": "2026-06-27",
-      "jours_retard": 20.0,
-      "statut": "ASSIGNED_TO_RECOVERY",
-      "montant_paye": 0.0,
-      "montant_restant": 50000.0,
-      "latitude": 5.4503002,
-      "longitude": -4.0911021,
-      "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/671d22409e1460336a0935aec9eba204.jpg",
-      "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/aa7d9399bb90b964c88fd521a71535cc.jpg",
-      "nb_tx_historique": 2.0,
-      "comments": [
-        {
-          "date": "2026-07-06",
-          "type": "COURIER",
-          "content": "Date affichée : 2026-07-06 | Commune : Abobo | Lieu : Abobo ndotre carrefour marché gouro 2 | Montant total : 54650 | Avance : 50000 | Frais transaction : 1500 | Frais retard : 3150 | Montant payé : 0",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-07-06",
-          "type": "COURIER",
-          "content": "Date affichée : 2026-07-06 | Commune : Abobo | Lieu : Abobo ndotre carrefour marché gouro 2 | Montant total : 54650 | Avance : 50000 | Frais transaction : 1500 | Frais retard : 3150 | Montant payé : 0",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-07-02",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : Injoignable",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-30",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : ligne occupée",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-29",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : aucune reponse",
-          "author": "KoneMasse"
-        }
-      ],
-      "promises": [],
-      "promise_nb_respected": 0.0,
-      "promise_nb_past": 0.0
-    },
-    {
-      "tx_id": 21049.0,
-      "merchant_id": 2791.0,
-      "merchant_name": "TOTY GOKPEU MATHIEU",
-      "district": "Yopougon",
-      "phone": "2250748641236",
-      "supplier_name": "Dépot K2A Drink Attécoubé ",
-      "montant": 100000.0,
-      "revenue": 3000.0,
-      "date_achat": "2026-06-21",
-      "maturity_date": "2026-06-28",
-      "jours_retard": 19.0,
-      "statut": "ASSIGNED_TO_RECOVERY",
-      "montant_paye": 0.0,
-      "montant_restant": 100000.0,
-      "latitude": 5.3094015,
-      "longitude": -4.0441817,
-      "photo_url": null,
-      "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/a300b94e82ecd25d081b79122640f673.jpg",
-      "nb_tx_historique": 8.0,
-      "comments": [
-        {
-          "date": "2026-07-08",
-          "type": "COURIER",
-          "content": "Date affichée : 2026-07-08 | Commune : Yopougon | Lieu : Tout Rouge | Montant total : 110000 | Avance : 100000 | Frais transaction : 3000 | Frais retard : 7000 | Montant payé : 0",
-          "author": "KoneMasse"
-        },
-        {
-          "date": "2026-07-06",
-          "type": "COURIER",
-          "content": "Date affichée : 2026-07-06 | Commune : Yopougon | Lieu : Tout Rouge | Montant total : 108600 | Avance : 100000 | Frais transaction : 3000 | Frais retard : 5600 | Montant payé : 0",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-07-02",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : Bonjour l'équipe Waribei. J'ai des paiements à faire depuis le 27.Les pluies torrentielles et diluviennes qui s'abattent actuellement perturbent sérieusement nos ventes et les conséquences sont là. Je vous prie donc de m'accorder une grâce afin de réunir tout le sou et faire le paiement dans le courant de la semaine. Bien sûr que cela engendrera des pénalités mais que je supporterai. Merci beaucoup à vous pour la considération, la confiance et votre engagement respecté. Mr Toty Mathieu.",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-07-01",
-          "type": "GENERIC_COMMENT",
-          "content": "Message :  Bonjour l'équipe Waribei. J'ai des paiements à faire depuis le 27.Les pluies torrentielles et diluviennes qui s'abattent actuellement perturbent sérieusement nos ventes et les conséquences sont là. Je vous prie donc de m'accorder une grâce afin de réunir tout le sou et faire le paiement dans le courant de la semaine. Bien sûr que cela engendrera des pénalités mais que je supporterai. Merci beaucoup à vous pour la considération, la confiance et votre engagement respecté. Mr Toty Mathieu.",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-30",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : je vais faire un versement   aujourdhui",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-29",
-          "type": "GENERIC_COMMENT",
-          "content": "Message (Entrant) [Recouvrement] : Bonjour  l'équipe Waribei. J'ai des paiements à faire depuis le 27.Les pluies torrentielles et diluviennes qui s'abattent actuellement perturbent sérieusement nos ventes et les conséquences sont là. Je vous prie donc de m'accorder une grâce afin de réunir tout le sou et faire le paiement dans le courant de la semaine. Bien sûr que cela  engendrera des pénalités mais que je supporterai. \nMerci beaucoup à vous pour la considération, la confiance et votre engagement respecté. \nMr Toty Mathieu.",
-          "author": "KoneMasse"
-        }
-      ],
-      "promises": [],
-      "promise_nb_respected": 0.0,
-      "promise_nb_past": 0.0
-    },
-    {
       "tx_id": 20600.0,
       "merchant_id": 2884.0,
       "merchant_name": "Kokutse Abaye",
@@ -1884,6 +1766,68 @@
           "type": "GENERIC_COMMENT",
           "content": "Appel (Sortant) [Recouvrement] : aucune reponse",
           "author": "evinne"
+        }
+      ],
+      "promises": [],
+      "promise_nb_respected": 0.0,
+      "promise_nb_past": 0.0
+    },
+    {
+      "tx_id": 21049.0,
+      "merchant_id": 2791.0,
+      "merchant_name": "TOTY GOKPEU MATHIEU",
+      "district": "Yopougon",
+      "phone": "2250748641236",
+      "supplier_name": "Dépot K2A Drink Attécoubé ",
+      "montant": 100000.0,
+      "revenue": 3000.0,
+      "date_achat": "2026-06-21",
+      "maturity_date": "2026-06-28",
+      "jours_retard": 19.0,
+      "statut": "ASSIGNED_TO_RECOVERY",
+      "montant_paye": 0.0,
+      "montant_restant": 100000.0,
+      "latitude": 5.3094015,
+      "longitude": -4.0441817,
+      "photo_url": null,
+      "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/a300b94e82ecd25d081b79122640f673.jpg",
+      "nb_tx_historique": 8.0,
+      "comments": [
+        {
+          "date": "2026-07-08",
+          "type": "COURIER",
+          "content": "Date affichée : 2026-07-08 | Commune : Yopougon | Lieu : Tout Rouge | Montant total : 110000 | Avance : 100000 | Frais transaction : 3000 | Frais retard : 7000 | Montant payé : 0",
+          "author": "KoneMasse"
+        },
+        {
+          "date": "2026-07-06",
+          "type": "COURIER",
+          "content": "Date affichée : 2026-07-06 | Commune : Yopougon | Lieu : Tout Rouge | Montant total : 108600 | Avance : 100000 | Frais transaction : 3000 | Frais retard : 5600 | Montant payé : 0",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-07-02",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : Bonjour l'équipe Waribei. J'ai des paiements à faire depuis le 27.Les pluies torrentielles et diluviennes qui s'abattent actuellement perturbent sérieusement nos ventes et les conséquences sont là. Je vous prie donc de m'accorder une grâce afin de réunir tout le sou et faire le paiement dans le courant de la semaine. Bien sûr que cela engendrera des pénalités mais que je supporterai. Merci beaucoup à vous pour la considération, la confiance et votre engagement respecté. Mr Toty Mathieu.",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-07-01",
+          "type": "GENERIC_COMMENT",
+          "content": "Message :  Bonjour l'équipe Waribei. J'ai des paiements à faire depuis le 27.Les pluies torrentielles et diluviennes qui s'abattent actuellement perturbent sérieusement nos ventes et les conséquences sont là. Je vous prie donc de m'accorder une grâce afin de réunir tout le sou et faire le paiement dans le courant de la semaine. Bien sûr que cela engendrera des pénalités mais que je supporterai. Merci beaucoup à vous pour la considération, la confiance et votre engagement respecté. Mr Toty Mathieu.",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-06-30",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : je vais faire un versement   aujourdhui",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-06-29",
+          "type": "GENERIC_COMMENT",
+          "content": "Message (Entrant) [Recouvrement] : Bonjour  l'équipe Waribei. J'ai des paiements à faire depuis le 27.Les pluies torrentielles et diluviennes qui s'abattent actuellement perturbent sérieusement nos ventes et les conséquences sont là. Je vous prie donc de m'accorder une grâce afin de réunir tout le sou et faire le paiement dans le courant de la semaine. Bien sûr que cela  engendrera des pénalités mais que je supporterai. \nMerci beaucoup à vous pour la considération, la confiance et votre engagement respecté. \nMr Toty Mathieu.",
+          "author": "KoneMasse"
         }
       ],
       "promises": [],

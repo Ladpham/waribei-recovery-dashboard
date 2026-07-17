@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-17T01:47:23.612008+00:00",
+  "updated_at": "2026-07-17T04:54:38.329271+00:00",
   "data": [
     {
       "tx_id": 20427.0,
@@ -3178,7 +3178,7 @@
       "date_achat": "2026-06-30",
       "maturity_date": "2026-07-08",
       "jours_retard": 9.0,
-      "statut": "NEGOTIATION",
+      "statut": "ASSIGNED_TO_RECOVERY",
       "montant_paye": 70900.0,
       "montant_restant": 29100.0,
       "latitude": 5.4095415,
@@ -3210,7 +3210,7 @@
       "date_achat": "2026-07-01",
       "maturity_date": "2026-07-08",
       "jours_retard": 9.0,
-      "statut": "NEGOTIATION",
+      "statut": "ASSIGNED_TO_RECOVERY",
       "montant_paye": 0.0,
       "montant_restant": 30000.0,
       "latitude": 5.3250188,

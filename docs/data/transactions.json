@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-17T15:06:08.092686+00:00",
+  "updated_at": "2026-07-17T17:00:08.220435+00:00",
   "data": [
     {
       "tx_id": 20427.0,
@@ -659,8 +659,8 @@
       "statut": "ASSIGNED_TO_RECOVERY",
       "montant_paye": 524500.0,
       "montant_restant": 76500.0,
-      "latitude": 5.3144834,
-      "longitude": -4.0861617,
+      "latitude": 5.3143917,
+      "longitude": -4.0862392,
       "photo_url": null,
       "decharge_url": null,
       "nb_tx_historique": 26.0,
@@ -855,14 +855,20 @@
       "maturity_date": "2026-06-25",
       "jours_retard": 22.0,
       "statut": "ASSIGNED_TO_RECOVERY",
-      "montant_paye": 650000.0,
-      "montant_restant": 283140.0,
-      "latitude": 5.3911995,
-      "longitude": -3.9104996,
+      "montant_paye": 800000.0,
+      "montant_restant": 133140.0,
+      "latitude": 5.3911001,
+      "longitude": -3.9105111,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/627c5f711d740e58f622c50e929df3ab.jpg",
       "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/3eee970c201fddefa78efbf2a8999a3d.jpg",
       "nb_tx_historique": 1.0,
       "comments": [
+        {
+          "date": "2026-07-17",
+          "type": "AGENT_ACK_RECEIPT",
+          "content": "RECOUVREMENT : AGENT_ACK_RECEIPT : Visite : Visite effectuée. Client en difficulté suite à la fuite de son livreur. Après rappel de la procédure de saisie, il a payé 150 000 ( 70k sur la plateforme et 80k par liens envoyés au numéro 07 48 881 510 et du solde samedi 18 juillet après vente de sa marchandise.",
+          "author": "alassane"
+        },
         {
           "date": "2026-07-13",
           "type": "LETTER_GIVEN_TO_AGENT",
@@ -1261,6 +1267,12 @@
       "decharge_url": null,
       "nb_tx_historique": 19.0,
       "comments": [
+        {
+          "date": "2026-07-17",
+          "type": "COURIER",
+          "content": "Date affichée : 2026-07-17 | Montant total : 700000 | Avance : 700000 | Frais transaction : 0 | Frais retard : 0 | Montant payé : 0",
+          "author": "evinne"
+        },
         {
           "date": "2026-07-08",
           "type": "COURIER",

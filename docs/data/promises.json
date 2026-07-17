@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-17T15:06:08.580608+00:00",
+  "updated_at": "2026-07-17T17:00:08.574639+00:00",
   "data": [
     {
       "promise_id": 1519.0,
@@ -296,18 +296,18 @@
       "status": "missed"
     },
     {
-      "promise_id": 1584.0,
-      "tx_id": 19262.0,
-      "merchant_name": "N'KAYO MANDJI LAURE ELIANE",
-      "phone": "+2250141646434",
-      "district": null,
-      "supplier_name": "Sd Emmanuella anokoi koute",
+      "promise_id": 1589.0,
+      "tx_id": 18232.0,
+      "merchant_name": "KOUAME KOFFI CIBEKA",
+      "phone": "+2250100005906",
+      "district": "Yopougon",
+      "supplier_name": "Socob Locodjro",
       "promise_date": "2026-06-19",
-      "promise_amount": 92450.0,
-      "montant": 120000.0,
-      "paid_around_promise": 60000.0,
-      "total_paid_tx": 137450.0,
-      "status": "partial"
+      "promise_amount": 54100.0,
+      "montant": 266940.0,
+      "paid_around_promise": 0.0,
+      "total_paid_tx": 168700.0,
+      "status": "missed"
     },
     {
       "promise_id": 1585.0,
@@ -324,18 +324,18 @@
       "status": "partial"
     },
     {
-      "promise_id": 1589.0,
-      "tx_id": 18232.0,
-      "merchant_name": "KOUAME KOFFI CIBEKA",
-      "phone": "+2250100005906",
-      "district": "Yopougon",
-      "supplier_name": "Socob Locodjro",
+      "promise_id": 1584.0,
+      "tx_id": 19262.0,
+      "merchant_name": "N'KAYO MANDJI LAURE ELIANE",
+      "phone": "+2250141646434",
+      "district": null,
+      "supplier_name": "Sd Emmanuella anokoi koute",
       "promise_date": "2026-06-19",
-      "promise_amount": 54100.0,
-      "montant": 266940.0,
-      "paid_around_promise": 0.0,
-      "total_paid_tx": 168700.0,
-      "status": "missed"
+      "promise_amount": 92450.0,
+      "montant": 120000.0,
+      "paid_around_promise": 60000.0,
+      "total_paid_tx": 137450.0,
+      "status": "partial"
     },
     {
       "promise_id": 1593.0,
@@ -422,12 +422,26 @@
       "status": "missed"
     },
     {
+      "promise_id": 1575.0,
+      "tx_id": 18751.0,
+      "merchant_name": "YOBOUET KOUAME DAVID",
+      "phone": "+2250595815519",
+      "district": "Abobo",
+      "supplier_name": "Distribution Bon prix Abobo",
+      "promise_date": "2026-06-16",
+      "promise_amount": 42800.0,
+      "montant": 134700.0,
+      "paid_around_promise": 0.0,
+      "total_paid_tx": 86000.0,
+      "status": "missed"
+    },
+    {
       "promise_id": 1571.0,
       "tx_id": 19472.0,
       "merchant_name": "Angoua thoni Bassia",
       "phone": "+2250707021072",
       "district": null,
-      "supplier_name": "Cave chez bello",
+      "supplier_name": "Cave Chez Bello",
       "promise_date": "2026-06-16",
       "promise_amount": 550000.0,
       "montant": 506500.0,
@@ -447,20 +461,6 @@
       "montant": 500000.0,
       "paid_around_promise": 0.0,
       "total_paid_tx": 150000.0,
-      "status": "missed"
-    },
-    {
-      "promise_id": 1575.0,
-      "tx_id": 18751.0,
-      "merchant_name": "YOBOUET KOUAME DAVID",
-      "phone": "+2250595815519",
-      "district": "Abobo",
-      "supplier_name": "Distribution Bon prix Abobo",
-      "promise_date": "2026-06-16",
-      "promise_amount": 42800.0,
-      "montant": 134700.0,
-      "paid_around_promise": 0.0,
-      "total_paid_tx": 86000.0,
       "status": "missed"
     },
     {
@@ -520,20 +520,6 @@
       "status": "missed"
     },
     {
-      "promise_id": 1574.0,
-      "tx_id": 18945.0,
-      "merchant_name": "KADJO ANOIBLA ESTELLE",
-      "phone": "+2250749242292",
-      "district": "Koumassi",
-      "supplier_name": "Sd sayore Sowetho ",
-      "promise_date": "2026-06-13",
-      "promise_amount": 57000.0,
-      "montant": 100000.0,
-      "paid_around_promise": 65300.0,
-      "total_paid_tx": 112800.0,
-      "status": "kept"
-    },
-    {
       "promise_id": 1572.0,
       "tx_id": 19327.0,
       "merchant_name": "Magny joëlle Katche",
@@ -545,6 +531,20 @@
       "montant": 216300.0,
       "paid_around_promise": 219800.0,
       "total_paid_tx": 219800.0,
+      "status": "kept"
+    },
+    {
+      "promise_id": 1574.0,
+      "tx_id": 18945.0,
+      "merchant_name": "KADJO ANOIBLA ESTELLE",
+      "phone": "+2250749242292",
+      "district": "Koumassi",
+      "supplier_name": "Sd sayore Sowetho ",
+      "promise_date": "2026-06-13",
+      "promise_amount": 57000.0,
+      "montant": 100000.0,
+      "paid_around_promise": 65300.0,
+      "total_paid_tx": 112800.0,
       "status": "kept"
     },
     {
@@ -590,7 +590,7 @@
       "status": "missed"
     },
     {
-      "promise_id": 1565.0,
+      "promise_id": 1513.0,
       "tx_id": 15271.0,
       "merchant_name": "Kouakou AdayeLouis ADOU",
       "phone": "+2250707014626",
@@ -604,7 +604,7 @@
       "status": "missed"
     },
     {
-      "promise_id": 1513.0,
+      "promise_id": 1565.0,
       "tx_id": 15271.0,
       "merchant_name": "Kouakou AdayeLouis ADOU",
       "phone": "+2250707014626",

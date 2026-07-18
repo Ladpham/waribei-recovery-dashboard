@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-17T23:42:45.096711+00:00",
+  "updated_at": "2026-07-18T01:28:21.901959+00:00",
   "data": [
     {
       "promise_id": 1519.0,
@@ -156,20 +156,6 @@
       "status": "partial"
     },
     {
-      "promise_id": 1599.0,
-      "tx_id": 20102.0,
-      "merchant_name": "BROU PIEKA ANNIE MARLENE",
-      "phone": "+2250707095530",
-      "district": "Cocody",
-      "supplier_name": "Dépôt Redis Angré",
-      "promise_date": "2026-06-27",
-      "promise_amount": 112800.0,
-      "montant": 135000.0,
-      "paid_around_promise": 20000.0,
-      "total_paid_tx": 112800.0,
-      "status": "partial"
-    },
-    {
       "promise_id": 1591.0,
       "tx_id": 20124.0,
       "merchant_name": "GUEYE N'GUESSAN DIANE ESTELLE",
@@ -184,17 +170,17 @@
       "status": "kept"
     },
     {
-      "promise_id": 1598.0,
-      "tx_id": 18163.0,
-      "merchant_name": "TARNAGDA SENI",
-      "phone": "+2250555194969",
-      "district": null,
-      "supplier_name": "Sd Canaan Port Bouet ",
-      "promise_date": "2026-06-25",
-      "promise_amount": 36800.0,
-      "montant": 113750.0,
-      "paid_around_promise": 6000.0,
-      "total_paid_tx": 65000.0,
+      "promise_id": 1599.0,
+      "tx_id": 20102.0,
+      "merchant_name": "BROU PIEKA ANNIE MARLENE",
+      "phone": "+2250707095530",
+      "district": "Cocody",
+      "supplier_name": "Dépôt Redis Angré",
+      "promise_date": "2026-06-27",
+      "promise_amount": 112800.0,
+      "montant": 135000.0,
+      "paid_around_promise": 20000.0,
+      "total_paid_tx": 112800.0,
       "status": "partial"
     },
     {
@@ -212,17 +198,17 @@
       "status": "partial"
     },
     {
-      "promise_id": 1586.0,
-      "tx_id": 18164.0,
-      "merchant_name": "N'DRI RAYMOND",
-      "phone": "+2250707457025",
+      "promise_id": 1598.0,
+      "tx_id": 18163.0,
+      "merchant_name": "TARNAGDA SENI",
+      "phone": "+2250555194969",
       "district": null,
-      "supplier_name": "GRACE DISTRIBUTION Grd BASSAM",
-      "promise_date": "2026-06-22",
-      "promise_amount": 421200.0,
-      "montant": 500300.0,
-      "paid_around_promise": 100000.0,
-      "total_paid_tx": 355000.0,
+      "supplier_name": "Sd Canaan Port Bouet ",
+      "promise_date": "2026-06-25",
+      "promise_amount": 36800.0,
+      "montant": 113750.0,
+      "paid_around_promise": 6000.0,
+      "total_paid_tx": 65000.0,
       "status": "partial"
     },
     {
@@ -240,6 +226,20 @@
       "status": "missed"
     },
     {
+      "promise_id": 1586.0,
+      "tx_id": 18164.0,
+      "merchant_name": "N'DRI RAYMOND",
+      "phone": "+2250707457025",
+      "district": null,
+      "supplier_name": "GRACE DISTRIBUTION Grd BASSAM",
+      "promise_date": "2026-06-22",
+      "promise_amount": 421200.0,
+      "montant": 500300.0,
+      "paid_around_promise": 100000.0,
+      "total_paid_tx": 355000.0,
+      "status": "partial"
+    },
+    {
       "promise_id": 1581.0,
       "tx_id": 19042.0,
       "merchant_name": "KOUADIO Kouame Jean Paul",
@@ -251,20 +251,6 @@
       "montant": 850000.0,
       "paid_around_promise": 50000.0,
       "total_paid_tx": 350000.0,
-      "status": "partial"
-    },
-    {
-      "promise_id": 1594.0,
-      "tx_id": 19768.0,
-      "merchant_name": "DAINGUI EUNICE FENICIA",
-      "phone": "+2250709690697",
-      "district": null,
-      "supplier_name": "Sd el shaada ",
-      "promise_date": "2026-06-21",
-      "promise_amount": 166000.0,
-      "montant": 150000.0,
-      "paid_around_promise": 100000.0,
-      "total_paid_tx": 100000.0,
       "status": "partial"
     },
     {
@@ -282,6 +268,20 @@
       "status": "missed"
     },
     {
+      "promise_id": 1594.0,
+      "tx_id": 19768.0,
+      "merchant_name": "DAINGUI EUNICE FENICIA",
+      "phone": "+2250709690697",
+      "district": null,
+      "supplier_name": "Sd el shaada ",
+      "promise_date": "2026-06-21",
+      "promise_amount": 166000.0,
+      "montant": 150000.0,
+      "paid_around_promise": 100000.0,
+      "total_paid_tx": 100000.0,
+      "status": "partial"
+    },
+    {
       "promise_id": 1577.0,
       "tx_id": 13905.0,
       "merchant_name": "ANGAN KOUAME EMILE",
@@ -294,6 +294,34 @@
       "paid_around_promise": 0.0,
       "total_paid_tx": 485000.0,
       "status": "missed"
+    },
+    {
+      "promise_id": 1593.0,
+      "tx_id": 13747.0,
+      "merchant_name": "SILGA EDRIC",
+      "phone": "+2250153375356",
+      "district": null,
+      "supplier_name": "Inouss Brassivoire Koumassi",
+      "promise_date": "2026-06-19",
+      "promise_amount": 68000.0,
+      "montant": 299250.0,
+      "paid_around_promise": 30000.0,
+      "total_paid_tx": 185000.0,
+      "status": "partial"
+    },
+    {
+      "promise_id": 1584.0,
+      "tx_id": 19262.0,
+      "merchant_name": "N'KAYO MANDJI LAURE ELIANE",
+      "phone": "+2250141646434",
+      "district": null,
+      "supplier_name": "Sd Emmanuella anokoi koute",
+      "promise_date": "2026-06-19",
+      "promise_amount": 92450.0,
+      "montant": 120000.0,
+      "paid_around_promise": 60000.0,
+      "total_paid_tx": 137450.0,
+      "status": "partial"
     },
     {
       "promise_id": 1589.0,
@@ -321,34 +349,6 @@
       "montant": 50000.0,
       "paid_around_promise": 5000.0,
       "total_paid_tx": 35600.0,
-      "status": "partial"
-    },
-    {
-      "promise_id": 1584.0,
-      "tx_id": 19262.0,
-      "merchant_name": "N'KAYO MANDJI LAURE ELIANE",
-      "phone": "+2250141646434",
-      "district": null,
-      "supplier_name": "Sd Emmanuella anokoi koute",
-      "promise_date": "2026-06-19",
-      "promise_amount": 92450.0,
-      "montant": 120000.0,
-      "paid_around_promise": 60000.0,
-      "total_paid_tx": 137450.0,
-      "status": "partial"
-    },
-    {
-      "promise_id": 1593.0,
-      "tx_id": 13747.0,
-      "merchant_name": "SILGA EDRIC",
-      "phone": "+2250153375356",
-      "district": null,
-      "supplier_name": "Inouss Brassivoire Koumassi",
-      "promise_date": "2026-06-19",
-      "promise_amount": 68000.0,
-      "montant": 299250.0,
-      "paid_around_promise": 30000.0,
-      "total_paid_tx": 185000.0,
       "status": "partial"
     },
     {
@@ -380,6 +380,20 @@
       "status": "partial"
     },
     {
+      "promise_id": 1579.0,
+      "tx_id": 18751.0,
+      "merchant_name": "YOBOUET KOUAME DAVID",
+      "phone": "+2250595815519",
+      "district": "Abobo",
+      "supplier_name": "Distribution Bon prix Abobo",
+      "promise_date": "2026-06-17",
+      "promise_amount": 42800.0,
+      "montant": 134700.0,
+      "paid_around_promise": 0.0,
+      "total_paid_tx": 86000.0,
+      "status": "missed"
+    },
+    {
       "promise_id": 1590.0,
       "tx_id": 18232.0,
       "merchant_name": "KOUAME KOFFI CIBEKA",
@@ -408,17 +422,17 @@
       "status": "kept"
     },
     {
-      "promise_id": 1579.0,
-      "tx_id": 18751.0,
-      "merchant_name": "YOBOUET KOUAME DAVID",
-      "phone": "+2250595815519",
-      "district": "Abobo",
-      "supplier_name": "Distribution Bon prix Abobo",
-      "promise_date": "2026-06-17",
-      "promise_amount": 42800.0,
-      "montant": 134700.0,
+      "promise_id": 1514.0,
+      "tx_id": 15271.0,
+      "merchant_name": "Kouakou AdayeLouis ADOU",
+      "phone": "+2250707014626",
+      "district": null,
+      "supplier_name": "Dépôt Jordan Abobo",
+      "promise_date": "2026-06-16",
+      "promise_amount": 20000.0,
+      "montant": 500000.0,
       "paid_around_promise": 0.0,
-      "total_paid_tx": 86000.0,
+      "total_paid_tx": 150000.0,
       "status": "missed"
     },
     {
@@ -450,34 +464,6 @@
       "status": "partial"
     },
     {
-      "promise_id": 1514.0,
-      "tx_id": 15271.0,
-      "merchant_name": "Kouakou AdayeLouis ADOU",
-      "phone": "+2250707014626",
-      "district": null,
-      "supplier_name": "Dépôt Jordan Abobo",
-      "promise_date": "2026-06-16",
-      "promise_amount": 20000.0,
-      "montant": 500000.0,
-      "paid_around_promise": 0.0,
-      "total_paid_tx": 150000.0,
-      "status": "missed"
-    },
-    {
-      "promise_id": 1578.0,
-      "tx_id": 19678.0,
-      "merchant_name": "TOTY GOKPEU MATHIEU",
-      "phone": "2250748641236",
-      "district": "Yopougon",
-      "supplier_name": "Dépot K2A Drink Attécoubé ",
-      "promise_date": "2026-06-15",
-      "promise_amount": 428400.0,
-      "montant": 400000.0,
-      "paid_around_promise": 425600.0,
-      "total_paid_tx": 425600.0,
-      "status": "partial"
-    },
-    {
       "promise_id": 1570.0,
       "tx_id": 12454.0,
       "merchant_name": "KIPRE SAHOUA RACHELLE",
@@ -504,6 +490,20 @@
       "paid_around_promise": 0.0,
       "total_paid_tx": 229600.0,
       "status": "missed"
+    },
+    {
+      "promise_id": 1578.0,
+      "tx_id": 19678.0,
+      "merchant_name": "TOTY GOKPEU MATHIEU",
+      "phone": "2250748641236",
+      "district": "Yopougon",
+      "supplier_name": "Dépot K2A Drink Attécoubé ",
+      "promise_date": "2026-06-15",
+      "promise_amount": 428400.0,
+      "montant": 400000.0,
+      "paid_around_promise": 425600.0,
+      "total_paid_tx": 425600.0,
+      "status": "partial"
     },
     {
       "promise_id": 1576.0,
@@ -562,20 +562,6 @@
       "status": "partial"
     },
     {
-      "promise_id": 1557.0,
-      "tx_id": 15231.0,
-      "merchant_name": "BOUEWIN GNONBLEKA LANDRY",
-      "phone": "+2250709837321",
-      "district": null,
-      "supplier_name": "DL_depot",
-      "promise_date": "2026-06-10",
-      "promise_amount": 301000.0,
-      "montant": 516200.0,
-      "paid_around_promise": 50000.0,
-      "total_paid_tx": 480000.0,
-      "status": "partial"
-    },
-    {
       "promise_id": 1517.0,
       "tx_id": 17547.0,
       "merchant_name": "Akissi Justine Kouadio",
@@ -588,6 +574,20 @@
       "paid_around_promise": 0.0,
       "total_paid_tx": 0.0,
       "status": "missed"
+    },
+    {
+      "promise_id": 1557.0,
+      "tx_id": 15231.0,
+      "merchant_name": "BOUEWIN GNONBLEKA LANDRY",
+      "phone": "+2250709837321",
+      "district": null,
+      "supplier_name": "DL_depot",
+      "promise_date": "2026-06-10",
+      "promise_amount": 301000.0,
+      "montant": 516200.0,
+      "paid_around_promise": 50000.0,
+      "total_paid_tx": 480000.0,
+      "status": "partial"
     },
     {
       "promise_id": 1513.0,
@@ -657,20 +657,6 @@
       "montant": 210000.0,
       "paid_around_promise": 0.0,
       "total_paid_tx": 50000.0,
-      "status": "missed"
-    },
-    {
-      "promise_id": 1512.0,
-      "tx_id": 15271.0,
-      "merchant_name": "Kouakou AdayeLouis ADOU",
-      "phone": "+2250707014626",
-      "district": null,
-      "supplier_name": "Dépôt Jordan Abobo",
-      "promise_date": "2026-06-02",
-      "promise_amount": 20000.0,
-      "montant": 500000.0,
-      "paid_around_promise": 0.0,
-      "total_paid_tx": 150000.0,
       "status": "missed"
     }
   ]

@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-07-18T06:53:08.692389+00:00",
+  "updated_at": "2026-07-18T08:42:24.839448+00:00",
   "data": [
     {
       "semaine": "2026-07-13",
       "nb_clients": 16.0,
       "valeur_totale": 1719265.0,
-      "nb_solds": 3.0,
-      "montant_recouvre": 364800.0,
+      "nb_solds": 4.0,
+      "montant_recouvre": 413700.0,
       "nb_clients_lettre": 3.0,
       "nb_clients_visite": 0.0,
       "nb_clients_contactes": 3.0
@@ -16,7 +16,7 @@
       "nb_clients": 34.0,
       "valeur_totale": 10236905.0,
       "nb_solds": 15.0,
-      "montant_recouvre": 4536730.0,
+      "montant_recouvre": 4636730.0,
       "nb_clients_lettre": 30.0,
       "nb_clients_visite": 0.0,
       "nb_clients_contactes": 30.0

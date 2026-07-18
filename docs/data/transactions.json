@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-18T17:46:34.082727+00:00",
+  "updated_at": "2026-07-18T18:46:20.567520+00:00",
   "data": [
     {
       "tx_id": 20427.0,
@@ -2784,6 +2784,12 @@
       "nb_tx_historique": 28.0,
       "comments": [
         {
+          "date": "2026-07-18",
+          "type": "LETTER_GIVEN_TO_AGENT",
+          "content": "RECOUVREMENT : LETTER_GIVEN_TO_AGENT : Visite : Elle va effectuer un payement partiel le mardi 21 puis solder avant le weekend",
+          "author": "alassane"
+        },
+        {
           "date": "2026-07-13",
           "type": "COURIER",
           "content": "Date affichée : 2026-07-13 | Commune : Marcory | Lieu : Marcory en face du grand marché dans le quartier | Montant total : 161850 | Avance : 150000 | Frais transaction : 4500 | Frais retard : 7350 | Montant payé : 0",
@@ -2953,12 +2959,18 @@
       "statut": "ASSIGNED_TO_RECOVERY",
       "montant_paye": 0.0,
       "montant_restant": 53400.0,
-      "latitude": 5.298683,
-      "longitude": -3.9768185,
+      "latitude": 5.2987194,
+      "longitude": -3.9768721,
       "photo_url": null,
       "decharge_url": null,
       "nb_tx_historique": 5.0,
       "comments": [
+        {
+          "date": "2026-07-18",
+          "type": "LETTER_GIVEN_TO_AGENT",
+          "content": "RECOUVREMENT : LETTER_GIVEN_TO_AGENT : Visite : Elle etait souffrante et a repris les activités cette semaine elle payer la totalité le lundi 20",
+          "author": "alassane"
+        },
         {
           "date": "2026-07-10",
           "type": "GENERIC_COMMENT",

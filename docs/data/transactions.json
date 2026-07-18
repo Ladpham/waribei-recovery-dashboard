@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-18T16:43:54.990128+00:00",
+  "updated_at": "2026-07-18T17:46:34.082727+00:00",
   "data": [
     {
       "tx_id": 20427.0,
@@ -994,6 +994,12 @@
       "nb_tx_historique": 6.0,
       "comments": [
         {
+          "date": "2026-07-18",
+          "type": "LETTER_GIVEN_TO_AGENT",
+          "content": "RECOUVREMENT : LETTER_GIVEN_TO_AGENT : Visite : J’ai rencontré la cliente et comme d’habitude il on eu des problèmes qui avait stoppé les ventes.\nIl ya aucun stop pour effectuer une saisie. Mais j’ai été ferme et elle a promis de faire le règlement lundi 20",
+          "author": "alassane"
+        },
+        {
           "date": "2026-07-08",
           "type": "COURIER",
           "content": "Date affichée : 2026-07-08 | Commune : Treichville | Lieu : Belleville | Montant total : 224200 | Avance : 200000 | Frais transaction : 6000 | Frais retard : 18200 | Montant payé : 0",
@@ -1205,6 +1211,12 @@
       "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/6191ca62115e909e4fcd8be9fb9aaf8f.jpg",
       "nb_tx_historique": 1.0,
       "comments": [
+        {
+          "date": "2026-07-18",
+          "type": "LETTER_GIVEN_TO_AGENT",
+          "content": "RECOUVREMENT : LETTER_GIVEN_TO_AGENT : Visite : Suite à ma visite elle a payé 15k puis a promis de payer le solde lundi 20",
+          "author": "alassane"
+        },
         {
           "date": "2026-07-08",
           "type": "GENERIC_COMMENT",

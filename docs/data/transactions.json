@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-19T11:04:18.248935+00:00",
+  "updated_at": "2026-07-19T12:54:27.716766+00:00",
   "data": [
     {
       "tx_id": 20126.0,
@@ -603,8 +603,8 @@
       "statut": "ASSIGNED_TO_RECOVERY",
       "montant_paye": 549500.0,
       "montant_restant": 51500.0,
-      "latitude": 5.314533,
-      "longitude": -4.0877706,
+      "latitude": 5.314528,
+      "longitude": -4.0861344,
       "photo_url": null,
       "decharge_url": null,
       "nb_tx_historique": 26.0,
@@ -2677,8 +2677,8 @@
       "statut": "ASSIGNED_TO_RECOVERY",
       "montant_paye": 0.0,
       "montant_restant": 50000.0,
-      "latitude": 5.2830827,
-      "longitude": -3.9502389,
+      "latitude": 5.2844744,
+      "longitude": -3.9492802,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/72dee01a3273a7ab4c12f59f976419c4.jpg",
       "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/4784b72b83407a0a4e2dd974ba379dee.jpg",
       "nb_tx_historique": 6.0,
@@ -3093,6 +3093,12 @@
       "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/6b88ce2de44102ac6b60193b35080efd.jpg",
       "nb_tx_historique": 1.0,
       "comments": [
+        {
+          "date": "2026-07-19",
+          "type": "GENERIC_COMMENT",
+          "content": "J'ai contacté le client qui dit qu'il va donner une avance aujourd'hui et finaliser lundi. Merci de le suspendre après ca",
+          "author": "Cyndi"
+        },
         {
           "date": "2026-07-10",
           "type": "GENERIC_COMMENT",

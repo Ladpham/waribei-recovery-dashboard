@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-20T19:25:01.661546+00:00",
+  "updated_at": "2026-07-20T21:00:53.628493+00:00",
   "data": [
     {
       "tx_id": 20126.0,
@@ -601,10 +601,10 @@
       "maturity_date": "2026-06-24",
       "jours_retard": 26.0,
       "statut": "ASSIGNED_TO_RECOVERY",
-      "montant_paye": 568500.0,
-      "montant_restant": 32500.0,
-      "latitude": 5.3129225,
-      "longitude": -4.0882973,
+      "montant_paye": 590500.0,
+      "montant_restant": 10500.0,
+      "latitude": 5.3136002,
+      "longitude": -4.0885532,
       "photo_url": null,
       "decharge_url": null,
       "nb_tx_historique": 26.0,
@@ -2039,44 +2039,6 @@
           "date": "2026-07-02",
           "type": "GENERIC_COMMENT",
           "content": "Appel (Sortant) [Recouvrement] : il va regler ca ce soir",
-          "author": "evinne"
-        }
-      ],
-      "promises": [],
-      "promise_nb_respected": 0.0,
-      "promise_nb_past": 0.0
-    },
-    {
-      "tx_id": 21259.0,
-      "merchant_id": 2586.0,
-      "merchant_name": "Dampiou Akondambou",
-      "district": "Marcory",
-      "phone": "2250705439236",
-      "supplier_name": "Stephy service distribution Marcory ",
-      "montant": 278000.0,
-      "revenue": 9000.0,
-      "date_achat": "2026-06-25",
-      "maturity_date": "2026-07-02",
-      "jours_retard": 18.0,
-      "statut": "ASSIGNED_TO_RECOVERY",
-      "montant_paye": 150000.0,
-      "montant_restant": 128000.0,
-      "latitude": null,
-      "longitude": null,
-      "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/64582f1750987479109429f42b650469.jpg",
-      "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/8b213c5916117d062bffb30216ce45cf.jpg",
-      "nb_tx_historique": 6.0,
-      "comments": [
-        {
-          "date": "2026-07-13",
-          "type": "COURIER",
-          "content": "Date affichée : 2026-07-13 | Commune : Marcory | Lieu : Au terrain vers chez Ambroise | Montant total : 155900 | Avance : 278000 | Frais transaction : 9000 | Frais retard : 18900 | Montant payé : 150000",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-07-07",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : je vais faire demain",
           "author": "evinne"
         }
       ],

@@ -1,6 +1,124 @@
 {
-  "updated_at": "2026-07-20T09:19:54.583238+00:00",
+  "updated_at": "2026-07-20T12:08:46.959225+00:00",
   "data": [
+    {
+      "tx_id": 20125.0,
+      "merchant_id": 1190.0,
+      "merchant_name": "TOME ANGE MARIE-JULIANA",
+      "district": null,
+      "phone": "+2250787052538",
+      "supplier_name": "Depot Florent Koumassi",
+      "montant": 500000.0,
+      "revenue": 25000.0,
+      "date_achat": "2026-06-06",
+      "maturity_date": "2026-06-20",
+      "jours_retard": 30.0,
+      "statut": "ASSIGNED_TO_RECOVERY",
+      "montant_paye": 0.0,
+      "montant_restant": 500000.0,
+      "latitude": 5.3020876,
+      "longitude": -3.9563141,
+      "photo_url": null,
+      "decharge_url": null,
+      "nb_tx_historique": 20.0,
+      "comments": [
+        {
+          "date": "2026-07-06",
+          "type": "GENERIC_COMMENT",
+          "content": "Message (Entrant) [Recouvrement] : Bonsoir Madame nous avons les plaintes et un courier chacune pour votre structure le commissaire dit vous devez signer et mettre votre cachet donc je voudrais savoir si nous pouvons passer au siège demain je peux avoir la situation géographique de votre siège",
+          "author": "KoneMasse"
+        },
+        {
+          "date": "2026-06-30",
+          "type": "COURIER",
+          "content": "Date affichée : 2026-06-30 | Commune : Koumassi | Lieu : Koumassi quartier divo | Montant total : 560000 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 35000 | Montant payé : 0",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-06-26",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : dossier florent",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-06-23",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] :  dossier florent",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-06-22",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : dossier plorent",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-06-18",
+          "type": "COURIER",
+          "content": "Date affichée : 2026-06-18 | Commune : Koumassi | Lieu : Koumassi quartier divo | Montant total : 525000 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 0 | Montant payé : 0",
+          "author": "KoneMasse"
+        }
+      ],
+      "promises": [],
+      "promise_nb_respected": 0.0,
+      "promise_nb_past": 0.0
+    },
+    {
+      "tx_id": 20111.0,
+      "merchant_id": 1177.0,
+      "merchant_name": "LAGO ALFRED VINCENT JUNIOR",
+      "district": null,
+      "phone": "+2250153967790",
+      "supplier_name": "Dépot N'zi",
+      "montant": 500000.0,
+      "revenue": 25000.0,
+      "date_achat": "2026-06-06",
+      "maturity_date": "2026-06-20",
+      "jours_retard": 30.0,
+      "statut": "ASSIGNED_TO_RECOVERY",
+      "montant_paye": 160000.0,
+      "montant_restant": 340000.0,
+      "latitude": 5.3452057,
+      "longitude": -4.0756031,
+      "photo_url": null,
+      "decharge_url": null,
+      "nb_tx_historique": 26.0,
+      "comments": [
+        {
+          "date": "2026-07-08",
+          "type": "COURIER",
+          "content": "Date affichée : 2026-07-08 | Commune : Yopougon | Lieu : Yopougon sicogi derrière la cathédrale saint André | Montant total : 405600 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 40600 | Montant payé : 160000",
+          "author": "KoneMasse"
+        },
+        {
+          "date": "2026-06-30",
+          "type": "COURIER",
+          "content": "Date affichée : 2026-06-30 | Commune : Yopougon | Lieu : Yopougon sicogi derrière la cathédrale saint André | Montant total : 454400 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 29400 | Montant payé : 100000",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-06-26",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : aucune reponse",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-06-22",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : aucune reponse",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-06-17",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : jai dit a votre collegue la que je veux 2 semaines a cause de la penurie",
+          "author": "evinne"
+        }
+      ],
+      "promises": [],
+      "promise_nb_respected": 0.0,
+      "promise_nb_past": 0.0
+    },
     {
       "tx_id": 20124.0,
       "merchant_id": 1250.0,
@@ -69,62 +187,6 @@
       "promise_nb_past": 2.0
     },
     {
-      "tx_id": 20111.0,
-      "merchant_id": 1177.0,
-      "merchant_name": "LAGO ALFRED VINCENT JUNIOR",
-      "district": null,
-      "phone": "+2250153967790",
-      "supplier_name": "Dépot N'zi",
-      "montant": 500000.0,
-      "revenue": 25000.0,
-      "date_achat": "2026-06-06",
-      "maturity_date": "2026-06-20",
-      "jours_retard": 30.0,
-      "statut": "ASSIGNED_TO_RECOVERY",
-      "montant_paye": 160000.0,
-      "montant_restant": 340000.0,
-      "latitude": 5.3452057,
-      "longitude": -4.0756031,
-      "photo_url": null,
-      "decharge_url": null,
-      "nb_tx_historique": 26.0,
-      "comments": [
-        {
-          "date": "2026-07-08",
-          "type": "COURIER",
-          "content": "Date affichée : 2026-07-08 | Commune : Yopougon | Lieu : Yopougon sicogi derrière la cathédrale saint André | Montant total : 405600 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 40600 | Montant payé : 160000",
-          "author": "KoneMasse"
-        },
-        {
-          "date": "2026-06-30",
-          "type": "COURIER",
-          "content": "Date affichée : 2026-06-30 | Commune : Yopougon | Lieu : Yopougon sicogi derrière la cathédrale saint André | Montant total : 454400 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 29400 | Montant payé : 100000",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-26",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : aucune reponse",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-22",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : aucune reponse",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-17",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : jai dit a votre collegue la que je veux 2 semaines a cause de la penurie",
-          "author": "evinne"
-        }
-      ],
-      "promises": [],
-      "promise_nb_respected": 0.0,
-      "promise_nb_past": 0.0
-    },
-    {
       "tx_id": 20126.0,
       "merchant_id": 1191.0,
       "merchant_name": "OUOYA GLOUHIEU DONA HILARY",
@@ -179,68 +241,6 @@
           "date": "2026-06-18",
           "type": "COURIER",
           "content": "Date affichée : 2026-06-18 | Commune : Koumassi | Lieu : Koumassi grand marché | Montant total : 525000 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 0 | Montant payé : 0",
-          "author": "KoneMasse"
-        }
-      ],
-      "promises": [],
-      "promise_nb_respected": 0.0,
-      "promise_nb_past": 0.0
-    },
-    {
-      "tx_id": 20125.0,
-      "merchant_id": 1190.0,
-      "merchant_name": "TOME ANGE MARIE-JULIANA",
-      "district": null,
-      "phone": "+2250787052538",
-      "supplier_name": "Depot Florent Koumassi",
-      "montant": 500000.0,
-      "revenue": 25000.0,
-      "date_achat": "2026-06-06",
-      "maturity_date": "2026-06-20",
-      "jours_retard": 30.0,
-      "statut": "ASSIGNED_TO_RECOVERY",
-      "montant_paye": 0.0,
-      "montant_restant": 500000.0,
-      "latitude": 5.3020876,
-      "longitude": -3.9563141,
-      "photo_url": null,
-      "decharge_url": null,
-      "nb_tx_historique": 20.0,
-      "comments": [
-        {
-          "date": "2026-07-06",
-          "type": "GENERIC_COMMENT",
-          "content": "Message (Entrant) [Recouvrement] : Bonsoir Madame nous avons les plaintes et un courier chacune pour votre structure le commissaire dit vous devez signer et mettre votre cachet donc je voudrais savoir si nous pouvons passer au siège demain je peux avoir la situation géographique de votre siège",
-          "author": "KoneMasse"
-        },
-        {
-          "date": "2026-06-30",
-          "type": "COURIER",
-          "content": "Date affichée : 2026-06-30 | Commune : Koumassi | Lieu : Koumassi quartier divo | Montant total : 560000 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 35000 | Montant payé : 0",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-26",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : dossier florent",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-23",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] :  dossier florent",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-22",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : dossier plorent",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-18",
-          "type": "COURIER",
-          "content": "Date affichée : 2026-06-18 | Commune : Koumassi | Lieu : Koumassi quartier divo | Montant total : 525000 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 0 | Montant payé : 0",
           "author": "KoneMasse"
         }
       ],
@@ -535,8 +535,8 @@
       "statut": "ASSIGNED_TO_RECOVERY",
       "montant_paye": 110000.0,
       "montant_restant": 197000.0,
-      "latitude": 5.3014275,
-      "longitude": -3.9509214,
+      "latitude": 5.2958712,
+      "longitude": -3.9509209,
       "photo_url": null,
       "decharge_url": null,
       "nb_tx_historique": 14.0,
@@ -801,8 +801,8 @@
       "statut": "ASSIGNED_TO_RECOVERY",
       "montant_paye": 893000.0,
       "montant_restant": 40140.0,
-      "latitude": 5.3547305,
-      "longitude": -3.8905007,
+      "latitude": 5.3912321,
+      "longitude": -3.9104788,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/627c5f711d740e58f622c50e929df3ab.jpg",
       "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/3eee970c201fddefa78efbf2a8999a3d.jpg",
       "nb_tx_historique": 1.0,
@@ -1091,10 +1091,10 @@
       "maturity_date": "2026-06-25",
       "jours_retard": 25.0,
       "statut": "ASSIGNED_TO_RECOVERY",
-      "montant_paye": 0.0,
-      "montant_restant": 125300.0,
-      "latitude": 5.319639,
-      "longitude": -4.0787264,
+      "montant_paye": 50000.0,
+      "montant_restant": 75300.0,
+      "latitude": 5.3191825,
+      "longitude": -4.0786725,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/723ee5b754249c2b5f8223558b3a9ca0.jpg",
       "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/2775bd3b9afe7ef4fba7efde56bcca6a.jpg",
       "nb_tx_historique": 4.0,
@@ -1655,80 +1655,6 @@
       "promise_nb_past": 0.0
     },
     {
-      "tx_id": 20600.0,
-      "merchant_id": 2884.0,
-      "merchant_name": "Kokutse Abaye",
-      "district": "Port-Bouët",
-      "phone": "2250596216158",
-      "supplier_name": "Sd dépôt 19 port bouet ",
-      "montant": 100000.0,
-      "revenue": 5000.0,
-      "date_achat": "2026-06-14",
-      "maturity_date": "2026-06-28",
-      "jours_retard": 22.0,
-      "statut": "ASSIGNED_TO_RECOVERY",
-      "montant_paye": 0.0,
-      "montant_restant": 100000.0,
-      "latitude": 5.2725198,
-      "longitude": -3.947014,
-      "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/e410d4044337759efee972d6d65c422a.jpg",
-      "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/0bdecceb42b85a1853fd71ed14b8cab3.jpg",
-      "nb_tx_historique": 2.0,
-      "comments": [
-        {
-          "date": "2026-07-07",
-          "type": "COURIER",
-          "content": "Date affichée : 2026-07-07 | Commune : Port-Bouët | Lieu : Adjawi en face du foyer des jeunes | Montant total : 111300 | Avance : 100000 | Frais transaction : 5000 | Frais retard : 6300 | Montant payé : 0",
-          "author": "KoneMasse"
-        },
-        {
-          "date": "2026-07-06",
-          "type": "COURIER",
-          "content": "Date affichée : 2026-07-06 | Commune : Port-Bouët | Lieu : Adjawi en face du foyer des jeunes | Montant total : 110600 | Avance : 100000 | Frais transaction : 5000 | Frais retard : 5600 | Montant payé : 0",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-07-02",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : Injoignable",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-07-01",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : aucune reponse",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-30",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : auucne reponse",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-29",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : il le fera ce soir",
-          "author": "KoneMasse"
-        },
-        {
-          "date": "2026-06-23",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : Injoignable",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-22",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : aucune reponse",
-          "author": "evinne"
-        }
-      ],
-      "promises": [],
-      "promise_nb_respected": 0.0,
-      "promise_nb_past": 0.0
-    },
-    {
       "tx_id": 21049.0,
       "merchant_id": 2791.0,
       "merchant_name": "TOTY GOKPEU MATHIEU",
@@ -1784,6 +1710,86 @@
           "type": "GENERIC_COMMENT",
           "content": "Message (Entrant) [Recouvrement] : Bonjour  l'équipe Waribei. J'ai des paiements à faire depuis le 27.Les pluies torrentielles et diluviennes qui s'abattent actuellement perturbent sérieusement nos ventes et les conséquences sont là. Je vous prie donc de m'accorder une grâce afin de réunir tout le sou et faire le paiement dans le courant de la semaine. Bien sûr que cela  engendrera des pénalités mais que je supporterai. \nMerci beaucoup à vous pour la considération, la confiance et votre engagement respecté. \nMr Toty Mathieu.",
           "author": "KoneMasse"
+        }
+      ],
+      "promises": [],
+      "promise_nb_respected": 0.0,
+      "promise_nb_past": 0.0
+    },
+    {
+      "tx_id": 20600.0,
+      "merchant_id": 2884.0,
+      "merchant_name": "Kokutse Abaye",
+      "district": "Port-Bouët",
+      "phone": "2250596216158",
+      "supplier_name": "Sd dépôt 19 port bouet ",
+      "montant": 100000.0,
+      "revenue": 5000.0,
+      "date_achat": "2026-06-14",
+      "maturity_date": "2026-06-28",
+      "jours_retard": 22.0,
+      "statut": "ASSIGNED_TO_RECOVERY",
+      "montant_paye": 0.0,
+      "montant_restant": 100000.0,
+      "latitude": 5.2725198,
+      "longitude": -3.947014,
+      "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/e410d4044337759efee972d6d65c422a.jpg",
+      "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/0bdecceb42b85a1853fd71ed14b8cab3.jpg",
+      "nb_tx_historique": 2.0,
+      "comments": [
+        {
+          "date": "2026-07-20",
+          "type": "GENERIC_COMMENT",
+          "content": "Il dit qu'il va payer demain mardi et payer le reste d'ici lundi",
+          "author": "Yannick"
+        },
+        {
+          "date": "2026-07-07",
+          "type": "COURIER",
+          "content": "Date affichée : 2026-07-07 | Commune : Port-Bouët | Lieu : Adjawi en face du foyer des jeunes | Montant total : 111300 | Avance : 100000 | Frais transaction : 5000 | Frais retard : 6300 | Montant payé : 0",
+          "author": "KoneMasse"
+        },
+        {
+          "date": "2026-07-06",
+          "type": "COURIER",
+          "content": "Date affichée : 2026-07-06 | Commune : Port-Bouët | Lieu : Adjawi en face du foyer des jeunes | Montant total : 110600 | Avance : 100000 | Frais transaction : 5000 | Frais retard : 5600 | Montant payé : 0",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-07-02",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : Injoignable",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-07-01",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : aucune reponse",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-06-30",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : auucne reponse",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-06-29",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : il le fera ce soir",
+          "author": "KoneMasse"
+        },
+        {
+          "date": "2026-06-23",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : Injoignable",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-06-22",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : aucune reponse",
+          "author": "evinne"
         }
       ],
       "promises": [],
@@ -2625,44 +2631,6 @@
       "promise_nb_past": 0.0
     },
     {
-      "tx_id": 21197.0,
-      "merchant_id": 1282.0,
-      "merchant_name": "ABOUSSOU DOGBO MOLIERE",
-      "district": null,
-      "phone": "+2250707652461",
-      "supplier_name": "Cave de luxe",
-      "montant": 30000.0,
-      "revenue": 1500.0,
-      "date_achat": "2026-06-20",
-      "maturity_date": "2026-07-04",
-      "jours_retard": 16.0,
-      "statut": "ASSIGNED_TO_RECOVERY",
-      "montant_paye": 0.0,
-      "montant_restant": 30000.0,
-      "latitude": 5.2527424,
-      "longitude": -3.9380918,
-      "photo_url": null,
-      "decharge_url": null,
-      "nb_tx_historique": 28.0,
-      "comments": [
-        {
-          "date": "2026-07-13",
-          "type": "COURIER",
-          "content": "Date affichée : 2026-07-13 | Commune : Cocody | Lieu : Anono en face de red bar | Montant total : 34650 | Avance : 30000 | Frais transaction : 1500 | Frais retard : 3150 | Montant payé : 0",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-07-08",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : aucune reponse",
-          "author": "KoneMasse"
-        }
-      ],
-      "promises": [],
-      "promise_nb_respected": 0.0,
-      "promise_nb_past": 0.0
-    },
-    {
       "tx_id": 21500.0,
       "merchant_id": 2574.0,
       "merchant_name": "KRA AFFOUA CHARLOTTE",
@@ -2702,6 +2670,31 @@
           "author": "evinne"
         }
       ],
+      "promises": [],
+      "promise_nb_respected": 0.0,
+      "promise_nb_past": 0.0
+    },
+    {
+      "tx_id": 21116.0,
+      "merchant_id": 41.0,
+      "merchant_name": "Kanga Reine Pelagie Kouassi",
+      "district": null,
+      "phone": "2250708586736",
+      "supplier_name": "Chimcave",
+      "montant": 243000.0,
+      "revenue": 10000.0,
+      "date_achat": "2026-06-22",
+      "maturity_date": "2026-07-06",
+      "jours_retard": 14.0,
+      "statut": "ASSIGNED_TO_RECOVERY",
+      "montant_paye": 206000.0,
+      "montant_restant": 37000.0,
+      "latitude": null,
+      "longitude": null,
+      "photo_url": null,
+      "decharge_url": null,
+      "nb_tx_historique": 42.0,
+      "comments": [],
       "promises": [],
       "promise_nb_respected": 0.0,
       "promise_nb_past": 0.0
@@ -2903,8 +2896,8 @@
       "statut": "ASSIGNED_TO_RECOVERY",
       "montant_paye": 0.0,
       "montant_restant": 53400.0,
-      "latitude": 5.2987194,
-      "longitude": -3.9768721,
+      "latitude": 5.29876,
+      "longitude": -3.976873,
       "photo_url": null,
       "decharge_url": null,
       "nb_tx_historique": 5.0,
@@ -3041,38 +3034,6 @@
       "promise_nb_past": 0.0
     },
     {
-      "tx_id": 21766.0,
-      "merchant_id": 2472.0,
-      "merchant_name": "MOBIO KOUEDAN GHISLAIN",
-      "district": "Yopougon",
-      "phone": "+2250700151461",
-      "supplier_name": "Sd grace Arielle ",
-      "montant": 154700.0,
-      "revenue": 4500.0,
-      "date_achat": "2026-07-03",
-      "maturity_date": "2026-07-10",
-      "jours_retard": 10.0,
-      "statut": "ASSIGNED_TO_RECOVERY",
-      "montant_paye": 108700.0,
-      "montant_restant": 46000.0,
-      "latitude": 5.3114379,
-      "longitude": -4.0373841,
-      "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/2770dcb6fe71ed5e899f3b5d451fae1e.jpg",
-      "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/c848aa6a5e7fced846e299c5cf7f164a.jpg",
-      "nb_tx_historique": 11.0,
-      "comments": [
-        {
-          "date": "2026-07-10",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : aucune reponse",
-          "author": "KoneMasse"
-        }
-      ],
-      "promises": [],
-      "promise_nb_respected": 0.0,
-      "promise_nb_past": 0.0
-    },
-    {
       "tx_id": 21742.0,
       "merchant_id": 2966.0,
       "merchant_name": "FADIKA ABOUDOUL KARIME",
@@ -3136,38 +3097,6 @@
           "type": "GENERIC_COMMENT",
           "content": "Appel (Sortant) [Recouvrement] : il le fera ce demain car il dit que la boisson n'est pas sorti .je lui ai propose de faire un paiement partiel il a refuse disant qu'il voulait forcement solder a totalite meme avec les penalites",
           "author": "KoneMasse"
-        }
-      ],
-      "promises": [],
-      "promise_nb_respected": 0.0,
-      "promise_nb_past": 0.0
-    },
-    {
-      "tx_id": 21393.0,
-      "merchant_id": 1235.0,
-      "merchant_name": "KPESSE YAOVI BAUDOUIN",
-      "district": "Abobo",
-      "phone": "2250709895108",
-      "supplier_name": "depot sagesse abobote",
-      "montant": 200000.0,
-      "revenue": 10000.0,
-      "date_achat": "2026-06-27",
-      "maturity_date": "2026-07-11",
-      "jours_retard": 9.0,
-      "statut": "NEGOTIATION",
-      "montant_paye": 215600.0,
-      "montant_restant": -15600.0,
-      "latitude": 5.4124044,
-      "longitude": -4.0014608,
-      "photo_url": null,
-      "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/cc8615c8c68d49c74e6747abf74cdf9c.jpg",
-      "nb_tx_historique": 39.0,
-      "comments": [
-        {
-          "date": "2026-07-14",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : Injoignable",
-          "author": "evinne"
         }
       ],
       "promises": [],
@@ -3291,6 +3220,12 @@
       "decharge_url": null,
       "nb_tx_historique": 18.0,
       "comments": [
+        {
+          "date": "2026-07-20",
+          "type": "COURIER",
+          "content": "Date affichée : 2026-07-20 | Commune : Grand Bassam | Lieu : Grand bassam Veteco au feu | Montant total : 80000 | Avance : 80000 | Frais transaction : 0 | Frais retard : 0 | Montant payé : 0",
+          "author": "evinne"
+        },
         {
           "date": "2026-07-14",
           "type": "GENERIC_COMMENT",
@@ -3451,6 +3386,12 @@
       "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/f723a761f5a0e858f3d20a4db87748f0.jpg",
       "nb_tx_historique": 12.0,
       "comments": [
+        {
+          "date": "2026-07-20",
+          "type": "COURIER",
+          "content": "Date affichée : 2026-07-20 | Commune : Marcory | Lieu : Hotel hamanieh | Montant total : 40000 | Avance : 40000 | Frais transaction : 0 | Frais retard : 0 | Montant payé : 0",
+          "author": "KoneMasse"
+        },
         {
           "date": "2026-07-14",
           "type": "GENERIC_COMMENT",

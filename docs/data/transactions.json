@@ -1,56 +1,62 @@
 {
-  "updated_at": "2026-07-20T17:22:44.569753+00:00",
+  "updated_at": "2026-07-20T19:25:01.661546+00:00",
   "data": [
     {
-      "tx_id": 20111.0,
-      "merchant_id": 1177.0,
-      "merchant_name": "LAGO ALFRED VINCENT JUNIOR",
+      "tx_id": 20126.0,
+      "merchant_id": 1191.0,
+      "merchant_name": "OUOYA GLOUHIEU DONA HILARY",
       "district": null,
-      "phone": "+2250153967790",
-      "supplier_name": "Dépot N'zi",
+      "phone": "+2250787822068",
+      "supplier_name": "Depot Florent Koumassi",
       "montant": 500000.0,
       "revenue": 25000.0,
       "date_achat": "2026-06-06",
       "maturity_date": "2026-06-20",
       "jours_retard": 30.0,
       "statut": "ASSIGNED_TO_RECOVERY",
-      "montant_paye": 160000.0,
-      "montant_restant": 340000.0,
-      "latitude": 5.3452057,
-      "longitude": -4.0756031,
+      "montant_paye": 0.0,
+      "montant_restant": 500000.0,
+      "latitude": 5.3020399,
+      "longitude": -3.9563071,
       "photo_url": null,
       "decharge_url": null,
-      "nb_tx_historique": 26.0,
+      "nb_tx_historique": 20.0,
       "comments": [
         {
-          "date": "2026-07-08",
-          "type": "COURIER",
-          "content": "Date affichée : 2026-07-08 | Commune : Yopougon | Lieu : Yopougon sicogi derrière la cathédrale saint André | Montant total : 405600 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 40600 | Montant payé : 160000",
+          "date": "2026-07-06",
+          "type": "GENERIC_COMMENT",
+          "content": "Message (Entrant) [Recouvrement] : Bonsoir Madame nous avons les plaintes et un courier chacune pour votre structure le commissaire dit vous devez signer et mettre votre cachet donc je voudrais savoir si nous pouvons passer au siège demain je peux avoir la situation géographique de votre siège",
           "author": "KoneMasse"
         },
         {
           "date": "2026-06-30",
           "type": "COURIER",
-          "content": "Date affichée : 2026-06-30 | Commune : Yopougon | Lieu : Yopougon sicogi derrière la cathédrale saint André | Montant total : 454400 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 29400 | Montant payé : 100000",
+          "content": "Date affichée : 2026-06-30 | Commune : Koumassi | Lieu : Koumassi grand marché | Montant total : 560000 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 35000 | Montant payé : 0",
           "author": "evinne"
         },
         {
           "date": "2026-06-26",
           "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : aucune reponse",
+          "content": "Appel (Sortant) [Recouvrement] : dossier florent",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-06-23",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : dossier florent",
           "author": "evinne"
         },
         {
           "date": "2026-06-22",
           "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : aucune reponse",
+          "content": "Appel (Sortant) [Recouvrement] : dossier depot florent",
           "author": "evinne"
         },
         {
-          "date": "2026-06-17",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : jai dit a votre collegue la que je veux 2 semaines a cause de la penurie",
-          "author": "evinne"
+          "date": "2026-06-18",
+          "type": "COURIER",
+          "content": "Date affichée : 2026-06-18 | Commune : Koumassi | Lieu : Koumassi grand marché | Montant total : 525000 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 0 | Montant payé : 0",
+          "author": "KoneMasse"
         }
       ],
       "promises": [],
@@ -187,61 +193,55 @@
       "promise_nb_past": 2.0
     },
     {
-      "tx_id": 20126.0,
-      "merchant_id": 1191.0,
-      "merchant_name": "OUOYA GLOUHIEU DONA HILARY",
+      "tx_id": 20111.0,
+      "merchant_id": 1177.0,
+      "merchant_name": "LAGO ALFRED VINCENT JUNIOR",
       "district": null,
-      "phone": "+2250787822068",
-      "supplier_name": "Depot Florent Koumassi",
+      "phone": "+2250153967790",
+      "supplier_name": "Dépot N'zi",
       "montant": 500000.0,
       "revenue": 25000.0,
       "date_achat": "2026-06-06",
       "maturity_date": "2026-06-20",
       "jours_retard": 30.0,
       "statut": "ASSIGNED_TO_RECOVERY",
-      "montant_paye": 0.0,
-      "montant_restant": 500000.0,
-      "latitude": 5.3020399,
-      "longitude": -3.9563071,
+      "montant_paye": 160000.0,
+      "montant_restant": 340000.0,
+      "latitude": 5.3452057,
+      "longitude": -4.0756031,
       "photo_url": null,
       "decharge_url": null,
-      "nb_tx_historique": 20.0,
+      "nb_tx_historique": 26.0,
       "comments": [
         {
-          "date": "2026-07-06",
-          "type": "GENERIC_COMMENT",
-          "content": "Message (Entrant) [Recouvrement] : Bonsoir Madame nous avons les plaintes et un courier chacune pour votre structure le commissaire dit vous devez signer et mettre votre cachet donc je voudrais savoir si nous pouvons passer au siège demain je peux avoir la situation géographique de votre siège",
+          "date": "2026-07-08",
+          "type": "COURIER",
+          "content": "Date affichée : 2026-07-08 | Commune : Yopougon | Lieu : Yopougon sicogi derrière la cathédrale saint André | Montant total : 405600 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 40600 | Montant payé : 160000",
           "author": "KoneMasse"
         },
         {
           "date": "2026-06-30",
           "type": "COURIER",
-          "content": "Date affichée : 2026-06-30 | Commune : Koumassi | Lieu : Koumassi grand marché | Montant total : 560000 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 35000 | Montant payé : 0",
+          "content": "Date affichée : 2026-06-30 | Commune : Yopougon | Lieu : Yopougon sicogi derrière la cathédrale saint André | Montant total : 454400 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 29400 | Montant payé : 100000",
           "author": "evinne"
         },
         {
           "date": "2026-06-26",
           "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : dossier florent",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-23",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : dossier florent",
+          "content": "Appel (Sortant) [Recouvrement] : aucune reponse",
           "author": "evinne"
         },
         {
           "date": "2026-06-22",
           "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : dossier depot florent",
+          "content": "Appel (Sortant) [Recouvrement] : aucune reponse",
           "author": "evinne"
         },
         {
-          "date": "2026-06-18",
-          "type": "COURIER",
-          "content": "Date affichée : 2026-06-18 | Commune : Koumassi | Lieu : Koumassi grand marché | Montant total : 525000 | Avance : 500000 | Frais transaction : 25000 | Frais retard : 0 | Montant payé : 0",
-          "author": "KoneMasse"
+          "date": "2026-06-17",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : jai dit a votre collegue la que je veux 2 semaines a cause de la penurie",
+          "author": "evinne"
         }
       ],
       "promises": [],
@@ -601,10 +601,10 @@
       "maturity_date": "2026-06-24",
       "jours_retard": 26.0,
       "statut": "ASSIGNED_TO_RECOVERY",
-      "montant_paye": 549500.0,
-      "montant_restant": 51500.0,
-      "latitude": 5.3145825,
-      "longitude": -4.0879142,
+      "montant_paye": 568500.0,
+      "montant_restant": 32500.0,
+      "latitude": 5.3129225,
+      "longitude": -4.0882973,
       "photo_url": null,
       "decharge_url": null,
       "nb_tx_historique": 26.0,
@@ -2314,6 +2314,12 @@
       "nb_tx_historique": 8.0,
       "comments": [
         {
+          "date": "2026-07-20",
+          "type": "COURIER",
+          "content": "Date affichée : 2026-07-20 | Commune : Cocody | Lieu : Riviera 2 derrière olivier viera | Montant total : 60000 | Avance : 60000 | Frais transaction : 0 | Frais retard : 0 | Montant payé : 0",
+          "author": "KoneMasse"
+        },
+        {
           "date": "2026-07-13",
           "type": "COURIER",
           "content": "Date affichée : 2026-07-13 | Commune : Cocody | Lieu : Riviera 2 derrière olivier viera | Montant total : 67000 | Avance : 60000 | Frais transaction : 5000 | Frais retard : 7000 | Montant payé : 5000",
@@ -2486,7 +2492,7 @@
       "merchant_name": "gomdema Jacob Sankara",
       "district": "Abobo",
       "phone": "2250140043401",
-      "supplier_name": "depot sagesse abobote",
+      "supplier_name": "Depot Sagesse Abobote",
       "montant": 67800.0,
       "revenue": 3000.0,
       "date_achat": "2026-06-27",
@@ -2608,31 +2614,6 @@
           "author": "evinne"
         }
       ],
-      "promises": [],
-      "promise_nb_respected": 0.0,
-      "promise_nb_past": 0.0
-    },
-    {
-      "tx_id": 21116.0,
-      "merchant_id": 41.0,
-      "merchant_name": "Kanga Reine Pelagie Kouassi",
-      "district": null,
-      "phone": "2250708586736",
-      "supplier_name": "Chimcave",
-      "montant": 243000.0,
-      "revenue": 10000.0,
-      "date_achat": "2026-06-22",
-      "maturity_date": "2026-07-06",
-      "jours_retard": 14.0,
-      "statut": "ASSIGNED_TO_RECOVERY",
-      "montant_paye": 206000.0,
-      "montant_restant": 37000.0,
-      "latitude": null,
-      "longitude": null,
-      "photo_url": null,
-      "decharge_url": null,
-      "nb_tx_historique": 42.0,
-      "comments": [],
       "promises": [],
       "promise_nb_respected": 0.0,
       "promise_nb_past": 0.0

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-20T15:02:04.460942+00:00",
+  "updated_at": "2026-07-20T17:22:44.569753+00:00",
   "data": [
     {
       "tx_id": 20111.0,
@@ -603,8 +603,8 @@
       "statut": "ASSIGNED_TO_RECOVERY",
       "montant_paye": 549500.0,
       "montant_restant": 51500.0,
-      "latitude": 5.314525,
-      "longitude": -4.0861358,
+      "latitude": 5.3145825,
+      "longitude": -4.0879142,
       "photo_url": null,
       "decharge_url": null,
       "nb_tx_historique": 26.0,
@@ -2357,6 +2357,12 @@
       "decharge_url": null,
       "nb_tx_historique": 13.0,
       "comments": [
+        {
+          "date": "2026-07-20",
+          "type": "COURIER",
+          "content": "Date affichée : 2026-07-20 | Commune : Yopougon | Lieu : Yopougon terminus 40 | Montant total : 1000000 | Avance : 1000000 | Frais transaction : 0 | Frais retard : 0 | Montant payé : 0",
+          "author": "evinne"
+        },
         {
           "date": "2026-07-13",
           "type": "COURIER",

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-21T16:16:26.233088+00:00",
+  "updated_at": "2026-07-21T18:09:47.352940+00:00",
   "data": [
     {
       "tx_id": 20230.0,
@@ -214,8 +214,8 @@
       "statut": "ASSIGNED_TO_RECOVERY",
       "montant_paye": 590500.0,
       "montant_restant": 10500.0,
-      "latitude": 5.3136002,
-      "longitude": -4.0885532,
+      "latitude": 5.3134886,
+      "longitude": -4.0856984,
       "photo_url": null,
       "decharge_url": null,
       "nb_tx_historique": 26.0,
@@ -418,8 +418,8 @@
       "statut": "ASSIGNED_TO_RECOVERY",
       "montant_paye": 893000.0,
       "montant_restant": 40140.0,
-      "latitude": 5.3912321,
-      "longitude": -3.9104788,
+      "latitude": 5.3912365,
+      "longitude": -3.9104811,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/627c5f711d740e58f622c50e929df3ab.jpg",
       "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/3eee970c201fddefa78efbf2a8999a3d.jpg",
       "nb_tx_historique": 1.0,
@@ -2375,6 +2375,12 @@
       "nb_tx_historique": 45.0,
       "comments": [
         {
+          "date": "2026-07-21",
+          "type": "LETTER_GIVEN_TO_AGENT",
+          "content": "RECOUVREMENT : LETTER_GIVEN_TO_AGENT : Visite : Visite client le courrier a été déposé",
+          "author": "francisAka"
+        },
+        {
           "date": "2026-07-20",
           "type": "COURIER",
           "content": "Date affichée : 2026-07-20 | Commune : Port-Bouët | Lieu : Port Bouet carrefour Bois | Montant total : 150000 | Avance : 150000 | Frais transaction : 0 | Frais retard : 0 | Montant payé : 0",
@@ -2529,15 +2535,33 @@
       "date_achat": "2026-06-27",
       "maturity_date": "2026-07-11",
       "jours_retard": 10.0,
-      "statut": "ASSIGNED_TO_RECOVERY",
-      "montant_paye": 0.0,
-      "montant_restant": 110000.0,
+      "statut": "WAITING_FOR_ENTRY",
+      "montant_paye": 20000.0,
+      "montant_restant": 90000.0,
       "latitude": 5.2489601,
       "longitude": -3.9177195,
       "photo_url": null,
       "decharge_url": null,
       "nb_tx_historique": 36.0,
       "comments": [
+        {
+          "date": "2026-07-21",
+          "type": "RECOVERY_LETTER_DELIVERED_TO_CLIENT",
+          "content": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/courrier-decharge/622ebfd4752c6309f17c0ce91dce1514.jpg",
+          "author": "francisAka"
+        },
+        {
+          "date": "2026-07-21",
+          "type": "AGENT_ACK_RECEIPT",
+          "content": "RECOUVREMENT : AGENT_ACK_RECEIPT : Visite : Courrier déposé",
+          "author": "francisAka"
+        },
+        {
+          "date": "2026-07-21",
+          "type": "LETTER_GIVEN_TO_AGENT",
+          "content": "RECOUVREMENT : LETTER_GIVEN_TO_AGENT : Visite : Visite client le courrier a été remis et elle a payé 20mille",
+          "author": "francisAka"
+        },
         {
           "date": "2026-07-20",
           "type": "COURIER",
@@ -2582,12 +2606,18 @@
       "statut": "ASSIGNED_TO_RECOVERY",
       "montant_paye": 0.0,
       "montant_restant": 85000.0,
-      "latitude": 5.2483078,
-      "longitude": -3.9139369,
+      "latitude": 5.2489202,
+      "longitude": -3.9173667,
       "photo_url": null,
       "decharge_url": null,
       "nb_tx_historique": 15.0,
       "comments": [
+        {
+          "date": "2026-07-21",
+          "type": "LETTER_GIVEN_TO_AGENT",
+          "content": "RECOUVREMENT : LETTER_GIVEN_TO_AGENT : Visite : Visite client le courrier a été déposé",
+          "author": "francisAka"
+        },
         {
           "date": "2026-07-20",
           "type": "COURIER",

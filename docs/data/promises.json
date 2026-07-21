@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-21T18:09:47.814044+00:00",
+  "updated_at": "2026-07-21T20:13:32.375257+00:00",
   "data": [
     {
       "promise_id": 1519.0,
@@ -11,6 +11,20 @@
       "promise_date": "2026-08-10",
       "promise_amount": 200000.0,
       "montant": 950000.0,
+      "paid_around_promise": 0.0,
+      "total_paid_tx": 0.0,
+      "status": "future"
+    },
+    {
+      "promise_id": 1605.0,
+      "tx_id": 22520.0,
+      "merchant_name": "Sibila Arnaud Sebogo",
+      "phone": "2250708710366",
+      "district": null,
+      "supplier_name": "SD Augustin Cocody",
+      "promise_date": "2026-07-23",
+      "promise_amount": 315000.0,
+      "montant": 306300.0,
       "paid_around_promise": 0.0,
       "total_paid_tx": 0.0,
       "status": "future"
@@ -156,20 +170,6 @@
       "status": "partial"
     },
     {
-      "promise_id": 1599.0,
-      "tx_id": 20102.0,
-      "merchant_name": "BROU PIEKA ANNIE MARLENE",
-      "phone": "+2250707095530",
-      "district": "Cocody",
-      "supplier_name": "Dépôt Redis Angré",
-      "promise_date": "2026-06-27",
-      "promise_amount": 112800.0,
-      "montant": 135000.0,
-      "paid_around_promise": 20000.0,
-      "total_paid_tx": 112800.0,
-      "status": "partial"
-    },
-    {
       "promise_id": 1591.0,
       "tx_id": 20124.0,
       "merchant_name": "GUEYE N'GUESSAN DIANE ESTELLE",
@@ -182,6 +182,20 @@
       "paid_around_promise": 100000.0,
       "total_paid_tx": 500000.0,
       "status": "kept"
+    },
+    {
+      "promise_id": 1599.0,
+      "tx_id": 20102.0,
+      "merchant_name": "BROU PIEKA ANNIE MARLENE",
+      "phone": "+2250707095530",
+      "district": "Cocody",
+      "supplier_name": "Dépôt Redis Angré",
+      "promise_date": "2026-06-27",
+      "promise_amount": 112800.0,
+      "montant": 135000.0,
+      "paid_around_promise": 20000.0,
+      "total_paid_tx": 112800.0,
+      "status": "partial"
     },
     {
       "promise_id": 1598.0,

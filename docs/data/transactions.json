@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-21T18:09:47.352940+00:00",
+  "updated_at": "2026-07-21T20:13:31.872870+00:00",
   "data": [
     {
       "tx_id": 20230.0,
@@ -212,10 +212,10 @@
       "maturity_date": "2026-06-24",
       "jours_retard": 27.0,
       "statut": "ASSIGNED_TO_RECOVERY",
-      "montant_paye": 590500.0,
-      "montant_restant": 10500.0,
-      "latitude": 5.3134886,
-      "longitude": -4.0856984,
+      "montant_paye": 606500.0,
+      "montant_restant": -5500.0,
+      "latitude": 5.3145245,
+      "longitude": -4.0877571,
       "photo_url": null,
       "decharge_url": null,
       "nb_tx_historique": 26.0,
@@ -416,10 +416,10 @@
       "maturity_date": "2026-06-25",
       "jours_retard": 26.0,
       "statut": "ASSIGNED_TO_RECOVERY",
-      "montant_paye": 893000.0,
-      "montant_restant": 40140.0,
-      "latitude": 5.3912365,
-      "longitude": -3.9104811,
+      "montant_paye": 943000.0,
+      "montant_restant": -9860.0,
+      "latitude": 5.3910903,
+      "longitude": -3.9104355,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/627c5f711d740e58f622c50e929df3ab.jpg",
       "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/3eee970c201fddefa78efbf2a8999a3d.jpg",
       "nb_tx_historique": 1.0,
@@ -2365,7 +2365,7 @@
       "date_achat": "2026-06-25",
       "maturity_date": "2026-07-09",
       "jours_retard": 12.0,
-      "statut": "ASSIGNED_TO_RECOVERY",
+      "statut": "WAITING_FOR_ENTRY",
       "montant_paye": 0.0,
       "montant_restant": 270000.0,
       "latitude": 5.2511219,
@@ -2374,6 +2374,18 @@
       "decharge_url": null,
       "nb_tx_historique": 45.0,
       "comments": [
+        {
+          "date": "2026-07-21",
+          "type": "RECOVERY_LETTER_DELIVERED_TO_CLIENT",
+          "content": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/courrier-decharge/2afe8af2ff711708bad263063ca8db65.jpg",
+          "author": "francisAka"
+        },
+        {
+          "date": "2026-07-21",
+          "type": "AGENT_ACK_RECEIPT",
+          "content": "RECOUVREMENT : AGENT_ACK_RECEIPT : Visite : Courrier remis",
+          "author": "francisAka"
+        },
         {
           "date": "2026-07-21",
           "type": "LETTER_GIVEN_TO_AGENT",
@@ -2456,8 +2468,8 @@
       "statut": "ASSIGNED_TO_RECOVERY",
       "montant_paye": 0.0,
       "montant_restant": 130000.0,
-      "latitude": 5.3950626,
-      "longitude": -3.9532146,
+      "latitude": 5.3950599,
+      "longitude": -3.9532068,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/4e162a177460f7dd9612d4666ada45e0.jpg",
       "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/6b88ce2de44102ac6b60193b35080efd.jpg",
       "nb_tx_historique": 1.0,
@@ -2500,8 +2512,8 @@
       "statut": "ASSIGNED_TO_RECOVERY",
       "montant_paye": 51850.0,
       "montant_restant": 48150.0,
-      "latitude": 5.2753728,
-      "longitude": -3.9516602,
+      "latitude": 5.2916742,
+      "longitude": -3.962758,
       "photo_url": null,
       "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/77dc709d9a52df4b50c0c458a48c92f9.jpg",
       "nb_tx_historique": 3.0,
@@ -2603,7 +2615,7 @@
       "date_achat": "2026-07-04",
       "maturity_date": "2026-07-11",
       "jours_retard": 10.0,
-      "statut": "ASSIGNED_TO_RECOVERY",
+      "statut": "WAITING_FOR_ENTRY",
       "montant_paye": 0.0,
       "montant_restant": 85000.0,
       "latitude": 5.2489202,
@@ -2612,6 +2624,18 @@
       "decharge_url": null,
       "nb_tx_historique": 15.0,
       "comments": [
+        {
+          "date": "2026-07-21",
+          "type": "RECOVERY_LETTER_DELIVERED_TO_CLIENT",
+          "content": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/courrier-decharge/3e15c6008996267d23d2d1c94b0c683c.jpg",
+          "author": "francisAka"
+        },
+        {
+          "date": "2026-07-21",
+          "type": "AGENT_ACK_RECEIPT",
+          "content": "RECOUVREMENT : AGENT_ACK_RECEIPT : Visite : Courrier remis",
+          "author": "francisAka"
+        },
         {
           "date": "2026-07-21",
           "type": "LETTER_GIVEN_TO_AGENT",

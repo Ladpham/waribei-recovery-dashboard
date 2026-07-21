@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-21T10:15:14.070067+00:00",
+  "updated_at": "2026-07-21T12:19:27.086197+00:00",
   "data": [
     {
       "tx_id": 20230.0,
@@ -936,62 +936,6 @@
           "date": "2026-06-29",
           "type": "GENERIC_COMMENT",
           "content": "Appel (Sortant) [Recouvrement] : Injoignable",
-          "author": "KoneMasse"
-        }
-      ],
-      "promises": [],
-      "promise_nb_respected": 0.0,
-      "promise_nb_past": 0.0
-    },
-    {
-      "tx_id": 20892.0,
-      "merchant_id": 2630.0,
-      "merchant_name": "KOUADIO AMANI LUCIA",
-      "district": "Yopougon",
-      "phone": "2250709582359",
-      "supplier_name": "Dépot N'zi",
-      "montant": 50000.0,
-      "revenue": 1500.0,
-      "date_achat": "2026-06-19",
-      "maturity_date": "2026-06-26",
-      "jours_retard": 25.0,
-      "statut": "ASSIGNED_TO_RECOVERY",
-      "montant_paye": 50000.0,
-      "montant_restant": 0.0,
-      "latitude": 5.3354552,
-      "longitude": -4.0785652,
-      "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/82c24d625c07a17ed26715abf4b17cba.jpg",
-      "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/ad09068c1bafaece2b4f9b04820386b6.jpg",
-      "nb_tx_historique": 2.0,
-      "comments": [
-        {
-          "date": "2026-07-08",
-          "type": "COURIER",
-          "content": "Date affichée : 2026-07-08 | Commune : Yopougon | Lieu : Sicogi chicago | Montant total : 55700 | Avance : 50000 | Frais transaction : 1500 | Frais retard : 4200 | Montant payé : 0",
-          "author": "KoneMasse"
-        },
-        {
-          "date": "2026-07-06",
-          "type": "COURIER",
-          "content": "Date affichée : 2026-07-06 | Commune : Yopougon | Lieu : Sicogi chicago | Montant total : 55000 | Avance : 50000 | Frais transaction : 1500 | Frais retard : 3500 | Montant payé : 0",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-07-02",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] :  elle fera son paiement demain car elle est deja rentrer a la maison et a oublie de mettre l'argent sur son compte wave",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-30",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : elle fera son paiement demain car elle est deja rentrer a la maison et a oublie de mettre l'argent sur son compte wave",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-26",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : elle fera son paiement demain car elle est deja rentrer a la maison et a oublie de mettre l'argent sur son compte wave",
           "author": "KoneMasse"
         }
       ],

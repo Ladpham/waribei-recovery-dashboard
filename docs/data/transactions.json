@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-22T12:21:44.311844+00:00",
+  "updated_at": "2026-07-22T14:56:04.182835+00:00",
   "data": [
     {
       "tx_id": 20230.0,
@@ -2660,44 +2660,6 @@
       "promise_nb_past": 0.0
     },
     {
-      "tx_id": 21861.0,
-      "merchant_id": 2486.0,
-      "merchant_name": "Laure Dehi",
-      "district": "Bingerville",
-      "phone": "+2250701590788",
-      "supplier_name": "La Cave du Marché",
-      "montant": 82575.0,
-      "revenue": 3000.0,
-      "date_achat": "2026-07-04",
-      "maturity_date": "2026-07-11",
-      "jours_retard": 11.0,
-      "statut": "ASSIGNED_TO_RECOVERY",
-      "montant_paye": 69000.0,
-      "montant_restant": 13575.0,
-      "latitude": 5.3359596,
-      "longitude": -3.8615844,
-      "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/1882d32c967365540b33d02d90d3430c.jpg",
-      "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/2f79d0bc178b9d92c77b7e347cf06230.jpg",
-      "nb_tx_historique": 13.0,
-      "comments": [
-        {
-          "date": "2026-07-20",
-          "type": "COURIER",
-          "content": "Date affichée : 2026-07-20 | Commune : Bingerville | Lieu : Bingerville laurier 22 | Montant total : 80000 | Avance : 80000 | Frais transaction : 0 | Frais retard : 0 | Montant payé : 0",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-07-14",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : jetais au village suis dans le car de retour comme ca si je rentre demain",
-          "author": "evinne"
-        }
-      ],
-      "promises": [],
-      "promise_nb_respected": 0.0,
-      "promise_nb_past": 0.0
-    },
-    {
       "tx_id": 21823.0,
       "merchant_id": 2029.0,
       "merchant_name": "BOGNINI ALEXANDRE ERIC",
@@ -3033,31 +2995,6 @@
       "photo_url": null,
       "decharge_url": null,
       "nb_tx_historique": 24.0,
-      "comments": [],
-      "promises": [],
-      "promise_nb_respected": 0.0,
-      "promise_nb_past": 0.0
-    },
-    {
-      "tx_id": 21942.0,
-      "merchant_id": 2504.0,
-      "merchant_name": "DOTOU CYRIELLE",
-      "district": "Cocody",
-      "phone": "+2250173700552",
-      "supplier_name": "SD Baudelaire Adjamé",
-      "montant": 40000.0,
-      "revenue": 1500.0,
-      "date_achat": "2026-07-06",
-      "maturity_date": "2026-07-13",
-      "jours_retard": 9.0,
-      "statut": "ASSIGNED_TO_RECOVERY",
-      "montant_paye": 0.0,
-      "montant_restant": 40000.0,
-      "latitude": 5.3670127,
-      "longitude": -4.006163,
-      "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/a821d9151a9fac1e1df3bdc190d11cd6.jpg",
-      "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/89183dc4dda07231db46b07c7fa12700.jpg",
-      "nb_tx_historique": 9.0,
       "comments": [],
       "promises": [],
       "promise_nb_respected": 0.0,

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-22T10:14:59.984755+00:00",
+  "updated_at": "2026-07-22T12:21:44.311844+00:00",
   "data": [
     {
       "tx_id": 20230.0,
@@ -1780,8 +1780,8 @@
       "statut": "ASSIGNED_TO_RECOVERY",
       "montant_paye": 5000.0,
       "montant_restant": 60900.0,
-      "latitude": 5.3385468,
-      "longitude": -3.9723156,
+      "latitude": 5.339133,
+      "longitude": -3.9724372,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/04e6027ab545dafa486d9aea294601bd.jpg",
       "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/387fb85ee4c8f8c65a0cd4a944a20f1c.jpg",
       "nb_tx_historique": 8.0,
@@ -3053,8 +3053,8 @@
       "statut": "ASSIGNED_TO_RECOVERY",
       "montant_paye": 0.0,
       "montant_restant": 40000.0,
-      "latitude": 5.3669931,
-      "longitude": -4.0061698,
+      "latitude": 5.3670127,
+      "longitude": -4.006163,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/a821d9151a9fac1e1df3bdc190d11cd6.jpg",
       "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/89183dc4dda07231db46b07c7fa12700.jpg",
       "nb_tx_historique": 9.0,
@@ -3115,7 +3115,14 @@
       "photo_url": null,
       "decharge_url": null,
       "nb_tx_historique": 35.0,
-      "comments": [],
+      "comments": [
+        {
+          "date": "2026-07-22",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : je vais faire le reste le vendredi car je suis malade",
+          "author": "evinne"
+        }
+      ],
       "promises": [],
       "promise_nb_respected": 0.0,
       "promise_nb_past": 0.0
@@ -3135,12 +3142,18 @@
       "statut": "NEGOTIATION",
       "montant_paye": 53600.0,
       "montant_restant": 72775.0,
-      "latitude": 5.3674069,
-      "longitude": -3.8767877,
+      "latitude": 5.367478,
+      "longitude": -3.8759073,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/8fe09d894c965f2c10b4c95f51b4ac5b.jpg",
       "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/f9f63f9c1c9252e246b855f61bf675a7.jpg",
       "nb_tx_historique": 8.0,
       "comments": [
+        {
+          "date": "2026-07-22",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : Injoignable",
+          "author": "evinne"
+        },
         {
           "date": "2026-07-20",
           "type": "GENERIC_COMMENT",
@@ -3180,6 +3193,12 @@
       "nb_tx_historique": 9.0,
       "comments": [
         {
+          "date": "2026-07-22",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : elle va faire la moitié et le reste dans la semaine",
+          "author": "evinne"
+        },
+        {
           "date": "2026-07-15",
           "type": "GENERIC_COMMENT",
           "content": "Appel (Sortant) [Recouvrement] : aucune reponse",
@@ -3211,6 +3230,12 @@
       "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/a8cbbef0ba227aeacd7215cc9034e871.jpg",
       "nb_tx_historique": 2.0,
       "comments": [
+        {
+          "date": "2026-07-22",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : Injoignable",
+          "author": "evinne"
+        },
         {
           "date": "2026-07-15",
           "type": "GENERIC_COMMENT",

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-23T17:08:56.266151+00:00",
+  "updated_at": "2026-07-23T18:59:12.059935+00:00",
   "data": [
     {
       "tx_id": 20249.0,
@@ -642,6 +642,18 @@
       "decharge_url": null,
       "nb_tx_historique": 19.0,
       "comments": [
+        {
+          "date": "2026-07-23",
+          "type": "GENERIC_COMMENT",
+          "content": "On est passé elle est en déplacement et a soldé le samedi 25",
+          "author": "alassane"
+        },
+        {
+          "date": "2026-07-23",
+          "type": "GENERIC_COMMENT",
+          "content": "On est passé l’espace est fermé et il ne répond pas aux appels",
+          "author": "alassane"
+        },
         {
           "date": "2026-07-17",
           "type": "COURIER",
@@ -1360,8 +1372,8 @@
       "statut": "ASSIGNED_TO_RECOVERY",
       "montant_paye": 50000.0,
       "montant_restant": 50675.0,
-      "latitude": 5.4003678,
-      "longitude": -3.9508462,
+      "latitude": 5.400384,
+      "longitude": -3.9508791,
       "photo_url": null,
       "decharge_url": null,
       "nb_tx_historique": 12.0,
@@ -2692,8 +2704,8 @@
       "maturity_date": "2026-07-11",
       "jours_retard": 12.0,
       "statut": "ASSIGNED_TO_RECOVERY",
-      "montant_paye": 0.0,
-      "montant_restant": 31200.0,
+      "montant_paye": 14000.0,
+      "montant_restant": 17200.0,
       "latitude": 5.2212717,
       "longitude": -3.7523533,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/e54ca5752fd97d74a1e11e11d9822fa2.jpg",
@@ -2832,8 +2844,8 @@
       "maturity_date": "2026-07-13",
       "jours_retard": 10.0,
       "statut": "ASSIGNED_TO_RECOVERY",
-      "montant_paye": 0.0,
-      "montant_restant": 53800.0,
+      "montant_paye": 54650.0,
+      "montant_restant": -850.0,
       "latitude": 5.4085117,
       "longitude": -4.0046375,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/b2ce5fca96158cf0f0d4dd829bebb03b.jpg",

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-23T08:11:46.902960+00:00",
+  "updated_at": "2026-07-23T11:00:18.114851+00:00",
   "data": [
     {
       "tx_id": 20249.0,
@@ -2853,31 +2853,6 @@
           "author": "evinne"
         }
       ],
-      "promises": [],
-      "promise_nb_respected": 0.0,
-      "promise_nb_past": 0.0
-    },
-    {
-      "tx_id": 21998.0,
-      "merchant_id": 2777.0,
-      "merchant_name": "KOUAKOU LOUKOU ANGELINE",
-      "district": "Bingerville",
-      "phone": "2250102409915",
-      "supplier_name": "La Cave du Marché",
-      "montant": 64300.0,
-      "revenue": 3000.0,
-      "date_achat": "2026-07-06",
-      "maturity_date": "2026-07-13",
-      "jours_retard": 10.0,
-      "statut": "ASSIGNED_TO_RECOVERY",
-      "montant_paye": 0.0,
-      "montant_restant": 64300.0,
-      "latitude": 5.3498877,
-      "longitude": -3.8779198,
-      "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/99e4d02e3a21b1b30fa62efb245ad459.jpg",
-      "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/e1ab1b9b68a75abffd0038ae28615061.jpg",
-      "nb_tx_historique": 5.0,
-      "comments": [],
       "promises": [],
       "promise_nb_respected": 0.0,
       "promise_nb_past": 0.0

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-23T11:00:18.114851+00:00",
+  "updated_at": "2026-07-23T13:24:09.140132+00:00",
   "data": [
     {
       "tx_id": 20249.0,
@@ -989,6 +989,12 @@
       "nb_tx_historique": 8.0,
       "comments": [
         {
+          "date": "2026-07-23",
+          "type": "COURIER",
+          "content": "Date affichée : 2026-07-23 | Commune : Yopougon | Lieu : Tout Rouge | Montant total : 100000 | Avance : 100000 | Frais transaction : 0 | Frais retard : 0 | Montant payé : 0",
+          "author": "KoneMasse"
+        },
+        {
           "date": "2026-07-08",
           "type": "COURIER",
           "content": "Date affichée : 2026-07-08 | Commune : Yopougon | Lieu : Tout Rouge | Montant total : 110700 | Avance : 100000 | Frais transaction : 3000 | Frais retard : 7700 | Montant payé : 0",
@@ -1112,6 +1118,12 @@
       "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/a300b94e82ecd25d081b79122640f673.jpg",
       "nb_tx_historique": 8.0,
       "comments": [
+        {
+          "date": "2026-07-23",
+          "type": "COURIER",
+          "content": "Date affichée : 2026-07-23 | Commune : Yopougon | Lieu : Tout Rouge | Montant total : 100000 | Avance : 100000 | Frais transaction : 0 | Frais retard : 0 | Montant payé : 0",
+          "author": "KoneMasse"
+        },
         {
           "date": "2026-07-08",
           "type": "COURIER",
@@ -1586,6 +1598,12 @@
       "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/a300b94e82ecd25d081b79122640f673.jpg",
       "nb_tx_historique": 8.0,
       "comments": [
+        {
+          "date": "2026-07-23",
+          "type": "COURIER",
+          "content": "Date affichée : 2026-07-23 | Commune : Yopougon | Lieu : Tout Rouge | Montant total : 200000 | Avance : 200000 | Frais transaction : 0 | Frais retard : 0 | Montant payé : 0",
+          "author": "KoneMasse"
+        },
         {
           "date": "2026-07-13",
           "type": "COURIER",
@@ -2986,8 +3004,8 @@
       "statut": "NEGOTIATION",
       "montant_paye": 53600.0,
       "montant_restant": 72775.0,
-      "latitude": 5.3681565,
-      "longitude": -3.8768472,
+      "latitude": 5.3673004,
+      "longitude": -3.875521,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/8fe09d894c965f2c10b4c95f51b4ac5b.jpg",
       "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/f9f63f9c1c9252e246b855f61bf675a7.jpg",
       "nb_tx_historique": 8.0,

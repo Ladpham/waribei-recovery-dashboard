@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-23T15:47:28.836520+00:00",
+  "updated_at": "2026-07-23T17:08:56.266151+00:00",
   "data": [
     {
       "tx_id": 20249.0,
@@ -636,8 +636,8 @@
       "statut": "ASSIGNED_TO_RECOVERY",
       "montant_paye": 600000.0,
       "montant_restant": 940050.0,
-      "latitude": 5.3303656,
-      "longitude": -4.073595,
+      "latitude": 5.3422257,
+      "longitude": -4.0620672,
       "photo_url": null,
       "decharge_url": null,
       "nb_tx_historique": 19.0,
@@ -1036,6 +1036,86 @@
       "promise_nb_past": 0.0
     },
     {
+      "tx_id": 20600.0,
+      "merchant_id": 2884.0,
+      "merchant_name": "Kokutse Abaye",
+      "district": "Port-Bouët",
+      "phone": "2250596216158",
+      "supplier_name": "Sd dépôt 19 port bouet ",
+      "montant": 100000.0,
+      "revenue": 5000.0,
+      "date_achat": "2026-06-14",
+      "maturity_date": "2026-06-28",
+      "jours_retard": 25.0,
+      "statut": "ASSIGNED_TO_RECOVERY",
+      "montant_paye": 40000.0,
+      "montant_restant": 60000.0,
+      "latitude": 5.2725198,
+      "longitude": -3.947014,
+      "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/e410d4044337759efee972d6d65c422a.jpg",
+      "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/0bdecceb42b85a1853fd71ed14b8cab3.jpg",
+      "nb_tx_historique": 2.0,
+      "comments": [
+        {
+          "date": "2026-07-20",
+          "type": "GENERIC_COMMENT",
+          "content": "Il dit qu'il va payer demain mardi et payer le reste d'ici lundi",
+          "author": "Yannick"
+        },
+        {
+          "date": "2026-07-07",
+          "type": "COURIER",
+          "content": "Date affichée : 2026-07-07 | Commune : Port-Bouët | Lieu : Adjawi en face du foyer des jeunes | Montant total : 111300 | Avance : 100000 | Frais transaction : 5000 | Frais retard : 6300 | Montant payé : 0",
+          "author": "KoneMasse"
+        },
+        {
+          "date": "2026-07-06",
+          "type": "COURIER",
+          "content": "Date affichée : 2026-07-06 | Commune : Port-Bouët | Lieu : Adjawi en face du foyer des jeunes | Montant total : 110600 | Avance : 100000 | Frais transaction : 5000 | Frais retard : 5600 | Montant payé : 0",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-07-02",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : Injoignable",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-07-01",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : aucune reponse",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-06-30",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : auucne reponse",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-06-29",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : il le fera ce soir",
+          "author": "KoneMasse"
+        },
+        {
+          "date": "2026-06-23",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : Injoignable",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-06-22",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : aucune reponse",
+          "author": "evinne"
+        }
+      ],
+      "promises": [],
+      "promise_nb_respected": 0.0,
+      "promise_nb_past": 0.0
+    },
+    {
       "tx_id": 21049.0,
       "merchant_id": 2791.0,
       "merchant_name": "TOTY GOKPEU MATHIEU",
@@ -1097,86 +1177,6 @@
           "type": "GENERIC_COMMENT",
           "content": "Message (Entrant) [Recouvrement] : Bonjour  l'équipe Waribei. J'ai des paiements à faire depuis le 27.Les pluies torrentielles et diluviennes qui s'abattent actuellement perturbent sérieusement nos ventes et les conséquences sont là. Je vous prie donc de m'accorder une grâce afin de réunir tout le sou et faire le paiement dans le courant de la semaine. Bien sûr que cela  engendrera des pénalités mais que je supporterai. \nMerci beaucoup à vous pour la considération, la confiance et votre engagement respecté. \nMr Toty Mathieu.",
           "author": "KoneMasse"
-        }
-      ],
-      "promises": [],
-      "promise_nb_respected": 0.0,
-      "promise_nb_past": 0.0
-    },
-    {
-      "tx_id": 20600.0,
-      "merchant_id": 2884.0,
-      "merchant_name": "Kokutse Abaye",
-      "district": "Port-Bouët",
-      "phone": "2250596216158",
-      "supplier_name": "Sd dépôt 19 port bouet ",
-      "montant": 100000.0,
-      "revenue": 5000.0,
-      "date_achat": "2026-06-14",
-      "maturity_date": "2026-06-28",
-      "jours_retard": 25.0,
-      "statut": "ASSIGNED_TO_RECOVERY",
-      "montant_paye": 0.0,
-      "montant_restant": 100000.0,
-      "latitude": 5.2725198,
-      "longitude": -3.947014,
-      "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/e410d4044337759efee972d6d65c422a.jpg",
-      "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/0bdecceb42b85a1853fd71ed14b8cab3.jpg",
-      "nb_tx_historique": 2.0,
-      "comments": [
-        {
-          "date": "2026-07-20",
-          "type": "GENERIC_COMMENT",
-          "content": "Il dit qu'il va payer demain mardi et payer le reste d'ici lundi",
-          "author": "Yannick"
-        },
-        {
-          "date": "2026-07-07",
-          "type": "COURIER",
-          "content": "Date affichée : 2026-07-07 | Commune : Port-Bouët | Lieu : Adjawi en face du foyer des jeunes | Montant total : 111300 | Avance : 100000 | Frais transaction : 5000 | Frais retard : 6300 | Montant payé : 0",
-          "author": "KoneMasse"
-        },
-        {
-          "date": "2026-07-06",
-          "type": "COURIER",
-          "content": "Date affichée : 2026-07-06 | Commune : Port-Bouët | Lieu : Adjawi en face du foyer des jeunes | Montant total : 110600 | Avance : 100000 | Frais transaction : 5000 | Frais retard : 5600 | Montant payé : 0",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-07-02",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : Injoignable",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-07-01",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : aucune reponse",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-30",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : auucne reponse",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-29",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : il le fera ce soir",
-          "author": "KoneMasse"
-        },
-        {
-          "date": "2026-06-23",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : Injoignable",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-22",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : aucune reponse",
-          "author": "evinne"
         }
       ],
       "promises": [],
@@ -2916,8 +2916,8 @@
       "statut": "ASSIGNED_TO_RECOVERY",
       "montant_paye": 500000.0,
       "montant_restant": 659750.0,
-      "latitude": 5.3313154,
-      "longitude": -4.0681815,
+      "latitude": 5.3422284,
+      "longitude": -4.0620693,
       "photo_url": null,
       "decharge_url": null,
       "nb_tx_historique": 35.0,

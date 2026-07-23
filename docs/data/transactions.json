@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-23T21:56:41.250793+00:00",
+  "updated_at": "2026-07-23T22:51:19.507074+00:00",
   "data": [
     {
       "tx_id": 20249.0,
@@ -1054,6 +1054,74 @@
       "promise_nb_past": 0.0
     },
     {
+      "tx_id": 21049.0,
+      "merchant_id": 2791.0,
+      "merchant_name": "TOTY GOKPEU MATHIEU",
+      "district": "Yopougon",
+      "phone": "2250748641236",
+      "supplier_name": "Dépot K2A Drink Attécoubé ",
+      "montant": 100000.0,
+      "revenue": 3000.0,
+      "date_achat": "2026-06-21",
+      "maturity_date": "2026-06-28",
+      "jours_retard": 25.0,
+      "statut": "ASSIGNED_TO_RECOVERY",
+      "montant_paye": 0.0,
+      "montant_restant": 100000.0,
+      "latitude": 5.3288592,
+      "longitude": -4.048948,
+      "photo_url": null,
+      "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/a300b94e82ecd25d081b79122640f673.jpg",
+      "nb_tx_historique": 8.0,
+      "comments": [
+        {
+          "date": "2026-07-23",
+          "type": "COURIER",
+          "content": "Date affichée : 2026-07-23 | Commune : Yopougon | Lieu : Tout Rouge | Montant total : 100000 | Avance : 100000 | Frais transaction : 0 | Frais retard : 0 | Montant payé : 0",
+          "author": "KoneMasse"
+        },
+        {
+          "date": "2026-07-08",
+          "type": "COURIER",
+          "content": "Date affichée : 2026-07-08 | Commune : Yopougon | Lieu : Tout Rouge | Montant total : 110000 | Avance : 100000 | Frais transaction : 3000 | Frais retard : 7000 | Montant payé : 0",
+          "author": "KoneMasse"
+        },
+        {
+          "date": "2026-07-06",
+          "type": "COURIER",
+          "content": "Date affichée : 2026-07-06 | Commune : Yopougon | Lieu : Tout Rouge | Montant total : 108600 | Avance : 100000 | Frais transaction : 3000 | Frais retard : 5600 | Montant payé : 0",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-07-02",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : Bonjour l'équipe Waribei. J'ai des paiements à faire depuis le 27.Les pluies torrentielles et diluviennes qui s'abattent actuellement perturbent sérieusement nos ventes et les conséquences sont là. Je vous prie donc de m'accorder une grâce afin de réunir tout le sou et faire le paiement dans le courant de la semaine. Bien sûr que cela engendrera des pénalités mais que je supporterai. Merci beaucoup à vous pour la considération, la confiance et votre engagement respecté. Mr Toty Mathieu.",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-07-01",
+          "type": "GENERIC_COMMENT",
+          "content": "Message :  Bonjour l'équipe Waribei. J'ai des paiements à faire depuis le 27.Les pluies torrentielles et diluviennes qui s'abattent actuellement perturbent sérieusement nos ventes et les conséquences sont là. Je vous prie donc de m'accorder une grâce afin de réunir tout le sou et faire le paiement dans le courant de la semaine. Bien sûr que cela engendrera des pénalités mais que je supporterai. Merci beaucoup à vous pour la considération, la confiance et votre engagement respecté. Mr Toty Mathieu.",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-06-30",
+          "type": "GENERIC_COMMENT",
+          "content": "Appel (Sortant) [Recouvrement] : je vais faire un versement   aujourdhui",
+          "author": "evinne"
+        },
+        {
+          "date": "2026-06-29",
+          "type": "GENERIC_COMMENT",
+          "content": "Message (Entrant) [Recouvrement] : Bonjour  l'équipe Waribei. J'ai des paiements à faire depuis le 27.Les pluies torrentielles et diluviennes qui s'abattent actuellement perturbent sérieusement nos ventes et les conséquences sont là. Je vous prie donc de m'accorder une grâce afin de réunir tout le sou et faire le paiement dans le courant de la semaine. Bien sûr que cela  engendrera des pénalités mais que je supporterai. \nMerci beaucoup à vous pour la considération, la confiance et votre engagement respecté. \nMr Toty Mathieu.",
+          "author": "KoneMasse"
+        }
+      ],
+      "promises": [],
+      "promise_nb_respected": 0.0,
+      "promise_nb_past": 0.0
+    },
+    {
       "tx_id": 20600.0,
       "merchant_id": 2884.0,
       "merchant_name": "Kokutse Abaye",
@@ -1127,74 +1195,6 @@
           "type": "GENERIC_COMMENT",
           "content": "Appel (Sortant) [Recouvrement] : aucune reponse",
           "author": "evinne"
-        }
-      ],
-      "promises": [],
-      "promise_nb_respected": 0.0,
-      "promise_nb_past": 0.0
-    },
-    {
-      "tx_id": 21049.0,
-      "merchant_id": 2791.0,
-      "merchant_name": "TOTY GOKPEU MATHIEU",
-      "district": "Yopougon",
-      "phone": "2250748641236",
-      "supplier_name": "Dépot K2A Drink Attécoubé ",
-      "montant": 100000.0,
-      "revenue": 3000.0,
-      "date_achat": "2026-06-21",
-      "maturity_date": "2026-06-28",
-      "jours_retard": 25.0,
-      "statut": "ASSIGNED_TO_RECOVERY",
-      "montant_paye": 0.0,
-      "montant_restant": 100000.0,
-      "latitude": 5.3288592,
-      "longitude": -4.048948,
-      "photo_url": null,
-      "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/a300b94e82ecd25d081b79122640f673.jpg",
-      "nb_tx_historique": 8.0,
-      "comments": [
-        {
-          "date": "2026-07-23",
-          "type": "COURIER",
-          "content": "Date affichée : 2026-07-23 | Commune : Yopougon | Lieu : Tout Rouge | Montant total : 100000 | Avance : 100000 | Frais transaction : 0 | Frais retard : 0 | Montant payé : 0",
-          "author": "KoneMasse"
-        },
-        {
-          "date": "2026-07-08",
-          "type": "COURIER",
-          "content": "Date affichée : 2026-07-08 | Commune : Yopougon | Lieu : Tout Rouge | Montant total : 110000 | Avance : 100000 | Frais transaction : 3000 | Frais retard : 7000 | Montant payé : 0",
-          "author": "KoneMasse"
-        },
-        {
-          "date": "2026-07-06",
-          "type": "COURIER",
-          "content": "Date affichée : 2026-07-06 | Commune : Yopougon | Lieu : Tout Rouge | Montant total : 108600 | Avance : 100000 | Frais transaction : 3000 | Frais retard : 5600 | Montant payé : 0",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-07-02",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : Bonjour l'équipe Waribei. J'ai des paiements à faire depuis le 27.Les pluies torrentielles et diluviennes qui s'abattent actuellement perturbent sérieusement nos ventes et les conséquences sont là. Je vous prie donc de m'accorder une grâce afin de réunir tout le sou et faire le paiement dans le courant de la semaine. Bien sûr que cela engendrera des pénalités mais que je supporterai. Merci beaucoup à vous pour la considération, la confiance et votre engagement respecté. Mr Toty Mathieu.",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-07-01",
-          "type": "GENERIC_COMMENT",
-          "content": "Message :  Bonjour l'équipe Waribei. J'ai des paiements à faire depuis le 27.Les pluies torrentielles et diluviennes qui s'abattent actuellement perturbent sérieusement nos ventes et les conséquences sont là. Je vous prie donc de m'accorder une grâce afin de réunir tout le sou et faire le paiement dans le courant de la semaine. Bien sûr que cela engendrera des pénalités mais que je supporterai. Merci beaucoup à vous pour la considération, la confiance et votre engagement respecté. Mr Toty Mathieu.",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-30",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : je vais faire un versement   aujourdhui",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-29",
-          "type": "GENERIC_COMMENT",
-          "content": "Message (Entrant) [Recouvrement] : Bonjour  l'équipe Waribei. J'ai des paiements à faire depuis le 27.Les pluies torrentielles et diluviennes qui s'abattent actuellement perturbent sérieusement nos ventes et les conséquences sont là. Je vous prie donc de m'accorder une grâce afin de réunir tout le sou et faire le paiement dans le courant de la semaine. Bien sûr que cela  engendrera des pénalités mais que je supporterai. \nMerci beaucoup à vous pour la considération, la confiance et votre engagement respecté. \nMr Toty Mathieu.",
-          "author": "KoneMasse"
         }
       ],
       "promises": [],
@@ -2833,31 +2833,6 @@
           "author": "evinne"
         }
       ],
-      "promises": [],
-      "promise_nb_respected": 0.0,
-      "promise_nb_past": 0.0
-    },
-    {
-      "tx_id": 21962.0,
-      "merchant_id": 3031.0,
-      "merchant_name": "KOUAKOU N'DA AMENAN CHARLENE",
-      "district": "Abobo",
-      "phone": "2250799232117",
-      "supplier_name": "SD Diviry",
-      "montant": 53800.0,
-      "revenue": 1500.0,
-      "date_achat": "2026-07-06",
-      "maturity_date": "2026-07-13",
-      "jours_retard": 10.0,
-      "statut": "ASSIGNED_TO_RECOVERY",
-      "montant_paye": 54650.0,
-      "montant_restant": -850.0,
-      "latitude": 5.4053595,
-      "longitude": -3.9808835,
-      "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/b2ce5fca96158cf0f0d4dd829bebb03b.jpg",
-      "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/90d4a18708b6865065b1af9b9c08ed1f.jpg",
-      "nb_tx_historique": 1.0,
-      "comments": [],
       "promises": [],
       "promise_nb_respected": 0.0,
       "promise_nb_past": 0.0

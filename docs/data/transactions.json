@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-23T20:13:18.623294+00:00",
+  "updated_at": "2026-07-23T21:56:41.250793+00:00",
   "data": [
     {
       "tx_id": 20249.0,
@@ -356,6 +356,12 @@
       "decharge_url": null,
       "nb_tx_historique": 13.0,
       "comments": [
+        {
+          "date": "2026-07-23",
+          "type": "LETTER_GIVEN_TO_AGENT",
+          "content": "RECOUVREMENT : LETTER_GIVEN_TO_AGENT : Visite : Visite client : elle n'était pas présente le dépôt était vide on a dû ajourné la saisie et après avoir parlé avec la cliente au téléphone elle signifie passer demain au bureau",
+          "author": "francisAka"
+        },
         {
           "date": "2026-07-21",
           "type": "GENERIC_COMMENT",
@@ -2812,10 +2818,10 @@
       "maturity_date": "2026-07-13",
       "jours_retard": 10.0,
       "statut": "ASSIGNED_TO_RECOVERY",
-      "montant_paye": 243200.0,
-      "montant_restant": 256800.0,
-      "latitude": 5.4122341,
-      "longitude": -3.9971826,
+      "montant_paye": 279500.0,
+      "montant_restant": 220500.0,
+      "latitude": 5.4121906,
+      "longitude": -3.9971483,
       "photo_url": null,
       "decharge_url": null,
       "nb_tx_historique": 67.0,
@@ -2846,8 +2852,8 @@
       "statut": "ASSIGNED_TO_RECOVERY",
       "montant_paye": 54650.0,
       "montant_restant": -850.0,
-      "latitude": 5.4085117,
-      "longitude": -4.0046375,
+      "latitude": 5.4053595,
+      "longitude": -3.9808835,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/b2ce5fca96158cf0f0d4dd829bebb03b.jpg",
       "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/90d4a18708b6865065b1af9b9c08ed1f.jpg",
       "nb_tx_historique": 1.0,

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-23T13:24:09.140132+00:00",
+  "updated_at": "2026-07-23T15:47:28.836520+00:00",
   "data": [
     {
       "tx_id": 20249.0,
@@ -336,74 +336,6 @@
       "promise_nb_past": 0.0
     },
     {
-      "tx_id": 20405.0,
-      "merchant_id": 2548.0,
-      "merchant_name": "Francis Paul Ake",
-      "district": "Bingerville",
-      "phone": "2250170895630",
-      "supplier_name": "SOCOB Palmeraie",
-      "montant": 933140.0,
-      "revenue": 47500.0,
-      "date_achat": "2026-06-11",
-      "maturity_date": "2026-06-25",
-      "jours_retard": 28.0,
-      "statut": "ASSIGNED_TO_RECOVERY",
-      "montant_paye": 993000.0,
-      "montant_restant": -59860.0,
-      "latitude": 5.3911098,
-      "longitude": -3.9104634,
-      "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/627c5f711d740e58f622c50e929df3ab.jpg",
-      "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/3eee970c201fddefa78efbf2a8999a3d.jpg",
-      "nb_tx_historique": 1.0,
-      "comments": [
-        {
-          "date": "2026-07-17",
-          "type": "AGENT_ACK_RECEIPT",
-          "content": "RECOUVREMENT : AGENT_ACK_RECEIPT : Visite : Visite effectuée. Client en difficulté suite à la fuite de son livreur. Après rappel de la procédure de saisie, il a payé 150 000 ( 70k sur la plateforme et 80k par liens envoyés au numéro 07 48 881 510 et du solde samedi 18 juillet après vente de sa marchandise.",
-          "author": "alassane"
-        },
-        {
-          "date": "2026-07-13",
-          "type": "LETTER_GIVEN_TO_AGENT",
-          "content": "RECOUVREMENT : LETTER_GIVEN_TO_AGENT : Visite : Va payer 150k le jeudi puis va solder mardi",
-          "author": "alassane"
-        },
-        {
-          "date": "2026-07-09",
-          "type": "COURIER",
-          "content": "Date affichée : 2026-07-09 | Commune : Bingerville | Lieu : Bingerville oribat carrefour mauritanien | Montant total : 386640 | Avance : 933140 | Frais transaction : 47500 | Frais retard : 56000 | Montant payé : 650000",
-          "author": "KoneMasse"
-        },
-        {
-          "date": "2026-07-06",
-          "type": "COURIER",
-          "content": "Date affichée : 2026-07-06 | Commune : Bingerville | Lieu : Bingerville oribat carrefour mauritanien | Montant total : 527190 | Avance : 933140 | Frais transaction : 47500 | Frais retard : 46550 | Montant payé : 500000",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-07-02",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : aucune reponse",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-30",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : demain pour tout solder",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-06-26",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Entrant) [Recouvrement] : elle est a des funerailles , elle rentre lundi ou mardi pour le paiement",
-          "author": "evinne"
-        }
-      ],
-      "promises": [],
-      "promise_nb_respected": 0.0,
-      "promise_nb_past": 0.0
-    },
-    {
       "tx_id": 20340.0,
       "merchant_id": 2154.0,
       "merchant_name": "N'ZI CELINE",
@@ -542,8 +474,8 @@
       "statut": "ASSIGNED_TO_RECOVERY",
       "montant_paye": 200000.0,
       "montant_restant": 53300.0,
-      "latitude": 5.3627402,
-      "longitude": -4.0969057,
+      "latitude": 5.3232696,
+      "longitude": -4.0498776,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/5bb9293c2994302a0cece4f33597d466.jpg",
       "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/1f676df4c6b04c0638a5c34d063398ab.jpg",
       "nb_tx_historique": 6.0,
@@ -846,6 +778,12 @@
       "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/0fc043e6ce0bb983a3948f364745be3b.jpg",
       "nb_tx_historique": 7.0,
       "comments": [
+        {
+          "date": "2026-07-23",
+          "type": "GENERIC_COMMENT",
+          "content": "Va terminer son paiement avant la fin de semaine",
+          "author": "Yannick"
+        },
         {
           "date": "2026-07-10",
           "type": "GENERIC_COMMENT",
@@ -1648,8 +1586,8 @@
       "statut": "ASSIGNED_TO_RECOVERY",
       "montant_paye": 90000.0,
       "montant_restant": 13850.0,
-      "latitude": 5.419938,
-      "longitude": -3.970841,
+      "latitude": 5.4317634,
+      "longitude": -3.9694997,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/89076c5e728e8d875efadb4462738866.jpg",
       "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/3c83140188c4db1644c791736eed7555.jpg",
       "nb_tx_historique": 4.0,
@@ -1667,7 +1605,13 @@
           "author": "evinne"
         }
       ],
-      "promises": [],
+      "promises": [
+        {
+          "date": "2026-07-26",
+          "amount": 21400,
+          "respected": null
+        }
+      ],
       "promise_nb_respected": 0.0,
       "promise_nb_past": 0.0
     },
@@ -2990,50 +2934,6 @@
       "promise_nb_past": 0.0
     },
     {
-      "tx_id": 22044.0,
-      "merchant_id": 2674.0,
-      "merchant_name": "Louise Vitodigni",
-      "district": "Bingerville",
-      "phone": "+2250502562005",
-      "supplier_name": "La Cave du Marché",
-      "montant": 126375.0,
-      "revenue": 1500.0,
-      "date_achat": "2026-07-07",
-      "maturity_date": "2026-07-14",
-      "jours_retard": 9.0,
-      "statut": "NEGOTIATION",
-      "montant_paye": 53600.0,
-      "montant_restant": 72775.0,
-      "latitude": 5.3673004,
-      "longitude": -3.875521,
-      "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/8fe09d894c965f2c10b4c95f51b4ac5b.jpg",
-      "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/f9f63f9c1c9252e246b855f61bf675a7.jpg",
-      "nb_tx_historique": 8.0,
-      "comments": [
-        {
-          "date": "2026-07-22",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : Injoignable",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-07-20",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : Injoignable",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-07-15",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : aucune reponse",
-          "author": "evinne"
-        }
-      ],
-      "promises": [],
-      "promise_nb_respected": 0.0,
-      "promise_nb_past": 0.0
-    },
-    {
       "tx_id": 22007.0,
       "merchant_id": 2443.0,
       "merchant_name": "MAFO NICOLE SUZANNE",
@@ -3054,6 +2954,12 @@
       "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/52d15cd11875cb47764ef297f740cb4f.jpg",
       "nb_tx_historique": 9.0,
       "comments": [
+        {
+          "date": "2026-07-23",
+          "type": "LETTER_GIVEN_TO_AGENT",
+          "content": ".",
+          "author": "agent_recouv"
+        },
         {
           "date": "2026-07-22",
           "type": "GENERIC_COMMENT",

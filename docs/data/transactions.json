@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-24T14:44:57.477188+00:00",
+  "updated_at": "2026-07-24T18:11:02.153905+00:00",
   "data": [
     {
       "tx_id": 20348.0,
@@ -14,10 +14,10 @@
       "maturity_date": "2026-06-24",
       "jours_retard": 30.0,
       "statut": "ASSIGNED_TO_RECOVERY",
-      "montant_paye": 606500.0,
-      "montant_restant": -5500.0,
-      "latitude": 5.3134865,
-      "longitude": -4.0856675,
+      "montant_paye": 626500.0,
+      "montant_restant": -25500.0,
+      "latitude": 5.3126222,
+      "longitude": -4.0885532,
       "photo_url": null,
       "decharge_url": null,
       "nb_tx_historique": 26.0,
@@ -1246,56 +1246,6 @@
       "promise_nb_past": 0.0
     },
     {
-      "tx_id": 21224.0,
-      "merchant_id": 1829.0,
-      "merchant_name": "KOUAME AHOU-KAN NATHALIE",
-      "district": null,
-      "phone": "+2250749324034",
-      "supplier_name": "SD Brou Abobo",
-      "montant": 100675.0,
-      "revenue": 3000.0,
-      "date_achat": "2026-06-24",
-      "maturity_date": "2026-07-01",
-      "jours_retard": 23.0,
-      "statut": "ASSIGNED_TO_RECOVERY",
-      "montant_paye": 85000.0,
-      "montant_restant": 15675.0,
-      "latitude": 5.4021501,
-      "longitude": -3.979733,
-      "photo_url": null,
-      "decharge_url": null,
-      "nb_tx_historique": 12.0,
-      "comments": [
-        {
-          "date": "2026-07-24",
-          "type": "GENERIC_COMMENT",
-          "content": "Suite à notre visite elle a payé 35k car c’est ce qu’elle avec sur son compte",
-          "author": "alassane"
-        },
-        {
-          "date": "2026-07-13",
-          "type": "COURIER",
-          "content": "Date affichée : 2026-07-13 | Commune : Cocody | Lieu : Djorobite 2 vers la mairie annexe | Montant total : 37900 | Avance : 80000 | Frais transaction : 3000 | Frais retard : 4900 | Montant payé : 50000",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-07-07",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : je vais faire demain",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-07-02",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : elle nous revient",
-          "author": "evinne"
-        }
-      ],
-      "promises": [],
-      "promise_nb_respected": 0.0,
-      "promise_nb_past": 0.0
-    },
-    {
       "tx_id": 21217.0,
       "merchant_id": 1735.0,
       "merchant_name": "ZEANSIE ZEREHOUE JEAN PAUL DAMIEN",
@@ -1316,6 +1266,12 @@
       "decharge_url": null,
       "nb_tx_historique": 11.0,
       "comments": [
+        {
+          "date": "2026-07-24",
+          "type": "COURIER",
+          "content": "Date affichée : 2026-07-24 | Commune : Port-Bouët | Lieu : Port Bouet carrefour boutique omo | Montant total : 92800 | Avance : 80000 | Frais transaction : 3000 | Frais retard : 9800 | Montant payé : 0",
+          "author": "KoneMasse"
+        },
         {
           "date": "2026-07-13",
           "type": "COURIER",
@@ -2706,10 +2662,10 @@
       "maturity_date": "2026-07-13",
       "jours_retard": 11.0,
       "statut": "ASSIGNED_TO_RECOVERY",
-      "montant_paye": 279500.0,
-      "montant_restant": 220500.0,
-      "latitude": 5.4121906,
-      "longitude": -3.9971483,
+      "montant_paye": 301250.0,
+      "montant_restant": 198750.0,
+      "latitude": 5.4125784,
+      "longitude": -3.9968593,
       "photo_url": null,
       "decharge_url": null,
       "nb_tx_historique": 67.0,

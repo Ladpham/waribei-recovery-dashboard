@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-24T05:11:14.749781+00:00",
+  "updated_at": "2026-07-24T08:07:31.795470+00:00",
   "data": [
     {
       "tx_id": 20348.0,
@@ -300,6 +300,12 @@
       "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/aba0797b9f67a30d59238dfb91e14fb2.jpg",
       "nb_tx_historique": 6.0,
       "comments": [
+        {
+          "date": "2026-07-24",
+          "type": "GENERIC_COMMENT",
+          "content": "Cliente relance. Nouvelle propriétaire rencontrée, l’espace lui a été cédé dans le courant de cette semaine. On a donc suspendue la saisie. Après explication elle a compris que la dette était devenue sont problème a elle. Elle a donc payé 40k sur place et a promis d’établir un échéancier après réception de la mise en demeure",
+          "author": "alassane"
+        },
         {
           "date": "2026-07-18",
           "type": "LETTER_GIVEN_TO_AGENT",
@@ -1254,6 +1260,12 @@
       "decharge_url": null,
       "nb_tx_historique": 12.0,
       "comments": [
+        {
+          "date": "2026-07-24",
+          "type": "GENERIC_COMMENT",
+          "content": "Suite à notre visite elle a payé 35k car c’est ce qu’elle avec sur son compte",
+          "author": "alassane"
+        },
         {
           "date": "2026-07-13",
           "type": "COURIER",
@@ -2294,8 +2306,8 @@
       "statut": "ASSIGNED_TO_RECOVERY",
       "montant_paye": 51850.0,
       "montant_restant": 48150.0,
-      "latitude": 5.2916742,
-      "longitude": -3.962758,
+      "latitude": 5.2753728,
+      "longitude": -3.9516602,
       "photo_url": null,
       "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/77dc709d9a52df4b50c0c458a48c92f9.jpg",
       "nb_tx_historique": 3.0,

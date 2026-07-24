@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-24T08:07:31.795470+00:00",
+  "updated_at": "2026-07-24T10:53:46.407141+00:00",
   "data": [
     {
       "tx_id": 20348.0,
@@ -292,14 +292,20 @@
       "maturity_date": "2026-06-25",
       "jours_retard": 29.0,
       "statut": "ASSIGNED_TO_RECOVERY",
-      "montant_paye": 0.0,
-      "montant_restant": 310400.0,
+      "montant_paye": 40000.0,
+      "montant_restant": 270400.0,
       "latitude": 5.3043117,
       "longitude": -3.9699707,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/3609565871070fcc02f0035df63ba3ce.jpg",
       "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/aba0797b9f67a30d59238dfb91e14fb2.jpg",
       "nb_tx_historique": 6.0,
       "comments": [
+        {
+          "date": "2026-07-24",
+          "type": "COURIER",
+          "content": "Date affichée : 2026-07-24 | Commune : Treichville | Lieu : Belleville | Montant total : 185600 | Avance : 200000 | Frais transaction : 6000 | Frais retard : 19600 | Montant payé : 40000",
+          "author": "KoneMasse"
+        },
         {
           "date": "2026-07-24",
           "type": "GENERIC_COMMENT",
@@ -1254,8 +1260,8 @@
       "statut": "ASSIGNED_TO_RECOVERY",
       "montant_paye": 85000.0,
       "montant_restant": 15675.0,
-      "latitude": 5.4047923,
-      "longitude": -3.9565718,
+      "latitude": 5.4021501,
+      "longitude": -3.979733,
       "photo_url": null,
       "decharge_url": null,
       "nb_tx_historique": 12.0,
@@ -2262,8 +2268,8 @@
       "statut": "ASSIGNED_TO_RECOVERY",
       "montant_paye": 0.0,
       "montant_restant": 130000.0,
-      "latitude": 5.3950599,
-      "longitude": -3.9532068,
+      "latitude": 5.3950539,
+      "longitude": -3.9532179,
       "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/4e162a177460f7dd9612d4666ada45e0.jpg",
       "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/6b88ce2de44102ac6b60193b35080efd.jpg",
       "nb_tx_historique": 1.0,
@@ -2921,44 +2927,6 @@
           "date": "2026-07-20",
           "type": "GENERIC_COMMENT",
           "content": "Appel (Sortant) [Recouvrement] : Injoignable",
-          "author": "evinne"
-        }
-      ],
-      "promises": [],
-      "promise_nb_respected": 0.0,
-      "promise_nb_past": 0.0
-    },
-    {
-      "tx_id": 22053.0,
-      "merchant_id": 2972.0,
-      "merchant_name": "SEKA KOMAN JEAN-PAUL",
-      "district": "Yopougon",
-      "phone": "2250546000025",
-      "supplier_name": "Socob Locodjro",
-      "montant": 150000.0,
-      "revenue": 4500.0,
-      "date_achat": "2026-07-07",
-      "maturity_date": "2026-07-15",
-      "jours_retard": 9.0,
-      "statut": "ASSIGNED_TO_RECOVERY",
-      "montant_paye": 0.0,
-      "montant_restant": 150000.0,
-      "latitude": 5.313087,
-      "longitude": -4.0443634,
-      "photo_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/76efb53349799bb850a655b5063bb802.jpg",
-      "decharge_url": "https://fineract-waribei-transactions-154874852505.s3.eu-north-1.amazonaws.com/documents/d115e6c4e4a4f3649a0d6a6b4d8b72ed.jpg",
-      "nb_tx_historique": 3.0,
-      "comments": [
-        {
-          "date": "2026-07-22",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : jai pris largent apres avoir vendu pour passer une autre commande chez un autre fournisseur vu que ya pas de boissons chez socob",
-          "author": "evinne"
-        },
-        {
-          "date": "2026-07-20",
-          "type": "GENERIC_COMMENT",
-          "content": "Appel (Sortant) [Recouvrement] : aucune reponse",
           "author": "evinne"
         }
       ],
